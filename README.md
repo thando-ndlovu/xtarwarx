@@ -44,6 +44,7 @@ A simple application which consumes the api and allows for the viewing of data.
     <img src="assets/Screenshot_20230324-041441.png" height="360" />
 </p>
 
+Packages and projects used
 * Daichi Furiya's [Glide Transformations](https://github.com/wasabeef/glide-transformations)
 * Bumptech's [Glide](https://github.com/bumptech/glide)
 * Google's [Volley](https://github.com/google/volley)
