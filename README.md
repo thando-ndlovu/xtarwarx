@@ -3,10 +3,10 @@ A C# Dotnet REST & GrapqhQL API with a Java Android mobile data viewer applicati
 
 <img src="assets/logo.png" height="48" />
 
-## API
-
+# API
 
 ### [Swagger](https://swagger.io/)
+A swagger implementation for REST query troubleshooting, schema viewing and debbugging
 <p float="left">
     <br/>
     <img src="assets/Screenshot (11).png" width="360" />
@@ -14,37 +14,15 @@ A C# Dotnet REST & GrapqhQL API with a Java Android mobile data viewer applicati
 
 #
 
-### [Altair](https://altairgraphql.dev//)
-<p float="left">
-    <br/>
-    <img src="assets/Screenshot (11).png" width="360" />
-</p>
+TODO
+- [Altair](https://altairgraphql.dev//) IDE Implementation
+- [GraphiQL](https://github.com/graphql/graphiql/) IDE Implementation
+- [GraphQL Playground](https://github.com/graphql/graphql-playground/) IDE Implementation
+- [Voyager](https://github.com/IvanGoncharov/graphql-voyager/) IDE Implementation
 
 #
+## Data Repository
 
-### [GraphiQL](https://github.com/graphql/graphiql/)
-<p float="left">
-    <br/>
-    <img src="assets/Screenshot (11).png" width="360" />
-</p>
-
-#
-
-### [GraphQL Playground](https://github.com/graphql/graphql-playground/)
-<p float="left">
-    <br/>
-    <img src="assets/Screenshot (11).png" width="360" />
-</p>
-
-#
-
-### [Voyager](https://github.com/IvanGoncharov/graphql-voyager/)
-<p float="left">
-    <br/>
-    <img src="assets/Screenshot (11).png" width="360" />
-</p>
-
-# 
 Data for api was generated primarily from
 * [SWAPI API](https://swapi.dev/)
 * [IGN](https://ign.com/)
@@ -55,6 +33,7 @@ View all data repository json files [here](/api.dotnet/Repository/Data)
 
 #
 ## Mobile Application
+A simple application which consumes the api and allows for the viewing of data.
 <br />
 
 <p float="left">
@@ -68,6 +47,12 @@ View all data repository json files [here](/api.dotnet/Repository/Data)
 * Daichi Furiya's [Glide Transformations](https://github.com/wasabeef/glide-transformations)
 * Bumptech's [Glide](https://github.com/bumptech/glide)
 * Google's [Volley](https://github.com/google/volley)
+
+#
+
+TODO
+- [ ] Sqlite Data Caching
+- [ ] Theme Implementation
 
 #
 
