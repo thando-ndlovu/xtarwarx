@@ -1,0 +1,13 @@
+{
+	"Name": "Lando Calrissian",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Black" ],
+	"SkinColors": [ "Brown" ],
+	"HairColors": [ "Black" ],
+	"Mass": 79,
+	"Height": 177,
+	"BirthYear": 31,
+	"HomeworldId": 29,
+	"Uris": null
+}

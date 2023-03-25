@@ -1,0 +1,28 @@
+{
+	"Name": "Koro-2 Exodrive Airspeeder",
+	"Description": null,
+	"Model": "Koro-2 Exodrive Airspeeder",
+	"VehicleClass": {
+		"Class": "Speeder",
+		"Flags": [
+			"Air"
+		]
+	},
+	"Length": 6.6,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": null,
+	"Passengers": 1,
+	"CostInCredits": null,
+	"CargoCapacity": 80,
+	"MaxAtmospheringSpeed": 800,
+	"ManufacturerIds": [
+		29
+	],
+	"PilotIds": [
+		70
+	],
+	"Uris": null
+	
+}
+

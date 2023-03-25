@@ -1,0 +1,11 @@
+{
+	"Name": "Narglatch AirTech Prefabricated Kit",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		22
+	],
+	"StarshipIds": [],
+	"WeaponIds": null,
+	"Uris": null
+}

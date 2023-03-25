@@ -1,0 +1,13 @@
+{
+	"Name": "Lobot",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [],
+	"Mass": 79,
+	"Height": 175,
+	"BirthYear": 37,
+	"HomeworldId": 6,
+	"Uris": null
+}

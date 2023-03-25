@@ -1,0 +1,24 @@
+﻿{
+	"BirthYear": 22,
+	"Description": "Lorem Ipsum",
+	"EyeColors": [
+		"Black"
+	],
+	"HairColors": [
+		"Black"
+	],
+	"Height": 134,
+	"HomeworldId": 8,
+	"Mass": 29,
+	"Name": "Lorem",
+	"Sex": "Male",
+	"SkinColors": [
+		"Black"
+	],
+	"Uris": [
+		{
+			"Key": "MainImage",
+			"Uri": "https://example.co.za" 
+		}
+	]
+}

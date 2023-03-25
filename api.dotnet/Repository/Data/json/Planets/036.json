@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Dathomir",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 10480,
+	"Gravity": 0.9,
+	"OrbitalPeriod": 491,
+	"RotationalPeriod": 24,
+	"ResidentIds": null,
+	"Population": 5200,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Forests",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Savannas",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Deserts",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

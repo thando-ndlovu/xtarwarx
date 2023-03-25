@@ -1,0 +1,13 @@
+{
+	"Name": "Dud Bolt",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Yellow" ],
+	"SkinColors": [ "Gray", "Blue" ],
+	"HairColors": [],
+	"Mass": 45,
+	"Height": 94,
+	"BirthYear": null,
+	"HomeworldId": 39,
+	"Uris": null
+}

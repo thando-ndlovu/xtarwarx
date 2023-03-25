@@ -1,0 +1,16 @@
+﻿{
+	"Name": "Commerce Guild",
+	"Description": "The Commerce Guild was a powerful clan with several corrupt planetary official, senetors and industrail spies in its fold",
+	"LeaderIds": null,
+	"MemberCharacterIds": null,
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": null,
+	"OrganizationTypes": null,
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Commerce_Guild"
+		}
+	]
+}

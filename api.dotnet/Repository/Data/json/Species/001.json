@@ -1,0 +1,36 @@
+{
+	"Name": "Human",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "GalacticBasic",
+	"EyeColors": [
+		"Black",
+		"Brown",
+		"Blue",
+		"Green",
+		"Gray",
+	],
+	"SkinColors": [
+		"Brown",
+		"White"
+	],
+	"HairColors": [
+		"Yellow",
+		"Brown",
+		"Black",
+		"Red",
+		"Gray"
+	],
+	"AverageHeight": 180,
+	"AverageLifespan": 120,
+	"HomeworldId": 9,
+	"CharacterIds": [
+		66,
+		67,
+		68,
+		74
+	],
+	"Uris": null
+	
+}

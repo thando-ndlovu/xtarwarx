@@ -1,0 +1,57 @@
+﻿{
+	"Name": "Jedi Order",
+	"Description": "The Jedi Order was an ancient monastic peacekeeping organization unified by its belief and observance of the light side of the force.",
+	"LeaderIds": [
+		20
+	],
+	"MemberCharacterIds": [
+		1,
+		10,
+		11,
+		20,
+		32,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		58,
+		64,
+		65,
+		67,
+		74,
+		78
+			// Prince JAR
+			// Tsui Choi
+			// Ima-Gun Di
+			// Halsey
+			// Pablo-Jill
+			// Kai Justiss
+			// Coleman Kcaj
+			// Agen Kolar
+			// Pong Krell
+			// Even Piell
+			// Oppo Rancisis
+			// Aayla Secura
+			// Tera Sinube
+			// Roan Shryne
+			// Bultar Swan
+			// Nahdar Vebb
+			// Quinlan Vos
+	],
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": [
+		9
+	],
+	"OrganizationTypes": [
+		"QuasiReligion"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Jedi_Order"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Poggle the Lesser",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Yellow" ],
+	"SkinColors": [ "Green" ],
+	"HairColors": [],
+	"Mass": 80,
+	"Height": 183,
+	"BirthYear": null,
+	"HomeworldId": 11,
+	"Uris": null
+}

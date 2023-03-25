@@ -1,0 +1,40 @@
+﻿{
+	"Name": "Cato Neimoidia",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 0,
+	"Gravity": 1,
+	"OrbitalPeriod": 278,
+	"RotationalPeriod": 25,
+	"ResidentIds": null,
+	"Population": 10000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Moist",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Fields",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Forests",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Arches",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

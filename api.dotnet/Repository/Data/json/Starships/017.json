@@ -1,0 +1,30 @@
+{
+	"Name": "Droid Control Ship",
+	"Description": null,
+	"Model": "Lucrehulk-Class Droid Control Ship",
+	"StarshipClass": {
+		"Class": "Ship",
+		"Flags": [
+			"DroidControl"
+		]
+	},
+	"MGLT": null,
+	"Length": 3170,
+	"MinCrew": 175,
+	"MaxCrew": 175,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 500
+	},
+	"Passengers": 139000,
+	"HyperdriveRating": 2.0,
+	"CostInCredits": null,
+	"CargoCapacity": 4000000000,
+	"MaxAtmospheringSpeed": null,
+	"ManufacturerIds": [
+		5
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

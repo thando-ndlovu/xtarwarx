@@ -1,0 +1,34 @@
+{
+	"Name": "Imperial Shuttle",
+	"Description": null,
+	"Model": "Lambda-Class T-4A Shuttle",
+	"StarshipClass": {
+		"Class": "Transporter",
+		"Flags": [
+			"Armed"
+		]
+	},
+	"MGLT": 50,
+	"Length": 20,
+	"MinCrew": 6,
+	"MaxCrew": 6,
+	"Consumables": {
+		"TimeUnit": "Month",
+		"Value": 2
+	},
+	"Passengers": 20,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 240000,
+	"CargoCapacity": 80000,
+	"MaxAtmospheringSpeed": 850,
+	"ManufacturerIds": [
+		41
+	],
+	"PilotIds": [
+		1,
+		13,
+		14
+	],
+	"Uris": null
+	
+}

@@ -1,0 +1,25 @@
+{
+	"Name": "Mon Calamari",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Amphibian",
+	"Language": "MonCalamarian",
+	"EyeColors": [
+		"Yellow"
+	],
+	"SkinColors": [
+		"Blue",
+		"Red",
+		"Magenta",
+		"Brown"
+	],
+	"HairColors": [],
+	"AverageHeight": 160,
+	"AverageLifespan": null,
+	"HomeworldId": 27,
+	"CharacterIds": [
+		27
+	],
+	"Uris": null
+	
+}

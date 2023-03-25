@@ -1,0 +1,27 @@
+{
+	"Name": "XJ-6 Airspeeder",
+	"Description": null,
+	"Model": "XJ-6 Airspeeder",
+	"VehicleClass": {
+		"Class": "Speeder",
+		"Flags": [
+			"Air"
+		]
+	},
+	"Length": 6.23,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": null,
+	"Passengers": 1,
+	"CostInCredits": null,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": 720,
+	"ManufacturerIds": [
+		28
+	],
+	"PilotIds": [
+		11
+	],
+	"Uris": null
+}
+

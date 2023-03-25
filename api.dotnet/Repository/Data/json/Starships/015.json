@@ -1,0 +1,31 @@
+{
+	"Name": "A-wing",
+	"Description": null,
+	"Model": "RZ-1 A-wing Interceptor",
+	"StarshipClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star"
+		]
+	},
+	"MGLT": 60,
+	"Length": 9.6,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Week",
+		"Value": 1
+	},
+	"Passengers": 0,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 175000,
+	"CargoCapacity": 40,
+	"MaxAtmospheringSpeed": 1300,
+	"ManufacturerIds": [
+		15,
+		42
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

@@ -1,0 +1,44 @@
+﻿{
+	"Name": "Kalee",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 13850,
+	"Gravity": 1,
+	"OrbitalPeriod": 378,
+	"RotationalPeriod": 23,
+	"ResidentIds": null,
+	"Population": 4000000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Arid",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Tropical",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Rainforests",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Cliffs",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Seas",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Canyons",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

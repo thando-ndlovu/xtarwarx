@@ -1,0 +1,13 @@
+{
+	"Name": "Ackbar",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Orange" ],
+	"SkinColors": [ "Brown" ],
+	"HairColors": [],
+	"Mass": 83,
+	"Height": 180,
+	"BirthYear": 41,
+	"HomeworldId": 31,
+	"Uris": null
+}

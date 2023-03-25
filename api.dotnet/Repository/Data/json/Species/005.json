@@ -1,0 +1,24 @@
+{
+	"Name": "Hutt",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Gastropod",
+	"Language": "Huttese",
+	"EyeColors": [
+		"Yellow",
+		"Red"
+	],
+	"SkinColors": [
+		"Green",
+		"Brown"
+	],
+	"HairColors": [],
+	"AverageHeight": 300,
+	"AverageLifespan": 1000,
+	"HomeworldId": 24,
+	"CharacterIds": [
+		16
+	],
+	"Uris": null
+	
+}

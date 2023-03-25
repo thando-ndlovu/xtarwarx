@@ -1,0 +1,25 @@
+{
+	"Name": "Kel Dor",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": null,
+	"Language": "KelDor",
+	"EyeColors": [
+		"Black",
+		"Silver"
+	],
+	"SkinColors": [
+		"Beige",
+		"Orange",
+		"Red"
+	],
+	"HairColors": [],
+	"AverageHeight": 180,
+	"AverageLifespan": 70,
+	"HomeworldId": 49,
+	"CharacterIds": [
+		58
+	],
+	"Uris": null
+	
+}

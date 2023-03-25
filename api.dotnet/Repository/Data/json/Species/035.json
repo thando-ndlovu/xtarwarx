@@ -1,0 +1,31 @@
+{
+	"Name": "Togruta",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Togruti",
+	"EyeColors": [
+		"Orange",
+		"Yellow",
+		"Green",
+		"Blue",
+		"Black",
+		"Red"
+	],
+	"SkinColors": [
+		"Red",
+		"Orange",
+		"Yellow",
+		"Green",
+		"Blue",
+		"White"
+	],
+	"HairColors": [],
+	"AverageHeight": 180,
+	"AverageLifespan": 94,
+	"HomeworldId": 58,
+	"CharacterIds": [
+		78
+	],
+	"Uris": null
+}

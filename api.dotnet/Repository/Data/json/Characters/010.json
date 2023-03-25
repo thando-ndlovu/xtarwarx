@@ -1,0 +1,13 @@
+{
+	"Name": "Obi-Wan Kenobi",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue", "Gray" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Gold", "White" ],
+	"Mass": 77,
+	"Height": 182,
+	"BirthYear": 57,
+	"HomeworldId": 20,
+	"Uris": null
+}

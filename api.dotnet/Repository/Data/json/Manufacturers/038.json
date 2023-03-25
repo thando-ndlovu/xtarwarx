@@ -1,0 +1,11 @@
+{
+	"Name": "Corellia Mining Corporation",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		1
+	],
+	"StarshipIds": [],
+	"WeaponIds": null,
+	"Uris": null
+}

@@ -1,0 +1,32 @@
+{
+	"Name": "Y-wing",
+	"Description": null,
+	"Model": "BTL Y-wing",
+	"StarshipClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star",
+			"Assault"
+		]
+	},
+
+	"MGLT": 80,
+	"Length": 14,
+	"MinCrew": 2,
+	"MaxCrew": 2,
+	"Consumables": {
+		"TimeUnit": "Week",
+		"Value": 1
+	},
+	"Passengers": 0,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 134999,
+	"CargoCapacity": 110,
+	"MaxAtmospheringSpeed": 1000,
+	"ManufacturerIds": [
+		19
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

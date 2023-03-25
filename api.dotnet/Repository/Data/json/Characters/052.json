@@ -1,0 +1,13 @@
+{
+	"Name": "Ki-Adi-Mundi",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Yellow" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "White" ],
+	"Mass": 82,
+	"Height": 198,
+	"BirthYear": 92,
+	"HomeworldId": 43,
+	"Uris": null
+}

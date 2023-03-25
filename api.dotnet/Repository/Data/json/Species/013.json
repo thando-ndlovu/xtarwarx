@@ -1,0 +1,26 @@
+{
+	"Name": "Toydarian",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Toydarian",
+	"EyeColors": [
+		"Yellow"
+	],
+	"SkinColors": [
+		"Blue",
+		"Green",
+		"Gray"
+	],
+	"HairColors": [],
+	"AverageHeight": 120,
+	"AverageLifespan": 91,
+	"HomeworldId": 34,
+	"CharacterIds": [
+		36,
+		37,
+		38
+	],
+	"Uris": null
+	
+}

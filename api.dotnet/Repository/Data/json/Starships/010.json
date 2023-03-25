@@ -1,0 +1,28 @@
+{
+	"Name": "Rebel Transporter",
+	"Description": null,
+	"Model": "GR-75 Medium Transporter",
+	"StarshipClass": {
+		"Class": "Transporter",
+		"Flags": []
+	},
+	"MGLT": 20,
+	"Length": 90,
+	"MinCrew": 6,
+	"MaxCrew": 6,
+	"Consumables": {
+		"TimeUnit": "Month",
+		"Value": 6
+	},
+	"Passengers": 90,
+	"HyperdriveRating": 4.0,
+	"CostInCredits": null,
+	"CargoCapacity": 250000000,
+	"MaxAtmospheringSpeed": 650,
+	"ManufacturerIds": [
+		17
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

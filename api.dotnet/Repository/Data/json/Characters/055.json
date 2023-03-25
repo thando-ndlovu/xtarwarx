@@ -1,0 +1,13 @@
+{
+	"Name": "Adi Gallia",
+	"Description": null,
+	"Sex": "Female",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "Brown" ],
+	"HairColors": [],
+	"Mass": 50,
+	"Height": 184,
+	"BirthYear": null,
+	"HomeworldId": 9,
+	"Uris": null
+}

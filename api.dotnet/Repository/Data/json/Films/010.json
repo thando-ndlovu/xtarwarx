@@ -1,0 +1,52 @@
+{
+	"Title": "Solo: A Star Wars Story",
+	"Description": "Directed by Ron Howard, Solo is the second installment of the Star Wars Anthology series. Taking place 10 years before the events of A New Hope, it is based around Han Solo and his exploits within the criminal underworld",
+	"EpisodeId": -1,
+	"Director": "Ron Howard",
+	"Producers": [
+		"Kathleen Kennedy",
+		"Alison Shearmur",
+		"Simon Emanuel"
+	],
+	"ReleaseDate": "2018-05-10",
+	"CastMembers": [
+		"Alden Ehrenreich",
+		"Woody Harrelson",
+		"Emilia Clarke",
+		"Donald Glover",
+		"Thandie Newton",
+		"Phoebe Waller-Bridge",
+		"Joonas Suotamo",
+		"Paul Bettany"
+	],
+	"Duration": 135,
+	"OpeningCrawl": "",
+
+	"WeaponIds": null,
+	"SpecieIds": null,
+	"PlanetIds": null,
+	"VehicleIds": null,
+	"StarshipIds": null,
+	"CharacterIds": null,
+	"FactionIds": null,
+	"ManufacturerIds": null,
+
+	"Uris": [
+		{
+			"Key": "MainPoster",
+			"Uri": "https://upload.wikimedia.org/wikipedia/en/5/54/Solo_A_Star_Wars_Story_poster.jpg"
+		},
+		{
+			"Key": "IMDB",
+			"Uri": "https://imdb.com/title/tt3778644"
+		},
+		{
+			"Key": "RottenTomatoes",
+			"Uri": "https://rottentomatoes.com/solo_a_star_wars_story"
+		},
+		{
+			"Key": "Wikipedia",
+			"Uri": "https://wikipedia.org/wiki/Solo"
+		}
+	]
+}

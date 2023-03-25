@@ -1,0 +1,36 @@
+﻿{
+	"Name": "Shili",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": null,
+	"Gravity": 1,
+	"OrbitalPeriod": null,
+	"RotationalPeriod": null,
+	"ResidentIds": null,
+	"Population": null,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Plains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Cityscapes",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Seas",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Savannas",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

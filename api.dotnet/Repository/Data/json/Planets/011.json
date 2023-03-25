@@ -1,0 +1,40 @@
+﻿{
+	"Name": "Geonosis",
+	"Description": null,
+	"SurfaceWater": 5,
+	"Diameter": 19720,
+	"Gravity": 0.9,
+	"OrbitalPeriod": 256,
+	"RotationalPeriod": 30,
+	"ResidentIds": null,
+	"Population": 100000000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Arid",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Rocky",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Deserts",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Barren",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

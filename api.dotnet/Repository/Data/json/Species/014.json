@@ -1,0 +1,26 @@
+{
+	"Name": "Dug",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Dugese",
+	"EyeColors": [
+		"Yellow",
+		"Blue"
+	],
+	"SkinColors": [
+		"Brown",
+		"Purple",
+		"Red",
+		"Gray"
+	],
+	"HairColors": [],
+	"AverageHeight": null,
+	"AverageLifespan": 100,
+	"HomeworldId": 35,
+	"CharacterIds": [
+		41
+	],
+	"Uris": null
+	
+}

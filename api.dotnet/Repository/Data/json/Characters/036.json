@@ -1,0 +1,13 @@
+{
+	"Name": "Jar Jar Binks",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Orange" ],
+	"SkinColors": [ "Orange" ],
+	"HairColors": [],
+	"Mass": 66,
+	"Height": 196,
+	"BirthYear": 52,
+	"HomeworldId": 8,
+	"Uris": null
+}

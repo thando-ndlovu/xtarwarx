@@ -1,0 +1,29 @@
+﻿{
+	"Name": "Lorem Ipsum",
+	"Description": "Lorem Ipsum",
+	"LeaderIds": [
+		2
+	],
+	"MemberCharacterIds": [
+		1
+	],
+	"MemberFactionIds": [
+		1
+	],
+	"AlliedCharacterIds": [
+		2
+	],
+	"AlliedFactionIds": [
+		2
+	],
+	"OrganizationTypes": [
+		"Hunters"
+	],
+
+	"Uris": [
+		{
+			"Key": "MainImage",
+			"Uri": "https://example.co.za"
+		}
+	]
+}

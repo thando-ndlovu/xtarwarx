@@ -1,0 +1,28 @@
+﻿{
+	"Name": "Dagobah",
+	"Description": null,
+	"SurfaceWater": 8,
+	"Diameter": 8900,
+	"Gravity": null,
+	"OrbitalPeriod": 341,
+	"RotationalPeriod": 23,
+	"ResidentIds": null,
+	"Population": null,
+	"Climates": [
+		{
+			"Type": "Murky",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Swamps",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Jungles",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

@@ -1,0 +1,28 @@
+{
+	"Name": "AT-TE",
+	"Description": null,
+	"Model": "All Terrain Tactical Enforcer",
+	"VehicleClass": {
+		"Class": "Walker",
+		"Flags": []
+	},
+	"Length": 13.2,
+	"MinCrew": 6,
+	"MaxCrew": 6,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 21
+	},
+	"Passengers": 36,
+	"CostInCredits": null,
+	"CargoCapacity": 10000,
+	"MaxAtmospheringSpeed": 60,
+	"ManufacturerIds": [
+		2,
+		12
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

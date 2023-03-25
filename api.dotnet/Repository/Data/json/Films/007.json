@@ -1,0 +1,57 @@
+{
+	"Title": "The Force Awakens",
+	"Description": "Produced, co-writter and directed by J. J. Abrams, The Force Awakens is the first installment in the Star Wars sequel trilogy and the seventh episode of the nine-part Skywalker Saga.",
+	"EpisodeId": 7,
+	"Director": "J. J. Abrams",
+	"Producers": [
+		"Kathleen Kennedy",
+		"J. J. Abrams",
+		"Bryan Burk"
+	],
+	"ReleaseDate": "2015-12-14",
+	"CastMembers": [
+		"Harrison Ford",
+		"Mark Hamill",
+		"Carrie Fischer",
+		"Adam Driver",
+		"Daisy Ridley",
+		"John Boyega",
+		"Oscar Isaac",
+		"Lupita Nyong'o",
+		"Andy Serkis",
+		"Domhnall Gleeson",
+		"Anthony Daniels",
+		"Peter Mayhew",
+		"Max von Sydow"
+	],
+	"Duration": 135,
+	"OpeningCrawl": "Luke Skywalker has vanished. In his absence, the sinister FIRST ORDER has risen from the ashes of the Empire and will not rest until Skywalker, the last Jedi, has been destroyed. With the support of the REPUBLIC, General Leia Organa leads a brave RESISTANCE. She is desperate to find her brother Luke and gain his help in restoring peace and justice to the galaxy. Leia has sent her most daring pilot on a scret missin to Jakku, where an old ally has discovered a clue to Luke's whereabouts...",
+
+	"WeaponIds": null,
+	"SpecieIds": null,
+	"PlanetIds": null,
+	"VehicleIds": null,
+	"StarshipIds": null,
+	"CharacterIds": null,
+	"FactionIds": null,
+	"ManufacturerIds": null,
+
+	"Uris": [
+		{
+			"Key": "MainPoster",
+			"Uri": "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg"
+		},
+		{
+			"Key": "IMDB",
+			"Uri": "https://www.imdb.com/title/tt2488496"
+		},
+		{
+			"Key": "RottenTomatoes",
+			"Uri": "https://www.rottentomatoes.com/star_wars_episode_vii_the_force_awakens"
+		},
+		{
+			"Key": "Wikipedia",
+			"Uri": "https://www.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens"
+		}
+	]
+}

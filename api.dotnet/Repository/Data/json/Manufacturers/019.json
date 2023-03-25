@@ -1,0 +1,11 @@
+{
+	"Name": "Koensayr Manufacturing",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		6
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

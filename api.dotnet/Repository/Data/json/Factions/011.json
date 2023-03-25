@@ -1,0 +1,18 @@
+﻿{
+	"Name": "Galactic Republic",
+	"Description": "The Galactic Republic is a democratic union comprised of a number of star systems, existing in a state of relative peace and stability due to the protection of the Jedi Order",
+	"LeaderIds": null,
+	"MemberCharacterIds": null,
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": null,
+	"OrganizationTypes": [
+		"DemocraticUnion"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Galactic_Republic"
+		}
+	]
+}

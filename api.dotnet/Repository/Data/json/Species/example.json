@@ -1,0 +1,28 @@
+﻿{
+	"Name": "Lorem",
+	"Description": "Lorem",
+	"Designation": "Lorem",
+	"Classification": "Lorem",
+	"Language": "Lorem",
+	"EyeColors": [
+		"Black"
+	],
+	"SkinColors": [
+		"Black"
+	],
+	"HairColors": [
+		"Black"
+	],
+	"AverageHeight": 0,
+	"AverageLifespan": 0,
+	"HomeworldId": 0,
+	"CharacterIds": [
+		0
+	],
+	"Uris": [
+		{
+			"Key": "MainImage",
+			"Uri": "https://example.co.za"
+		}
+	]
+}

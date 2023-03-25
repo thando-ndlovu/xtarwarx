@@ -1,0 +1,13 @@
+{
+	"Name": "Biggs Darklighter",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Brown" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Black" ],
+	"Mass": 84,
+	"Height": 183,
+	"BirthYear": 24,
+	"HomeworldId": 1,
+	"Uris": null
+}

@@ -1,0 +1,59 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Weapon Schema",
+	"description": "A Weapon. Inherits From 'Star Wars Model'",
+	"type": "object",
+
+	"properties": {
+
+		"Description": {
+			"type": "string",
+			"default": null,
+			"description": "A description of the weapon"
+		},
+
+		"ManufacturerIds": {
+			"type": "array",
+			"description": "The id's of the manufacturer who contributed to the creation of this weapon",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+
+		"Model": {
+			"type": "string",
+			"default": null,
+			"description": "A description of the weapon"
+		},
+
+		"Name": {
+			"type": "string",
+			"default": null,
+			"description": "The name of the weapon"
+		},
+
+		"WeaponClass": {
+			"type": "object",
+			"default": null,
+			"description": "The Weapon's class and all flags associated",
+			"properties": {
+				"Class": {
+					"type": "string",
+					"default": null,
+					"description": "The Name of the class. See 'Domain.Enums.WeaponClasses'"
+				},
+				"Flags": {
+					"type": "array",
+					"default": null,
+					"description": "Flags for the aforementioned class. See 'Domain.Enums.WeaponClasses'",
+					"items": {
+						"type": "string",
+						"default": null
+					}
+				}
+			}
+		}
+	}
+}

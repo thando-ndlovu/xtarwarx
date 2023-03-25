@@ -1,0 +1,23 @@
+{
+	"Name": "Clawdite",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Reptile",
+	"Language": "Clawdite",
+	"EyeColors": [
+		"Yellow"
+	],
+	"SkinColors": [
+		"Green",
+		"Yellow"
+	],
+	"HairColors": [],
+	"AverageHeight": 180,
+	"AverageLifespan": 70,
+	"HomeworldId": 54,
+	"CharacterIds": [
+		70
+	],
+	"Uris": null
+	
+}

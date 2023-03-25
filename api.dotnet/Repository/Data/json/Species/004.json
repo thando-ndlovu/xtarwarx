@@ -1,0 +1,23 @@
+{
+	"Name": "Rodian",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Reptile",
+	"Language": "GalacticBasic",
+	"EyeColors": [
+		"Black"
+	],
+	"SkinColors": [
+		"Green",
+		"Blue"
+	],
+	"HairColors": [],
+	"AverageHeight": 170,
+	"AverageLifespan": null,
+	"HomeworldId": 23,
+	"CharacterIds": [
+		15
+	],
+	"Uris": null
+	
+}

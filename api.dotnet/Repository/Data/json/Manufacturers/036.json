@@ -1,0 +1,11 @@
+{
+	"Name": "Bespin Motors",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		9
+	],
+	"StarshipIds": [],
+	"WeaponIds": null,
+	"Uris": null
+}

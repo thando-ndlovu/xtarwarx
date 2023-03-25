@@ -1,0 +1,27 @@
+{
+	"Name": "Yoda's Species",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "GalacticBasic",
+	"EyeColors": [
+		"Brown",
+		"Yellow",
+		"Green"
+	],
+	"SkinColors": [
+		"Green",
+		"Yellow"
+	],
+	"HairColors": [
+		"Brown",
+		"White"
+	],
+	"AverageHeight": 66,
+	"AverageLifespan": 900,
+	"HomeworldId": 28,
+	"CharacterIds": [
+		20
+	],
+	"Uris": null
+}

@@ -1,0 +1,57 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Manufacturer Schema",
+	"description": "A Manufacturer. Inherits From 'Star Wars Model'",
+	"type": "object",
+
+	"properties": {
+
+		"Description": {
+			"type": "string",
+			"default": null,
+			"description": "A description of the manufacturer"
+		},
+
+		"HeadquatersPlanetId": {
+			"type": "integer",
+			"default": null,
+			"description": "The id of planet on which the manufacturer's headquaters is located"
+		},
+
+		"Name": {
+			"type": "string",
+			"default": null,
+			"description": "The name of the manufacturer"
+		},
+
+		"StarshipIds": {
+			"type": "array",
+			"description": "The id's of the starships this manufacturer has manufacturered",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+
+		"VehicleIds": {
+			"type": "array",
+			"description": "The id's of the vehicles this manufacturer has manufacturered",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+
+		"WeaponIds": {
+			"type": "array",
+			"description": "The id's of the weapons this manufacturer has manufacturered",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		}
+	}
+}

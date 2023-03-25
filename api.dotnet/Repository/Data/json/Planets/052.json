@@ -1,0 +1,27 @@
+﻿{
+	"Name": "Serenno",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": null,
+	"Gravity": null,
+	"OrbitalPeriod": null,
+	"RotationalPeriod": null,
+	"ResidentIds": null,
+	"Population": null,
+	"Climates": [],
+	"Terrains": [
+		{
+			"Type": "Deserts",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Rivers",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

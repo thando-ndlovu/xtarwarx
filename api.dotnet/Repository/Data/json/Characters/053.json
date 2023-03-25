@@ -1,0 +1,13 @@
+{
+	"Name": "Kit Fisto",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Black" ],
+	"SkinColors": [ "Green" ],
+	"HairColors": [],
+	"Mass": 87,
+	"Height": 196,
+	"BirthYear": null,
+	"HomeworldId": 44,
+	"Uris": null
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Shmi Skywalker",
+	"Description": null,
+	"Sex": "Female",
+	"EyeColors": [ "Brown" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Black" ],
+	"Mass": null,
+	"Height": 163,
+	"BirthYear": 72,
+	"HomeworldId": 1,
+	"Uris": null
+}

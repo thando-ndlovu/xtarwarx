@@ -1,0 +1,13 @@
+{
+	"Name": "Shaak Ti",
+	"Description": null,
+	"Sex": "Female",
+	"EyeColors": [ "Black" ],
+	"SkinColors": [ "Blue", "Red", "White" ],
+	"HairColors": [],
+	"Mass": 57,
+	"Height": 178,
+	"BirthYear": null,
+	"HomeworldId": 58,
+	"Uris": null
+}

@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Twi'lek Freedom Fighters",
+	"Description": "The Twi'lek Freedom Fighters were an anit-Speratist resistance movement led by Cham Syndulla",
+	"LeaderIds": [
+		// Cham Syndulla
+	],
+	"MemberCharacterIds": [
+		// Tae Boon
+		// Gobie Glie
+		// Miwy Joy
+		// Luna
+		// Max
+		// Samara
+		// Spudwee
+		// Voyla
+	],
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": [
+		11,
+		29
+	],
+	"OrganizationTypes": [
+		"RepublicRebelCell"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Twi%27lek_Freedom_Fighters"
+		}
+	]
+}

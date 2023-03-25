@@ -1,0 +1,13 @@
+{
+	"Name": "Luminara Unduli",
+	"Description": null,
+	"Sex": "Female",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "Yellow" ],
+	"HairColors": [ "Black" ],
+	"Mass": 56.2,
+	"Height": 170,
+	"BirthYear": 58,
+	"HomeworldId": 51,
+	"Uris": null
+}

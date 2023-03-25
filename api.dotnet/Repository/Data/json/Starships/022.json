@@ -1,0 +1,25 @@
+{
+	"Name": "AA-9 Coruscant Freighter",
+	"Description": null,
+	"Model": "Botajef AA-9 Freighter-Liner",
+	"StarshipClass": {
+		"Class": "Freighter",
+		"Flags": []
+	},
+	"MGLT": null,
+	"Length": 390,
+	"MinCrew": null,
+	"MaxCrew": null,
+	"Consumables": null,
+	"Passengers": 30000,
+	"HyperdriveRating": null,
+	"CostInCredits": null,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": null,
+	"ManufacturerIds": [
+		13
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

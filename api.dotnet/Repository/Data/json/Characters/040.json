@@ -1,0 +1,13 @@
+{
+	"Name": "Watto",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Yellow" ],
+	"SkinColors": [ "Blue", "Gray" ],
+	"HairColors": [ "Black" ],
+	"Mass": null,
+	"Height": 137,
+	"BirthYear": null,
+	"HomeworldId": 34,
+	"Uris": null
+}

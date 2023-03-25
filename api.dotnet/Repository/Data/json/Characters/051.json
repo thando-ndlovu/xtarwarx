@@ -1,0 +1,13 @@
+{
+	"Name": "Mace Windu",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Brown" ],
+	"SkinColors": [ "Brown" ],
+	"HairColors": [],
+	"Mass": 84,
+	"Height": 188,
+	"BirthYear": 72,
+	"HomeworldId": 42,
+	"Uris": null
+}

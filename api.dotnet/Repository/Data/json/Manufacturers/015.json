@@ -1,0 +1,12 @@
+{
+	"Name": "Alliance Underground Engineering",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		15,
+		16
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

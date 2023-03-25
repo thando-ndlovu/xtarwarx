@@ -1,0 +1,13 @@
+{
+	"Name": "Sebulba",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Orange" ],
+	"SkinColors": [ "Red", "Gray" ],
+	"HairColors": [],
+	"Mass": 40,
+	"Height": 112,
+	"BirthYear": null,
+	"HomeworldId": 35,
+	"Uris": null
+}

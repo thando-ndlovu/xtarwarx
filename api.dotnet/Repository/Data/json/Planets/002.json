@@ -1,0 +1,28 @@
+﻿{
+	"Name": "Alderaan",
+	"Description": null,
+	"SurfaceWater": 40,
+	"Diameter": 12500,
+	"Gravity": 1,
+	"OrbitalPeriod": 364,
+	"RotationalPeriod": 24,
+	"ResidentIds": null,
+	"Population": 2000000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Grasslands",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

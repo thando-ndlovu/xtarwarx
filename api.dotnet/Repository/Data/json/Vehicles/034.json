@@ -1,0 +1,29 @@
+{
+	"Name": "Clone Turbo Tank",
+	"Description": null,
+	"Model": "HAVw A6 Juggernaut",
+	"VehicleClass": {
+		"Class": "Walker",
+		"Flags": [
+			"Wheeled"
+		]
+	},
+	"Length": 49.4,
+	"MinCrew": 20,
+	"MaxCrew": 20,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 20
+	},
+	"Passengers": 300,
+	"CostInCredits": 350000,
+	"CargoCapacity": 30000,
+	"MaxAtmospheringSpeed": 160,
+	"ManufacturerIds": [
+		2
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

@@ -1,0 +1,22 @@
+{
+	"Name": "Vulptereen",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": null,
+	"Language": "Vulpterish",
+	"EyeColors": [
+		"Yellow"
+	],
+	"SkinColors": [
+		"Gray"
+	],
+	"HairColors": [],
+	"AverageHeight": 100,
+	"AverageLifespan": null,
+	"HomeworldId": 39,
+	"CharacterIds": [
+		48
+	],
+	"Uris": null
+	
+}

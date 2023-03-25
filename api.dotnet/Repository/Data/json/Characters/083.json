@@ -1,0 +1,13 @@
+{
+	"Name": "Tion Medon",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "White" ],
+	"SkinColors": [ "Gray" ],
+	"HairColors": [ "Black" ],
+	"Mass": 80,
+	"Height": 206,
+	"BirthYear": null,
+	"HomeworldId": 12,
+	"Uris": null
+}

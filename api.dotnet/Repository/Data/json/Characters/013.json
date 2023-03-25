@@ -1,0 +1,13 @@
+{
+	"Name": "Chewbacca",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [],
+	"HairColors": [ "Brown" ],
+	"Mass": 112,
+	"Height": 228,
+	"BirthYear": 200,
+	"HomeworldId": 14,
+	"Uris": null
+}

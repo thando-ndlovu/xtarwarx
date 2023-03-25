@@ -1,0 +1,28 @@
+{
+	"Name": "Cerean",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": null,
+	"Language": "Tundan",
+	"EyeColors": [
+		"Brown"
+	],
+	"SkinColors": [
+		"Pink",
+		"White"
+	],
+	"HairColors": [
+		"Red",
+		"Yellow",
+		"Black",
+		"White"
+	],
+	"AverageHeight": 200,
+	"AverageLifespan": null,
+	"HomeworldId": 43,
+	"CharacterIds": [
+		52
+	],
+	"Uris": null
+	
+}

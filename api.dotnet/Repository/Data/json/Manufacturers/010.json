@@ -1,0 +1,12 @@
+{
+	"Name": "Cygnus Spaceworks",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		3,
+		27
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

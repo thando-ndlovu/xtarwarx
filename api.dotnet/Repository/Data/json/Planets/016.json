@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Mygeeto",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 10088,
+	"Gravity": 1,
+	"OrbitalPeriod": 167,
+	"RotationalPeriod": 12,
+	"ResidentIds": null,
+	"Population": 19000000,
+	"Climates": [
+		{
+			"Type": "Frigid",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Glaciers",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Canyons",
+			"Flags": [ "Icy" ]
+		}
+	],
+	"Uris": null
+}

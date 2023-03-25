@@ -1,0 +1,28 @@
+{
+	"Name": "Theta-Class T-2C Shuttle",
+	"Description": null,
+	"Model": "Theta-Class T-2C Shuttle",
+	"StarshipClass": {
+		"Class": "Transporter",
+		"Flags": []
+	},
+	"MGLT": null,
+	"Length": 18.5,
+	"MinCrew": 5,
+	"MaxCrew": 5,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 56
+	},
+	"Passengers": 16,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 1000000,
+	"CargoCapacity": 50000,
+	"MaxAtmospheringSpeed": 2000,
+	"ManufacturerIds": [
+		10
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

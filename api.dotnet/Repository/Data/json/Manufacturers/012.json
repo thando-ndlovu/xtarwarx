@@ -1,0 +1,15 @@
+{
+	"Name": "Rothana Heavy Engineering",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		23,
+		24,
+		25
+	],
+	"StarshipIds": [
+		24
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

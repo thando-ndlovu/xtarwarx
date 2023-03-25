@@ -1,0 +1,29 @@
+{
+	"Name": "Sand Crawler",
+	"Description": null,
+	"Model": "Digger Crawler",
+	"VehicleClass": {
+		"Class": "Walker",
+		"Flags": [
+			"Wheeled"
+		]
+	},
+	"Length": 36.8,
+	"MinCrew": 46,
+	"MaxCrew": 46,
+	"Consumables": {
+		"TimeUnit": "Month",
+		"Value": 2
+	},
+	"Passengers": 30,
+	"CostInCredits": 150000,
+	"CargoCapacity": 50000,
+	"MaxAtmospheringSpeed": 30,
+	"ManufacturerIds": [
+		38
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

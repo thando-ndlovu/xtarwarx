@@ -1,0 +1,21 @@
+{
+	"Name": "Pau'an",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Utapese",
+	"EyeColors": [
+		"Black"
+	],
+	"SkinColors": [
+		"Gray"
+	],
+	"HairColors": [],
+	"AverageHeight": 190,
+	"AverageLifespan": 700,
+	"HomeworldId": 12,
+	"CharacterIds": [
+		83
+	],
+	"Uris": null
+}

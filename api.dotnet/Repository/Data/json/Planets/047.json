@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Iktotch",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": null,
+	"Gravity": 1,
+	"OrbitalPeriod": 481,
+	"RotationalPeriod": 22,
+	"ResidentIds": null,
+	"Population": null,
+	"Climates": [
+		{
+			"Type": "Arid",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Rocky",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Windy",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Rocky",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

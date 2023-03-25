@@ -1,0 +1,31 @@
+{
+	"Name": "Droid Tri-Fighter",
+	"Description": null,
+	"Model": "Tri-Fighter",
+	"VehicleClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Droid",
+			"Star"
+		]
+	},
+	"Length": 5.4,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 0
+	},
+	"Passengers": 0,
+	"CostInCredits": 20000,
+	"CargoCapacity": 0,
+	"MaxAtmospheringSpeed": 1180,
+	"ManufacturerIds": [
+		26,
+		25
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

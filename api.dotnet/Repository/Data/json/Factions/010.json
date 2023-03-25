@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Lothal Rebels",
+	"Description": "The Lothal Rebels are group of freedom fighters who have taken up an armed resistance against the Empire's ocupation of the planet Lothal",
+	"LeaderIds": [
+		// Hera Syndulla
+		// Kanan Jarrus
+	],
+	"MemberCharacterIds": [
+		// Chopper
+		// Ezra Bridger
+		// Sabine Wren
+		// Garazeb Orrelios
+	],
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": [
+		68
+			// Fulcrum
+			// Cikatro Vizago
+			// "Old" Jho
+			// "Zare Leonis
+	],
+	"AlliedFactionIds": null,
+	"OrganizationTypes": [
+		"RebelCell"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Lothal_Rebels"
+		}
+	]
+}

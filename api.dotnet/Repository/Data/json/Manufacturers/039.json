@@ -1,0 +1,13 @@
+{
+	"Name": "Nubia Star Drives",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		19,
+		21,
+		29
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

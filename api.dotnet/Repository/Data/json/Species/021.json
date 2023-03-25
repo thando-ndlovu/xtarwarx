@@ -1,0 +1,25 @@
+{
+	"Name": "Nautolan",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Amphibian",
+	"Language": "Nautila",
+	"EyeColors": [
+		"Black"
+	],
+	"SkinColors": [
+		"Green",
+		"Blue",
+		"Brown",
+		"Red"
+	],
+	"HairColors": [],
+	"AverageHeight": 180,
+	"AverageLifespan": 70,
+	"HomeworldId": 44,
+	"CharacterIds": [
+		53
+	],
+	"Uris": null
+	
+}

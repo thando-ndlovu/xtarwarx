@@ -1,0 +1,13 @@
+{
+	"Name": "Palpatine",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Yellow" ],
+	"SkinColors": [ "Gray" ],
+	"HairColors": [ "Gray" ],
+	"Mass": 75,
+	"Height": 170,
+	"BirthYear": 82,
+	"HomeworldId": 8,
+	"Uris": null
+}

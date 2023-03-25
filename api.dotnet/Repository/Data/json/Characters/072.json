@@ -1,0 +1,13 @@
+{
+	"Name": "Lama Su",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Black" ],
+	"SkinColors": [ "Gray" ],
+	"HairColors": [],
+	"Mass": 88,
+	"Height": 229,
+	"BirthYear": null,
+	"HomeworldId": 10,
+	"Uris": null
+}

@@ -1,0 +1,31 @@
+{
+	"Name": "Executor",
+	"Description": null,
+	"Model": "Executor-Class Star Dreadnought",
+	"StarshipClass": {
+		"Class": "Dreadnought",
+		"Flags": [
+			"Star"
+		]
+	},
+	"MGLT": 40,
+	"Length": 19000,
+	"MinCrew": 279144,
+	"MaxCrew": 279144,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 6
+	},
+	"Passengers": 38000,
+	"HyperdriveRating": 2.0,
+	"CostInCredits": null,
+	"CargoCapacity": 250000000,
+	"MaxAtmospheringSpeed": null,
+	"ManufacturerIds": [
+		2,
+		18
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

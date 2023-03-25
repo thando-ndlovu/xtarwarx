@@ -1,0 +1,24 @@
+﻿{
+	"Name": "Tatooine",
+	"Description": null,
+	"SurfaceWater": 1,
+	"Diameter": 10465,
+	"Gravity": 1,
+	"OrbitalPeriod": 304,
+	"RotationalPeriod": 23,
+	"ResidentIds": null,
+	"Population": 200000,
+	"Climates": [
+		{
+			"Type": "Arid",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Deserts",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

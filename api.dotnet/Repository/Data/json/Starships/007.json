@@ -1,0 +1,35 @@
+{
+	"Name": "X-wing",
+	"Description": null,
+	"Model": "T-65 X-wing",
+	"StarshipClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star"
+		]
+	},
+	"MGLT": 100,
+	"Length": 12.5,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Week",
+		"Value": 1
+	},
+	"Passengers": 0,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 149999,
+	"CargoCapacity": 110,
+	"MaxAtmospheringSpeed": 1050,
+	"ManufacturerIds": [
+		7
+	],
+	"PilotIds": [
+		1,
+		9,
+		18,
+		19
+	],
+	"Uris": null
+	
+}

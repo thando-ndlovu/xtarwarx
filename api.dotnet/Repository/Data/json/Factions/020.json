@@ -1,0 +1,16 @@
+﻿{
+	"Name": "Intergalactic Banking Clan",
+	"Description": null,
+	"LeaderIds": null,
+	"MemberCharacterIds": null,
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": null,
+	"OrganizationTypes": null,
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Intergalactic_Banking_Clan"
+		}
+	]
+}

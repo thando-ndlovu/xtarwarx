@@ -1,0 +1,28 @@
+﻿{
+	"Name": "Coruscant",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 12240,
+	"Gravity": 1,
+	"OrbitalPeriod": 368,
+	"RotationalPeriod": 24,
+	"ResidentIds": null,
+	"Population": 1000000000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Cityscapes",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

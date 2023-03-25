@@ -1,0 +1,30 @@
+{
+	"Name": "Imperial Speeder Bike",
+	"Description": null,
+	"Model": "74-Z Speeder Bike",
+	"VehicleClass": {
+		"Class": "Speeder",
+		"Flags": []
+	},
+	"Length": 3,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 1
+	},
+	"Passengers": 1,
+	"CostInCredits": 8000,
+	"CargoCapacity": 4,
+	"MaxAtmospheringSpeed": 360,
+	"ManufacturerIds": [
+		33
+	],
+	"PilotIds": [
+		1,
+		5
+	],
+	"Uris": null
+	
+}
+

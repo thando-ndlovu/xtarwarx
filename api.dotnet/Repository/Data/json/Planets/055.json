@@ -1,0 +1,28 @@
+﻿{
+	"Name": "Ojom",
+	"Description": null,
+	"SurfaceWater": 100,
+	"Diameter": null,
+	"Gravity": null,
+	"OrbitalPeriod": null,
+	"RotationalPeriod": null,
+	"ResidentIds": null,
+	"Population": 500000000,
+	"Climates": [
+		{
+			"Type": "Frigid",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Oceans",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Glaciers",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

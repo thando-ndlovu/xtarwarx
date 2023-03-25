@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Yavin IV",
+	"Description": null,
+	"SurfaceWater": 8,
+	"Diameter": 10200,
+	"Gravity": 1,
+	"OrbitalPeriod": 4818,
+	"RotationalPeriod": 24,
+	"ResidentIds": null,
+	"Population": 1000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Tropical",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Jungles",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Rainforests",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

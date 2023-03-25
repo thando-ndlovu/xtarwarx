@@ -1,0 +1,29 @@
+{
+	"Name": "Sail Barge",
+	"Description": null,
+	"Model": "Modified Luxury Sail Barge",
+	"VehicleClass": {
+		"Class": "Barge",
+		"Flags": [
+			"Sail"
+		]
+	},
+	"Length": 30,
+	"MinCrew": 26,
+	"MaxCrew": 26,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": -1
+	},
+	"Passengers": 500,
+	"CostInCredits": 285000,
+	"CargoCapacity": 2000000,
+	"MaxAtmospheringSpeed": 100,
+	"ManufacturerIds": [
+		35
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

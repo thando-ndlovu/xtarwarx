@@ -1,0 +1,127 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Planet Schema",
+	"description": "A Planet. Inherits From 'Star Wars Model'",
+	"type": "object",
+
+	"properties": {
+
+		"Cliamtes": {
+			"type": "array",
+			"default": null,
+			"description": "An array of Cliamte and Climate Flags Array objects",
+			"items": {
+				"type": "object",
+				"maxItems": 2,
+				"minItems": 2,
+				"items": {
+					"Type": {
+						"type": "string",
+						"default": null,
+						"description": "The type of climate. See 'Domain.Utils.Climates' for values"
+					},
+					"Flags": {
+						"type": "array",
+						"default": null,
+						"description": "The flags applicable to this climate. See 'Domain.Utils.ClimateFlags' for values",
+						"items": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		},
+
+		"Description": {
+			"type": "string",
+			"default": null,
+			"description": "A description of the planet"
+		},
+
+		"Diameter": {
+			"type": "integer",
+			"minimum": 0,
+			"default": null,
+			"description": "The planet's diameter"
+		},
+
+		"Gravity": {
+			"type": "number",
+			"minimum": 0,
+			"default": null,
+			"description": "The planet's gravity strength (Gravity of 1.4 standard = 1.4)"
+		},
+
+		"Name": {
+			"type": "string",
+			"default": null,
+			"description": "The name of the planet"
+		},
+
+		"OrbitalPeriod": {
+			"type": "integer",
+			"minimum": 0,
+			"default": null,
+			"description": "The planet's orbital (time it takes to orbit its star once) period in days"
+		},
+
+		"Population": {
+			"type": "integer",
+			"minimum": 0,
+			"default": null,
+			"description": "The planet's population"
+		},
+
+		"ResidentIds": {
+			"type": "array",
+			"minItems": 0,
+			"items": {
+				"type": "integer",
+				"default": null,
+				"minimum": 0,
+				"description": "Character id of resident"
+			}
+		},
+
+		"RotationalPeriod": {
+			"type": "integer",
+			"minimum": 0,
+			"default": null,
+			"description": "The planet's rotational (time it takes to rotate about its axis once) period in hours"
+		},
+
+		"SurfaceWater": {
+			"type": "integer",
+			"minimum": 0,
+			"maximum": 100,
+			"default": null,
+			"description": "The percentage of the planet's surface coverd by water"
+		},
+
+		"Terrains": {
+			"type": "array",
+			"default": null,
+			"description": "An array of Terrain and Terrain Flags Array objects",
+			"items": {
+				"type": "object",
+				"maxItems": 2,
+				"minItems": 2,
+				"items": {
+					"Type": {
+						"type": "string",
+						"default": null,
+						"description": "The type of climate. See 'Domain.Utils.Terrains' for values"
+					},
+					"Flags": {
+						"type": "array",
+						"default": null,
+						"description": "The flags applicable to this terrain. See 'Domain.Utils.TerrainFlags' for values",
+						"items": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Ord Mantell",
+	"Description": null,
+	"SurfaceWater": 10,
+	"Diameter": 4050,
+	"Gravity": 1,
+	"OrbitalPeriod": 334,
+	"RotationalPeriod": 26,
+	"ResidentIds": null,
+	"Population": 4000000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Plains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Seas",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mesas",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

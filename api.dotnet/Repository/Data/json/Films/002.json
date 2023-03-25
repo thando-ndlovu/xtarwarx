@@ -1,0 +1,99 @@
+{
+	"Title": "The Empire Strikes Back",
+	"Description": "Directed by Irvin Kershner and written by Leigh Brackett and Lawarnce Kasdan, The Empire Strikes Back is set 3 years after 'A New Hope' and is the second film in the Star Wars film series and the fifth chronologiacally",
+	"EpisodeId": 5,
+	"Director": "Irvin Kershner",
+	"Producers": [
+		"Gary Kurtz",
+		"Rick McCallum"
+	],
+	"ReleaseDate": "1980-05-17",
+	"CastMembers": [
+		"Mark Hamil",
+		"Harrison Ford",
+		"Carrie Fisher",
+		"Billy Dee Williams",
+		"Anthony Daniels",
+		"David Prowse",
+		"Kenny Baker",
+		"Peter Mayhew",
+		"Frank Oz"
+	],
+	"Duration": 124,
+	"OpeningCrawl": "It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.  Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth.  The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space...",
+
+	"WeaponIds": null,
+	"SpecieIds": [
+		1,
+		2,
+		3,
+		6,
+		7
+	],
+	"PlanetIds": [
+		4,
+		5,
+		6,
+		27
+	],
+	"VehicleIds": [
+		8,
+		14,
+		16,
+		18,
+		19,
+		20
+	],
+	"StarshipIds": [
+		3,
+		10,
+		11,
+		12,
+		15,
+		17,
+		21,
+		22,
+		23
+	],
+	"CharacterIds": [
+		1,
+		2,
+		3,
+		4,
+		5,
+		10,
+		13,
+		14,
+		18,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26
+	],
+	"FactionIds": [
+		1
+	],
+	"ManufacturerIds": null,
+
+	"Uris": [
+		{
+			"Key": "MainPoster",
+			"Uri": "https://upload.wikimedia.org/wikipedia/en/3/3f/The_Empire_Strikes_Back_%281980_film%29.jpg"
+		},
+		{
+			"Key": "IMDB",
+			"Uri": "https://imdb.com/title/tt0080684"
+		},
+		{
+			"Key": "RottenTomatoes",
+			"Uri": "https://rottentomatoes.com/empire_strikes_back"
+		},
+		{
+			"Key": "Wikipedia",
+			"Uri": "https://wikipedia.org/wiki/The_Empire_Strikes_Back"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"Name": "Muun",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Muun",
+	"EyeColors": [
+		"Black"
+	],
+	"SkinColors": [
+		"Gray",
+		"White"
+	],
+	"HairColors": [],
+	"AverageHeight": 190,
+	"AverageLifespan": 100,
+	"HomeworldId": 57,
+	"CharacterIds": [
+		77
+	],
+	"Uris": null
+}

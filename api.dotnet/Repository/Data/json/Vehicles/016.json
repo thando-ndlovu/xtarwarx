@@ -1,0 +1,26 @@
+{
+	"Name": "Armored Assault Tank",
+	"Description": null,
+	"Model": "Armored Assault Tank",
+	"VehicleClass": {
+		"Class": "Craft",
+		"Flags": [
+			"Repulsor"
+		]
+	},
+	"Length": 9.75,
+	"MinCrew": 4,
+	"MaxCrew": 4,
+	"Consumables": null,
+	"Passengers": 112,
+	"CostInCredits": null,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": 55,
+	"ManufacturerIds": [
+		32
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

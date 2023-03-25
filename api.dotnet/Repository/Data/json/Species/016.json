@@ -1,0 +1,21 @@
+{
+	"Name": "Aleena",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Aleena",
+	"EyeColors": [],
+	"SkinColors": [
+		"Blue",
+		"Gray"
+	],
+	"HairColors": [],
+	"AverageHeight": 80,
+	"AverageLifespan": 80,
+	"HomeworldId": 38,
+	"CharacterIds": [
+		47
+	],
+	"Uris": null
+	
+}

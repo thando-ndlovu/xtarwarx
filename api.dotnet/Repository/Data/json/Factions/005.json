@@ -1,0 +1,33 @@
+﻿{
+	"Name": "Dark Lords of the Sith",
+	"Description": "The Dark Lords of the Sith are a cult of practitioners fo the dark side of the force previously thought to have been extinct in the galay for a millennium.",
+	"LeaderIds": null,
+	"MemberCharacterIds": [
+		4,			
+		44			
+		// Asaji Ventress
+		// Savage Opress
+		// Darth Tyranus
+		// Darth Sidious
+	],
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": [
+		4,
+		22,
+		69			
+	],
+	"AlliedFactionIds": [
+		// Galactic Republic
+		// Galactic Empire
+		// Jedi Order
+	],
+	"OrganizationTypes": [
+		"Cult"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Dark_Lords_of_the_Sith"
+		}
+	]
+}

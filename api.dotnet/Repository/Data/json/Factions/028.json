@@ -1,0 +1,17 @@
+﻿{
+	"Name": "Tusken Raiders",
+	"Description": null,
+	"LeaderIds": [
+	],
+	"MemberCharacterIds": null,
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": null,
+	"OrganizationTypes": null,
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Tusken_Raiders"
+		}
+	]
+}

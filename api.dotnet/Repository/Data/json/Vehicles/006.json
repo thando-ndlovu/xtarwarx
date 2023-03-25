@@ -1,0 +1,29 @@
+{
+	"Name": "Snowspeeder",
+	"Description": null,
+	"Model": "T-47 Airspeeder",
+	"VehicleClass": {
+		"Class": "Bomber",
+		"Flags": [
+			"Planetary"
+		]
+	},
+	"Length": 7.8,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 2
+	},
+	"Passengers": 0,
+	"CostInCredits": null,
+	"CargoCapacity": 0,
+	"MaxAtmospheringSpeed": 850,
+	"ManufacturerIds": [
+		41
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

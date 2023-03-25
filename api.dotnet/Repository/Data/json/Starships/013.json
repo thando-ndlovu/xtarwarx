@@ -1,0 +1,30 @@
+{
+	"Name": "EF76 Nebulon-B Escort Frigate",
+	"Description": null,
+	"Model": "EF76 Nebulon-B Escort Frigate",
+	"StarshipClass": {
+		"Class": "Ship",
+		"Flags": [
+			"Escort"
+		]
+	},
+	"MGLT": 40,
+	"Length": 300,
+	"MinCrew": 854,
+	"MaxCrew": 854,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 2
+	},
+	"Passengers": 75,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 8500000,
+	"CargoCapacity": 6000000,
+	"MaxAtmospheringSpeed": 800,
+	"ManufacturerIds": [
+		2
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

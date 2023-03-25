@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Haruun Kal",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 10120,
+	"Gravity": 0.98,
+	"OrbitalPeriod": 383,
+	"RotationalPeriod": 25,
+	"ResidentIds": null,
+	"Population": 705300,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Cloudsea",
+			"Flags": [ "Toxic" ]
+		},
+		{
+			"Type": "Plateaus",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Volcanoes",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

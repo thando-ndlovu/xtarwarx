@@ -1,0 +1,59 @@
+{
+	"Title": "The Rise of Skywalker",
+	"Description": "Directed by J. J. Abrams The Rise of Skywalker is the the ninth film in the series. follows Rey, Finn and Poe as they lead the final stand against Kylo Ren and The First Order.",
+	"EpisodeId": 9,
+	"Director": "J. J. Abrams",
+	"Producers": [
+		"Kathleen Kennedy",
+		"J. J. Abrams",
+		"Michelle Rejwan"
+	],
+	"ReleaseDate": "2019-12-16",
+	"CastMembers": [
+		"Daisey Ridley",
+		"Mark Hamil",
+		"Carrie Fisher",
+		"John Boyega",
+		"Adam Driver",
+		"Oscar Isaac",
+		"Anthony Daniels",
+		"Naomi Ackie",
+		"Domhnall Gleeson",
+		"Richard E. Grant",
+		"Lupita Nyong'o",
+		"Billy Dee Willaims",
+		"Keri Russell",
+		"Ian McDiarmid",
+		"Kelly Marie Tran"
+	],
+	"Duration": 142,
+	"OpeningCrawl": "The dead speak! The galaxy has heard a mysterious broadcast, a threat of REVENGE int the sinister void of the late EMPEROR PALPATINE. GENERAL LEIA ORGANA dispatches secret agents to gather intelligence, while REY, the last hope of the jedi, trains for battle againts the diabolical FIRST ORDER. Meanwhile, Supreme Leader KYLO REN rages in search of the phantom Emperor, determined to destroy any threat to his power...",
+
+	"WeaponIds": null,
+	"SpecieIds": null,
+	"PlanetIds": null,
+	"VehicleIds": null,
+	"StarshipIds": null,
+	"CharacterIds": null,
+	"FactionIds": null,
+	"ManufacturerIds": null,
+
+	"Uris": [
+		{
+			"Key": "MainPoster",
+			"Uri": "https://upload.wikimedia.org/wikipedia/en/a/af/Star_Wars_The_Rise_of_Skywalker_poster.jpg"
+		},
+		{
+			"Key": "IMDB",
+			"Uri": "https://imdb.com/title/tt2527338"
+		},
+		{
+			"Key": "RottenTomatoes",
+			"Uri": "https://rottentomatoes.com/star_wars_the_rise_of_skywalker"
+		},
+		{
+			"Key": "Wikipedia",
+			"Uri": "https://wikipedia.org/wiki/Star_Wars:_The_Rise_of_Skywalker"
+		}
+	]
+}

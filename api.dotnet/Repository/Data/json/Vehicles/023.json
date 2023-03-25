@@ -1,0 +1,24 @@
+{
+	"Name": "LAAT/i",
+	"Description": null,
+	"Model": "Low Altitude Assault Transport/Infrantry",
+	"VehicleClass": {
+		"Class": "Gunship",
+		"Flags": []
+	},
+	"Length": 17.4,
+	"MinCrew": 6,
+	"MaxCrew": 6,
+	"Consumables": null,
+	"Passengers": 30,
+	"CostInCredits": null,
+	"CargoCapacity": 170,
+	"MaxAtmospheringSpeed": 620,
+	"ManufacturerIds": [
+		12
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

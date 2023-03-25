@@ -1,0 +1,13 @@
+{
+	"Name": "Anakin Skywalker",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Yellow" ],
+	"Mass": 84,
+	"Height": 188,
+	"BirthYear": 41.9,
+	"HomeworldId": 1,
+	"Uris": null
+}

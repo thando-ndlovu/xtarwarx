@@ -1,0 +1,13 @@
+{
+	"Name": "Finis Valorum",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Yellow" ],
+	"Mass": null,
+	"Height": 170,
+	"BirthYear": 91,
+	"HomeworldId": 9,
+	"Uris": null
+}

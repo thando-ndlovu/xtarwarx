@@ -1,0 +1,28 @@
+﻿{
+	"Name": "Chandrila",
+	"Description": null,
+	"SurfaceWater": 40,
+	"Diameter": 13500,
+	"Gravity": 1,
+	"OrbitalPeriod": 368,
+	"RotationalPeriod": 20,
+	"ResidentIds": null,
+	"Population": 1200000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Plains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Forests",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

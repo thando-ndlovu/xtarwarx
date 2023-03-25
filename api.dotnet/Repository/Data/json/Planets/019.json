@@ -1,0 +1,36 @@
+﻿{
+	"Name": "Saleucami",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 14920,
+	"Gravity": null,
+	"OrbitalPeriod": 392,
+	"RotationalPeriod": 26,
+	"ResidentIds": null,
+	"Population": 1400000000,
+	"Climates": [
+		{
+			"Type": "Hot",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Volcanoes",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Deserts",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Caves",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

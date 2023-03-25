@@ -1,0 +1,31 @@
+{
+	"Name": "J-Type Diplomatic Barge",
+	"Description": null,
+	"Model": "J-Type Diplomatic Barge",
+	"StarshipClass": {
+		"Class": "Barge",
+		"Flags": [
+			"Diplomatic"
+		]
+	},
+	"MGLT": null,
+	"Length": 39,
+	"MinCrew": 5,
+	"MaxCrew": 5,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 1
+	},
+	"Passengers": 10,
+	"HyperdriveRating": 0.7,
+	"CostInCredits": 2000000,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": 2000,
+	"ManufacturerIds": [
+		39,
+		40
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

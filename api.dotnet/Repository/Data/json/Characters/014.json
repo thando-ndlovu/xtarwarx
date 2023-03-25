@@ -1,0 +1,13 @@
+{
+	"Name": "Han Solo",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Brown" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Brown" ],
+	"Mass": 80,
+	"Height": 180,
+	"BirthYear": 29,
+	"HomeworldId": 22,
+	"Uris": null
+}

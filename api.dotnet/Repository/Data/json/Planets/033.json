@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Sullust",
+	"Description": null,
+	"SurfaceWater": 5,
+	"Diameter": 12780,
+	"Gravity": 1,
+	"OrbitalPeriod": 263,
+	"RotationalPeriod": 20,
+	"ResidentIds": null,
+	"Population": 18500000000,
+	"Climates": [
+		{
+			"Type": "Hot",
+			"Flags": [ "Super" ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Volcanoes",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Deserts",
+			"Flags": [ "Rocky" ]
+		}
+	],
+	"Uris": null
+}

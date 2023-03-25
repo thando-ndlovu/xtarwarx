@@ -1,0 +1,22 @@
+{
+	"Name": "Besalisk",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Amphibian",
+	"Language": "Besalisk",
+	"EyeColors": [
+		"Yellow"
+	],
+	"SkinColors": [
+		"Brown"
+	],
+	"HairColors": [],
+	"AverageHeight": 178,
+	"AverageLifespan": 75,
+	"HomeworldId": 55,
+	"CharacterIds": [
+		71
+	],
+	"Uris": null
+	
+}

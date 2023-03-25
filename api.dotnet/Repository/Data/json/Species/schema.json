@@ -1,0 +1,98 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Specie Schema",
+	"description": "A Specie. Inherits From 'Star Wars Model'",
+	"type": "object",
+
+	"properties": {
+
+		"AverageHeight": {
+			"type": "integer",
+			"default": null,
+			"description": "The average heigh of this specie (in 'cm' ?)"
+		},
+
+		"AverageLifespan": {
+			"type": "integer",
+			"default": null,
+			"description": "The average lifespan of this specie"
+		},
+
+		"CharacterIds": {
+			"type": "array",
+			"description": "The id's of the characters belonging to this specie",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+
+		"Classification": {
+			"type": "string",
+			"default": null,
+			"description": "The classification of the character. See 'Domain.Utils.Classifications' for values"
+		},
+
+		"Description": {
+			"type": "string",
+			"default": null,
+			"description": "A description of the specie"
+		},
+
+		"Designation": {
+			"type": "string",
+			"default": null,
+			"description": "The designation of the character. See 'Domain.Utils.Designations' for values"
+		},
+
+		"EyeColors": {
+			"type": "array",
+			"description": "The color/s of the specie's eyes. See 'System.Drawaing.KnownColor for available'",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "string"
+			}
+		},
+
+		"HairColors": {
+			"type": "array",
+			"description": "The color/s of the specie's hair. See 'System.Drawaing.KnownColor for available'",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "string"
+			}
+		},
+
+		"HomeworldId": {
+			"type": "integer",
+			"default": null,
+			"description": "The id of this specie's homeworld planet"
+		},
+
+		"Language": {
+			"type": "string",
+			"default": null,
+			"description": "The language of the specie. See 'Domain.Utils.Languages' for values"
+		},
+
+		"Name": {
+			"type": "string",
+			"default": null,
+			"description": "The name of the specie"
+		},
+
+		"SkinColors": {
+			"type": "array",
+			"description": "The color/s of the specie's skin/coating/flesh/metal/whatever??. See 'System.Drawaing.KnownColor for available'",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "string"
+			}
+		}
+
+	}
+}

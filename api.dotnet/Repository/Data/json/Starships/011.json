@@ -1,0 +1,32 @@
+{
+	"Name": "Slave 1",
+	"Description": null,
+	"Model": "Firespray-31-Class Patrol and Attack",
+	"StarshipClass": {
+		"Class": "Craft",
+		"Flags": [
+			"Patrol"
+		]
+	},
+	"MGLT": 70,
+	"Length": 21.9,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Month",
+		"Value": 1
+	},
+	"Passengers": 6,
+	"HyperdriveRating": 3.0,
+	"CostInCredits": null,
+	"CargoCapacity": 70000,
+	"MaxAtmospheringSpeed": 1000,
+	"ManufacturerIds": [
+		3
+	],
+	"PilotIds": [
+		22
+	],
+	"Uris": null
+	
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Mas Amedda",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "Blue" ],
+	"HairColors": [],
+	"Mass": 50,
+	"Height": 196,
+	"BirthYear": null,
+	"HomeworldId": 50,
+	"Uris": null
+}

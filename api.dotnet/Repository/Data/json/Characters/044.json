@@ -1,0 +1,13 @@
+{
+	"Name": "Darth Maul",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Yellow" ],
+	"SkinColors": [ "Red", "Black" ],
+	"HairColors": [],
+	"Mass": 80,
+	"Height": 175,
+	"BirthYear": 54,
+	"HomeworldId": 36,
+	"Uris": null
+}

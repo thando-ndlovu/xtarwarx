@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Champala",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": null,
+	"Gravity": 1,
+	"OrbitalPeriod": 318,
+	"RotationalPeriod": 27,
+	"ResidentIds": null,
+	"Population": 3500000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Oceans",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Rainforests",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Plateaus",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

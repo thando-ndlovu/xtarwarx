@@ -1,0 +1,30 @@
+﻿{
+	"Name": "First Order",
+	"Description": "The First Order is a millitary force of unknown motivation that uses troop and vehicle designs similar to the Galctic Empire.",
+	"LeaderIds": [
+		// Supreme Leader Snoke
+		// General Hux
+		// Kylo Ren
+		// Captain Phasma
+	],
+	"MemberCharacterIds": null,
+	"MemberFactionIds": [
+		25,
+		26,
+		27
+	],
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": [
+		23
+	],
+	"OrganizationTypes": [
+		"Political",
+		"Millitant"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/First_Order"
+		}
+	]
+}

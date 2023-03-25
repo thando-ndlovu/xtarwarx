@@ -1,0 +1,13 @@
+{
+	"Name": "Nute Gunray",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Red" ],
+	"SkinColors": [ "Green" ],
+	"HairColors": [],
+	"Mass": 90,
+	"Height": 191,
+	"BirthYear": null,
+	"HomeworldId": 18,
+	"Uris": null
+}

@@ -1,0 +1,36 @@
+﻿{
+	"Name": "Trandosha",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 4050,
+	"Gravity": 0.62,
+	"OrbitalPeriod": 371,
+	"RotationalPeriod": 25,
+	"ResidentIds": null,
+	"Population": 42000000,
+	"Climates": [
+		{
+			"Type": "Arid",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Deserts",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Seas",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Deserts",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

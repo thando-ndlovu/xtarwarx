@@ -1,0 +1,34 @@
+{
+	"Name": "Naboo Fighter",
+	"Description": null,
+	"Model": "N-1 Starfighter",
+	"StarshipClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star"
+		]
+	},
+	"MGLT": null,
+	"Length": 11,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 7
+	},
+	"Passengers": 0,
+	"HyperdriveRating": 2.0,
+	"CostInCredits": 200000,
+	"CargoCapacity": 65,
+	"MaxAtmospheringSpeed": 1100,
+	"ManufacturerIds": [
+		40
+	],
+	"PilotIds": [
+		11,
+		35,
+		60
+	],
+	"Uris": null
+	
+}

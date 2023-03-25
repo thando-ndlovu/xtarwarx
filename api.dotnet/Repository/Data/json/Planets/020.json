@@ -1,0 +1,24 @@
+﻿{
+	"Name": "Stewjon",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": null,
+	"Gravity": null,
+	"OrbitalPeriod": null,
+	"RotationalPeriod": null,
+	"ResidentIds": null,
+	"Population": null,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Grasslands",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

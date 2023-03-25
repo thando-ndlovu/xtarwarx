@@ -1,0 +1,27 @@
+{
+	"Name": "AT-RT",
+	"Description": null,
+	"Model": "All Terrain Recon Transport",
+	"VehicleClass": {
+		"Class": "Walker",
+		"Flags": []
+	},
+	"Length": 3.2,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 1
+	},
+	"Passengers": 0,
+	"CostInCredits": 40000,
+	"CargoCapacity": 20,
+	"MaxAtmospheringSpeed": 90,
+	"ManufacturerIds": [
+		2
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

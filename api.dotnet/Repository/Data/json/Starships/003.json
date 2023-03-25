@@ -1,0 +1,31 @@
+{
+	"Name": "Sentinel-Class Landing z",
+	"Description": null,
+	"Model": "Sentinel-Class Landing Craft",
+	"StarshipClass": {
+		"Class": "Craft",
+		"Flags": [
+			"Landing"
+		]
+	},
+	"MGLT": 70,
+	"Length": 38,
+	"MinCrew": 5,
+	"MaxCrew": 5,
+	"Consumables": {
+		"TimeUnit": "Month",
+		"Value": 1
+	},
+	"Passengers": null,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 240000,
+	"CargoCapacity": 180000,
+	"MaxAtmospheringSpeed": 1000,
+	"ManufacturerIds": [
+		10,
+		41
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Padme Amidala",
+	"Description": null,
+	"Sex": "Female",
+	"EyeColors": [ "Brown" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Brown" ],
+	"Mass": 45,
+	"Height": 185,
+	"BirthYear": 46,
+	"HomeworldId": 8,
+	"Uris": null
+}

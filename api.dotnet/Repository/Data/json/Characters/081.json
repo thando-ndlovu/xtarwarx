@@ -1,0 +1,13 @@
+{
+	"Name": "Raymus Antilles",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Brown" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Brown" ],
+	"Mass": 79,
+	"Height": 188,
+	"BirthYear": null,
+	"HomeworldId": 2,
+	"Uris": null
+}

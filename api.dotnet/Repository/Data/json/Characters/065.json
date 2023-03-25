@@ -1,0 +1,13 @@
+{
+	"Name": "Barriss Offee",
+	"Description": null,
+	"Sex": "Female",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "Yellow" ],
+	"HairColors": [ "Black" ],
+	"Mass": 50,
+	"Height": 166,
+	"BirthYear": 40,
+	"HomeworldId": 51,
+	"Uris": null
+}

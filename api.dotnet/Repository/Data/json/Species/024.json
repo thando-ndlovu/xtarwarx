@@ -1,0 +1,22 @@
+{
+	"Name": "Iktotchi",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": null,
+	"Language": "Iktotchese",
+	"EyeColors": [
+		"Orange"
+	],
+	"SkinColors": [
+		"Pink"
+	],
+	"HairColors": [],
+	"AverageHeight": 180,
+	"AverageLifespan": null,
+	"HomeworldId": 47,
+	"CharacterIds": [
+		56
+	],
+	"Uris": null
+	
+}

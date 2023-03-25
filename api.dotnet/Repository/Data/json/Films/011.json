@@ -1,0 +1,52 @@
+{
+	"Title": "Rogue One: A Star Wars Story",
+	"Description": "Directed by Gerth Edwards, Rogue One is the first installment of the Star Wars Anthology series. Taking place just before the events of A New Hope, it follows a group of rebels ont their mission to steal the plans for the Death Star",
+	"EpisodeId": -1,
+	"Director": "Gerth Edwards",
+	"Producers": [
+		"Kathleen Kennedy",
+		"Alison Shearmur",
+		"Simon Emanuel"
+	],
+	"ReleaseDate": "2016-12-10",
+	"CastMembers": [
+		"Felicity Jones",
+		"Diego Luna",
+		"Ben Mendelsohn",
+		"Donnie Yen",
+		"Mads Mikkelsen",
+		"Alan Tudyk",
+		"Jiang Wen",
+		"Forest Whitaker"
+	],
+	"Duration": 133,
+	"OpeningCrawl": "",
+
+	"WeaponIds": null,
+	"SpecieIds": null,
+	"PlanetIds": null,
+	"VehicleIds": null,
+	"StarshipIds": null,
+	"CharacterIds": null,
+	"FactionIds": null,
+	"ManufacturerIds": null,
+
+	"Uris": [
+		{
+			"Key": "MainPoster",
+			"Uri": "https://upload.wikimedia.org/wikipedia/en/d/d4/Rogue_One%2C_A_Star_Wars_Story_poster.png"
+		},
+		{
+			"Key": "IMDB",
+			"Uri": "https://imdb.com/title/tt3748528"
+		},
+		{
+			"Key": "RottenTomatoes",
+			"Uri": "https://rottentomatoes.com/rogue_one_a_star_wars_story"
+		},
+		{
+			"Key": "Wikipedia",
+			"Uri": "https://wikipedia.org/wiki/Rogue_One"
+		}
+	]
+}

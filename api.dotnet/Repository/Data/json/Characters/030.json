@@ -1,0 +1,13 @@
+{
+	"Name": "Wicket Systri Warrick",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Brown" ],
+	"SkinColors": [ "Brown" ],
+	"HairColors": [ "Brown" ],
+	"Mass": 20,
+	"Height": 88,
+	"BirthYear": 8,
+	"HomeworldId": 7,
+	"Uris": null
+}

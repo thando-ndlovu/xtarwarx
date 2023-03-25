@@ -1,0 +1,13 @@
+{
+	"Name": "Greedo",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Black" ],
+	"SkinColors": [ "Green" ],
+	"HairColors": null,
+	"Mass": 74,
+	"Height": 173,
+	"BirthYear": 44,
+	"HomeworldId": 23,
+	"Uris": null
+}

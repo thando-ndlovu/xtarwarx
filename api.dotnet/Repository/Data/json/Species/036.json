@@ -1,0 +1,22 @@
+{
+	"Name": "Kaleesh",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Kaleesh",
+	"EyeColors": [
+		"Yellow"
+	],
+	"SkinColors": [
+		"Brown",
+		"Orange"
+	],
+	"HairColors": [],
+	"AverageHeight": 170,
+	"AverageLifespan": 80,
+	"HomeworldId": 59,
+	"CharacterIds": [
+		79
+	],
+	"Uris": null
+}

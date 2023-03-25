@@ -1,0 +1,13 @@
+{
+	"Name": "Incom Corporation",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		7,
+		16,
+		31
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

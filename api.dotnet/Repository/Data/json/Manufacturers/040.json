@@ -1,0 +1,15 @@
+{
+	"Name": "Theed Palace Space Vessel Engineering Corps Incorporated",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		18,
+		19,
+		21,
+		23,
+		29
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

@@ -1,0 +1,75 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Faction Schema",
+	"description": "A Faction. Inherits From 'Star Wars Model'",
+	"type": "object",
+
+	"properties": {
+
+		"AlliedCharacterIds": {
+			"type": "array",
+			"description": "The id's of the characters that have pledged allegiance to this faction. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+		"AlliedFactionIds": {
+			"type": "array",
+			"description": "The id's of the factions that have pledged allegiance to this faction. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+		"Description": {
+			"type": "string",
+			"default": null,
+			"description": "A description of the faction"
+		},
+		"LeaderIds": {
+			"type": "array",
+			"description": "The id's of the characters who are/have been leaders of the faction. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+		"MemberCharacterIds": {
+			"type": "array",
+			"description": "The id's of the characters who are/have been members of the faction. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+		"MemberFactionIds": {
+			"type": "array",
+			"description": "The id's of the factions who are/have been members of the faction. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+		"Name": {
+			"type": "string",
+			"default": null,
+			"description": "The name of the faction"
+		},
+		"OrganizationTypes": {
+			"type": "array",
+			"description": "The type/s of the faction. Null for unknown. See 'Domain.Utils.OrganizationTypes' for availables",
+
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "string"
+			}
+		}
+	}
+}

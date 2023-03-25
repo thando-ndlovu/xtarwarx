@@ -1,0 +1,24 @@
+{
+	"Name": "Xexto",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": null,
+	"Language": "Xextese",
+	"EyeColors": [
+		"Black"
+	],
+	"SkinColors": [
+		"Gray",
+		"Yellow",
+		"Purple"
+	],
+	"HairColors": [],
+	"AverageHeight": 125,
+	"AverageLifespan": null,
+	"HomeworldId": 40,
+	"CharacterIds": [
+		49
+	],
+	"Uris": null
+	
+}

@@ -1,0 +1,35 @@
+﻿{
+	"Name": "Lorem",
+	"Description": "Lorem",
+	"SurfaceWater": 0,
+	"Diameter": 0,
+	"Gravity": 0.00,
+	"OrbitalPeriod": 0,
+	"RotationalPeriod": 0,
+	"ResidentIds": [
+		0
+	],
+	"Population": 0,
+	"Climates": [
+		{
+			"Type": "Lorem",
+			"Flags": [
+				"Lorem"
+			]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Lorem",
+			"Flags": [
+				"Lorem"
+			]
+		},
+	],
+	"Uris": [
+		{
+			"Key": "MainImage",
+			"Uri": "https://example.co.za"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Aratech Repulsor Company",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		13
+	],
+	"StarshipIds": [],
+	"WeaponIds": null,
+	"Uris": null
+}

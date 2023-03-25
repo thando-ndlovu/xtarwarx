@@ -1,0 +1,24 @@
+﻿{
+	"Name": "Polis Massa",
+	"Description": null,
+	"SurfaceWater": 0,
+	"Diameter": 0,
+	"Gravity": 0.56,
+	"OrbitalPeriod": 590,
+	"RotationalPeriod": 24,
+	"ResidentIds": null,
+	"Population": 1000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ "Artificial" ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Asteroid",
+			"Flags": [ "Airless" ]
+		}
+	],
+	"Uris": null
+}

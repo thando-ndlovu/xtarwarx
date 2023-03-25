@@ -1,0 +1,23 @@
+{
+	"Name": "Emergency Firespeeder",
+	"Description": null,
+	"Model": "Fire Suppression Speeder",
+	"VehicleClass": {
+		"Class": "Ship",
+		"Flags": [
+			"FireSuppression"
+		]
+	},
+	"Length": null,
+	"MinCrew": 2,
+	"MaxCrew": 2,
+	"Consumables": null,
+	"Passengers": null,
+	"CostInCredits": null,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": null,
+	"ManufacturerIds": null,
+	"PilotIds": null,
+	"Uris": null
+}
+

@@ -1,0 +1,13 @@
+{
+	"Name": "Wedge Antilles",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Brown" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Brown" ],
+	"Mass": 77,
+	"Height": 170,
+	"BirthYear": 21,
+	"HomeworldId": 22,
+	"Uris": null
+}

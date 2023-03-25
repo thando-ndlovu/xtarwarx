@@ -1,0 +1,137 @@
+{
+	"Title": "Attack of the Clones",
+	"Description": "Directed by George Lucas and written George Lucas and Jonathan Hales, Attack of the Clones is the fifth film in the Star Wars film series and the econd chronologiacally",
+	"EpisodeId": 2,
+	"Director": "George Lucas",
+	"Producers": [
+		"Rick McCallum"
+	],
+	"ReleaseDate": "2002-05-16",
+	"CastMembers": [
+		"Ewan McGregor",
+		"Natalie Portman",
+		"Hayden Christianson",
+		"Christopher Lee",
+		"Samuel L Jackson",
+		"Ian McDiarmid",
+		"Anthony Daniels",
+		"Kenny Baker",
+		"Frnak Oz"
+	],
+	"Duration": 142,
+	"OpeningCrawl": "There is unrest in the Galactic Senate. Several thousand solar systems have declared their intentions to leave the Republic.  This separatist movement, under the leadership of the mysterious Count Dooku, has made it difficult for the limited number of Jedi Knights to maintain  peace and order in the galaxy.  Senator Amidala, the former Queen of Naboo, is returning to the Galactic Senate to vote on the critical issue of creating an ARMY OF THE REPUBLIC to assist the overwhelmed Jedi...",
+
+	"WeaponIds": null,
+	"SpecieIds": [
+		1,
+		2,
+		6,
+		12,
+		13,
+		15,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34,
+		35
+	],
+	"PlanetIds": [
+		1,
+		8,
+		9,
+		10,
+		11
+	],
+	"VehicleIds": [
+		4,
+		44,
+		45,
+		46,
+		50,
+		51,
+		53,
+		54,
+		55,
+		56,
+		57
+	],
+	"StarshipIds": [
+		21,
+		32,
+		39,
+		43,
+		47,
+		48,
+		49,
+		52,
+		58
+	],
+	"CharacterIds": [
+		2,
+		3,
+		6,
+		7,
+		10,
+		11,
+		20,
+		21,
+		22,
+		33,
+		35,
+		36,
+		40,
+		43,
+		46,
+		51,
+		52,
+		53,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		69,
+		70,
+		71,
+		72,
+		73,
+		74,
+		75,
+		76,
+		77,
+		78,
+		82
+	],
+	"FactionIds": [
+		1
+	],
+	"ManufacturerIds": null,
+
+	"Uris": [
+		{
+			"Key": "MainPoster",
+			"Uri": "https://upload.wikimedia.org/wikipedia/en/3/32/Star_Wars_-_Episode_II_Attack_of_the_Clones_%28movie_poster%29.jpg"
+		},
+		{
+			"Key": "IMDB",
+			"Uri": "https://imdb.com/title/tt0121765"
+		},
+		{
+			"Key": "RottenTomatoes",
+			"Uri": "https://rottentomatoes.com/star_wars_episode_ii_attack_of_the_clones"
+		},
+		{
+			"Key": "Wikipedia",
+			"Uri": "https://wikipedia.org/wiki/Star_Wars:_Episode_II_-_Attack_of_the_Clones"
+		}
+	]
+}

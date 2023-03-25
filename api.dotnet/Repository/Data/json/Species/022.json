@@ -1,0 +1,30 @@
+{
+	"Name": "Zabrak",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Zabraki",
+	"EyeColors": [
+		"Brown",
+		"Orange"
+	],
+	"SkinColors": [
+		"White",
+		"Brown",
+		"Red",
+		"Orange",
+		"Yellow"
+	],
+	"HairColors": [
+		"Black"
+	],
+	"AverageHeight": 180,
+	"AverageLifespan": null,
+	"HomeworldId": 45,
+	"CharacterIds": [
+		54,
+		44
+	],
+	"Uris": null
+	
+}

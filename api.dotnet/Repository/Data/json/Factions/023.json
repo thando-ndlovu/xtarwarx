@@ -1,0 +1,16 @@
+﻿{
+	"Name": "Knights of Ren",
+	"Description": "An enclave of masked, force-sensitive adepts who served Kylo Ren emerging to fill the void left by the demise of the last Sith Lords. ",
+	"LeaderIds": null,
+	"MemberCharacterIds": null,
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": null,
+	"OrganizationTypes": null,
+	"Uris": [
+		{
+			"Key": "Fandom",
+			"Uri": "https://www.starwars.fandom.com/wiki/Knights_of_Ren"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"Name": "T-16 Skyhopper",
+	"Description": null,
+	"Model": "T-16 Skyhopper",
+	"VehicleClass": {
+		"Class": "Craft",
+		"Flags": [
+			"Repulsor"
+		]
+	},
+	"Length": 10.4,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 0
+	},
+	"Passengers": 1,
+	"CostInCredits": 14500,
+	"CargoCapacity": 50,
+	"MaxAtmospheringSpeed": 1200,
+	"ManufacturerIds": [
+		42
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

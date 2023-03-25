@@ -1,0 +1,13 @@
+{
+	"Name": "Gasgano",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Black" ],
+	"SkinColors": [ "White", "Blue" ],
+	"HairColors": [],
+	"Mass": null,
+	"Height": 122,
+	"BirthYear": null,
+	"HomeworldId": 40,
+	"Uris": null
+}

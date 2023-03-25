@@ -1,0 +1,33 @@
+{
+	"Name": "Belbullab-22 Starfighter",
+	"Description": null,
+	"Model": "Belbullab-22 Starfighter",
+	"StarshipClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star"
+		]
+	},
+	"MGLT": null,
+	"Length": 6.71,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 7
+	},
+	"Passengers": 0,
+	"HyperdriveRating": 6.0,
+	"CostInCredits": 168000,
+	"CargoCapacity": 140,
+	"MaxAtmospheringSpeed": 1100,
+	"ManufacturerIds": [
+		4
+	],
+	"PilotIds": [
+		10,
+		79
+	],
+	"Uris": null
+	
+}

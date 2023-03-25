@@ -1,0 +1,29 @@
+{
+	"Name": "Storm IV Twin-Pod Cloud Car",
+	"Description": null,
+	"Model": "Storm IV Twin-Pod",
+	"VehicleClass": {
+		"Class": "Craft",
+		"Flags": [
+			"Repulsor"
+		]
+	},
+	"Length": 7,
+	"MinCrew": 2,
+	"MaxCrew": 2,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 1
+	},
+	"Passengers": 0,
+	"CostInCredits": 75000,
+	"CargoCapacity": 10,
+	"MaxAtmospheringSpeed": 90,
+	"ManufacturerIds": [
+		36
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

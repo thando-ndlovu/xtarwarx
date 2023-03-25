@@ -1,0 +1,32 @@
+{
+	"Name": "TIE Advanced X1",
+	"Description": null,
+	"Model": "Twin Ion Engine Advanced X1",
+	"StarshipClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star"
+		]
+	},
+	"MGLT": 105,
+	"Length": 9.2,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 5
+	},
+	"Passengers": 0,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": null,
+	"CargoCapacity": 150,
+	"MaxAtmospheringSpeed": 1200,
+	"ManufacturerIds": [
+		41
+	],
+	"PilotIds": [
+		4
+	],
+	"Uris": null
+	
+}

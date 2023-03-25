@@ -1,0 +1,23 @@
+﻿{
+	"Name": "Iridonia",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": null,
+	"Gravity": null,
+	"OrbitalPeriod": 413,
+	"RotationalPeriod": 29,
+	"ResidentIds": null,
+	"Population": null,
+	"Climates": [],
+	"Terrains": [
+		{
+			"Type": "Canyons",
+			"Flags": [ "Rocky" ]
+		},
+		{
+			"Type": "Pools",
+			"Flags": [ "Acidic" ]
+		}
+	],
+	"Uris": null
+}

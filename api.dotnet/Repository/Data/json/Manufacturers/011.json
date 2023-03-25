@@ -1,0 +1,15 @@
+{
+	"Name": "Huppla Pasa Tisc Shipwrights Collective",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		26,
+		28
+	],
+	"StarshipIds": [
+		25,
+		26
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

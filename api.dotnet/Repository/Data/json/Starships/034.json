@@ -1,0 +1,30 @@
+{
+	"Name": "V-Wing",
+	"Description": null,
+	"Model": "Alpha-3 Nimbus-class V-Wing Starfighter",
+	"StarshipClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star"
+		]
+	},
+	"MGLT": null,
+	"Length": 7.9,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Hour",
+		"Value": 15
+	},
+	"Passengers": 0,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 102500,
+	"CargoCapacity": 60,
+	"MaxAtmospheringSpeed": 1050,
+	"ManufacturerIds": [
+		3
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

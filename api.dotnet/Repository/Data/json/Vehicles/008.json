@@ -1,0 +1,28 @@
+{
+	"Name": "AT-ST",
+	"Description": null,
+	"Model": "All Terrain Scout Transporter",
+	"VehicleClass": {
+		"Class": "Walker",
+		"Flags": []
+	},
+	"Length": 2,
+	"MinCrew": 2,
+	"MaxCrew": 2,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 0
+	},
+	"Passengers": 0,
+	"CostInCredits": null,
+	"CargoCapacity": 200,
+	"MaxAtmospheringSpeed": 90,
+	"ManufacturerIds": [
+		2,
+		20
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

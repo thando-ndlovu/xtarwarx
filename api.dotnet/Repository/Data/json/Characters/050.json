@@ -1,0 +1,13 @@
+{
+	"Name": "Ben Quadinaros",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Orange" ],
+	"SkinColors": [ "Gray", "Green", "Yellow" ],
+	"HairColors": [],
+	"Mass": 65,
+	"Height": 163,
+	"BirthYear": null,
+	"HomeworldId": 41,
+	"Uris": null
+}

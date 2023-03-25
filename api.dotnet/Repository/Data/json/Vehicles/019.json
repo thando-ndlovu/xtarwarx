@@ -1,0 +1,27 @@
+{
+	"Name": "Tribubble Bongo",
+	"Description": null,
+	"Model": "Tribubble Bongo",
+	"VehicleClass": {
+		"Class": "Submarine",
+		"Flags": []
+	},
+	"Length": 15,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": null,
+	"Passengers": 2,
+	"CostInCredits": null,
+	"CargoCapacity": 1600,
+	"MaxAtmospheringSpeed": 85,
+	"ManufacturerIds": [
+		31
+	],
+	"PilotIds": [
+		10,
+		32
+	],
+	"Uris": null
+	
+}
+

@@ -1,0 +1,29 @@
+{
+	"Name": "Oevvaor Jet Catamaran",
+	"Description": null,
+	"Model": "Oevvaor Jet Catamaran",
+	"VehicleClass": {
+		"Class": "Speeder",
+		"Flags": [
+			"Air"
+		]
+	},
+	"Length": 15.1,
+	"MinCrew": 2,
+	"MaxCrew": 2,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 3
+	},
+	"Passengers": 2,
+	"CostInCredits": 12125,
+	"CargoCapacity": 50,
+	"MaxAtmospheringSpeed": 420,
+	"ManufacturerIds": [
+		24
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

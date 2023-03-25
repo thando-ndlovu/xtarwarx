@@ -1,0 +1,30 @@
+{
+	"Name": "Star Destroyer",
+	"Description": null,
+	"Model": "Imperial I-class Star Destroyer",
+	"StarshipClass": {
+		"Class": "Destroyer",
+		"Flags": [
+			"Star"
+		]
+	},
+	"MGLT": 60,
+	"Length": 1600,
+	"MinCrew": 47060,
+	"MaxCrew": 47060,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 2
+	},
+	"Passengers": null,
+	"HyperdriveRating": 2.0,
+	"CostInCredits": 150000000,
+	"CargoCapacity": 36000000,
+	"MaxAtmospheringSpeed": 975,
+	"ManufacturerIds": [
+		2
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Jocasta Nu",
+	"Description": null,
+	"Sex": "Female",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "White" ],
+	"Mass": null,
+	"Height": 167,
+	"BirthYear": null,
+	"HomeworldId": 9,
+	"Uris": null
+}

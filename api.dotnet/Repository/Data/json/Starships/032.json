@@ -1,0 +1,29 @@
+{
+	"Name": "Banking Clan Frigate",
+	"Description": null,
+	"Model": "Munificent-Class Star Frigate",
+	"StarshipClass": {
+		"Class": "Cruiser",
+		"Flags": []
+	},
+	"MGLT": null,
+	"Length": 825,
+	"MinCrew": 200,
+	"MaxCrew": 200,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 2
+	},
+	"Passengers": null,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 57000000,
+	"CargoCapacity": 40000000,
+	"MaxAtmospheringSpeed": null,
+	"ManufacturerIds": [
+		5,
+		6
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

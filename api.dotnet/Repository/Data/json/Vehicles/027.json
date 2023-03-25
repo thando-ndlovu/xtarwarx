@@ -1,0 +1,27 @@
+{
+	"Name": "Neimoidian Shuttle",
+	"Description": null,
+	"Model": "Sheathipede-Class Transport Shuttle",
+	"VehicleClass": {
+		"Class": "Transporter",
+		"Flags": []
+	},
+	"Length": 20,
+	"MinCrew": 2,
+	"MaxCrew": 2,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 7
+	},
+	"Passengers": 6,
+	"CostInCredits": null,
+	"CargoCapacity": 1000,
+	"MaxAtmospheringSpeed": 880,
+	"ManufacturerIds": [
+		21
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

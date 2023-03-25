@@ -1,0 +1,31 @@
+{
+	"Name": "Jedi Interceptor",
+	"Description": null,
+	"Model": "Eta-2 Actis-Class Light Interceptor",
+	"StarshipClass": {
+		"Class": "Yacht",
+		"Flags": []
+	},
+	"MGLT": null,
+	"Length": 5.47,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 2
+	},
+	"Passengers": 0,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 320000,
+	"CargoCapacity": 60,
+	"MaxAtmospheringSpeed": 320000,
+	"ManufacturerIds": [
+		3
+	],
+	"PilotIds": [
+		10,
+		11
+	],
+	"Uris": null
+	
+}

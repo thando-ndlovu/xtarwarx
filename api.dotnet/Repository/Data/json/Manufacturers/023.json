@@ -1,0 +1,11 @@
+{
+	"Name": "Techno Union",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		35
+	],
+	"StarshipIds": [],
+	"WeaponIds": null,
+	"Uris": null
+}

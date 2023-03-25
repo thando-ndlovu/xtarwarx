@@ -1,0 +1,44 @@
+﻿{
+	"Name": "Ryloth",
+	"Description": null,
+	"SurfaceWater": 5,
+	"Diameter": 10600,
+	"Gravity": 1,
+	"OrbitalPeriod": 305,
+	"RotationalPeriod": 30,
+	"ResidentIds": null,
+	"Population": 1500000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Arid",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Artic",
+			"Flags": [ "Sub" ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Valleys",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Deserts",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Tundra",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

@@ -1,0 +1,26 @@
+{
+	"Name": "Multi-Troop Transport",
+	"Description": null,
+	"Model": "Multi-Troop Transport",
+	"VehicleClass": {
+		"Class": "Craft",
+		"Flags": [
+			"Repulsor"
+		]
+	},
+	"Length": 31,
+	"MinCrew": 4,
+	"MaxCrew": 4,
+	"Consumables": null,
+	"Passengers": 112,
+	"CostInCredits": 138000,
+	"CargoCapacity": 12000,
+	"MaxAtmospheringSpeed": 35,
+	"ManufacturerIds": [
+		32
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

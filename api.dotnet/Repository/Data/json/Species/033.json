@@ -1,0 +1,20 @@
+{
+	"Name": "Skakoan",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Skakoan",
+	"EyeColors": [],
+	"SkinColors": [
+		"Gray",
+		"Green"
+	],
+	"HairColors": [],
+	"AverageHeight": null,
+	"AverageLifespan": null,
+	"HomeworldId": 56,
+	"CharacterIds": [
+		76
+	],
+	"Uris": null
+}

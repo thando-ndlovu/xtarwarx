@@ -1,0 +1,13 @@
+{
+	"Name": "C-3PO",
+	"Description": null,
+	"Sex": "Asexual",
+	"EyeColors": [ "Yellow" ],
+	"SkinColors": [ "Gold" ],
+	"HairColors": null,
+	"Mass": 75,
+	"Height": 167,
+	"BirthYear": 112,
+	"HomeworldId": 1,
+	"Uris": null
+}

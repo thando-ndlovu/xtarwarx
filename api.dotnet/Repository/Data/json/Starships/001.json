@@ -1,0 +1,28 @@
+{
+	"Name": "CR90 Corvette",
+	"Description": null,
+	"Model": "CR90 Corvette",
+	"StarshipClass": {
+		"Class": "Corvette",
+		"Flags": []
+	},
+	"MGLT": 60,
+	"Length": 150,
+	"MinCrew": 30,
+	"MaxCrew": 165,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 1
+	},
+	"Passengers": 600,
+	"HyperdriveRating": 2.0,
+	"CostInCredits": 3500000,
+	"CargoCapacity": 3000000,
+	"MaxAtmospheringSpeed": 950,
+	"ManufacturerIds": [
+		1
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

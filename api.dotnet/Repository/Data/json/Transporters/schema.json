@@ -1,0 +1,124 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Transporter Schema",
+	"description": "A Transporter. Inherits From 'Star Wars Model'",
+	"type": "object",
+
+	"properties": {
+
+		"CargoCapacity": {
+			"type": "integer",
+			"default": null,
+			"minimum": 0,
+			"description": "The cargo capacity of the ship"
+		},
+
+		"Consumables": {
+			"type": "object",
+			"description": "The langth of time for which the consumables onboard will last",
+			"properties": {
+				"TimeUnit": {
+					"type": "string",
+					"default": null,
+					"description": "Self explanatory",
+					"enum": [
+						"Year",
+						"Month",
+						"Week",
+						"Day",
+						"Hour",
+						"Second"
+					]
+				},
+				"Value": {
+					"type": "integer",
+					"default": null,
+					"minimum": 0,
+					"description": "Self explanatory"
+				}
+			}
+		},
+
+		"CostInCredits": {
+			"type": "integer",
+			"default": null,
+			"minimum": 0,
+			"description": "The cost of the ship as stated in the credits?"
+		},
+
+		"Description": {
+			"type": "string",
+			"default": null,
+			"description": "A description of the transporter"
+		},
+
+		"Length": {
+			"type": "number",
+			"default": null,
+			"minimum": 0,
+			"description": "The length of this transporter"
+		},
+
+		"ManufacturerIds": {
+			"type": "array",
+			"description": "The id's of the manufacturer who have contributed to the manufacturing of this transporter",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer",
+				"default": null
+			}
+		},
+
+		"MaxAtmospheringSpeed": {
+			"type": "integer",
+			"default": null,
+			"minimum": 0,
+			"description": "The maximum speed of the ship in an atmosphere"
+		},
+
+		"MaxCrew": {
+			"type": "integer",
+			"default": null,
+			"minimum": 0,
+			"description": "The maximum crew this transporter can use before crew capacity is reached"
+		},
+
+		"MinCrew": {
+			"type": "integer",
+			"default": null,
+			"minimum": 0,
+			"description": "The minimum crew needed to operate this transporter"
+		},
+
+		"Model": {
+			"type": "string",
+			"default": null,
+			"description": "The model of the transporter"
+		},
+
+		"Name": {
+			"type": "string",
+			"default": null,
+			"description": "The name of the transporter"
+		},
+
+		"Passengers": {
+			"type": "integer",
+			"default": null,
+			"minimum": 0,
+			"description": "The maximum number of passenger this transporter can accomodate before capacity is reached"
+		},
+
+		"PilotIds": {
+			"type": "array",
+			"description": "The character id's of the pilots who can/have flown this transporter",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		}
+
+	}
+}

@@ -1,0 +1,45 @@
+﻿{
+	"Title": "Lorem Ipsum",
+	"Description": "Lorem Ipsum",
+	"EpisodeId": 0,
+	"Director": "Mr Ipsum",
+	"Producers": [
+		"Mr Ipsum,",
+		"Mrs Lorem,"
+	],
+	"ReleaseDate": "0001-01-01",
+	"CastMembers": [
+		"Ipsum Lorem"
+	],
+	"Duration": 0,
+	"OpeningCrawl": "Lorem Ipsum: ipsum LOREM! ipsum ipsum ipsum...",
+
+	"WeaponIds": [
+		0
+	],
+	"SpecieIds": [
+		0
+	],
+	"VehicleIds": [
+		0
+	],
+	"PlanetIds": [
+		0
+	],
+	"StarshipIds": [
+		0
+	],
+	"FactionIds": [
+		0
+	],
+	"ManufacturerIds": [
+		0
+	],
+
+	"Uris": [
+		{
+			"Key": "MainImage",
+			"Uri": "https://example.co.za"
+		}
+	]
+}

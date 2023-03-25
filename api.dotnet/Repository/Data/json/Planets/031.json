@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Mon Cala",
+	"Description": null,
+	"SurfaceWater": 100,
+	"Diameter": 11030,
+	"Gravity": 1,
+	"OrbitalPeriod": 398,
+	"RotationalPeriod": 21,
+	"ResidentIds": null,
+	"Population": 27000000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Oceans",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Reefs",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Islands",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

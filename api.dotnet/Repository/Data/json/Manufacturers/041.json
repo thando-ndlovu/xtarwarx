@@ -1,0 +1,19 @@
+{
+	"Name": "Sienar Fleet Systems",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		4,
+		6,
+		12
+	],
+	"StarshipIds": [
+		3,
+		4,
+		8,
+		12
+
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

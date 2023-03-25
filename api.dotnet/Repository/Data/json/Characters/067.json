@@ -1,0 +1,13 @@
+{
+	"Name": "Dooku",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Brown" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "White" ],
+	"Mass": 80,
+	"Height": 193,
+	"BirthYear": 102,
+	"HomeworldId": 52,
+	"Uris": null
+}

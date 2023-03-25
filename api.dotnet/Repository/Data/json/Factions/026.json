@@ -1,0 +1,19 @@
+﻿{
+	"Name": "Stormtroopers",
+	"Description": null,
+	"LeaderIds": [
+	],
+	"MemberCharacterIds": null,
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": null,
+	"OrganizationTypes": [
+		"MillitaryUnit"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Stormtroopers"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"Name": "Appazanna Engineering Works",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		32,
+		33
+	],
+	"StarshipIds": [],
+	"WeaponIds": null,
+	"Uris": null
+}

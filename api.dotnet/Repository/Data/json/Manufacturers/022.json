@@ -1,0 +1,11 @@
+{
+	"Name": "Baktoid Fleet Ordnance",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		36
+	],
+	"StarshipIds": [],
+	"WeaponIds": null,
+	"Uris": null
+}

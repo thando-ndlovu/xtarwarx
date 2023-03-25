@@ -1,0 +1,14 @@
+{
+	"Name": "Haor Chall Engineering",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		14,
+		18,
+		27,
+		36
+	],
+	"StarshipIds": [],
+	"WeaponIds": null,
+	"Uris": null
+}

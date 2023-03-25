@@ -1,0 +1,27 @@
+﻿{
+	"Name": "Nite Owls",
+	"Description": "The Nite Owls emerged as a splinter faction of the Death Watch after its former leader, Pre Visla, was slain by usurper Darth Maul. The mandolorain warriors, refusing the lead of an outsider, were led by Bo-Katan Kryze in a resistance against Maul's Death Watch Loyalist after it claimed the rule of Mandalore",
+	"LeaderIds": [
+		// Bo-Katan Kryze
+	],
+	"MemberCharacterIds": null,
+	"MemberFactionIds": [
+		7,
+		17
+	],
+	"AlliedCharacterIds": [
+		10
+			// Korkie Kryze
+			// Duches Satine Kryze
+	],
+	"AlliedFactionIds": null,
+	"OrganizationTypes": [
+		"SplinterMillitaryGroup"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Nite_Owls"
+		}
+	]
+}

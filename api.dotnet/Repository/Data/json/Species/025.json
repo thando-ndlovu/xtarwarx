@@ -1,0 +1,22 @@
+{
+	"Name": "Quermian",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Quermian",
+	"EyeColors": [
+		"Yellow"
+	],
+	"SkinColors": [
+		"White"
+	],
+	"HairColors": [],
+	"AverageHeight": 240,
+	"AverageLifespan": 86,
+	"HomeworldId": 48,
+	"CharacterIds": [
+		57
+	],
+	"Uris": null
+	
+}

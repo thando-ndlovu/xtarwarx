@@ -1,0 +1,32 @@
+{
+	"Name": "Scimitar",
+	"Description": null,
+	"Model": "Republic Sienar Systems",
+	"StarshipClass": {
+		"Class": "Transporter",
+		"Flags": [
+			"Space"
+		]
+	},
+	"MGLT": null,
+	"Length": 26.5,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 30
+	},
+	"Passengers": 6,
+	"HyperdriveRating": 1.5,
+	"CostInCredits": 55000000,
+	"CargoCapacity": 2500000,
+	"MaxAtmospheringSpeed": 1180,
+	"ManufacturerIds": [
+		14
+	],
+	"PilotIds": [
+		44
+	],
+	"Uris": null
+	
+}

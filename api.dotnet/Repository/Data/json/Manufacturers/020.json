@@ -1,0 +1,14 @@
+{
+	"Name": "Imperial Department of Military Research",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		7,
+		8
+	],
+	"StarshipIds": [
+		4
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

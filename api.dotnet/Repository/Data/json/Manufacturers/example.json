@@ -1,0 +1,22 @@
+﻿{
+	"Name": "Lorem Ipsum",
+	"Description": "Lorem Ipsum",
+	"HeadquatersPlanetId": 0,
+
+	"WeaponIds": [
+		0
+	],
+	"VehicleIds": [
+		0
+	],
+	"StarshipIds": [
+		0
+	],
+
+	"Uris": [
+		{
+			"Key": "MainImage",
+			"Uri": "https://example.co.za"
+		}
+	]
+}

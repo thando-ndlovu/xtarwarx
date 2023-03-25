@@ -1,0 +1,13 @@
+{
+	"Name": "Darth Vader",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Yellow" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [],
+	"Mass": 136,
+	"Height": 202,
+	"BirthYear": 41.9,
+	"HomeworldId": 1,
+	"Uris": null
+}

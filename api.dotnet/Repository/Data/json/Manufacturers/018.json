@@ -1,0 +1,11 @@
+{
+	"Name": "Fondor Shipyards",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		9
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

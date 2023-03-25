@@ -1,0 +1,33 @@
+{
+	"Name": "Solar Sailer",
+	"Description": null,
+	"Model": "Punworcca 116-class interstellar Sloop",
+	"StarshipClass": {
+		"Class": "Ship",
+		"Flags": [
+			"Capital"
+		]
+	},
+	"MGLT": null,
+	"Length": 15.2,
+	"MinCrew": 3,
+	"MaxCrew": 3,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 7
+	},
+	"Passengers": 11,
+	"HyperdriveRating": 1.5,
+	"CostInCredits": 35700,
+	"CargoCapacity": 240,
+	"MaxAtmospheringSpeed": 1600,
+	"ManufacturerIds": [
+		11
+	],
+	"PilotIds": [
+		10,
+		11
+	],
+	"Uris": null
+	
+}

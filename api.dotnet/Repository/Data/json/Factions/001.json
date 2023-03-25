@@ -1,0 +1,28 @@
+﻿{
+	"Name": "Clan Fett",
+	"Description": "The Clan Fett was an ancient Mandalorian clan that could trace its lineage back as far as the mandalorian wars",
+	"LeaderIds": null,
+	"MemberCharacterIds": [
+		22, 
+		69
+	],
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": [
+		4,
+		9,
+		21,
+		22
+	],
+	"OrganizationTypes": [
+		"Mercenaries",
+		"Soldiers",
+		"BountyHunters"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Clan_Fett"
+		}
+	]
+}

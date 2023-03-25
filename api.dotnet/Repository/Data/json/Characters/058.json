@@ -1,0 +1,13 @@
+{
+	"Name": "Plo Koon",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Black" ],
+	"SkinColors": [ "Orange" ],
+	"HairColors": [],
+	"Mass": 80,
+	"Height": 188,
+	"BirthYear": 22,
+	"HomeworldId": 49,
+	"Uris": null
+}

@@ -1,0 +1,12 @@
+{
+	"Name": "Corellian Engineering Corporation",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		1,
+		5
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

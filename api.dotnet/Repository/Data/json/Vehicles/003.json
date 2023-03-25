@@ -1,0 +1,26 @@
+{
+	"Name": "X-34 Landspeeder",
+	"Description": null,
+	"Model": "X-34 Landspeeder",
+	"VehicleClass": {
+		"Class": "Craft",
+		"Flags": [
+			"Repulsor"
+		]
+	},
+	"Length": 3.4,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": null,
+	"Passengers": 1,
+	"CostInCredits": 10550,
+	"CargoCapacity": 5,
+	"MaxAtmospheringSpeed": 250,
+	"ManufacturerIds": [
+		37
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

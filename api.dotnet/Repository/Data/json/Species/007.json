@@ -1,0 +1,24 @@
+{
+	"Name": "Trandoshan",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Reptile",
+	"Language": "Dosh",
+	"EyeColors": [
+		"Yellow",
+		"Orange"
+	],
+	"SkinColors": [
+		"Green",
+		"Brown"
+	],
+	"HairColors": [],
+	"AverageHeight": 200,
+	"AverageLifespan": null,
+	"HomeworldId": 29,
+	"CharacterIds": [
+		24
+	],
+	"Uris": null
+	
+}

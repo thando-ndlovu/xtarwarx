@@ -1,0 +1,32 @@
+{
+	"Name": "Wookie",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Shyriiwook",
+	"EyeColors": [
+		"Brown",
+		"Blue",
+		"Green",
+		"Yellow",
+		"Gold",
+		"Red"
+	],
+	"SkinColors": [
+		"Brown",
+		"White"
+	],
+	"HairColors": [
+		"Black",
+		"Brown"
+	],
+	"AverageHeight": 210,
+	"AverageLifespan": 400,
+	"HomeworldId": 14,
+	"CharacterIds": [
+		13,
+		80
+	],
+	"Uris": null
+	
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Grievous",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Green", "Yellow" ],
+	"SkinColors": [ "Brown", "White" ],
+	"HairColors": [],
+	"Mass": 159,
+	"Height": 216,
+	"BirthYear": null,
+	"HomeworldId": 59,
+	"Uris": null
+}

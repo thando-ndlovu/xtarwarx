@@ -1,0 +1,23 @@
+﻿{
+	"Name": "Tund",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 12190,
+	"Gravity": null,
+	"OrbitalPeriod": 1770,
+	"RotationalPeriod": 48,
+	"ResidentIds": null,
+	"Population": 0,
+	"Climates": [],
+	"Terrains": [
+		{
+			"Type": "Ash",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Barren",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

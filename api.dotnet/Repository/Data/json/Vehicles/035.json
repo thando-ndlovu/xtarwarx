@@ -1,0 +1,29 @@
+{
+	"Name": "Corporate Alliance Tank Droid",
+	"Description": null,
+	"Model": "NR-N99 Persuader-Class Droid Enforcer",
+	"VehicleClass": {
+		"Class": "Tank",
+		"Flags": [
+			"Droid"
+		]
+	},
+	"Length": 10.96,
+	"MinCrew": 0,
+	"MaxCrew": 0,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 0
+	},
+	"Passengers": 4,
+	"CostInCredits": 49000,
+	"CargoCapacity": 0,
+	"MaxAtmospheringSpeed": 100,
+	"ManufacturerIds": [
+		23
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

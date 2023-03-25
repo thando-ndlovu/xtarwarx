@@ -1,0 +1,32 @@
+{
+	"Name": "Twi'lek",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Twi'leki",
+	"EyeColors": [
+		"Brown",
+		"Orange",
+		"Pink",
+		"Blue"
+	],
+	"SkinColors": [
+		"Orange",
+		"Yellow",
+		"Blue",
+		"Green",
+		"Purple",
+		"Tan",
+		"Pink"
+	],
+	"HairColors": [],
+	"AverageHeight": null,
+	"AverageLifespan": 200,
+	"HomeworldId": 37,
+	"CharacterIds": [
+		45,
+		46
+	],
+	"Uris": null
+	
+}

@@ -1,0 +1,24 @@
+{
+	"Name": "LAAT/c",
+	"Description": null,
+	"Model": "Low Altitude Assault Transport/Carrier",
+	"VehicleClass": {
+		"Class": "Gunship",
+		"Flags": []
+	},
+	"Length": 28.82,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": null,
+	"Passengers": 0,
+	"CostInCredits": null,
+	"CargoCapacity": 40000,
+	"MaxAtmospheringSpeed": 620,
+	"ManufacturerIds": [
+		12
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

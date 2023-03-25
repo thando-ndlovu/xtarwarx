@@ -1,0 +1,28 @@
+{
+	"Name": "Naboo Royal Starship",
+	"Description": null,
+	"Model": "J-type 327 Nubian Royal Starship",
+	"StarshipClass": {
+		"Class": "Yacht",
+		"Flags": []
+	},
+	"MGLT": null,
+	"Length": 76,
+	"MinCrew": 8,
+	"MaxCrew": 8,
+	"Consumables": null,
+	"Passengers": null,
+	"HyperdriveRating": 1.8,
+	"CostInCredits": null,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": 920,
+	"ManufacturerIds": [
+		39,
+		40
+	],
+	"PilotIds": [
+		39
+	],
+	"Uris": null
+	
+}

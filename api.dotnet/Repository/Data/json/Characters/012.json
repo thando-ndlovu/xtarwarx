@@ -1,0 +1,13 @@
+{
+	"Name": "Wilhuff Tarkin",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Gold", "Gray" ],
+	"Mass": null,
+	"Height": 180,
+	"BirthYear": 64,
+	"HomeworldId": 21,
+	"Uris": null
+}

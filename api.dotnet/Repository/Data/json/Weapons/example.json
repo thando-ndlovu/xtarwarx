@@ -1,0 +1,22 @@
+﻿{
+	"Name": "Lorem Ipsum",
+	"Model": "Lorem Ipsum",
+	"Description": "Lorem Ipsum",
+	"WeaponClass": {
+		"Class": "Lorem",
+		"Flags": [
+			"Lorem",
+			"Ipsum"
+		]
+	},
+	"ManufacturerIds": [
+		0
+	],
+
+	"Uris": [
+		{
+			"Key": "MainImage",
+			"Uri": "https://example.co.za"
+		}
+	]
+}

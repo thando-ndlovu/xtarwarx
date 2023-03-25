@@ -1,0 +1,31 @@
+{
+	"Name": "B-wing",
+	"Description": null,
+	"Model": "A/SF-01 B-wing Starfighter",
+	"StarshipClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star",
+			"Assault"
+		]
+	},
+	"MGLT": 91,
+	"Length": 16.9,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Week",
+		"Value": 1
+	},
+	"Passengers": 0,
+	"HyperdriveRating": 2.0,
+	"CostInCredits": 220000,
+	"CargoCapacity": 45,
+	"MaxAtmospheringSpeed": 950,
+	"ManufacturerIds": [
+		7,
+		15
+	],
+	"PilotIds": [],
+	"Uris": null
+}

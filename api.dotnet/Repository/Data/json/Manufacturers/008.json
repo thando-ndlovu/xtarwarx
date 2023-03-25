@@ -1,0 +1,11 @@
+{
+	"Name": "Subpro Corporation",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		31
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

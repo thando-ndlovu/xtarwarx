@@ -1,0 +1,13 @@
+{
+	"Name": "Mon Mothma",
+	"Description": null,
+	"Sex": "Female",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Gold" ],
+	"Mass": null,
+	"Height": 150,
+	"BirthYear": 48,
+	"HomeworldId": 32,
+	"Uris": null
+}

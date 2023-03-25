@@ -1,0 +1,36 @@
+﻿{
+	"Name": "Naboo",
+	"Description": null,
+	"SurfaceWater": 12,
+	"Diameter": 12120,
+	"Gravity": 1,
+	"OrbitalPeriod": 312,
+	"RotationalPeriod": 18,
+	"ResidentIds": null,
+	"Population": 4500000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Hills",
+			"Flags": [ "Grassy" ]
+		},
+		{
+			"Type": "Swamps",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Forests",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

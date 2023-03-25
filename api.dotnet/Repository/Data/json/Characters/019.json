@@ -1,0 +1,13 @@
+{
+	"Name": "Jek Tono Porkins",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Brown" ],
+	"Mass": 110,
+	"Height": 180,
+	"BirthYear": null,
+	"HomeworldId": 26,
+	"Uris": null
+}

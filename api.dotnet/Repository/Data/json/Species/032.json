@@ -1,0 +1,24 @@
+{
+	"Name": "Kaminoan",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Amphibian",
+	"Language": "Kaminoan",
+	"EyeColors": [
+		"Black"
+	],
+	"SkinColors": [
+		"Gray",
+		"Blue"
+	],
+	"HairColors": [],
+	"AverageHeight": 220,
+	"AverageLifespan": 80,
+	"HomeworldId": 10,
+	"CharacterIds": [
+		72,
+		73
+	],
+	"Uris": null
+	
+}

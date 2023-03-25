@@ -1,0 +1,125 @@
+{
+	"Title": "The Phantom Menace",
+	"Description": "Directed and written George Lucas, The Phantom Menace is the fourth film in the Star Wars film series and the first chronologiacally",
+	"EpisodeId": 1,
+	"Director": "George Lucas",
+	"Producers": [
+		"Rick McCallum"
+	],
+	"ReleaseDate": "1999-05-19",
+	"CastMembers": [
+		"Liam Neeson",
+		"Ewan McGregor",
+		"Natalie Portman",
+		"Jake Lloyd",
+		"Ian McDiarmid",
+		"Anthony Daniels",
+		"Kenny Baker",
+		"Pernilla August",
+		"Frnak Oz"
+	],
+	"Duration": 133,
+	"OpeningCrawl": "Turmoil has engulfed the Galactic Republic. The taxation of trade routes to outlying star systems is in dispute. Hoping to resolve the matter with a blockade of deadly battleships, the greedy Trade Federation has stopped all shipping to the small planet of Naboo.  While the Congress of the Republic endlessly debates this alarming chain of events, the Supreme Chancellor has secretly dispatched two Jedi Knights, the guardians of peace and justice in the galaxy, to settle the conflict...",
+
+	"WeaponIds": null,
+	"SpecieIds": [
+		1,
+		2,
+		6,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27
+	],
+	"PlanetIds": [
+		1,
+		8,
+		9
+	],
+	"VehicleIds": [
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
+		42
+	],
+	"StarshipIds": [
+		31,
+		32,
+		39,
+		40,
+		41
+	],
+	"CharacterIds": [
+		2,
+		3,
+		10,
+		11,
+		16,
+		20,
+		21,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
+		39,
+		40,
+		41,
+		42,
+		43,
+		44,
+		46,
+		47,
+		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59
+	],
+	"FactionIds": null,
+	"ManufacturerIds": null,
+
+	"Uris": [
+		{
+			"Key": "MainPoster",
+			"Uri": "https://upload.wikimedia.org/wikipedia/en/4/40/Star_Wars_Phantom_Menace_poster.jpg"
+		},
+		{
+			"Key": "IMDB",
+			"Uri": "https://imdb.com/title/tt0120915"
+		},
+		{
+			"Key": "RottenTomatoes",
+			"Uri": "https://rottentomatoes.com/star_wars_episode_i_the_phantom_menace"
+		},
+		{
+			"Key": "Wikipedia",
+			"Uri": "https://wikipedia.org/wiki/Star_Wars:_Episode_I_-_The_Phantom_Menace"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"Name": "Gungan",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Amphibian",
+	"Language": "GunganBasic",
+	"EyeColors": [
+		"Orange"
+	],
+	"SkinColors": [
+		"Brown",
+		"Green"
+	],
+	"HairColors": [],
+	"AverageHeight": 190,
+	"AverageLifespan": null,
+	"HomeworldId": 8,
+	"CharacterIds": [
+		36,
+		37,
+		38
+	],
+	"Uris": null
+	
+}

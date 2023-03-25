@@ -1,0 +1,29 @@
+{
+	"Name": "Raddaugh Gnasp Fluttercraft",
+	"Description": null,
+	"Model": "Raddaugh Gnasp Fluttercraft",
+	"VehicleClass": {
+		"Class": "Speeder",
+		"Flags": [
+			"Air"
+		]
+	},
+	"Length": 7,
+	"MinCrew": 2,
+	"MaxCrew": 2,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 0
+	},
+	"Passengers": 0,
+	"CostInCredits": 14750,
+	"CargoCapacity": 20,
+	"MaxAtmospheringSpeed": 310,
+	"ManufacturerIds": [
+		24
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

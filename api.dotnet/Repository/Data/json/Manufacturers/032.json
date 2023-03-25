@@ -1,0 +1,14 @@
+{
+	"Name": "Baktoid Armor Workshop",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		14,
+		15,
+		16,
+		17
+	],
+	"StarshipIds": [],
+	"WeaponIds": null,
+	"Uris": null
+}

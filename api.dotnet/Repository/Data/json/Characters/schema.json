@@ -1,0 +1,84 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Character Schema",
+	"description": "A Character. Inherits From 'Star Wars Model'",
+	"type": "object",
+
+	"properties": {
+
+		"BirthYear": {
+			"type": "number",
+			"default": null,
+			"description": "A birth year of the character eg. 54BBY -> '54'"
+		},
+
+		"Description": {
+			"type": "string",
+			"default": null,
+			"description": "A description of the character"
+		},
+
+		"EyeColors": {
+			"type": "array",
+			"description": "The color/s of the characters eyes",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "string"
+			}
+		},
+
+		"HairColors": {
+			"type": "array",
+			"description": "The color/s of the characters hair",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "string"
+			}
+		},
+
+		"Height": {
+			"type": "integer",
+			"default": null,
+			"minimum": 0,
+			"description": "The height of the character (in 'cm' ?)"
+		},
+
+		"HomeworldId": {
+			"type": "integer",
+			"default": null,
+			"minimum": 0,
+			"description": "The planet id of the characters homeworld"
+		},
+
+		"Mass": {
+			"type": "integer",
+			"default": null,
+			"minimum": 0,
+			"description": "The mass of the character (in 'newtons' ?)"
+		},
+
+		"Name": {
+			"type": "string",
+			"default": null,
+			"description": "The name of the character"
+		},
+
+		"Sex": {
+			"type": "string",
+			"default": null,
+			"description": "The sex of the character"
+		},
+
+		"SkinColors": {
+			"type": "array",
+			"description": "The color/s of the characters skin/coating/flesh/metal/whatever??",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "string"
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+﻿{
+	"Name": "Kashyyyk",
+	"Description": null,
+	"SurfaceWater": 60,
+	"Diameter": 12765,
+	"Gravity": 1,
+	"OrbitalPeriod": 381,
+	"RotationalPeriod": 26,
+	"ResidentIds": null,
+	"Population": 45000000,
+	"Climates": [
+		{
+			"Type": "Tropical",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Jungles",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Rivers",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Forests",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Lakes",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

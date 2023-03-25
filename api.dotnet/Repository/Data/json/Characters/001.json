@@ -1,0 +1,13 @@
+{
+	"Name": "Luke Skywalker",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Yellow" ],
+	"Mass": 77,
+	"Height": 172,
+	"BirthYear": 19,
+	"HomeworldId": 1,
+	"Uris": null
+}

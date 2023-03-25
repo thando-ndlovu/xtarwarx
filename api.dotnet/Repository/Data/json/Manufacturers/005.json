@@ -1,0 +1,12 @@
+{
+	"Name": "Hoersch-Kessel Drive Inc",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		17,
+		32
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

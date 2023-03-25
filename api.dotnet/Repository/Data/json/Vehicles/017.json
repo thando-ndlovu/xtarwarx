@@ -1,0 +1,26 @@
+{
+	"Name": "Single Trooper Aerial Platform",
+	"Description": null,
+	"Model": "Single Trooper Aerial Platform",
+	"VehicleClass": {
+		"Class": "Craft",
+		"Flags": [
+			"Landing"
+		]
+	},
+	"Length": 2,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": null,
+	"Passengers": 0,
+	"CostInCredits": 2500,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": 400,
+	"ManufacturerIds": [
+		32
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

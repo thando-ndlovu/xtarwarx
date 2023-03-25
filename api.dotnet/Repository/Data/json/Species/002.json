@@ -1,0 +1,21 @@
+{
+	"Name": "Droid",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Artificial",
+	"Language": null,
+	"EyeColors": [],
+	"SkinColors": [],
+	"HairColors": [],
+	"AverageHeight": -1,
+	"AverageLifespan": -1,
+	"HomeworldId": null,
+	"CharacterIds": [
+		2,
+		3,
+		8,
+		23
+	],
+	"Uris": null
+	
+}

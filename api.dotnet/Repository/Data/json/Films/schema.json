@@ -1,0 +1,152 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Film Schema",
+	"description": "A Film. Inherits From 'Star Wars Model'",
+	"type": "object",
+
+	"properties": {
+
+		"CastMembers": {
+			"type": "array",
+			"description": "The names of the film's cast memebers. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "string"
+			}
+		},
+
+		"CharacterIds": {
+			"type": "array",
+			"description": "The id's of the characters featured in this film. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+
+		"Description": {
+			"type": "string",
+			"default": null,
+			"description": "A description of the film. Null for unknown"
+		},
+
+		"Director": {
+			"type": "string",
+			"default": null,
+			"description": "The name of the film's director. Null for unknown"
+		},
+
+		"Duration": {
+			"type": "integer",
+			"default": null,
+			"minimum": 0,
+			"description": "The duration of the film in minutes. Null for unknown"
+		},
+
+		"EpisodeId": {
+			"type": "integer",
+			"default": null,
+			"description": "The film's episode number. Null for unknown, '-1' for no episode id"
+		},
+
+		"FactionIds": {
+			"type": "array",
+			"description": "The id's of the factions featured in this film. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+
+		"ManufacturerIds": {
+			"type": "array",
+			"description": "The id's of the factions featured in this film. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+
+		"OpeningCrawl": {
+			"type": "string",
+			"default": null,
+			"description": "The opening crawl/text of the film. Null for unknown"
+		},
+
+		"Producers": {
+			"type": "array",
+			"description": "Them names of the film's producers. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "string"
+			}
+		},
+
+		"PlanetIds": {
+			"type": "array",
+			"description": "The id's of the planets featured in this film. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+
+		"ReleaseDate": {
+			"type": "string",
+			"default": null,
+			"description": "The earliest release date of the film in the format YYYY-MM-DD. Null for unknown"
+		},
+
+		"SpecieIds": {
+			"type": "array",
+			"description": "The id's of the species featured in this film. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+
+		"StarshipIds": {
+			"type": "array",
+			"description": "The id's of the starships featured in this film. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+
+		"Title": {
+			"type": "string",
+			"default": null,
+			"description": "The title of the film. Null for unknown"
+		},
+
+		"VehicleIds": {
+			"type": "array",
+			"description": "The id's of the vehicles featured in this film. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		},
+
+		"WeaponIds": {
+			"type": "array",
+			"description": "The id's of the weapons featured in this film. Null for unknown",
+			"minItems": 0,
+			"default": null,
+			"items": {
+				"type": "integer"
+			}
+		}
+	}
+}

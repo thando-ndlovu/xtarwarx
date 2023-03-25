@@ -1,0 +1,31 @@
+{
+	"Name": "Zephyr-G Swoop Bike",
+	"Description": null,
+	"Model": "Zephyr-G Swoop Bike",
+	"VehicleClass": {
+		"Class": "Craft",
+		"Flags": [
+			"Repulsor"
+		]
+	},
+	"Length": 3.68,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 0
+	},
+	"Passengers": 1,
+	"CostInCredits": 5750,
+	"CargoCapacity": 200,
+	"MaxAtmospheringSpeed": 350,
+	"ManufacturerIds": [
+		30
+	],
+	"PilotIds": [
+		11
+	],
+	"Uris": null
+	
+}
+

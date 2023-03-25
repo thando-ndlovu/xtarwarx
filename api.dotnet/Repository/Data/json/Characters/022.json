@@ -1,0 +1,13 @@
+{
+	"Name": "Boba Fett",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Brown" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Black" ],
+	"Mass": 78.2,
+	"Height": 183,
+	"BirthYear": 31.5,
+	"HomeworldId": 10,
+	"Uris": null
+}

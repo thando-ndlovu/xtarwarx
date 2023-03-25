@@ -1,0 +1,29 @@
+{
+	"Name": "Naboostar Skiff",
+	"Description": null,
+	"Model": "J-Type Star Skiff",
+	"StarshipClass": {
+		"Class": "Yacht",
+		"Flags": []
+	},
+	"MGLT": null,
+	"Length": 29.2,
+	"MinCrew": 3,
+	"MaxCrew": 3,
+	"Consumables": null,
+	"Passengers": 3,
+	"HyperdriveRating": 0.5,
+	"CostInCredits": null,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": 1050,
+	"ManufacturerIds": [
+		39,
+		40
+	],
+	"PilotIds": [
+		10,
+		35
+	],
+	"Uris": null
+	
+}

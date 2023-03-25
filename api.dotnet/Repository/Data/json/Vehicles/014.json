@@ -1,0 +1,30 @@
+{
+	"Name": "Vulture Droid",
+	"Description": null,
+	"Model": "Vulture-Class Droid Starfighter",
+	"VehicleClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star"
+		]
+	},
+	"Length": 3.5,
+	"MinCrew": 0,
+	"MaxCrew": 0,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 0
+	},
+	"Passengers": 0,
+	"CostInCredits": null,
+	"CargoCapacity": 0,
+	"MaxAtmospheringSpeed": 1200,
+	"ManufacturerIds": [
+		21,
+		32
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

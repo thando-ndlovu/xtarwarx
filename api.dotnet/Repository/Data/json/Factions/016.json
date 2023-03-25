@@ -1,0 +1,18 @@
+﻿{
+	"Name": "Rebel Alliance",
+	"Description": null,
+	"LeaderIds": null,
+	"MemberCharacterIds": null,
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": null,
+	"OrganizationTypes": [
+		"RebelCell"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Rebel_Alliance"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"Name": "Millennium Falcon",
+	"Description": null,
+	"Model": "YT-1300 light freighter",
+	"StarshipClass": {
+		"Class": "Freighter",
+		"Flags": [
+			"Light"
+		]
+	},
+	"MGLT": 75,
+	"Length": 34.37,
+	"MinCrew": 4,
+	"MaxCrew": 4,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 3
+	},
+	"Passengers": 6,
+	"HyperdriveRating": 0.5,
+	"CostInCredits": 100000,
+	"CargoCapacity": 100000,
+	"MaxAtmospheringSpeed": 1050,
+	"ManufacturerIds": [
+		1
+	],
+	"PilotIds": [
+		13,
+		14,
+		25,
+		31
+	],
+	"Uris": null
+	
+}

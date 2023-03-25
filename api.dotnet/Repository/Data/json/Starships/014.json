@@ -1,0 +1,30 @@
+{
+	"Name": "Calamari Cruiser",
+	"Description": null,
+	"Model": "MC80 Liberty type Star Cruiser",
+	"StarshipClass": {
+		"Class": "Cruiser",
+		"Flags": [
+			"Star"
+		]
+	},
+	"MGLT": 60,
+	"Length": 1200,
+	"MinCrew": 5400,
+	"MaxCrew": 5400,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 2
+	},
+	"Passengers": 75,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 104000000,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": null,
+	"ManufacturerIds": [
+		16
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

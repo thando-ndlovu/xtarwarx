@@ -1,0 +1,45 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Starship Schema",
+	"description": "A Starship. Inherits from 'Transporter'",
+	"type": "object",
+
+	"properties": {
+
+		"MGLT": {
+			"type": "integer",
+			"default": null,
+			"minimum": 0,
+			"description": "The MGLT (?) of this starship"
+		},
+
+		"HyperdriveRating": {
+			"type": "number",
+			"default": null,
+			"minimum": 0,
+			"description": "The hyperdrive rating"
+		},
+
+		"StarshipClass": {
+			"type": "object",
+			"default": null,
+			"description": "The Starships's class and all flags associated",
+			"properties": {
+				"Class": {
+					"type": "string",
+					"default": null,
+					"description": "The Name of the class. See 'Domain.Utils.StarshipClasses' for values"
+				},
+				"Flags": {
+					"type": "array",
+					"default": null,
+					"description": "Flags for the aforementioned class. See 'Domain.Utils.StarshipClasses' for values",
+					"items": {
+						"type": "string",
+						"default": null
+					}
+				}
+			}
+		}
+	}
+}

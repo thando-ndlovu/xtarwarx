@@ -1,0 +1,33 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Star Wars Model Schema",
+	"description": "Base Type for all Star Wars Models",
+	"type": "object",
+
+	"properties": {
+
+		"Uris": {
+			"type": "array",
+			"default": null,
+			"description": "An array of uri key value pairs applicable to the model",
+			"items": {
+				"type": "object",
+				"description": "A Key Value Pair representing the type of uri and the uri itself",
+				"maxItems": 2,
+				"minItems": 2,
+				"items": {
+					"Key": {
+						"type": "string",
+						"default": null,
+						"description": "The key representing the type of uri. See 'Domain.Utils.Keys' for values"
+					},
+					"Uri": {
+						"type": "string",
+						"default": null,
+						"description": "The Uri. Relative uri's will be given a base uri of the api"
+					}
+				}
+			}
+		}
+	}
+}

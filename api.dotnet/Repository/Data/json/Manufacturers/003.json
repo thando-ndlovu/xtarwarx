@@ -1,0 +1,13 @@
+{
+	"Name": "Kuat Systems Engineering",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		11,
+		30,
+		34
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

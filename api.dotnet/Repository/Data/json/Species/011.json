@@ -1,0 +1,24 @@
+{
+	"Name": "Neimodian",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": null,
+	"Language": "Neimodia",
+	"EyeColors": [
+		"Red",
+		"Pink"
+	],
+	"SkinColors": [
+		"Gray",
+		"Green"
+	],
+	"HairColors": [],
+	"AverageHeight": 180,
+	"AverageLifespan": null,
+	"HomeworldId": 18,
+	"CharacterIds": [
+		33
+	],
+	"Uris": null
+	
+}

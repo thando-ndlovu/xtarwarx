@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Felucia",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 9100,
+	"Gravity": 0.75,
+	"OrbitalPeriod": 231,
+	"RotationalPeriod": 34,
+	"ResidentIds": null,
+	"Population": 8500000,
+	"Climates": [
+		{
+			"Type": "Hot",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Humid",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Fungus",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Forests",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

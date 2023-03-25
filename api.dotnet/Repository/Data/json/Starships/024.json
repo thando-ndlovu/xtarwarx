@@ -1,0 +1,30 @@
+{
+	"Name": "Republic Assault Ship",
+	"Description": null,
+	"Model": "Acclamator I-Class Assault Ship",
+	"StarshipClass": {
+		"Class": "Ship",
+		"Flags": [
+			"Assault"
+		]
+	},
+	"MGLT": null,
+	"Length": 752,
+	"MinCrew": 700,
+	"MaxCrew": 700,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 2
+	},
+	"Passengers": 16000,
+	"HyperdriveRating": 0.6,
+	"CostInCredits": null,
+	"CargoCapacity": 11250000,
+	"MaxAtmospheringSpeed": null,
+	"ManufacturerIds": [
+		12
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

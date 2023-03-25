@@ -1,0 +1,29 @@
+{
+	"Name": "Mirialan",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Mirialan",
+	"EyeColors": [
+		"Blue",
+		"Red",
+		"Yellow",
+		"Brown",
+		"Orange",
+		"Green"
+	],
+	"SkinColors": [
+		"Green",
+		"Yellow"
+	],
+	"HairColors": [],
+	"AverageHeight": 180,
+	"AverageLifespan": null,
+	"HomeworldId": 51,
+	"CharacterIds": [
+		64,
+		65
+	],
+	"Uris": null
+	
+}

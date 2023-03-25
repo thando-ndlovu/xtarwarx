@@ -1,0 +1,22 @@
+{
+	"Name": "Chagrian",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Amphibian",
+	"Language": "Chagria",
+	"EyeColors": [
+		"Blue"
+	],
+	"SkinColors": [
+		"Blue"
+	],
+	"HairColors": [],
+	"AverageHeight": 190,
+	"AverageLifespan": null,
+	"HomeworldId": 50,
+	"CharacterIds": [
+		59
+	],
+	"Uris": null
+	
+}

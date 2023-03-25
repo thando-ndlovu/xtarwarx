@@ -1,0 +1,13 @@
+{
+	"Name": "Roos Tarpals",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Orange" ],
+	"SkinColors": [ "Gray" ],
+	"HairColors": [],
+	"Mass": 82,
+	"Height": 224,
+	"BirthYear": null,
+	"HomeworldId": 8,
+	"Uris": null
+}

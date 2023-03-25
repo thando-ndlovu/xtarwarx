@@ -1,0 +1,29 @@
+﻿{
+	"Name": "Death Watch",
+	"Description": "Reemerging at the beginning of the Clone Wars after being seemingly scattered and disbanded, the millitary group who were led by Pre Visla. After alligning with The Shadow Collective, the group split after Pre Visla's death at the hands of Darth Maul. Darth Maul subsequently led one splinter with the other, which later became the Nite Owls, by Bo-Katan Kryze",
+	"LeaderIds": [
+		// Pre Visla
+	],
+	"MemberCharacterIds": [
+		// Bo-Katan Kryze
+	],
+	"MemberFactionIds": [],
+	"AlliedCharacterIds": [
+		44
+			// Savage Opress
+	],
+	"AlliedFactionIds": [
+		4,
+		15,
+		17
+	],
+	"OrganizationTypes": [
+		"SplinterMillitaryGroup"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Death_Watch"
+		}
+	]
+}

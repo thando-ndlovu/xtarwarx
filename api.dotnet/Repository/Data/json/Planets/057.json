@@ -1,0 +1,36 @@
+﻿{
+	"Name": "Muunilinst",
+	"Description": null,
+	"SurfaceWater": 25,
+	"Diameter": 13800,
+	"Gravity": 1,
+	"OrbitalPeriod": 412,
+	"RotationalPeriod": 28,
+	"ResidentIds": null,
+	"Population": 5000000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Plains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Hills",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Forests",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

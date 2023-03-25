@@ -1,0 +1,28 @@
+﻿{
+	"Name": "Toydaria",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 7900,
+	"Gravity": 1,
+	"OrbitalPeriod": 184,
+	"RotationalPeriod": 21,
+	"ResidentIds": null,
+	"Population": 11000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Swamps",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Lakes",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

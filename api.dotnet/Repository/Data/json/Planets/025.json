@@ -1,0 +1,36 @@
+﻿{
+	"Name": "Dantooine",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 9830,
+	"Gravity": 1,
+	"OrbitalPeriod": 378,
+	"RotationalPeriod": 25,
+	"ResidentIds": null,
+	"Population": 1000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Grasslands",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Savannas",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Oceans",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

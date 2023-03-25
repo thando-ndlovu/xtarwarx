@@ -1,0 +1,25 @@
+﻿{
+	"Name": "Galactic Empire",
+	"Description": "The Galactic Empire was a galctic government established by Supreme Chancellor Palpatine to replace the Galactic Republic and bring Sith rule to the galaxy",
+	"LeaderIds": [
+		4,
+		21
+	],
+	"MemberCharacterIds": null,
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": [],
+	"AlliedFactionIds": [
+		22
+	],
+	"OrganizationTypes": [
+		"Authoritarian",
+		"Empire",
+		"Humanocentrism"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Galactic_Empire"
+		}
+	]
+}

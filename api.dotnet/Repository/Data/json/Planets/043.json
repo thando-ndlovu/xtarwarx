@@ -1,0 +1,24 @@
+﻿{
+	"Name": "Cerea",
+	"Description": null,
+	"SurfaceWater": 20,
+	"Diameter": null,
+	"Gravity": 1,
+	"OrbitalPeriod": 386,
+	"RotationalPeriod": 27,
+	"ResidentIds": null,
+	"Population": 450000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Verdant",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

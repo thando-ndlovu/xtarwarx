@@ -1,0 +1,13 @@
+{
+	"Name": "Owen Lars",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Brown", "Gray" ],
+	"Mass": 120,
+	"Height": 178,
+	"BirthYear": 52,
+	"HomeworldId": 1,
+	"Uris": null
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Bossk",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Red" ],
+	"SkinColors": [ "Green" ],
+	"HairColors": [],
+	"Mass": 113,
+	"Height": 190,
+	"BirthYear": 53,
+	"HomeworldId": 29,
+	"Uris": null
+}

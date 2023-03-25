@@ -1,0 +1,36 @@
+﻿{
+	"Name": "Rodia",
+	"Description": null,
+	"SurfaceWater": 60,
+	"Diameter": 7549,
+	"Gravity": 1,
+	"OrbitalPeriod": 305,
+	"RotationalPeriod": 29,
+	"ResidentIds": null,
+	"Population": 1300000000,
+	"Climates": [
+		{
+			"Type": "Hot",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Swamps",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Urban",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Oceans",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Jungles",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

@@ -1,0 +1,32 @@
+{
+	"Name": "Death Star",
+	"Description": null,
+	"Model": "DS-1 Orbital Battle Station",
+	"StarshipClass": {
+		"Class": "Battlestation",
+		"Flags": [
+			"DeepSpace",
+			"Mobile"
+		]
+	},
+	"MGLT": 10,
+	"Length": 120000,
+	"MinCrew": 342953,
+	"MaxCrew": 342953,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 3
+	},
+	"Passengers": 843342,
+	"HyperdriveRating": 4.0,
+	"CostInCredits": 1000000000000,
+	"CargoCapacity": 1000000000000,
+	"MaxAtmospheringSpeed": null,
+	"ManufacturerIds": [
+		20,
+		41
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

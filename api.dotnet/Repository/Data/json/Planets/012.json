@@ -1,0 +1,44 @@
+﻿{
+	"Name": "Utapau",
+	"Description": null,
+	"SurfaceWater": 0.9,
+	"Diameter": 12900,
+	"Gravity": 1,
+	"OrbitalPeriod": 351,
+	"RotationalPeriod": 27,
+	"ResidentIds": null,
+	"Population": 95000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Arid",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Windy",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Savannas",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Deserts",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Canyons",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Sinkholes",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

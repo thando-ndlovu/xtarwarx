@@ -1,0 +1,30 @@
+{
+	"Name": "Droid Gunship",
+	"Description": null,
+	"Model": "HMP Droid Gunship",
+	"VehicleClass": {
+		"Class": "Speeder",
+		"Flags": [
+			"Air"
+		]
+	},
+	"Length": 12.3,
+	"MinCrew": 0,
+	"MaxCrew": 0,
+	"Consumables": {
+		"TimeUnit": "Hour",
+		"Value": 0
+	},
+	"Passengers": 0,
+	"CostInCredits": 60000,
+	"CargoCapacity": 0,
+	"MaxAtmospheringSpeed": 820,
+	"ManufacturerIds": [
+		21,
+		22
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

@@ -1,0 +1,31 @@
+{
+	"Name": "Arc-170",
+	"Description": null,
+	"Model": "Aggressive Reconnaissance-170 Starfighter",
+	"StarshipClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star"
+		]
+	},
+	"MGLT": 100,
+	"Length": 14.5,
+	"MinCrew": 3,
+	"MaxCrew": 3,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 5
+	},
+	"Passengers": 0,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 155000,
+	"CargoCapacity": 110,
+	"MaxAtmospheringSpeed": 1000,
+	"ManufacturerIds": [
+		7,
+		8
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

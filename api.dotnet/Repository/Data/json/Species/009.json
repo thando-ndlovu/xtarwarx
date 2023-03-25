@@ -1,0 +1,27 @@
+{
+	"Name": "Ewok",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Ewokese",
+	"EyeColors": [
+		"Orange",
+		"Brown"
+	],
+	"SkinColors": [
+		"Brown"
+	],
+	"HairColors": [
+		"White",
+		"Brown",
+		"Black"
+	],
+	"AverageHeight": 100,
+	"AverageLifespan": null,
+	"HomeworldId": 7,
+	"CharacterIds": [
+		30
+	],
+	"Uris": null
+	
+}

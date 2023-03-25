@@ -1,0 +1,27 @@
+{
+	"Name": "AT-AT",
+	"Description": null,
+	"Model": "All Terrain Armored Transporter",
+	"VehicleClass": {
+		"Class": "Walker",
+		"Flags": [
+			"Assault"
+		]
+	},
+	"Length": 20,
+	"MinCrew": 5,
+	"MaxCrew": 5,
+	"Consumables": null,
+	"Passengers": 40,
+	"CostInCredits": null,
+	"CargoCapacity": 1000,
+	"MaxAtmospheringSpeed": 60,
+	"ManufacturerIds": [
+		2,
+		20
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

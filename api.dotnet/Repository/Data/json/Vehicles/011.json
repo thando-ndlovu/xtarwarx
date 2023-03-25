@@ -1,0 +1,30 @@
+{
+	"Name": "Bantha-II Cargo Skiff",
+	"Description": null,
+	"Model": "Bantha-II",
+	"VehicleClass": {
+		"Class": "Craft",
+		"Flags": [
+			"CargoSkiff",
+			"Repulsor"
+		]
+	},
+	"Length": 9.5,
+	"MinCrew": 5,
+	"MaxCrew": 5,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 1
+	},
+	"Passengers": 16,
+	"CostInCredits": 8000,
+	"CargoCapacity": 135000,
+	"MaxAtmospheringSpeed": 250,
+	"ManufacturerIds": [
+		34
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

@@ -1,0 +1,28 @@
+﻿{
+	"Name": "Bestine IV",
+	"Description": null,
+	"SurfaceWater": 98,
+	"Diameter": 6400,
+	"Gravity": null,
+	"OrbitalPeriod": 680,
+	"RotationalPeriod": 26,
+	"ResidentIds": null,
+	"Population": 62000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Islands",
+			"Flags": [ "Rocky" ]
+		},
+		{
+			"Type": "Oceans",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

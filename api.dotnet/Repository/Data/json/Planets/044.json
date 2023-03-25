@@ -1,0 +1,40 @@
+﻿{
+	"Name": "Glee Anselm",
+	"Description": null,
+	"SurfaceWater": 80,
+	"Diameter": 15600,
+	"Gravity": 1,
+	"OrbitalPeriod": 206,
+	"RotationalPeriod": 33,
+	"ResidentIds": null,
+	"Population": 500000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Tropical",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Lakes",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Islands",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Seas",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Swamps",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

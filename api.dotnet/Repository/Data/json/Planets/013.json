@@ -1,0 +1,36 @@
+﻿{
+	"Name": "Mustafar",
+	"Description": null,
+	"SurfaceWater": 0,
+	"Diameter": 4200,
+	"Gravity": 1,
+	"OrbitalPeriod": 412,
+	"RotationalPeriod": 36,
+	"ResidentIds": null,
+	"Population": 95000000,
+	"Climates": [
+		{
+			"Type": "Hot",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Volcanoes",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Rivers",
+			"Flags": [ "Molten" ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Caves",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

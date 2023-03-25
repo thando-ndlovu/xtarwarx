@@ -1,0 +1,28 @@
+﻿{
+	"Name": "Skako",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": null,
+	"Gravity": null,
+	"OrbitalPeriod": 384,
+	"RotationalPeriod": 27,
+	"ResidentIds": null,
+	"Population": 500000000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Urban",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Vines",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

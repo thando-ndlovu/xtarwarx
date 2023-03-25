@@ -1,0 +1,13 @@
+{
+	"Name": "Zam Wesell",
+	"Description": null,
+	"Sex": "Female",
+	"EyeColors": [ "Yellow" ],
+	"SkinColors": [ "White", "Green", "Yellow" ],
+	"HairColors": [ "Yellow" ],
+	"Mass": 55,
+	"Height": 168,
+	"BirthYear": null,
+	"HomeworldId": 54,
+	"Uris": null
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Qui-Gon Jinn",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "White" ],
+	"HairColors": [ "Brown" ],
+	"Mass": 89,
+	"Height": 193,
+	"BirthYear": 92,
+	"HomeworldId": 28,
+	"Uris": null
+}

@@ -1,0 +1,32 @@
+﻿{
+	"Name": "Endor",
+	"Description": null,
+	"SurfaceWater": 8,
+	"Diameter": 4900,
+	"Gravity": 0.85,
+	"OrbitalPeriod": 402,
+	"RotationalPeriod": 18,
+	"ResidentIds": null,
+	"Population": 30000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Grasslands",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Lakes",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

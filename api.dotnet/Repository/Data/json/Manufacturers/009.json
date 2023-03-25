@@ -1,0 +1,11 @@
+{
+	"Name": "Allanteen Six Shipyards",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		28
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

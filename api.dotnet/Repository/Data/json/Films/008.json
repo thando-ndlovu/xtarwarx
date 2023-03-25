@@ -1,0 +1,58 @@
+{
+	"Title": "The Last Jedi",
+	"Description": "Directed by Rian Johnson The Last Jedi is the the eighth film in the series. It follows Rey as she seeks the aid of Luke Skywalker in the Resistance's fight against the first order and Poe and Finn's attempt to escape an attack against a First Order fleet",
+	"EpisodeId": 8,
+	"Director": "Rian Johnson",
+	"Producers": [
+		"Kathleen Kennedy",
+		"Ram Bergman"
+	],
+	"ReleaseDate": "2017-12-9",
+	"CastMembers": [
+		"Daisey Ridley",
+		"Mark Hamil",
+		"Carrie Fisher",
+		"John Boyega",
+		"Adam Driver",
+		"Oscar Isaac",
+		"Anthony Daniels",
+		"Andy Serkis",
+		"Domhnall Gleeson",
+		"Gwendoline Christie",
+		"Lupita Nyong'o",
+		"Laura Dern",
+		"Frank Oz",
+		"Benicio del Toro",
+		"Kelly Marie Tran"
+	],
+	"Duration": 152,
+	"OpeningCrawl": "The FIRST ORDER reigns. having decimated the peacful Republic, Supreme Leader Snoke now deploys his erciless legions to seize millitary control of the galaxy. Only General Leia Organa'a band of RESISTANCE fighters stand against the rising tyranny, certain that Jedi Master Luke Skywalker willl return and restore a spark of hope to the fight. But the Resistance has been exposed. As the First Order speeds toward the Rebel base, the brace heroes mount a desperate escape...",
+
+	"WeaponIds": null,
+	"SpecieIds": null,
+	"PlanetIds": null,
+	"VehicleIds": null,
+	"StarshipIds": null,
+	"CharacterIds": null,
+	"FactionIds": null,
+	"ManufacturerIds": null,
+
+	"Uris": [
+		{
+			"Key": "MainPoster",
+			"Uri": "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg"
+		},
+		{
+			"Key": "IMDB",
+			"Uri": "https://imdb.com/title/tt2527336"
+		},
+		{
+			"Key": "RottenTomatoes",
+			"Uri": "https://rottentomatoes.com/star_wars_the_last_jedi"
+		},
+		{
+			"Key": "Wikipedia",
+			"Uri": "https://wikipedia.org/wiki/Star_Wars:_The_Last_Jedi"
+		}
+	]
+}

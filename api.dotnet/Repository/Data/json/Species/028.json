@@ -1,0 +1,24 @@
+{
+	"Name": "Geonosian",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Insectoid",
+	"Language": "Geonosian",
+	"EyeColors": [
+		"Green",
+		"Brown"
+	],
+	"SkinColors": [
+		"Green",
+		"Brown"
+	],
+	"HairColors": [],
+	"AverageHeight": 178,
+	"AverageLifespan": null,
+	"HomeworldId": 11,
+	"CharacterIds": [
+		63
+	],
+	"Uris": null
+	
+}

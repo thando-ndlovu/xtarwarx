@@ -1,0 +1,27 @@
+{
+	"Name": "H-type Nubian Yacht",
+	"Description": null,
+	"Model": "Delta-7 Aethersprite-Class Interceptor",
+	"StarshipClass": {
+		"Class": "Yacht",
+		"Flags": []
+	},
+	"MGLT": null,
+	"Length": 47.9,
+	"MinCrew": 4,
+	"MaxCrew": 4,
+	"Consumables": null,
+	"Passengers": null,
+	"HyperdriveRating": 0.9,
+	"CostInCredits": null,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": 8000,
+	"ManufacturerIds": [
+		40
+	],
+	"PilotIds": [
+		35
+	],
+	"Uris": null
+	
+}

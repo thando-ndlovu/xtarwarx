@@ -1,0 +1,26 @@
+﻿{
+	"Name": "Free Ryloth movement",
+	"Description": "The Free Ryloth movement was one of the more notorious and capable resistance movements started by Cham Syndulla fighting the Galactic Empire.",
+	"LeaderIds": [
+		// Cham Syndulla
+	],
+	"MemberCharacterIds": [
+		// Isval
+		// Pok
+	],
+	"MemberFactionIds": null,
+	"AlliedCharacterIds": [
+		// Belkor Dray
+	],
+	"AlliedFactionIds": null,
+	"OrganizationTypes": [
+		"RebelCell"
+	],
+
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Free_Ryloth_movement"
+		}
+	]
+}

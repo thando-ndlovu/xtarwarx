@@ -1,0 +1,11 @@
+{
+	"Name": "Republic Sienar Systems",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		20
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

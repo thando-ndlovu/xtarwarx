@@ -1,0 +1,24 @@
+{
+	"Name": "Tholothian",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": null,
+	"EyeColors": [
+		"Blue",
+		"Indigo"
+	],
+	"SkinColors": [
+		"Black",
+		"Brown"
+	],
+	"HairColors": [],
+	"AverageHeight": null,
+	"AverageLifespan": null,
+	"HomeworldId": 46,
+	"CharacterIds": [
+		55
+	],
+	"Uris": null
+	
+}

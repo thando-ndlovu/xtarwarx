@@ -1,0 +1,64 @@
+﻿{
+	"Name": "Confederacy of Independent Systems",
+	"Description": "The Confederacy of Independent Systems was a government movement led by Darth Sidious and his apprentice Count Dooku. Formed by various planetary and sectorial governments, as well as some mega-corporations that declared intentions to leave the Galactic Empire, refusing to comply with its excessive taxation and corruption in the Senate during the Speratist Crisis.",
+	"LeaderIds": [
+		33,
+		63,
+		67,
+		77,
+		79
+		// Wat Tambor
+		// San Hill
+		// Shu Mai
+		// Shu Passel Argente
+		// Po Nudo
+		// Tikkes
+		// Rogwa Wodrata
+		// Ludoian Battle Droid Senator
+		// L3-M3
+	],
+	"MemberCharacterIds": [
+		// Scipio
+		// Neimoidia
+		// Clak'dor 
+		// Sluis Van 
+		// Fonor 
+		// Abrion Major 
+		// Yag'Dhul
+		// Falleen
+		// Thrusta
+		// Er'Kit
+		// Till Chorios
+		// Yit Tangee
+		// Riflor
+	],
+	"MemberFactionIds": [
+		2,
+		3,
+		18,
+		20,
+		24
+		// Sy Myrth
+		// Sy Agamar and the Lahara sector
+		// Kalevala
+		// Onderon 
+		// Mayagil Sector 
+		// Sluis Sector 
+		// Tapani Sector 
+		// Abrion Sector 
+		// Meridian Sector 
+		// Alamanian Sector 
+		// Savareen Sector 
+	],
+	"AlliedCharacterIds": null,
+	"AlliedFactionIds": null,
+	"OrganizationTypes": [
+		"Confederation"
+	],
+	"Uris": [
+		{
+			"Key": "IGN",
+			"Uri": "https://www.ign.com/wikis/star-wars/Confederacy_of_Independent_Systems"
+		}
+	]
+}

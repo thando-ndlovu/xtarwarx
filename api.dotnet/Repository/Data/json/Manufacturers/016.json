@@ -1,0 +1,11 @@
+{
+	"Name": "Mon Calamari Shipyards",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		14
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Gwori Revolutionary Industries",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		32
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

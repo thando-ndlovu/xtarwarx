@@ -1,0 +1,13 @@
+{
+	"Name": "Tarfful",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Blue" ],
+	"SkinColors": [ "Brown" ],
+	"HairColors": [ "Brown" ],
+	"Mass": 136,
+	"Height": 234,
+	"BirthYear": null,
+	"HomeworldId": 14,
+	"Uris": null
+}

@@ -1,0 +1,25 @@
+{
+	"Name": "Flitknot Speeder",
+	"Model": "Flitknot Speeder",
+	"Description": null,
+	"VehicleClass": {
+		"Class": "Speeder",
+		"Flags": []
+	},
+	"Length": 2,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": null,
+	"Passengers": 0,
+	"CostInCredits": 8000,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": 634,
+	"ManufacturerIds": [
+		11
+	],
+	"PilotIds": [
+		67
+	],
+	"Uris": null
+}
+

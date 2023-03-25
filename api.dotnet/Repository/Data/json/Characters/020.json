@@ -1,0 +1,13 @@
+{
+	"Name": "Yoda",
+	"Description": null,
+	"Sex": "Male",
+	"EyeColors": [ "Brown" ],
+	"SkinColors": [ "Green" ],
+	"HairColors": [ "White" ],
+	"Mass": 17,
+	"Height": 66,
+	"BirthYear": 896,
+	"HomeworldId": 28,
+	"Uris": null
+}

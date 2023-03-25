@@ -1,0 +1,22 @@
+{
+	"Name": "Sullustan",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": "Mammal",
+	"Language": "Sullutese",
+	"EyeColors": [
+		"Black"
+	],
+	"SkinColors": [
+		"White"
+	],
+	"HairColors": [],
+	"AverageHeight": 180,
+	"AverageLifespan": null,
+	"HomeworldId": 33,
+	"CharacterIds": [
+		31
+	],
+	"Uris": null
+	
+}

@@ -1,0 +1,31 @@
+{
+	"Name": "Republic Attack Cruiser",
+	"Description": null,
+	"Model": "Senator-class Star Destroyer",
+	"StarshipClass": {
+		"Class": "Destroyer",
+		"Flags": [
+			"Star"
+		]
+	},
+	"MGLT": null,
+	"Length": 1137,
+	"MinCrew": 7400,
+	"MaxCrew": 7400,
+	"Consumables": {
+		"TimeUnit": "Year",
+		"Value": 2
+	},
+	"Passengers": 2000,
+	"HyperdriveRating": 1.0,
+	"CostInCredits": 59000000,
+	"CargoCapacity": 20000000,
+	"MaxAtmospheringSpeed": 975,
+	"ManufacturerIds": [
+		2,
+		9
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}

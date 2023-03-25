@@ -1,0 +1,24 @@
+{
+	"Name": "Toong",
+	"Description": null,
+	"Designation": "Sentient",
+	"Classification": null,
+	"Language": "Tundan",
+	"EyeColors": [
+		"Orange"
+	],
+	"SkinColors": [
+		"Gray",
+		"Yellow",
+		"Green"
+	],
+	"HairColors": [],
+	"AverageHeight": 200,
+	"AverageLifespan": null,
+	"HomeworldId": 41,
+	"CharacterIds": [
+		50
+	],
+	"Uris": null
+	
+}

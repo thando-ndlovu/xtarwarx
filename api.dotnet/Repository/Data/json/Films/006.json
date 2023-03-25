@@ -1,0 +1,148 @@
+{
+	"Title": "Revenge of the Sith",
+	"Description": "Directed and written George Lucas, Revenge of the Sith is the sixth film in the Star Wars film series and the third chronologiacally",
+	"EpisodeId": 3,
+	"Director": "George Lucas",
+	"Producers": [
+		"Rick McCallum"
+	],
+	"ReleaseDate": "2005-05-19",
+	"CastMembers": [
+		"Ewan McGregor",
+		"Natalie Portman",
+		"Hayden Christianson",
+		"Christopher Lee",
+		"Samuel L Jackson",
+		"Ian McDiarmid",
+		"Anthony Daniels",
+		"Kenny Baker",
+		"Frnak Oz"
+	],
+	"Duration": 140,
+	"OpeningCrawl": "War! The Republic is crumbling under attacks by the ruthless Sith Lord, Count Dooku. There are heroes on both sides. Evil is everywhere.  In a stunning move, the fiendish droid leader, General Grievous, has swept into the Republic capital and kidnapped Chancellor Palpatine, leader of the Galactic Senate.  As the Separatist Droid Army attempts to flee the besieged capital with their valuable hostage, two Jedi Knights lead a desperate mission to rescue the captive Chancellor...",
+
+	"WeaponIds": null,
+	"SpecieIds": [
+		1,
+		2,
+		3,
+		6,
+		15,
+		19,
+		20,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		33,
+		34,
+		35,
+		36,
+		37
+	],
+	"PlanetIds": [
+		1,
+		2,
+		5,
+		8,
+		9,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19
+	],
+	"VehicleIds": [
+		33,
+		50,
+		53,
+		56,
+		60,
+		62,
+		67,
+		69,
+		70,
+		71,
+		72,
+		73,
+		76
+	],
+	"StarshipIds": [
+		2,
+		32,
+		48,
+		59,
+		61,
+		63,
+		64,
+		65,
+		66,
+		68,
+		74,
+		75
+	],
+	"CharacterIds": [
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		10,
+		11,
+		12,
+		13,
+		20,
+		21,
+		33,
+		35,
+		46,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		58,
+		63,
+		64,
+		67,
+		68,
+		75,
+		78,
+		79,
+		80,
+		81,
+		82,
+		83
+	],
+	"FactionIds": null,
+	"ManufacturerIds": null,
+
+	"Uris": [
+		{
+			"Key": "MainPoster",
+			"Uri": "https://en.wikipedia.org/wiki/File:Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg"
+		},
+		{
+			"Key": "IMDB",
+			"Uri": "https://imdb.com/title/tt0121766"
+		},
+		{
+			"Key": "RottenTomatoes",
+			"Uri": "https://rottentomatoes.com/star_wars_episode_iii_revenge_of_the_sith"
+		},
+		{
+			"Key": "Wikipedia",
+			"Uri": "https://wikipedia.org/wiki/Star_Wars:_Episode_III_-Revenge_of_the_Sith"
+		}
+	]
+}

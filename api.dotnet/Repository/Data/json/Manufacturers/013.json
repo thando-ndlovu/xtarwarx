@@ -1,0 +1,11 @@
+{
+	"Name": "Botajef Shipyard",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [],
+	"StarshipIds": [
+		22
+	],
+	"WeaponIds": null,
+	"Uris": null
+}

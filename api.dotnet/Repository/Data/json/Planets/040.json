@@ -1,0 +1,31 @@
+﻿{
+	"Name": "Troiken",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": null,
+	"Gravity": null,
+	"OrbitalPeriod": null,
+	"RotationalPeriod": null,
+	"ResidentIds": null,
+	"Population": null,
+	"Climates": [],
+	"Terrains": [
+		{
+			"Type": "Urban",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Barren",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Deserts",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

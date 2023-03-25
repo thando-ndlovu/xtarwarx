@@ -1,0 +1,29 @@
+{
+	"Name": "TIE/IN Interceptor",
+	"Description": null,
+	"Model": "Twin Ion Engine Interceptor",
+	"VehicleClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star"
+		]
+	},
+	"Length": 9.6,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 2
+	},
+	"Passengers": 0,
+	"CostInCredits": null,
+	"CargoCapacity": 75,
+	"MaxAtmospheringSpeed": 1250,
+	"ManufacturerIds": [
+		41
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

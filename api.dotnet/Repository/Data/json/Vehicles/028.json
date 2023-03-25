@@ -1,0 +1,26 @@
+{
+	"Name": "Geonosian Starfighter",
+	"Description": null,
+	"Model": "Nantex-Class Territorial Defense",
+	"VehicleClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star"
+		]
+	},
+	"Length": 9.8,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": null,
+	"Passengers": 0,
+	"CostInCredits": null,
+	"CargoCapacity": null,
+	"MaxAtmospheringSpeed": 20000,
+	"ManufacturerIds": [
+		11
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

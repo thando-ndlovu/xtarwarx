@@ -1,0 +1,44 @@
+﻿{
+	"Name": "Malastare",
+	"Description": null,
+	"SurfaceWater": null,
+	"Diameter": 18880,
+	"Gravity": 1.56,
+	"OrbitalPeriod": 201,
+	"RotationalPeriod": 26,
+	"ResidentIds": null,
+	"Population": 2000000000,
+	"Climates": [
+		{
+			"Type": "Temperate",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Arid",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Tropical",
+			"Flags": [ ]
+		}
+	],
+	"Terrains": [
+		{
+			"Type": "Swamps",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Mountains",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Deserts",
+			"Flags": [ ]
+		},
+		{
+			"Type": "Jungles",
+			"Flags": [ ]
+		}
+	],
+	"Uris": null
+}

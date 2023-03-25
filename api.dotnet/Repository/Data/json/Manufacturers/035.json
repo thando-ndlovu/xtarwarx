@@ -1,0 +1,11 @@
+{
+	"Name": "Ubrikkian Industries Custom Vehicle Division",
+	"Description": null,
+	"HeadquatersPlanetId": null,
+	"VehicleIds": [
+		10
+	],
+	"StarshipIds": [],
+	"WeaponIds": null,
+	"Uris": null
+}

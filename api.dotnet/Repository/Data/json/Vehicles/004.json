@@ -1,0 +1,29 @@
+{
+	"Name": "TIE/LN Starfighter",
+	"Description": null,
+	"Model": "Twin Ion Engine/Ln Starfighter",
+	"VehicleClass": {
+		"Class": "Fighter",
+		"Flags": [
+			"Star"
+		]
+	},
+	"Length": 6.4,
+	"MinCrew": 1,
+	"MaxCrew": 1,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 2
+	},
+	"Passengers": 0,
+	"CostInCredits": null,
+	"CargoCapacity": 65,
+	"MaxAtmospheringSpeed": 1200,
+	"ManufacturerIds": [
+		41
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+

@@ -1,0 +1,29 @@
+{
+	"Name": "C-9979 Landing Craft",
+	"Description": null,
+	"Model": "C-9979 Landing Craft",
+	"VehicleClass": {
+		"Class": "Craft",
+		"Flags": [
+			"Landing"
+		]
+	},
+	"Length": 210,
+	"MinCrew": 140,
+	"MaxCrew": 140,
+	"Consumables": {
+		"TimeUnit": "Day",
+		"Value": 1
+	},
+	"Passengers": 284,
+	"CostInCredits": 200000,
+	"CargoCapacity": 1800000,
+	"MaxAtmospheringSpeed": 587,
+	"ManufacturerIds": [
+		21
+	],
+	"PilotIds": [],
+	"Uris": null
+	
+}
+
