@@ -1,0 +1,272 @@
+﻿body{
+	background-color: white;
+}
+
+.select-label{
+	border-color: 
+}
+
+.topbar {
+	background-color: #ffd800;
+}
+
+.small.version-stamp {
+	background-color: #ffd800;
+}
+
+.swagger-ui .opblock.opblock-post {
+	border-color: #000;
+	background: #fff;
+}
+
+	.swagger-ui .opblock.opblock-post .opblock-summary-method {
+		background: #000;
+	}
+
+	.swagger-ui .opblock.opblock-post .opblock-summary {
+		border-color: #000;
+	}
+
+.swagger-ui .opblock.opblock-put {
+	border-color: #000;
+	background: #fff;
+}
+
+	.swagger-ui .opblock.opblock-put .opblock-summary-method {
+		background: #000;
+	}
+
+	.swagger-ui .opblock.opblock-put .opblock-summary {
+		border-color: #000;
+	}
+
+.swagger-ui .opblock.opblock-delete {
+	border-color: #000;
+	background: #fff;
+}
+
+	.swagger-ui .opblock.opblock-delete .opblock-summary-method {
+		background: #000;
+	}
+
+	.swagger-ui .opblock.opblock-delete .opblock-summary {
+		border-color: #000;
+	}
+
+.swagger-ui .opblock.opblock-get {
+	border-color: #000;
+	background: #fff;
+}
+
+	.swagger-ui .opblock.opblock-get .opblock-summary-method {
+		background: #ffd800;
+	}
+
+	.swagger-ui .opblock.opblock-get .opblock-summary {
+		border-color: #000;
+	}
+
+.swagger-ui .opblock.opblock-patch {
+	border-color: #000;
+	background: #fff;
+}
+
+	.swagger-ui .opblock.opblock-patch .opblock-summary-method {
+		background: #000;
+	}
+
+	.swagger-ui .opblock.opblock-patch .opblock-summary {
+		border-color: #000;
+	}
+
+.swagger-ui .opblock.opblock-head {
+	border-color: #000;
+	background: #fff;
+}
+
+	.swagger-ui .opblock.opblock-head .opblock-summary-method {
+		background: #000;
+	}
+
+	.swagger-ui .opblock.opblock-head .opblock-summary {
+		border-color: #000;
+	}
+
+.swagger-ui .opblock.opblock-options {
+	border-color: #000;
+	background: #fff;
+}
+
+	.swagger-ui .opblock.opblock-options .opblock-summary-method {
+		background: #000;
+	}
+
+	.swagger-ui .opblock.opblock-options .opblock-summary {
+		border-color: #000;
+	}
+
+.swagger-ui .opblock.opblock-deprecated {
+	opacity: .9;
+	border-color: #000;
+	background: #fff;
+}
+
+	.swagger-ui .opblock.opblock-deprecated .opblock-summary-method {
+		background: #ebebeb
+	}
+
+	.swagger-ui .opblock.opblock-deprecated .opblock-summary {
+		border-color: #ebebeb
+	}
+
+.swagger-ui .topbar {
+	padding: 8px 30px;
+	background-color: #272822;
+}
+
+	.swagger-ui .topbar .download-url-wrapper input[type=text] {
+		min-width: 350px;
+		margin: 0;
+		border: 2px solid #000;
+		border-radius: 4px 0 0 4px;
+		outline: none;
+	}
+
+	.swagger-ui .topbar .download-url-wrapper .download-url-button {
+		font-size: 16px;
+		font-weight: 700;
+		padding: 4px 40px;
+		border: none;
+		border-radius: 0 4px 4px 0;
+		background: #000;
+		font-family: Titillium Web, sans-serif;
+		color: #272822;
+	}
+
+.swagger-ui .info a {
+	font-size: 14px;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+	font-family: Open Sans, sans-serif;
+	color: #272822;
+}
+
+	.swagger-ui .info a:hover {
+		color: #272822;
+	}
+
+.swagger-ui .btn.authorize {
+	line-height: 1;
+	display: inline;
+	color: #272822;
+	border-color: #272822;
+}
+
+	.swagger-ui .btn.authorize svg {
+		fill: #272822;
+	}
+
+.swagger-ui .opblock .opblock-summary-path, .swagger-ui .opblock .opblock-summary-path__deprecated {
+	font-size: 16px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 0 10px;
+	font-family: Source Code Pro, monospace;
+	font-weight: 600;
+	color: #000;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.swagger-ui .opblock .opblock-summary-description {
+	font-size: 13px;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	font-family: Open Sans, sans-serif;
+	color: #000;
+}
+
+.swagger-ui table thead tr td, .swagger-ui table thead tr th {
+	font-size: 12px;
+	font-weight: 700;
+	padding: 12px 0;
+	text-align: left;
+	border-bottom: 1px solid rgba(59, 65, 81, .2);
+	font-family: Open Sans, sans-serif;
+	color: #000;
+}
+
+.swagger-ui .parameters-col_description p {
+	font-size: 14px;
+	margin: 0;
+	font-family: Open Sans, sans-serif;
+	color: #000;
+}
+
+.swagger-ui .parameter__name {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Titillium Web, sans-serif;
+	color: #000;
+}
+
+.swagger-ui .opblock .opblock-section-header label {
+	font-size: 12px;
+	font-weight: 700;
+	margin: 0;
+	font-family: Titillium Web, sans-serif;
+	color: #3b4151;
+}
+
+.swagger-ui .opblock .opblock-section-header h4 {
+	font-size: 14px;
+	margin: 0;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	font-family: Titillium Web, sans-serif;
+	color: #3b4151;
+}
+
+.swagger-ui .opblock .opblock-summary-description {
+	font-size: 13px;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	font-family: Open Sans, sans-serif;
+	color: #000;
+}
+
+.swagger-ui .tab li {
+	font-size: 12px;
+	min-width: 100px;
+	min-width: 90px;
+	padding: 0;
+	cursor: pointer;
+	font-family: Titillium Web, sans-serif;
+	color: #000;
+}
+
+.swagger-ui label {
+	font-size: 12px;
+	font-weight: 700;
+	margin: 0 0 5px;
+	font-family: Titillium Web, sans-serif;
+	color: #000;
+}
+
+.swagger-ui .response-col_status {
+	font-size: 14px;
+	font-family: Open Sans, sans-serif;
+	color: #000;
+}
+
+.swagger-ui .opblock-description-wrapper p, .swagger-ui .opblock-title_normal p {
+	font-size: 14px;
+	margin: 0;
+	font-family: Open Sans, sans-serif;
+	color: #000;
+}

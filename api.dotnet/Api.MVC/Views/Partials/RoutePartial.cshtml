@@ -1,0 +1,48 @@
+﻿@model RoutePartial
+@inject IServiceProvider _ServiceProvider
+@{ 
+	string? View = _ServiceProvider.GetService<ILocalisation>()?.GetString(
+		resourcename: Localisation.Utils.General.GeneralWords.ResourceName,
+		key: Localisation.Utils.General.GeneralWords.Keys.View);	
+	string? ReadMore = _ServiceProvider.GetService<ILocalisation>()?.GetString(
+		resourcename: Localisation.Utils.General.GeneralPhrases.ResourceName,
+		key: Localisation.Utils.General.GeneralPhrases.Keys.ReadMore);
+}
+
+@if (Model is null) { }
+else
+{
+	<div class="rounded p-4 bg-white shadow">
+		<h4>
+			<span>
+				<img width="64"
+						class="img-fluid"
+						src=@Model.ImgSrc />
+			</span>
+			<span class="m-2" />
+			<span>
+				@Model.Title
+			</span>
+		</h4>
+		<p>
+			<span>@Model.Description</span>
+			@if (Model.External is not null)
+			{
+				<span>
+					<a href=@Model.External.AbsoluteUri>
+						@ReadMore
+					</a>
+				</span>
+			}
+		</p>
+		@if (Model.Href is null) { }
+		else
+		{
+			<a class="btn btn-outline-dark-starwarx"
+				href=@Model.Href
+				target="_blank">
+				@View
+			</a>
+		}
+	</div>
+}

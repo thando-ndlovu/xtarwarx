@@ -1,0 +1,117 @@
+﻿@inject IServiceProvider _ServiceProvider
+@{
+	ViewData["Title"] = "StarWarX";
+}
+@{
+	RoutePartial RestRoutePartial = new RoutePartial
+	{
+		Title = "Rest",
+		Description = _ServiceProvider.GetService<ILocalisation>()?.GetString(
+			resourcename: Localisation.Utils.General.GeneralPhrases.ResourceName,
+			key: Localisation.Utils.General.GeneralPhrases.Keys.RestDesription),
+		ImgSrc = "/images/icon_rest.png",
+		External = new Uri("https://en.wikipedia.org/wiki/Representational_state_transfer"),
+		WithShadow = false,
+	};
+	RoutePartial SwaggerRoutePartial = new RoutePartial
+	{
+		Title = "Swagger",
+		Description = _ServiceProvider.GetService<ILocalisation>()?.GetString(
+			resourcename: Localisation.Utils.General.GeneralPhrases.ResourceName,
+			key: Localisation.Utils.General.GeneralPhrases.Keys.RestSwaggerDesription),
+		Href = Routes.Rest_Swagger,
+		ImgSrc = "/images/icon_rest_swagger.png",
+		External = new Uri("https://en.wikipedia.org/wiki/Swagger_(software)")
+	};
+	RoutePartial GraphQLRoutePartial = new RoutePartial
+	{
+		Title = "GraphQL",
+		Description = _ServiceProvider.GetService<ILocalisation>()?.GetString(
+			resourcename: Localisation.Utils.General.GeneralPhrases.ResourceName,
+			key: Localisation.Utils.General.GeneralPhrases.Keys.GraphQlDesription),
+		ImgSrc = "/images/icon_graphql.png",
+		External = new Uri("https://en.wikipedia.org/wiki/GraphQL"),
+		WithShadow = false,
+	};
+
+	RoutePartial AltairRoutePartial = new RoutePartial
+	{
+		Title = "Altair",
+		Description = _ServiceProvider.GetService<ILocalisation>()?.GetString(
+			resourcename: Localisation.Utils.General.GeneralPhrases.ResourceName,
+			key: Localisation.Utils.General.GeneralPhrases.Keys.GraphQlAltairDesription),
+		Href = Routes.GraphQL_Altair,
+		ImgSrc = "/images/icon_graphql_altair.png",
+		External = new Uri("https://altair.sirmuel.design/")
+	};
+	RoutePartial GraphiQLRoutePartial = new RoutePartial
+	{
+		Title = "GraphiQL",
+		Description = _ServiceProvider.GetService<ILocalisation>()?.GetString(
+			resourcename: Localisation.Utils.General.GeneralPhrases.ResourceName,
+			key: Localisation.Utils.General.GeneralPhrases.Keys.GraphQlGraphiqlDesription),
+		Href = Routes.GraphQL_GraphiQL,
+		ImgSrc = "/images/icon_graphql_graphiql.png",
+		External = new Uri("https://github.com/graphql/graphiql")
+	};
+	RoutePartial PlaygroundRoutePartial = new RoutePartial
+	{
+		Title = "Playground",
+		Description = _ServiceProvider.GetService<ILocalisation>()?.GetString(
+			resourcename: Localisation.Utils.General.GeneralPhrases.ResourceName,
+			key: Localisation.Utils.General.GeneralPhrases.Keys.GraphQlPlaygroundDesription),
+		Href = Routes.GraphQL_Playground,
+		ImgSrc = "/images/icon_graphql_playground.png",
+		External = new Uri("https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/")
+	};
+	RoutePartial VoyagerRoutePartial = new RoutePartial
+	{
+		Title = "Voyager",
+		Description = _ServiceProvider.GetService<ILocalisation>()?.GetString(
+			resourcename: Localisation.Utils.General.GeneralPhrases.ResourceName,
+			key: Localisation.Utils.General.GeneralPhrases.Keys.GraphQlVoyagerDesription),
+		Href = Routes.GraphQL_Voyager,
+		ImgSrc = "/images/icon_graphql_voyager.png",
+		External = new Uri("https://apis.guru/graphql-voyager/")
+	};
+}
+<div class="rounded shadow m-4 p-2 bg-warning">
+	<div class="rounded p-4 bg-black">
+		<div class="row">
+
+			<div class="col-12 pt-3 pb-5 pl-4 pr-4">
+				<partial name=@nameof(RoutePartial) model=RestRoutePartial />
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-5 pb-3 pl-4 pr-4">
+				<partial name=@nameof(RoutePartial) model=SwaggerRoutePartial/>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<span class="m-4" />
+
+<div class="rounded m-4 p-2 bg-warning">
+	<div class="rounded p-4 bg-black">
+		<div class="row">
+
+			<div class="col-12 pt-3 pb-5 pl-4 pr-4">
+				<partial name=@nameof(RoutePartial) model=GraphQLRoutePartial />
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-3 pb-3 pl-4 pr-4">
+				<partial name=@nameof(RoutePartial) model=AltairRoutePartial />
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-3 pb-3 pl-4 pr-4">
+				<partial name=@nameof(RoutePartial) model=GraphiQLRoutePartial />
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-3 pb-3 pl-4 pr-4">
+				<partial name=@nameof(RoutePartial) model=PlaygroundRoutePartial />
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-3 pb-3 pl-4 pr-4">
+				<partial name=@nameof(RoutePartial) model=VoyagerRoutePartial />
+			</div>
+
+		</div>
+	</div>
+</div>

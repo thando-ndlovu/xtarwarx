@@ -1,0 +1,89 @@
+﻿.bg-starwarx {
+	background-image: linear-gradient(135deg, #fff 0%, #ffd800 40%, #000 70%, #fff 100%);
+}
+
+.btn-dark-starwarx {
+	color: #ffd800;
+	border-color: #1d1c1c;
+	background-color: #1d1c1c;
+}
+	.btn-dark-starwarx:not(:disabled):active {
+		color: #ffd800;
+		border-color: #000000;
+		background-color: #000000;
+	}
+	.btn-dark-starwarx:not(:disabled):hover {
+		color: #ffd800;
+		border-color: #1d1c1c;
+		background-color: #1d1c1c;
+	}
+
+.btn-outline-dark-starwarx {
+	color: #e6aa11;
+	border-color: #e6aa11;
+	background-color: rgba(0, 0, 0, 0.00);
+}
+	.btn-outline-dark-starwarx:not(:disabled):active {
+		color: #e6aa11;
+		border-color: #000000;
+		background-color: #000000;
+		box-shadow: 0 0 1rem rgba(0, 0, 0, 0.00);
+	}
+	.btn-outline-dark-starwarx:not(:disabled):hover {
+		color: #ffd800;
+		border-color: #1d1c1c;
+		background-color: #1d1c1c;
+		box-shadow: 0 0 1rem #1d1c1c;
+	}
+
+.btn-light-starwarx {
+	color: #ffffff;
+	border-color: #e6aa11;
+	background-color: #e6aa11;
+}
+	.btn-light-starwarx:not(:disabled):active {
+		color: white;
+		border-color: #866309;
+		background-color: #866309;
+		box-shadow: 0 0 1rem #483505 inset;
+	}
+	.btn-light-starwarx:not(:disabled):hover {
+		color: white;
+		border-color: #b7860b;
+		background-color: #b7860b;
+	}
+
+.btn-outline-light-starwarx {
+	color: #b7860b;
+	border-color: #b7860b;
+	background-color: rgba(255, 255, 255, 0.00);
+}
+	.btn-outline-light-starwarx:not(:disabled):active {
+		color: white;
+		border-color: #b7860b;
+		background-color: #b7860b;
+		box-shadow: 0 0 1rem #483505 inset;
+	}
+	.btn-outline-light-starwarx:not(:disabled):hover {
+		color: white;
+		border-color: #b7860b;
+		background-color: rgba(0, 0, 0, 0.10);
+	}
+
+.code-starwarx {
+	color: darkgoldenrod;
+	font-size: 87.5%;
+	font-weight: 400;
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+.scrollbar-starwarx {
+	scrollbar-3dlight-color: #ffd800;
+	scrollbar-arrow-color: #ffd800;
+	scrollbar-base-color: #ffd800;
+	scrollbar-darkshadow-color: #ffd800;
+	scrollbar-face-color: #ffd800;
+	scrollbar-highlight-color: #ffd800;
+	scrollbar-shadow-color: #ffd800;
+	scrollbar-track-color: #ffd800;
+}

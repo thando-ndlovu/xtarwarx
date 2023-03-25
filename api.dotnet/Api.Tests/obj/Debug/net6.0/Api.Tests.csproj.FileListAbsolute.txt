@@ -1,0 +1,7 @@
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.Tests\obj\Debug\net6.0\Api.Tests.csproj.AssemblyReference.cache
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.Tests\obj\Debug\net6.0\MvcTestingAppManifest.json
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.Tests\obj\Debug\net6.0\Api.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.Tests\obj\Debug\net6.0\Api.Tests.AssemblyInfoInputs.cache
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.Tests\obj\Debug\net6.0\Api.Tests.AssemblyInfo.cs
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.Tests\obj\Debug\net6.0\Api.Tests.csproj.CoreCompileInputs.cache

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>@ViewData["Title"]</title>
+
+	<link rel="icon" href="~/images/icon_starwarx.png" />
+	<link rel="apple-touch-icon shortcut logo" href="~/images/icon_starwarx.png" />
+
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+	<link rel="stylesheet" href="~/css/site.css" />
+	<link rel="stylesheet" href="~/css/site.theme.dark.css" />
+	<link rel="stylesheet" href="~/css/site.theme.light.css" />
+</head>
+<body>
+
+    <header>
+        <partial name="_Navbar" />
+    </header>
+
+	<div class="container-fluid">
+		@RenderBody()
+	</div>
+
+    <footer>
+        <partial name="_Footer" />
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

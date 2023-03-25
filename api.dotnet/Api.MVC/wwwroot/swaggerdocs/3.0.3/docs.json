@@ -1,0 +1,2892 @@
+{
+  "info": {
+    "description": "A restful api for Star Wars Data",
+    "license": {
+      "name": "Apache 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "title": "StarWarX Swagger",
+    "version": "1.0"
+  },
+  "openapi": "3.0.3",
+  "paths": {
+    "/Characters": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint for all the characters of the Star Wars universe",
+        "operationId": "Get Characters",
+        "parameters": [
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids for specific entity retrieval",
+            "in": "query",
+            "name": "Ids",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids whereby only the entity id will be returned",
+            "in": "query",
+            "name": "IdsToSkip",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the number of items per page",
+            "in": "query",
+            "name": "ItemsPerPage",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "A string for the order by which the entities should be returned",
+            "examples": {
+              "birthYear": {
+                "description": "Sorts by birth year",
+                "summary": "Birth Year",
+                "value": "BirthYear"
+              },
+              "created": {
+                "description": "Sorts by date created",
+                "summary": "Created",
+                "value": "Created"
+              },
+              "edited": {
+                "description": "Sorts by date last edited",
+                "summary": "Edited",
+                "value": "Edited"
+              },
+              "eyeColorsCount": {
+                "description": "Sorts by the number of different eye colors",
+                "summary": "Eye Colors Count",
+                "value": "EyeColorsCount"
+              },
+              "hairColorsCount": {
+                "description": "Sorts by the number of different hair colors",
+                "summary": "Hair Colors Count",
+                "value": "HairColorsCount"
+              },
+              "height": {
+                "description": "Sorts by height",
+                "summary": "Height",
+                "value": "Height"
+              },
+              "id": {
+                "description": "Sorts by Id",
+                "summary": "Id",
+                "value": "Id"
+              },
+              "mass": {
+                "description": "Sorts by mass",
+                "summary": "Mass",
+                "value": "Mass"
+              },
+              "name": {
+                "description": "Sorts by name",
+                "summary": "Name",
+                "value": "Name"
+              },
+              "sex": {
+                "description": "Sorts by sex",
+                "summary": "Sex",
+                "value": "Sex"
+              },
+              "skinColorsCount": {
+                "description": "Sorts by the number of different skin colors",
+                "summary": "Skin Colors Count",
+                "value": "SkinColorsCount"
+              }
+            },
+            "in": "query",
+            "name": "OrderBy",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the page that should be returned",
+            "in": "query",
+            "name": "Page",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "StarWarX Api"
+        ]
+      }
+    },
+    "/Factions": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint for all the factions of the Star Wars universe",
+        "operationId": "Get Factions",
+        "parameters": [
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids for specific entity retrieval",
+            "in": "query",
+            "name": "Ids",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids whereby only the entity id will be returned",
+            "in": "query",
+            "name": "IdsToSkip",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the number of items per page",
+            "in": "query",
+            "name": "ItemsPerPage",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "A string for the order by which the entities should be returned",
+            "examples": {
+              "alliedCharacterCount": {
+                "description": "Sorts by the number of different allied characters",
+                "summary": "Allied Character Count",
+                "value": "AlliedCharacterCount"
+              },
+              "alliedFactionCount": {
+                "description": "Sorts by the number of different allied factions",
+                "summary": "Allied Faction Count",
+                "value": "AlliedFactionCount"
+              },
+              "created": {
+                "description": "Sorts by date created",
+                "summary": "Created",
+                "value": "Created"
+              },
+              "edited": {
+                "description": "Sorts by date last edited",
+                "summary": "Edited",
+                "value": "Edited"
+              },
+              "id": {
+                "description": "Sorts by Id",
+                "summary": "Id",
+                "value": "Id"
+              },
+              "leaderCount": {
+                "description": "Sorts by the number of different leaders",
+                "summary": "Leader Count",
+                "value": "LeaderCount"
+              },
+              "memberCharacterCount": {
+                "description": "Sorts by the number of different member characters",
+                "summary": "Member Character Count",
+                "value": "MemberCharacterCount"
+              },
+              "memberFactionCount": {
+                "description": "Sorts by the number of different member factions",
+                "summary": "Member Faction Count",
+                "value": "MemberFactionCount"
+              },
+              "name": {
+                "description": "Sorts by name",
+                "summary": "Name",
+                "value": "Name"
+              },
+              "organizationTypes": {
+                "description": "Sorts by organization types",
+                "summary": "OrganizationTypes",
+                "value": "OrganizationTypes"
+              }
+            },
+            "in": "query",
+            "name": "OrderBy",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the page that should be returned",
+            "in": "query",
+            "name": "Page",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "StarWarX Api"
+        ]
+      }
+    },
+    "/Films": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint for all the films of the Star Wars universe",
+        "operationId": "Get Films",
+        "parameters": [
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids for specific entity retrieval",
+            "in": "query",
+            "name": "Ids",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids whereby only the entity id will be returned",
+            "in": "query",
+            "name": "IdsToSkip",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the number of items per page",
+            "in": "query",
+            "name": "ItemsPerPage",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "A string for the order by which the entities should be returned",
+            "examples": {
+              "castMembersCount": {
+                "description": "Sorts by the number of different cast members",
+                "summary": "Cast Members Count",
+                "value": "CastMembersCount"
+              },
+              "charactersCount": {
+                "description": "Sorts by the number of different characters",
+                "summary": "Characters Count",
+                "value": "CharactersCount"
+              },
+              "created": {
+                "description": "Sorts by date created",
+                "summary": "Created",
+                "value": "Created"
+              },
+              "director": {
+                "description": "Sorts by director",
+                "summary": "Director",
+                "value": "Director"
+              },
+              "duration": {
+                "description": "Sorts by duration",
+                "summary": "Duration",
+                "value": "Duration"
+              },
+              "edited": {
+                "description": "Sorts by date last edited",
+                "summary": "Edited",
+                "value": "Edited"
+              },
+              "episodeId": {
+                "description": "Sorts by episode number",
+                "summary": "Episode Id",
+                "value": "EpisodeId"
+              },
+              "factionsCount": {
+                "description": "Sorts by the number of different factions",
+                "summary": "Factions Count",
+                "value": "FactionsCount"
+              },
+              "id": {
+                "description": "Sorts by Id",
+                "summary": "Id",
+                "value": "Id"
+              },
+              "manufacturersCount": {
+                "description": "Sorts by the number of different manufacturers",
+                "summary": "Manufacturers Count",
+                "value": "ManufacturersCount"
+              },
+              "planetsCount": {
+                "description": "Sorts by the number of different planets",
+                "summary": "Planets Count",
+                "value": "PlanetsCount"
+              },
+              "producersCount": {
+                "description": "Sorts by the number of different producers",
+                "summary": "Producers Count",
+                "value": "ProducersCount"
+              },
+              "releaseDate": {
+                "description": "Sorts by release date",
+                "summary": "Release Date",
+                "value": "ReleaseDate"
+              },
+              "speciesCount": {
+                "description": "Sorts by the number of different species",
+                "summary": "Species Count",
+                "value": "SpeciesCount"
+              },
+              "starshipsCount": {
+                "description": "Sorts by the number of different starships",
+                "summary": "Starships Count",
+                "value": "StarshipsCount"
+              },
+              "title": {
+                "description": "Sorts by title",
+                "summary": "Title",
+                "value": "Title"
+              },
+              "vehiclesCount": {
+                "description": "Sorts by the number of different vehicles",
+                "summary": "Vehicles Count",
+                "value": "VehiclesCount"
+              },
+              "weaponsCount": {
+                "description": "Sorts by the number of different weapons",
+                "summary": "Weapons Count",
+                "value": "WeaponsCount"
+              }
+            },
+            "in": "query",
+            "name": "OrderBy",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the page that should be returned",
+            "in": "query",
+            "name": "Page",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "StarWarX Api"
+        ]
+      }
+    },
+    "/Manufacturers": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint for all the manufacturers of the Star Wars universe",
+        "operationId": "Get Manufacturers",
+        "parameters": [
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids for specific entity retrieval",
+            "in": "query",
+            "name": "Ids",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids whereby only the entity id will be returned",
+            "in": "query",
+            "name": "IdsToSkip",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the number of items per page",
+            "in": "query",
+            "name": "ItemsPerPage",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "A string for the order by which the entities should be returned",
+            "examples": {
+              "created": {
+                "description": "Sorts by date created",
+                "summary": "Created",
+                "value": "Created"
+              },
+              "edited": {
+                "description": "Sorts by date last edited",
+                "summary": "Edited",
+                "value": "Edited"
+              },
+              "id": {
+                "description": "Sorts by Id",
+                "summary": "Id",
+                "value": "Id"
+              },
+              "name": {
+                "description": "Sorts by name",
+                "summary": "Name",
+                "value": "Name"
+              },
+              "starshipsCount": {
+                "description": "Sorts by the number of different starships",
+                "summary": "Starships Count",
+                "value": "StarshipsCount"
+              },
+              "vehiclesCount": {
+                "description": "Sorts by the number of different Vehicles",
+                "summary": "Vehicles Count",
+                "value": "VehiclesCount"
+              },
+              "weaponsCount": {
+                "description": "Sorts by the number of different weapons",
+                "summary": "Weapons Count",
+                "value": "WeaponsCount"
+              }
+            },
+            "in": "query",
+            "name": "OrderBy",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the page that should be returned",
+            "in": "query",
+            "name": "Page",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "StarWarX Api"
+        ]
+      }
+    },
+    "/Planets": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint for all the planets of the Star Wars universe",
+        "operationId": "Get Planets",
+        "parameters": [
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids for specific entity retrieval",
+            "in": "query",
+            "name": "Ids",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids whereby only the entity id will be returned",
+            "in": "query",
+            "name": "IdsToSkip",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the number of items per page",
+            "in": "query",
+            "name": "ItemsPerPage",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "A string for the order by which the entities should be returned",
+            "examples": {
+              "climatesCount": {
+                "description": "Sorts by the number of different climates",
+                "summary": "Climates Count",
+                "value": "ClimatesCount"
+              },
+              "created": {
+                "description": "Sorts by date created",
+                "summary": "Created",
+                "value": "Created"
+              },
+              "diameter": {
+                "description": "Sorts by diameter",
+                "summary": "Diameter",
+                "value": "Diameter"
+              },
+              "edited": {
+                "description": "Sorts by date last edited",
+                "summary": "Edited",
+                "value": "Edited"
+              },
+              "gravity": {
+                "description": "Sorts by gravity",
+                "summary": "Gravity",
+                "value": "Gravity"
+              },
+              "id": {
+                "description": "Sorts by Id",
+                "summary": "Id",
+                "value": "Id"
+              },
+              "name": {
+                "description": "Sorts by name",
+                "summary": "Name",
+                "value": "Name"
+              },
+              "orbitalPeriod": {
+                "description": "Sorts by orbital period",
+                "summary": "Orbital Period",
+                "value": "OrbitalPeriod"
+              },
+              "population": {
+                "description": "Sorts by population",
+                "summary": "Population",
+                "value": "Population"
+              },
+              "residentsCount": {
+                "description": "Sorts by the number of different residents",
+                "summary": "Residents Count",
+                "value": "ResidentsCount"
+              },
+              "rotationalPeriod": {
+                "description": "Sorts by rotational period",
+                "summary": "Rotational Period",
+                "value": "RotationalPeriod"
+              },
+              "surfaceWater": {
+                "description": "Sorts by surface water",
+                "summary": "Surface Water",
+                "value": "SurfaceWater"
+              },
+              "terrainsCount": {
+                "description": "Sorts by the number of different terrains",
+                "summary": "Terrains Count",
+                "value": "TerrainsCount"
+              }
+            },
+            "in": "query",
+            "name": "OrderBy",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the page that should be returned",
+            "in": "query",
+            "name": "Page",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "StarWarX Api"
+        ]
+      }
+    },
+    "/Search": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint for a search of all the entities of the Star Wars universe",
+        "operationId": "Search",
+        "parameters": [
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "in": "query",
+            "name": "SearchString",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Characters with a birth year in the given list will be returned",
+            "in": "query",
+            "name": "Character.BirthYears",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Character.BirthYearRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Character.BirthYearRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character description",
+            "in": "query",
+            "name": "Character.Description",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Characters with an eye colour in the given list will be returned",
+            "in": "query",
+            "name": "Character.EyeColors",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Characters with a hair colour in the given list will be returned",
+            "in": "query",
+            "name": "Character.HairColors",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Characters with a height in the given list will be returned",
+            "in": "query",
+            "name": "Character.Heights",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Character.HeightRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Character.HeightRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against planet description",
+            "in": "query",
+            "name": "Character.HomeworldDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against planet name",
+            "in": "query",
+            "name": "Character.HomeworldName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Characters with a mass in the given list will be returned",
+            "in": "query",
+            "name": "Character.Masses",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Character.MassRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Character.MassRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character name",
+            "in": "query",
+            "name": "Character.Name",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Characters with a sex in the given list will be returned",
+            "in": "query",
+            "name": "Character.Sexes",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Characters with a skin colour in the given list will be returned",
+            "in": "query",
+            "name": "Character.SkinColors",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character description",
+            "in": "query",
+            "name": "Faction.AlliedCharactersDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character name",
+            "in": "query",
+            "name": "Faction.AlliedCharactersName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against faction description",
+            "in": "query",
+            "name": "Faction.AlliedFactionsDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against faction name",
+            "in": "query",
+            "name": "Faction.AlliedFactionsName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against faction description",
+            "in": "query",
+            "name": "Faction.Description",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character description",
+            "in": "query",
+            "name": "Faction.LeadersDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character name",
+            "in": "query",
+            "name": "Faction.LeadersName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character description",
+            "in": "query",
+            "name": "Faction.MemberCharactersDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character name",
+            "in": "query",
+            "name": "Faction.MemberCharactersName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against faction description",
+            "in": "query",
+            "name": "Faction.MemberFactionsDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against faction name",
+            "in": "query",
+            "name": "Faction.MemberFactionsName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against faction name",
+            "in": "query",
+            "name": "Faction.Name",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "in": "query",
+            "name": "Faction.OrganizationTypes",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against film cast members",
+            "in": "query",
+            "name": "Film.CastMembers",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character description",
+            "in": "query",
+            "name": "Film.CharactersDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character name",
+            "in": "query",
+            "name": "Film.CharactersName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against film description",
+            "in": "query",
+            "name": "Film.Description",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against film director",
+            "in": "query",
+            "name": "Film.Director",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Films with durations in the given list will be returned",
+            "in": "query",
+            "name": "Film.Durations",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Film.DurationRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Film.DurationRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Films with episode ids in the given list will be returned",
+            "in": "query",
+            "name": "Film.EpisodeIds",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Film.EpisodeIdRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Film.EpisodeIdRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against faction description",
+            "in": "query",
+            "name": "Film.FactionsDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against faction name",
+            "in": "query",
+            "name": "Film.FactionsName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against manufacturer description",
+            "in": "query",
+            "name": "Film.ManufacturersDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against manufacturer name",
+            "in": "query",
+            "name": "Film.ManufacturersName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against film opening crawl",
+            "in": "query",
+            "name": "Film.OpeningCrawl",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against planet description",
+            "in": "query",
+            "name": "Film.PlanetsDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against planet name",
+            "in": "query",
+            "name": "Film.PlanetsName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against film producers",
+            "in": "query",
+            "name": "Film.Producers",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Films with release dates in the given list will be returned",
+            "in": "query",
+            "name": "Film.ReleaseDates",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "in": "query",
+            "name": "Film.ReleaseDateRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "in": "query",
+            "name": "Film.ReleaseDateRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against specie description",
+            "in": "query",
+            "name": "Film.SpeciesDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against specie name",
+            "in": "query",
+            "name": "Film.SpeciesName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship description",
+            "in": "query",
+            "name": "Film.StarshipsDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship model",
+            "in": "query",
+            "name": "Film.StarshipsModel",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship name",
+            "in": "query",
+            "name": "Film.StarshipsName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship class",
+            "in": "query",
+            "name": "Film.StarshipsStarshipClass",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship class flags",
+            "in": "query",
+            "name": "Film.StarshipsStarshipClassFlags",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against film title",
+            "in": "query",
+            "name": "Film.Title",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle description",
+            "in": "query",
+            "name": "Film.VehiclesDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle model",
+            "in": "query",
+            "name": "Film.VehiclesModel",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle name",
+            "in": "query",
+            "name": "Film.VehiclesName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle class",
+            "in": "query",
+            "name": "Film.VehiclesVehicleClass",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle class flags",
+            "in": "query",
+            "name": "Film.VehiclesVehicleClassFlags",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon description",
+            "in": "query",
+            "name": "Film.WeaponsDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon model",
+            "in": "query",
+            "name": "Film.WeaponsModel",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon name",
+            "in": "query",
+            "name": "Film.WeaponsName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon class",
+            "in": "query",
+            "name": "Film.WeaponsWeaponClass",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon class flags",
+            "in": "query",
+            "name": "Film.WeaponsWeaponClassFlags",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against manufacturer description",
+            "in": "query",
+            "name": "Manufacturer.Description",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against planet description",
+            "in": "query",
+            "name": "Manufacturer.HeadquatersPlanetDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against planet name",
+            "in": "query",
+            "name": "Manufacturer.HeadquatersPlanetName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against manufacturer name",
+            "in": "query",
+            "name": "Manufacturer.Name",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship description",
+            "in": "query",
+            "name": "Manufacturer.StarshipsDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship model",
+            "in": "query",
+            "name": "Manufacturer.StarshipsModel",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship name",
+            "in": "query",
+            "name": "Manufacturer.StarshipsName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship class",
+            "in": "query",
+            "name": "Manufacturer.StarshipsStarshipClass",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship class flags",
+            "in": "query",
+            "name": "Manufacturer.StarshipsStarshipClassFlags",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle description",
+            "in": "query",
+            "name": "Manufacturer.VehiclesDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle model",
+            "in": "query",
+            "name": "Manufacturer.VehiclesModel",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle name",
+            "in": "query",
+            "name": "Manufacturer.VehiclesName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle class",
+            "in": "query",
+            "name": "Manufacturer.VehiclesVehicleClass",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle class flags",
+            "in": "query",
+            "name": "Manufacturer.VehiclesVehicleClassFlags",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon description",
+            "in": "query",
+            "name": "Manufacturer.WeaponsDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon model",
+            "in": "query",
+            "name": "Manufacturer.WeaponsModel",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon name",
+            "in": "query",
+            "name": "Manufacturer.WeaponsName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon class",
+            "in": "query",
+            "name": "Manufacturer.WeaponsWeaponClass",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon class flags",
+            "in": "query",
+            "name": "Manufacturer.WeaponsWeaponClassFlags",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Planets with a climate type in the given list will be returned",
+            "in": "query",
+            "name": "Planet.ClimateTypes",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Planets with a climate flag in the given list will be returned",
+            "in": "query",
+            "name": "Planet.ClimateFlags",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against planet description",
+            "in": "query",
+            "name": "Planet.Description",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Planets whose diameter is in the given list will be returned",
+            "in": "query",
+            "name": "Planet.Diameters",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Planet.DiameterRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Planet.DiameterRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Planets whose gravity is in the given list will be returned",
+            "in": "query",
+            "name": "Planet.Gravities",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Planet.GravityRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Planet.GravityRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against planet name",
+            "in": "query",
+            "name": "Planet.Name",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Planets whose orbital period is in the given list will be returned",
+            "in": "query",
+            "name": "Planet.OrbitalPeriods",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Planet.OrbitalPeriodRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Planet.OrbitalPeriodRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Planets whose population is in the given list will be returned",
+            "in": "query",
+            "name": "Planet.Populations",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Planet.PopulationRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Planet.PopulationRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character description",
+            "in": "query",
+            "name": "Planet.ResidentsDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character name",
+            "in": "query",
+            "name": "Planet.ResidentsName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Planets whose rotational period is in the given list will be returned",
+            "in": "query",
+            "name": "Planet.RotationalPeriods",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Planet.RotationalPeriodRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Planet.RotationalPeriodRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Planets whose surface water is in the given list will be returned",
+            "in": "query",
+            "name": "Planet.SurfaceWaters",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Planet.SurfaceWaterRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Planet.SurfaceWaterRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Planets with a terrain type in the given list will be returned",
+            "in": "query",
+            "name": "Planet.TerrainTypes",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Planets with a terrain flag in the given list will be returned",
+            "in": "query",
+            "name": "Planet.TerrainFlags",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Species with a average heights in the given list will be returned",
+            "in": "query",
+            "name": "Specie.AverageHeights",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Specie.AverageHeightRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Specie.AverageHeightRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Species with a average lifespans in the given list will be returned",
+            "in": "query",
+            "name": "Specie.AverageLifespans",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Specie.AverageLifespanRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Specie.AverageLifespanRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character description",
+            "in": "query",
+            "name": "Specie.CharactersDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character name",
+            "in": "query",
+            "name": "Specie.CharactersName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Species with a classification in the given list will be returned",
+            "in": "query",
+            "name": "Specie.Classifications",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against specie description",
+            "in": "query",
+            "name": "Specie.Description",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Species with a designation in the given list will be returned",
+            "in": "query",
+            "name": "Specie.Designations",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Species with a eye colour in the given list will be returned",
+            "in": "query",
+            "name": "Specie.EyeColors",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Species with a hair colours in the given list will be returned",
+            "in": "query",
+            "name": "Specie.HairColors",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against planet description",
+            "in": "query",
+            "name": "Specie.HomeworldDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against planet name",
+            "in": "query",
+            "name": "Specie.HomeworldName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Species with a language in the given list will be returned",
+            "in": "query",
+            "name": "Specie.Languages",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against specie name",
+            "in": "query",
+            "name": "Specie.Name",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Species with a skin colours in the given list will be returned",
+            "in": "query",
+            "name": "Specie.SkinColors",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Starships with a cargo capacity in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Starship.CargoCapacities",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Starship.CargoCapacityRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Starship.CargoCapacityRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "in": "query",
+            "name": "Starship.Consumables",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "in": "query",
+            "name": "Starship.ConsumableRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "in": "query",
+            "name": "Starship.ConsumableRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Starships with a cost in credits amount in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Starship.CostInCredits",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Starship.CostInCreditRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Starship.CostInCreditRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship description",
+            "in": "query",
+            "name": "Starship.Description",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Starships with a length in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Starship.Lengths",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Starship.LengthRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Starship.LengthRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against manufacturer description",
+            "in": "query",
+            "name": "Starship.ManufacturersDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against manufacturer name",
+            "in": "query",
+            "name": "Starship.ManufacturersName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Starships with a max atmosphering speed in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Starship.MaxAtmospheringSpeeds",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Starship.MaxAtmospheringSpeedRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Starship.MaxAtmospheringSpeedRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Starships with a max crew in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Starship.MaxCrews",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Starship.MaxCrewRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Starship.MaxCrewRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Starships with a min crew in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Starship.MinCrews",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Starship.MinCrewRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Starship.MinCrewRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship model",
+            "in": "query",
+            "name": "Starship.Model",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship name",
+            "in": "query",
+            "name": "Starship.Name",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Starships with a passenger capacity in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Starship.Passengers",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Starship.PassengerRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Starship.PassengerRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character description",
+            "in": "query",
+            "name": "Starship.PilotsDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character name",
+            "in": "query",
+            "name": "Starship.PilotsName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Starships with a hyperdrive rating in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Starship.HyperdriveRatings",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Starship.HyperdriveRatingRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Starship.HyperdriveRatingRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Starships with an mglt in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Starship.MGLTs",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Starship.MGLTRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Starship.MGLTRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship class",
+            "in": "query",
+            "name": "Starship.StarshipClass",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against starship class flags",
+            "in": "query",
+            "name": "Starship.StarshipClassFlags",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Vehicles with a cargo capacity in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Vehicle.CargoCapacities",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Vehicle.CargoCapacityRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Vehicle.CargoCapacityRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "in": "query",
+            "name": "Vehicle.Consumables",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "in": "query",
+            "name": "Vehicle.ConsumableRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "in": "query",
+            "name": "Vehicle.ConsumableRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Vehicles with a cost in credits amount in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Vehicle.CostInCredits",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Vehicle.CostInCreditRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Vehicle.CostInCreditRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle description",
+            "in": "query",
+            "name": "Vehicle.Description",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Vehicles with a length in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Vehicle.Lengths",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Vehicle.LengthRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Vehicle.LengthRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against manufacturer description",
+            "in": "query",
+            "name": "Vehicle.ManufacturersDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against manufacturer name",
+            "in": "query",
+            "name": "Vehicle.ManufacturersName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Vehicles with a max atmosphering speed in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Vehicle.MaxAtmospheringSpeeds",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Vehicle.MaxAtmospheringSpeedRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Vehicle.MaxAtmospheringSpeedRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Vehicles with a max crew in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Vehicle.MaxCrews",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Vehicle.MaxCrewRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Vehicle.MaxCrewRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Vehicles with a min crew in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Vehicle.MinCrews",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Vehicle.MinCrewRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Vehicle.MinCrewRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle model",
+            "in": "query",
+            "name": "Vehicle.Model",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle name",
+            "in": "query",
+            "name": "Vehicle.Name",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Vehicles with a passenger capacity in the given list will be given list will be returned",
+            "in": "query",
+            "name": "Vehicle.Passengers",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The lower bound of the range",
+            "in": "query",
+            "name": "Vehicle.PassengerRangeLower",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "The upper bound of the range",
+            "in": "query",
+            "name": "Vehicle.PassengerRangeUpper",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character description",
+            "in": "query",
+            "name": "Vehicle.PilotsDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against character name",
+            "in": "query",
+            "name": "Vehicle.PilotsName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle class",
+            "in": "query",
+            "name": "Vehicle.VehicleClass",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against vehicle class flags",
+            "in": "query",
+            "name": "Vehicle.VehicleClassFlags",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon description",
+            "in": "query",
+            "name": "Weapon.Description",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against manufacturer description",
+            "in": "query",
+            "name": "Weapon.ManufacturersDescription",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against manufacturer name",
+            "in": "query",
+            "name": "Weapon.ManufacturersName",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon model",
+            "in": "query",
+            "name": "Weapon.Model",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon name",
+            "in": "query",
+            "name": "Weapon.Name",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon class",
+            "in": "query",
+            "name": "Weapon.WeaponClass",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "Search text will be checked against weapon class flags",
+            "in": "query",
+            "name": "Weapon.WeaponClassFlags",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "StarWarX Api"
+        ]
+      }
+    },
+    "/Species": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint for all the species of the Star Wars universe",
+        "operationId": "Get Species",
+        "parameters": [
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids for specific entity retrieval",
+            "in": "query",
+            "name": "Ids",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids whereby only the entity id will be returned",
+            "in": "query",
+            "name": "IdsToSkip",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the number of items per page",
+            "in": "query",
+            "name": "ItemsPerPage",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "A string for the order by which the entities should be returned",
+            "examples": {
+              "averageHeight": {
+                "description": "Sorts by average height",
+                "summary": "Average Height",
+                "value": "AverageHeight"
+              },
+              "averageLifespan": {
+                "description": "Sorts by average lifespan",
+                "summary": "Average Lifespan",
+                "value": "AverageLifespan"
+              },
+              "characterCount": {
+                "description": "Sorts by the number of different characters",
+                "summary": "CharacterCount",
+                "value": "CharacterCount"
+              },
+              "classification": {
+                "description": "Sorts by classification",
+                "summary": "Classification",
+                "value": "Classification"
+              },
+              "created": {
+                "description": "Sorts by date created",
+                "summary": "Created",
+                "value": "Created"
+              },
+              "designation": {
+                "description": "Sorts by designation",
+                "summary": "Designation",
+                "value": "Designation"
+              },
+              "edited": {
+                "description": "Sorts by date last edited",
+                "summary": "Edited",
+                "value": "Edited"
+              },
+              "eyeColorsCount": {
+                "description": "Sorts by the number of different eye colors",
+                "summary": "Eye Colors Count",
+                "value": "EyeColorsCount"
+              },
+              "hairColorsCount": {
+                "description": "Sorts by the number of different hair colors",
+                "summary": "Hair Colors Count",
+                "value": "HairColorsCount"
+              },
+              "id": {
+                "description": "Sorts by Id",
+                "summary": "Id",
+                "value": "Id"
+              },
+              "language": {
+                "description": "Sorts by language",
+                "summary": "Language",
+                "value": "Language"
+              },
+              "name": {
+                "description": "Sorts by name",
+                "summary": "Name",
+                "value": "Name"
+              },
+              "skinColorsCount": {
+                "description": "Sorts by the number of different skin colors",
+                "summary": "Skin Colors Count",
+                "value": "SkinColorsCount"
+              }
+            },
+            "in": "query",
+            "name": "OrderBy",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the page that should be returned",
+            "in": "query",
+            "name": "Page",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "StarWarX Api"
+        ]
+      }
+    },
+    "/Starships": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint for all the starships of the Star Wars universe",
+        "operationId": "Get Starships",
+        "parameters": [
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids for specific entity retrieval",
+            "in": "query",
+            "name": "Ids",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids whereby only the entity id will be returned",
+            "in": "query",
+            "name": "IdsToSkip",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the number of items per page",
+            "in": "query",
+            "name": "ItemsPerPage",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "A string for the order by which the entities should be returned",
+            "examples": {
+              "cargoCapacity": {
+                "description": "Sorts by cargo capacity",
+                "summary": "Cargo Capacity",
+                "value": "CargoCapacity"
+              },
+              "consumables": {
+                "description": "Sorts by consumables",
+                "summary": "Consumables",
+                "value": "Consumables"
+              },
+              "costInCredits": {
+                "description": "Sorts by cost in credits",
+                "summary": "Cost In Credits",
+                "value": "CostInCredits"
+              },
+              "created": {
+                "description": "Sorts by date created",
+                "summary": "Created",
+                "value": "Created"
+              },
+              "edited": {
+                "description": "Sorts by date last edited",
+                "summary": "Edited",
+                "value": "Edited"
+              },
+              "hyperdriveRating": {
+                "description": "Sorts by hyperdrive rating",
+                "summary": "Hyperdrive Rating",
+                "value": "HyperdriveRating"
+              },
+              "id": {
+                "description": "Sorts by Id",
+                "summary": "Id",
+                "value": "Id"
+              },
+              "length": {
+                "description": "Sorts by length",
+                "summary": "Length",
+                "value": "Length"
+              },
+              "manufacturerCount": {
+                "description": "Sorts by the number of different manufacturers",
+                "summary": "Manufacturer Count",
+                "value": "ManufacturerCount"
+              },
+              "maxAtmospheringSpeed": {
+                "description": "Sorts by max atmosphering speed",
+                "summary": "Max Atmosphering Speed",
+                "value": "MaxAtmospheringSpeed"
+              },
+              "maxCrew": {
+                "description": "Sorts by max crew",
+                "summary": "Max Crew",
+                "value": "MaxCrew"
+              },
+              "mglt": {
+                "description": "Sorts by MGLT",
+                "summary": "MGLT",
+                "value": "MGLT"
+              },
+              "minCrew": {
+                "description": "Sorts by min crew",
+                "summary": "Min Crew",
+                "value": "MinCrew"
+              },
+              "model": {
+                "description": "Sorts by model",
+                "summary": "Model",
+                "value": "Model"
+              },
+              "name": {
+                "description": "Sorts by name",
+                "summary": "Name",
+                "value": "Name"
+              },
+              "passengers": {
+                "description": "Sorts by passengers",
+                "summary": "Passengers",
+                "value": "Passengers"
+              },
+              "pilotCount": {
+                "description": "Sorts by the number of different pilots",
+                "summary": "Pilot Count",
+                "value": "PilotCount"
+              },
+              "starshipClass": {
+                "description": "Sorts by starship class",
+                "summary": "Starship Class",
+                "value": "StarshipClass"
+              },
+              "starshipClassFlagsCount": {
+                "description": "Sorts by the number of different starship class flags",
+                "summary": "Starship Class Flags Count",
+                "value": "StarshipClassFlagsCount"
+              }
+            },
+            "in": "query",
+            "name": "OrderBy",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the page that should be returned",
+            "in": "query",
+            "name": "Page",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "StarWarX Api"
+        ]
+      }
+    },
+    "/Vehicles": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint for all the vehicles of the Star Wars universe",
+        "operationId": "Get Vehicles",
+        "parameters": [
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids for specific entity retrieval",
+            "in": "query",
+            "name": "Ids",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids whereby only the entity id will be returned",
+            "in": "query",
+            "name": "IdsToSkip",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the number of items per page",
+            "in": "query",
+            "name": "ItemsPerPage",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "A string for the order by which the entities should be returned",
+            "examples": {
+              "cargoCapacity": {
+                "description": "Sorts by cargo capacity",
+                "summary": "Cargo Capacity",
+                "value": "CargoCapacity"
+              },
+              "consumables": {
+                "description": "Sorts by consumables",
+                "summary": "Consumables",
+                "value": "Consumables"
+              },
+              "costInCredits": {
+                "description": "Sorts by cost in credits",
+                "summary": "Cost In Credits",
+                "value": "CostInCredits"
+              },
+              "created": {
+                "description": "Sorts by date created",
+                "summary": "Created",
+                "value": "Created"
+              },
+              "edited": {
+                "description": "Sorts by date last edited",
+                "summary": "Edited",
+                "value": "Edited"
+              },
+              "id": {
+                "description": "Sorts by Id",
+                "summary": "Id",
+                "value": "Id"
+              },
+              "length": {
+                "description": "Sorts by length",
+                "summary": "Length",
+                "value": "Length"
+              },
+              "manufacturerCount": {
+                "description": "Sorts by the number of different manufacturers",
+                "summary": "Manufacturer Count",
+                "value": "ManufacturerCount"
+              },
+              "maxAtmospheringSpeed": {
+                "description": "Sorts by max atmosphering speed",
+                "summary": "Max Atmosphering Speed",
+                "value": "MaxAtmospheringSpeed"
+              },
+              "maxCrew": {
+                "description": "Sorts by max crew",
+                "summary": "Max Crew",
+                "value": "MaxCrew"
+              },
+              "minCrew": {
+                "description": "Sorts by min crew",
+                "summary": "Min Crew",
+                "value": "MinCrew"
+              },
+              "model": {
+                "description": "Sorts by model",
+                "summary": "Model",
+                "value": "Model"
+              },
+              "name": {
+                "description": "Sorts by name",
+                "summary": "Name",
+                "value": "Name"
+              },
+              "passengers": {
+                "description": "Sorts by passengers",
+                "summary": "Passengers",
+                "value": "Passengers"
+              },
+              "pilotCount": {
+                "description": "Sorts by the number of different pilots",
+                "summary": "Pilot Count",
+                "value": "PilotCount"
+              },
+              "vehicleClass": {
+                "description": "Sorts by vehicle class",
+                "summary": "Vehicle Class",
+                "value": "VehicleClass"
+              },
+              "vehicleClassFlagsCount": {
+                "description": "Sorts by the number of different vehicle class flags",
+                "summary": "Vehicle Class Flags Count",
+                "value": "VehicleClassFlagsCount"
+              }
+            },
+            "in": "query",
+            "name": "OrderBy",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the page that should be returned",
+            "in": "query",
+            "name": "Page",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "StarWarX Api"
+        ]
+      }
+    },
+    "/Weapons": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint for all the weapons of the Star Wars universe",
+        "operationId": "Get Weapons",
+        "parameters": [
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids for specific entity retrieval",
+            "in": "query",
+            "name": "Ids",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An array of ids whereby only the entity id will be returned",
+            "in": "query",
+            "name": "IdsToSkip",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the number of items per page",
+            "in": "query",
+            "name": "ItemsPerPage",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "A string for the order by which the entities should be returned",
+            "examples": {
+              "created": {
+                "description": "Sorts by date created",
+                "summary": "Created",
+                "value": "Created"
+              },
+              "edited": {
+                "description": "Sorts by date last edited",
+                "summary": "Edited",
+                "value": "Edited"
+              },
+              "id": {
+                "description": "Sorts by Id",
+                "summary": "Id",
+                "value": "Id"
+              },
+              "manufacturerCount": {
+                "description": "Sorts by the number of different manufacturer",
+                "summary": "Manufacturer Count",
+                "value": "ManufacturerCount"
+              },
+              "model": {
+                "description": "Sorts by model",
+                "summary": "Model",
+                "value": "Model"
+              },
+              "name": {
+                "description": "Sorts by name",
+                "summary": "Name",
+                "value": "Name"
+              },
+              "weaponClass": {
+                "description": "Sorts by weapon class",
+                "summary": "Weapon Class",
+                "value": "WeaponClass"
+              },
+              "weaponClassFlagsCount": {
+                "description": "Sorts by the number of different weapon class flags",
+                "summary": "Weapon Class Flags Count",
+                "value": "WeaponClassFlagsCount"
+              }
+            },
+            "in": "query",
+            "name": "OrderBy",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "An integer for the page that should be returned",
+            "in": "query",
+            "name": "Page",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "StarWarX Api"
+        ]
+      }
+    },
+    "/Meta": {
+      "get": {
+        "deprecated": false,
+        "description": "Endpoint for api meta values",
+        "operationId": "Meta",
+        "parameters": [
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "A date value for the entities that have been addded since",
+            "in": "query",
+            "name": "AdditionsSince",
+            "required": false
+          },
+          {
+            "allowEmptyValue": true,
+            "deprecated": false,
+            "description": "A date value for the entities whose fields have been changed since",
+            "in": "query",
+            "name": "EditsSince",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "StarWarX Api"
+        ]
+      }
+    }
+  },
+  "servers": [
+    {
+      "description": "Default Server",
+      "url": "/Api/Rest"
+    }
+  ],
+  "tags": [
+    {
+      "description": "All REST Api endpoints",
+      "name": "StarWarX Api"
+    }
+  ]
+}
