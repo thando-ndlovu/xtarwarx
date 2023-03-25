@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/dp256"
+        android:layout_height="@dimen/dp256">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            style="@style/XtarWarx.View.Page.Item.Image"
+            android:id="@+id/xtarwarx_view_page_item_horizontal_imagedefault_appcompatimageview"
+            android:layout_width="@dimen/dp0"
+            android:layout_height="@dimen/dp0"
+            android:layout_margin="@dimen/dp8"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintVertical_weight="1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintWidth="match_constraint"
+            app:layout_constraintHeight="match_constraint"
+            app:layout_constraintWidth_default="spread"
+            app:layout_constraintHeight_default="spread"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/xtarwarx_view_page_item_horizontal_image_appcompatimageview"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            style="@style/XtarWarx.View.Page.Item.Image"
+            android:id="@+id/xtarwarx_view_page_item_horizontal_image_appcompatimageview"
+            android:layout_width="@dimen/dp0"
+            android:layout_height="@dimen/dp0"
+            android:layout_margin="@dimen/dp8"
+
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintVertical_weight="1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintWidth="match_constraint"
+            app:layout_constraintHeight="match_constraint"
+            app:layout_constraintWidth_default="spread"
+            app:layout_constraintHeight_default="spread"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/xtarwarx_view_page_item_horizontal_image_appcompatimageview"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/XtarWarx.View.Page.Item.Text.Title"
+            android:id="@+id/xtarwarx_view_page_item_horizontal_title_appcompattextview"
+            android:layout_width="@dimen/dp0"
+            android:layout_height="@dimen/dp0"
+            android:layout_marginBottom="@dimen/dp8"
+            android:layout_marginHorizontal="@dimen/dp8"
+
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintWidth="match_constraint"
+            app:layout_constraintHeight="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/xtarwarx_view_page_item_horizontal_subtitle_appcompattextview"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/XtarWarx.View.Page.Item.Text.Subtitle"
+            android:id="@+id/xtarwarx_view_page_item_horizontal_subtitle_appcompattextview"
+            android:layout_width="@dimen/dp0"
+            android:layout_height="@dimen/dp0"
+            android:layout_marginBottom="@dimen/dp8"
+            android:maxLines="1"
+
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintWidth="match_constraint"
+            app:layout_constraintHeight="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/xtarwarx_view_page_item_horizontal_title_appcompattextview"
+            app:layout_constraintStart_toStartOf="@id/xtarwarx_view_page_item_horizontal_title_appcompattextview"
+            app:layout_constraintBottom_toTopOf="@id/xtarwarx_view_page_item_horizontal_menu_menuitemsrecyclerview"/>
+
+        <com.xyclonedesigns.xtarwarx.widgets.recyclerview.MenuItemsRecyclerView
+            style="@style/XtarWarx.View.Page.Item.Menu"
+            android:id="@+id/xtarwarx_view_page_item_horizontal_menu_menuitemsrecyclerview"
+            android:layout_width="@dimen/dp0"
+            android:layout_height="@dimen/dp0"
+            android:layout_marginBottom="@dimen/dp8"
+            android:visibility="gone"
+
+            app:layout_constraintWidth="match_constraint"
+            app:layout_constraintHeight="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</merge>

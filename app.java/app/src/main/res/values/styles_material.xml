@@ -1,0 +1,59 @@
+<resources>
+
+    <style name="XtarWarx.Material.AppBarLayout" parent="Widget.MaterialComponents.AppBarLayout.Surface">
+        <item name="android:background">@color/ColorBackground</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:elevation">@dimen/dp0</item>
+        <item name="android:shadowColor">@color/ColorBackground</item>
+
+        <item name="expanded">true</item>
+        <item name="elevation">@dimen/dp0</item>
+        <item name="liftOnScroll">false</item>
+    </style>
+    <style name="XtarWarx.Material.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/dp32</item>
+        <item name="cardElevation">@dimen/dp16</item>
+        <item name="cardBackgroundColor">@color/ColorSurface</item>
+        <item name="cardForegroundColor">@color/ColorSurfaceActive</item>
+        <item name="contentPaddingTop">@dimen/dp8</item>
+        <item name="contentPaddingLeft">@dimen/dp8</item>
+        <item name="contentPaddingRight">@dimen/dp8</item>
+        <item name="contentPaddingBottom">@dimen/dp8</item>
+    </style>
+    <style name="XtarWarx.Material.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:background">@color/ColorBackground</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:paddingTop">@dimen/dp16</item>
+        <item name="android:paddingEnd">@dimen/dp8</item>
+        <item name="android:paddingStart">@dimen/dp8</item>
+        <item name="android:paddingBottom">@dimen/dp16</item>
+
+        <item name="tabBackground">@null</item>
+        <item name="tabGravity">center</item>
+        <item name="tabIndicator">@null</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabPadding">@dimen/dp0</item>
+        <item name="tabPaddingEnd">@dimen/dp0</item>
+        <item name="tabPaddingStart">@dimen/dp0</item>
+        <item name="tabRippleColor">@android:color/transparent</item>
+    </style>
+    <style name="XtarWarx.Material.TabLayout.Tab" parent="XtarWarx.AppCompat.Button">
+        <item name="android:background">@drawable/background_tablayout_tab</item>
+        <item name="android:drawablePadding">@dimen/dp4</item>
+        <item name="android:drawableTint">@color/tablayout_tab_icon</item>
+        <item name="android:layout_marginEnd">@dimen/dp8</item>
+        <item name="android:layout_marginStart">@dimen/dp8</item>
+        <item name="android:paddingTop">@dimen/dp4</item>
+        <item name="android:paddingEnd">@dimen/dp8</item>
+        <item name="android:paddingStart">@dimen/dp8</item>
+        <item name="android:paddingBottom">@dimen/dp4</item>
+        <item name="android:textAppearance">@style/XtarWarx.Material.TabLayout.Tab.TextAppearance</item>
+        <item name="android:textColor">@color/tablayout_tab_text</item>
+
+        <item name="rippleColor">@null</item>
+    </style>
+    <style name="XtarWarx.Material.TabLayout.Tab.TextAppearance" parent="XtarWarx.AppCompat.TextAppearance" />
+
+</resources>

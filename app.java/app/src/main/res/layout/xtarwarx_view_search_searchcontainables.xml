@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.SearchContainables.Text.Title"
+        android:id="@+id/xtarwarx_view_search_searchcontainables_title_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/xtarwarx_view_search_searchcontainables_toggle_appcompatimagebutton"
+        app:layout_constraintEnd_toStartOf="@id/xtarwarx_view_search_searchcontainables_toggle_appcompatimagebutton"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.SearchContainables.Text.Subtitle"
+        android:id="@+id/xtarwarx_view_search_searchcontainables_subtitle_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_searchcontainables_title_appcompattextview"
+        app:layout_constraintEnd_toStartOf="@id/xtarwarx_view_search_searchcontainables_toggle_appcompatimagebutton"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        style="@style/XtarWarx.View.SearchContainables.ImageButton"
+        android:id="@+id/xtarwarx_view_search_searchcontainables_toggle_appcompatimagebutton"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginStart="@dimen/dp16"
+
+        app:layout_constraintWidth="wrap_content_constrained"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</merge>

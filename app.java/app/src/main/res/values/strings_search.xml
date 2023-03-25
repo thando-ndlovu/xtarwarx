@@ -1,0 +1,952 @@
+<resources>
+
+    <string name="search_charactersearch_title">Characters Search</string>
+
+    <string name="search_charactersearch_homeworldsearchcontainables_title">Character Homeworld</string>
+    <string name="search_charactersearch_homeworldsearchcontainables_description">Character homeworld will be used in search</string>
+
+    <string name="search_charactersearch_birthyearrange_lowererrormessageinvalid">The value %1$d is not a valid birth year</string>
+    <string name="search_charactersearch_birthyearrange_lowergreaterthanupperinfomessage">The birth year lower bound is greater than the upper bound</string>
+    <string name="search_charactersearch_birthyearrange_lowerplaceholder">eg. 33.8</string>
+    <string name="search_charactersearch_birthyearrange_lowertitle">Lower</string>
+    <string name="search_charactersearch_birthyearrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_charactersearch_birthyearrange_title">Birth Year Range</string>
+    <string name="search_charactersearch_birthyearrange_description">Characters with a birth year is within the given range will be returned</string>
+    <string name="search_charactersearch_birthyearrange_uppererrormessageinvalid">The value %1$d is not a valid birth year</string>
+    <string name="search_charactersearch_birthyearrange_upperlessthanlowerinfomessage">The birth year upper bound is less than the lower bound</string>
+    <string name="search_charactersearch_birthyearrange_upperplaceholder">eg. 33.8</string>
+    <string name="search_charactersearch_birthyearrange_uppertitle">Upper</string>
+    <string name="search_charactersearch_birthyearrange_upperdescription">The upper bound of the range</string>
+
+    <string name="search_charactersearch_birthyearslist_addbuttontext">Add</string>
+    <string name="search_charactersearch_birthyearslist_entryplaceholder">eg. 33.8</string>
+    <string name="search_charactersearch_birthyearslist_title">Birth Years</string>
+    <string name="search_charactersearch_birthyearslist_description">Characters with a birth year in the given list will be returned</string>
+    <string name="search_charactersearch_birthyearslist_toastalreadyselected">The birth year %1$d has already been selected</string>
+    <string name="search_charactersearch_birthyearslist_toastinvalid">The value %1$d is not a valid birth year</string>
+
+    <string name="search_charactersearch_eyecolorslist_pickercancel">Cancel</string>
+    <string name="search_charactersearch_eyecolorslist_pickertitle">Select an Eye Colour</string>
+    <string name="search_charactersearch_eyecolorslist_addbuttontext">Add</string>
+    <string name="search_charactersearch_eyecolorslist_title">Eye Colours</string>
+    <string name="search_charactersearch_eyecolorslist_description">Characters with an eye colour in the given list will be returned</string>
+    <string name="search_charactersearch_eyecolorslist_toastalreadyselected">The eye colour %1$d has already been selected</string>
+    <string name="search_charactersearch_eyecolorslist_toastinvalid">The value %1$d is not a valid eye colour</string>
+
+    <string name="search_charactersearch_haircolorslist_pickercancel">Cancel</string>
+    <string name="search_charactersearch_haircolorslist_pickertitle">Select a Hair Colour</string>
+    <string name="search_charactersearch_haircolorslist_addbuttontext">Add</string>
+    <string name="search_charactersearch_haircolorslist_title">Hair Colors</string>
+    <string name="search_charactersearch_haircolorslist_description">Characters with a hair colour in the given list will be returned</string>
+    <string name="search_charactersearch_haircolorslist_toastalreadyselected">The hair colour %1$d has already been selected</string>
+    <string name="search_charactersearch_haircolorslist_toastinvalid">The value %1$d is not a valid hair colour</string>
+
+    <string name="search_charactersearch_heightrange_lowererrormessageinvalid">The value %1$d is not a valid height</string>
+    <string name="search_charactersearch_heightrange_lowergreaterthanupperinfomessage">The height lower bound is greater than the upper bound</string>
+    <string name="search_charactersearch_heightrange_lowerplaceholder">eg. 132</string>
+    <string name="search_charactersearch_heightrange_lowertitle">Lower</string>
+    <string name="search_charactersearch_heightrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_charactersearch_heightrange_title">Height Range</string>
+    <string name="search_charactersearch_heightrange_description">Characters with a height within the given range will be returned</string>
+    <string name="search_charactersearch_heightrange_uppererrormessageinvalid">The value %1$d is not a valid height</string>
+    <string name="search_charactersearch_heightrange_upperlessthanlowerinfomessage">The height upper bound is less than the lower bound</string>
+    <string name="search_charactersearch_heightrange_upperplaceholder">eg. 132</string>
+    <string name="search_charactersearch_heightrange_uppertitle">Upper</string>
+    <string name="search_charactersearch_heightrange_upperdescription">The upper bound of the range</string>
+
+    <string name="search_charactersearch_heightslist_addbuttontext">Add</string>
+    <string name="search_charactersearch_heightslist_entryplaceholder">eg. 132</string>
+    <string name="search_charactersearch_heightslist_title">Heights</string>
+    <string name="search_charactersearch_heightslist_description">Characters with a height in the given list will be returned</string>
+    <string name="search_charactersearch_heightslist_toastalreadyselected">The height %1$d has already been selected</string>
+    <string name="search_charactersearch_heightslist_toastinvalid">The value %1$d is not a valid height</string>
+
+    <string name="search_charactersearch_masseslist_addbuttontext">Add</string>
+    <string name="search_charactersearch_masseslist_entryplaceholder">eg. 13.2</string>
+    <string name="search_charactersearch_masseslist_title">Masses</string>
+    <string name="search_charactersearch_masseslist_description">Characters with a mass in the given list will be returned</string>
+    <string name="search_charactersearch_masseslist_toastalreadyselected">The mass %1$d has already been selected</string>
+    <string name="search_charactersearch_masseslist_toastinvalid">The value %1$d is not a valid mass</string>
+
+    <string name="search_charactersearch_massrange_lowererrormessageinvalid">The value %1$d is not a valid mass</string>
+    <string name="search_charactersearch_massrange_lowergreaterthanupperinfomessage">The mass lower bound is greater than the upper bound</string>
+    <string name="search_charactersearch_massrange_lowerplaceholder">eg. 13.2</string>
+    <string name="search_charactersearch_massrange_lowertitle">Lower</string>
+    <string name="search_charactersearch_massrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_charactersearch_massrange_title">Mass Range</string>
+    <string name="search_charactersearch_massrange_description">Characters with a mass is within the given range will be returned</string>
+    <string name="search_charactersearch_massrange_uppererrormessageinvalid">The value %1$d is not a valid mass</string>
+    <string name="search_charactersearch_massrange_upperlessthanlowerinfomessage">The mass upper bound is less than the lower bound</string>
+    <string name="search_charactersearch_massrange_upperplaceholder">eg. 13.2</string>
+    <string name="search_charactersearch_massrange_uppertitle">Upper</string>
+    <string name="search_charactersearch_massrange_upperdescription">The upper bound of the range</string>
+
+    <string name="search_charactersearch_sexeslist_pickercancel">Cancel</string>
+    <string name="search_charactersearch_sexeslist_pickertitle">Select a Sex</string>
+    <string name="search_charactersearch_sexeslist_addbuttontext">Add</string>
+    <string name="search_charactersearch_sexeslist_title">Sexes</string>
+    <string name="search_charactersearch_sexeslist_description">Characters with a sex in the given list will be returned</string>
+    <string name="search_charactersearch_sexeslist_toastalreadyselected">The sex %1$d has already been selected</string>
+    <string name="search_charactersearch_sexeslist_toastinvalid">The value %1$d is not a valid sex</string>
+
+    <string name="search_charactersearch_skincolorslist_pickercancel">Cancel</string>
+    <string name="search_charactersearch_skincolorslist_pickertitle">Select a Skin Colour</string>
+    <string name="search_charactersearch_skincolorslist_addbuttontext">Add</string>
+    <string name="search_charactersearch_skincolorslist_title">Skin Colour</string>
+    <string name="search_charactersearch_skincolorslist_description">Characters with a skin colour in the given list will be returned</string>
+    <string name="search_charactersearch_skincolorslist_toastalreadyselected">The skin colour %1$d has already been selected</string>
+    <string name="search_charactersearch_skincolorslist_toastinvalid">The value %1$d is not a valid skin colour</string>
+
+    <string name="search_charactersearchcontainables_descriptions_description">Search text will be checked against character description</string>
+    <string name="search_charactersearchcontainables_descriptions_name">Search text will be checked against character name</string>
+
+    <string name="search_charactersearchcontainables_titles_description">Description</string>
+    <string name="search_charactersearchcontainables_titles_name">Name</string>
+
+    <string name="search_factionsearch_title">Factions Search</string>
+    <string name="search_factionsearch_alliedcharacterssearchcontainables_title">Faction Allied Characters</string>
+    <string name="search_factionsearch_alliedcharacterssearchcontainables_description">Factions with allied characters in the given list will be returned</string>
+    <string name="search_factionsearch_alliedfactionssearchcontainables_title">Faction Allied Factions</string>
+    <string name="search_factionsearch_alliedfactionssearchcontainables_description">Factions with allied factions in the given list will be returned</string>
+    <string name="search_factionsearch_leaderssearchcontainables_title">Faction Leaders</string>
+    <string name="search_factionsearch_leaderssearchcontainables_description">Factions with leaders in the given list will be returned</string>
+    <string name="search_factionsearch_membercharacterssearchcontainables_title">Faction Character Members</string>
+    <string name="search_factionsearch_membercharacterssearchcontainables_description">Factions with character members in the given list will be returned</string>
+    <string name="search_factionsearch_memberfactionssearchcontainables_title">Faction Faction Members</string>
+    <string name="search_factionsearch_memberfactionssearchcontainables_description">Factions with faction members in the given list will be returned</string>
+
+    <string name="search_factionsearchcontainables_descriptions_description">Search text will be checked against faction description</string>
+    <string name="search_factionsearchcontainables_descriptions_organisationtypes">Search text will be checked against faction organisation types</string>
+    <string name="search_factionsearchcontainables_descriptions_name">Search text will be checked against faction name</string>
+
+    <string name="search_factionsearchcontainables_titles_description">Description</string>
+    <string name="search_factionsearchcontainables_titles_organisationtypes">Organisation Types</string>
+    <string name="search_factionsearchcontainables_titles_name">Name</string>
+
+    <string name="search_filmsearch_title">Films Search</string>
+
+    <string name="search_filmsearch_characterssearchcontainables_title">Film Characters</string>
+    <string name="search_filmsearch_characterssearchcontainables_description">Films with characters in the given list will be returned</string>
+    <string name="search_filmsearch_factionssearchcontainables_title">Film Factions</string>
+    <string name="search_filmsearch_factionssearchcontainables_description">Films with factions in the given list will be returned</string>
+    <string name="search_filmsearch_manufacturerssearchcontainables_title">Film Manufacturers</string>
+    <string name="search_filmsearch_manufacturerssearchcontainables_description">Films with manufacturers in the given list will be returned</string>
+    <string name="search_filmsearch_planetssearchcontainables_title">Film Planets</string>
+    <string name="search_filmsearch_planetssearchcontainables_description">Films with planets in the given list will be returned</string>
+    <string name="search_filmsearch_speciessearchcontainables_title">Film Species</string>
+    <string name="search_filmsearch_speciessearchcontainables_description">Films with species in the given list will be returned</string>
+    <string name="search_filmsearch_starshipssearchcontainables_title">Film Starships</string>
+    <string name="search_filmsearch_starshipssearchcontainables_description">Films with starships in the given list will be returned</string>
+    <string name="search_filmsearch_vehiclessearchcontainables_title">Film Vehicles</string>
+    <string name="search_filmsearch_vehiclessearchcontainables_description">Films with vehicles in the given list will be returned</string>
+    <string name="search_filmsearch_weaponssearchcontainables_title">Film Weapons</string>
+    <string name="search_filmsearch_weaponssearchcontainables_description">Films with weapons in the given list will be returned</string>
+
+    <string name="search_filmsearch_durationslist_title">Durations</string>
+    <string name="search_filmsearch_durationslist_description">Films with durations in the given list will be returned</string>
+    <string name="search_filmsearch_durationslist_addbuttontext">Add</string>
+    <string name="search_filmsearch_durationslist_entryplaceholder">eg. 122</string>
+    <string name="search_filmsearch_durationslist_toastinvalid">The value %1$d is not a valid duration</string>
+    <string name="search_filmsearch_durationslist_toastalreadyselected">The duration %1$d has already been selected</string>
+
+    <string name="search_filmsearch_durationrange_title">Duration Range</string>
+    <string name="search_filmsearch_durationrange_description">Films whose duration is in the given range will be returned</string>
+    <string name="search_filmsearch_durationrange_lowertitle">Lower</string>
+    <string name="search_filmsearch_durationrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_filmsearch_durationrange_lowerplaceholder">eg. 122</string>
+    <string name="search_filmsearch_durationrange_uppertitle">Upper</string>
+    <string name="search_filmsearch_durationrange_upperdescription">The upper bound of the range</string>
+    <string name="search_filmsearch_durationrange_upperplaceholder">eg. 122</string>
+    <string name="search_filmsearch_durationrange_lowererrormessageinvalid">The value %1$d is not a valid duration</string>
+    <string name="search_filmsearch_durationrange_uppererrormessageinvalid">The value %1$d is not a valid duration</string>
+    <string name="search_filmsearch_durationrange_lowergreaterthanupperinfomessage">The duration lower bound is greater than the upper bound</string>
+    <string name="search_filmsearch_durationrange_upperlessthanlowerinfomessage">The duration upper bound is less than the lower bound</string>
+
+    <string name="search_filmsearch_episodeidslist_title">Episode Ids</string>
+    <string name="search_filmsearch_episodeidslist_description">Films with episode ids in the given list will be returned</string>
+    <string name="search_filmsearch_episodeidslist_addbuttontext">Add</string>
+    <string name="search_filmsearch_episodeidslist_entryplaceholder">eg. 1</string>
+    <string name="search_filmsearch_episodeidslist_toastinvalid">The value %1$d is not a valid episode id</string>
+    <string name="search_filmsearch_episodeidslist_toastalreadyselected">The episode id %1$d has already been selected</string>
+
+    <string name="search_filmsearch_episodeidrange_title">Episode Id Range</string>
+    <string name="search_filmsearch_episodeidrange_description">Films whose episode id is in the given range will be returned</string>
+    <string name="search_filmsearch_episodeidrange_lowertitle">Lower</string>
+    <string name="search_filmsearch_episodeidrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_filmsearch_episodeidrange_lowerplaceholder">eg. 1</string>
+    <string name="search_filmsearch_episodeidrange_uppertitle">Upper</string>
+    <string name="search_filmsearch_episodeidrange_upperdescription">The upper bound of the range</string>
+    <string name="search_filmsearch_episodeidrange_upperplaceholder">eg. 1</string>
+    <string name="search_filmsearch_episodeidrange_lowererrormessageinvalid">The value %1$d is not a valid episode id</string>
+    <string name="search_filmsearch_episodeidrange_uppererrormessageinvalid">The value %1$d is not a valid episode id</string>
+    <string name="search_filmsearch_episodeidrange_lowergreaterthanupperinfomessage">The episode id lower bound is greater than the upper bound</string>
+    <string name="search_filmsearch_episodeidrange_upperlessthanlowerinfomessage">The episode id upper bound is less than the lower bound</string>
+
+    <string name="search_filmsearch_releasedateslist_title">Release Dates</string>
+    <string name="search_filmsearch_releasedateslist_description">Films with release dates in the given list will be returned</string>
+    <string name="search_filmsearch_releasedateslist_addbuttontext">Add</string>
+    <string name="search_filmsearch_releasedateslist_prompttitle">Select a Release Date</string>
+    <string name="search_filmsearch_releasedateslist_promptok">OK</string>
+    <string name="search_filmsearch_releasedateslist_promptcancel">Cancel</string>
+    <string name="search_filmsearch_releasedateslist_toastinvalid">The value %1$d is not a valid release date</string>
+    <string name="search_filmsearch_releasedateslist_toastalreadyselected">The release date %1$d has already been selected</string>
+
+    <string name="search_filmsearch_releasedaterange_title">Release Date Range</string>
+    <string name="search_filmsearch_releasedaterange_description">Films whose release date is in the given range will be returned</string>
+    <string name="search_filmsearch_releasedaterange_lowertitle">Lower</string>
+    <string name="search_filmsearch_releasedaterange_lowerdescription">Lower</string>
+    <string name="search_filmsearch_releasedaterange_uppertitle">Upper</string>
+    <string name="search_filmsearch_releasedaterange_upperdescription">The upper bound of the range</string>
+    <string name="search_filmsearch_releasedaterange_lowergreaterthanupperinfomessage">The release date lower bound is greater than the upper bound</string>
+    <string name="search_filmsearch_releasedaterange_upperlessthanlowerinfomessage">The release date upper bound is less than the lower bound</string>
+
+    <string name="search_filmsearchcontainables_descriptions_castmembers">Search text will be checked against film cast members</string>
+    <string name="search_filmsearchcontainables_descriptions_description">Search text will be checked against film description</string>
+    <string name="search_filmsearchcontainables_descriptions_director">Search text will be checked against film director</string>
+    <string name="search_filmsearchcontainables_descriptions_openingcrawl">Search text will be checked against film opening crawl</string>
+    <string name="search_filmsearchcontainables_descriptions_producers">Search text will be checked against film producers</string>
+    <string name="search_filmsearchcontainables_descriptions_title">Search text will be checked against film title</string>
+
+    <string name="search_filmsearchcontainables_titles_castmembers">Cast Members</string>
+    <string name="search_filmsearchcontainables_titles_description">Description</string>
+    <string name="search_filmsearchcontainables_titles_director">Director</string>
+    <string name="search_filmsearchcontainables_titles_openingcrawl">Opening Crawl</string>
+    <string name="search_filmsearchcontainables_titles_producers">Producers</string>
+    <string name="search_filmsearchcontainables_titles_title">Title</string>
+
+    <string name="search_manufacturersearch_title">Manufacturers Search</string>
+
+    <string name="search_manufacturersearch_headquartersplanetsearchcontainables_title">Manufacturer Headquarters Planet</string>
+    <string name="search_manufacturersearch_headquartersplanetsearchcontainables_description">Manufacturer headquarters planet will be used in search</string>
+    <string name="search_manufacturersearch_starshipssearchcontainables_title">Manufacturer Starships</string>
+    <string name="search_manufacturersearch_starshipssearchcontainables_description">Manufacturer starships will be used in search</string>
+    <string name="search_manufacturersearch_vehiclessearchcontainables_title">Manufacturer Vehicles</string>
+    <string name="search_manufacturersearch_vehiclessearchcontainables_description">Manufacturer vehicles will be used in search</string>
+    <string name="search_manufacturersearch_weaponssearchcontainables_title">Manufacturer Weapons</string>
+    <string name="search_manufacturersearch_weaponssearchcontainables_description">Manufacturer weapons will be used in search</string>
+
+    <string name="search_manufacturersearchcontainables_descriptions_description">Search text will be checked against manufacturer description</string>
+    <string name="search_manufacturersearchcontainables_descriptions_name">Search text will be checked against manufacturer name</string>
+
+    <string name="search_manufacturersearchcontainables_titles_description">Description</string>
+    <string name="search_manufacturersearchcontainables_titles_name">Name</string>
+
+    <string name="search_planetsearch_title">Planets Search</string>
+
+    <string name="search_planetsearch_residentssearchcontainables_title">Planet Residents</string>
+    <string name="search_planetsearch_residentssearchcontainables_description">Planet residents will be used in search</string>
+
+    <string name="search_planetsearch_climateflagslist_title">Climate Flags</string>
+    <string name="search_planetsearch_climateflagslist_description">Planets with a climate flag in the given list will be returned</string>
+    <string name="search_planetsearch_climateflagslist_addbuttontext">Add</string>
+    <string name="search_planetsearch_climateflagslist_pickertitle">Select a Climate Flag</string>
+    <string name="search_planetsearch_climateflagslist_pickercancel">Cancel</string>
+    <string name="search_planetsearch_climateflagslist_toastinvalid">The value %1$d is not a valid climate flag</string>
+    <string name="search_planetsearch_climateflagslist_toastalreadyselected">The climate flag %1$d has already been selected</string>
+
+    <string name="search_planetsearch_climatetypeslist_title">Climate Types</string>
+    <string name="search_planetsearch_climatetypeslist_description">Planets with a climate type in the given list will be returned</string>
+    <string name="search_planetsearch_climatetypeslist_addbuttontext">Add</string>
+    <string name="search_planetsearch_climatetypeslist_pickertitle">Select a Climate Type</string>
+    <string name="search_planetsearch_climatetypeslist_pickercancel">Cancel</string>
+    <string name="search_planetsearch_climatetypeslist_toastinvalid">The value %1$d is not a valid climate type</string>
+    <string name="search_planetsearch_climatetypeslist_toastalreadyselected">The climate type %1$d has already been selected</string>
+
+    <string name="search_planetsearch_diameterslist_title">Diameters</string>
+    <string name="search_planetsearch_diameterslist_description">Planets whose diameter is in the given list will be returned</string>
+    <string name="search_planetsearch_diameterslist_addbuttontext">Add</string>
+    <string name="search_planetsearch_diameterslist_entryplaceholder">eg. 1272</string>
+    <string name="search_planetsearch_diameterslist_toastinvalid">The value %1$d is not a valid diameter</string>
+    <string name="search_planetsearch_diameterslist_toastalreadyselected">The diameter %1$d has already been selected</string>
+
+    <string name="search_planetsearch_diameterrange_title">Diameter Range</string>
+    <string name="search_planetsearch_diameterrange_description">Planets whose diameter is within the given range will be returned</string>
+    <string name="search_planetsearch_diameterrange_lowertitle">Lower</string>
+    <string name="search_planetsearch_diameterrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_planetsearch_diameterrange_lowerplaceholder">eg. 1272</string>
+    <string name="search_planetsearch_diameterrange_uppertitle">Upper</string>
+    <string name="search_planetsearch_diameterrange_upperdescription">The upper bound of the range</string>
+    <string name="search_planetsearch_diameterrange_upperplaceholder">eg. 1272</string>
+    <string name="search_planetsearch_diameterrange_lowererrormessageinvalid">The value %1$d is not a valid diameter</string>
+    <string name="search_planetsearch_diameterrange_uppererrormessageinvalid">The value %1$d is not a valid diameter</string>
+    <string name="search_planetsearch_diameterrange_lowergreaterthanupperinfomessage">The diameter lower bound is greater than the upper bound</string>
+    <string name="search_planetsearch_diameterrange_upperlessthanlowerinfomessage">The diameter upper bound is less than the lower bound</string>
+
+    <string name="search_planetsearch_gravitieslist_title">Gravities</string>
+    <string name="search_planetsearch_gravitieslist_description">Planets whose gravity is in the given list will be returned</string>
+    <string name="search_planetsearch_gravitieslist_addbuttontext">Add</string>
+    <string name="search_planetsearch_gravitieslist_entryplaceholder">eg. 1.2</string>
+    <string name="search_planetsearch_gravitieslist_toastinvalid">The value %1$d is not a valid gravity</string>
+    <string name="search_planetsearch_gravitieslist_toastalreadyselected">The gravity %1$d has already been selected</string>
+
+    <string name="search_planetsearch_gravityrange_title">Gravity Range</string>
+    <string name="search_planetsearch_gravityrange_description">Planets whose gravity is within the given range will be returned</string>
+    <string name="search_planetsearch_gravityrange_lowertitle">Lower</string>
+    <string name="search_planetsearch_gravityrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_planetsearch_gravityrange_lowerplaceholder">eg. 1.2</string>
+    <string name="search_planetsearch_gravityrange_uppertitle">Upper</string>
+    <string name="search_planetsearch_gravityrange_upperdescription">The upper bound of the range</string>
+    <string name="search_planetsearch_gravityrange_upperplaceholder">eg. 1.2</string>
+    <string name="search_planetsearch_gravityrange_lowererrormessageinvalid">The value %1$d is not a valid gravity</string>
+    <string name="search_planetsearch_gravityrange_uppererrormessageinvalid">The value %1$d is not a valid gravity</string>
+    <string name="search_planetsearch_gravityrange_lowergreaterthanupperinfomessage">The gravity lower bound is greater than the upper bound</string>
+    <string name="search_planetsearch_gravityrange_upperlessthanlowerinfomessage">The gravity upper bound is less than the lower bound</string>
+
+    <string name="search_planetsearch_orbitalperiodslist_title">Orbital Periods</string>
+    <string name="search_planetsearch_orbitalperiodslist_description">Planets whose orbital period is in the given list will be returned</string>
+    <string name="search_planetsearch_orbitalperiodslist_addbuttontext">Add</string>
+    <string name="search_planetsearch_orbitalperiodslist_entryplaceholder">eg. 256</string>
+    <string name="search_planetsearch_orbitalperiodslist_toastinvalid">The value %1$d is not a valid orbital period</string>
+    <string name="search_planetsearch_orbitalperiodslist_toastalreadyselected">The orbital period %1$d has already been selected</string>
+
+    <string name="search_planetsearch_orbitalperiodrange_title">Orbital Period Range</string>
+    <string name="search_planetsearch_orbitalperiodrange_description">Planets whose orbital period is within the given range will be returned</string>
+    <string name="search_planetsearch_orbitalperiodrange_lowertitle">Lower</string>
+    <string name="search_planetsearch_orbitalperiodrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_planetsearch_orbitalperiodrange_lowerplaceholder">eg. 256</string>
+    <string name="search_planetsearch_orbitalperiodrange_uppertitle">Upper</string>
+    <string name="search_planetsearch_orbitalperiodrange_upperdescription">The upper bound of the range</string>
+    <string name="search_planetsearch_orbitalperiodrange_upperplaceholder">eg. 256</string>
+    <string name="search_planetsearch_orbitalperiodrange_lowererrormessageinvalid">The value %1$d is not a valid orbital period</string>
+    <string name="search_planetsearch_orbitalperiodrange_uppererrormessageinvalid">The value %1$d is not a valid orbital period</string>
+    <string name="search_planetsearch_orbitalperiodrange_lowergreaterthanupperinfomessage">The orbital period lower bound is greater than the upper bound</string>
+    <string name="search_planetsearch_orbitalperiodrange_upperlessthanlowerinfomessage">The orbital period upper bound is less than the lower bound</string>
+
+    <string name="search_planetsearch_populationslist_title">Populations</string>
+    <string name="search_planetsearch_populationslist_description">Planets whose population is in the given list will be returned</string>
+    <string name="search_planetsearch_populationslist_addbuttontext">Add</string>
+    <string name="search_planetsearch_populationslist_entryplaceholder">eg. 222532</string>
+    <string name="search_planetsearch_populationslist_toastinvalid">The value %1$d is not a valid population amount</string>
+    <string name="search_planetsearch_populationslist_toastalreadyselected">The population %1$d has already been selected</string>
+
+    <string name="search_planetsearch_populationrange_title">Population Range</string>
+    <string name="search_planetsearch_populationrange_description">Planets whose population is within the given range will be returned</string>
+    <string name="search_planetsearch_populationrange_lowertitle">Lower</string>
+    <string name="search_planetsearch_populationrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_planetsearch_populationrange_lowerplaceholder">eg. 222532</string>
+    <string name="search_planetsearch_populationrange_uppertitle">Upper</string>
+    <string name="search_planetsearch_populationrange_upperdescription">The upper bound of the range</string>
+    <string name="search_planetsearch_populationrange_upperplaceholder">eg. 222532</string>
+    <string name="search_planetsearch_populationrange_lowererrormessageinvalid">The value %1$d is not a valid population amount</string>
+    <string name="search_planetsearch_populationrange_uppererrormessageinvalid">The value %1$d is not a valid population amount</string>
+    <string name="search_planetsearch_populationrange_lowergreaterthanupperinfomessage">The population amount lower bound is greater than the upper bound</string>
+    <string name="search_planetsearch_populationrange_upperlessthanlowerinfomessage">The population amount upper bound is less than the lower bound</string>
+
+    <string name="search_planetsearch_rotationalperiodslist_title">Rotational Periods</string>
+    <string name="search_planetsearch_rotationalperiodslist_description">Planets whose rotational period is in the given list will be returned</string>
+    <string name="search_planetsearch_rotationalperiodslist_addbuttontext">Add</string>
+    <string name="search_planetsearch_rotationalperiodslist_entryplaceholder">eg. 22</string>
+    <string name="search_planetsearch_rotationalperiodslist_toastinvalid">The value %1$d is not a valid rotational period</string>
+    <string name="search_planetsearch_rotationalperiodslist_toastalreadyselected">The rotational period %1$d has already been selected</string>
+
+    <string name="search_planetsearch_rotationalperiodrange_title">Rotational Period Range</string>
+    <string name="search_planetsearch_rotationalperiodrange_description">Planets whose rotational period is within the given range will be returned</string>
+    <string name="search_planetsearch_rotationalperiodrange_lowertitle">Lower</string>
+    <string name="search_planetsearch_rotationalperiodrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_planetsearch_rotationalperiodrange_lowerplaceholder">eg. 22</string>
+    <string name="search_planetsearch_rotationalperiodrange_uppertitle">Upper</string>
+    <string name="search_planetsearch_rotationalperiodrange_upperdescription">The upper bound of the range</string>
+    <string name="search_planetsearch_rotationalperiodrange_upperplaceholder">eg. 22</string>
+    <string name="search_planetsearch_rotationalperiodrange_lowererrormessageinvalid">The value %1$d is not a valid rotational period</string>
+    <string name="search_planetsearch_rotationalperiodrange_uppererrormessageinvalid">The value %1$d is not a valid rotational period</string>
+    <string name="search_planetsearch_rotationalperiodrange_lowergreaterthanupperinfomessage">The rotational period lower bound is greater than the upper bound</string>
+    <string name="search_planetsearch_rotationalperiodrange_upperlessthanlowerinfomessage">The rotational period upper bound is less than the lower bound</string>
+
+    <string name="search_planetsearch_surfacewaterslist_title">Surface Waters</string>
+    <string name="search_planetsearch_surfacewaterslist_description">Planets whose surface water is in the given list will be returned</string>
+    <string name="search_planetsearch_surfacewaterslist_addbuttontext">Add</string>
+    <string name="search_planetsearch_surfacewaterslist_entryplaceholder">eg. 0.6</string>
+    <string name="search_planetsearch_surfacewaterslist_toastinvalid">The value %1$d is not a valid surface water amount</string>
+    <string name="search_planetsearch_surfacewaterslist_toastalreadyselected">The surface water %1$d has already been selected</string>
+
+    <string name="search_planetsearch_surfacewaterrange_title">Surface Water Range</string>
+    <string name="search_planetsearch_surfacewaterrange_description">Planets whose surface water is within the given range will be returned</string>
+    <string name="search_planetsearch_surfacewaterrange_lowertitle">Lower</string>
+    <string name="search_planetsearch_surfacewaterrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_planetsearch_surfacewaterrange_lowerplaceholder">eg. 0.6</string>
+    <string name="search_planetsearch_surfacewaterrange_uppertitle">Upper</string>
+    <string name="search_planetsearch_surfacewaterrange_upperdescription">The upper bound of the range</string>
+    <string name="search_planetsearch_surfacewaterrange_upperplaceholder">eg. 0.6</string>
+    <string name="search_planetsearch_surfacewaterrange_lowererrormessageinvalid">The value %1$d is not a valid surface water percentage</string>
+    <string name="search_planetsearch_surfacewaterrange_uppererrormessageinvalid">The value %1$d is not a valid surface water percentage</string>
+    <string name="search_planetsearch_surfacewaterrange_lowergreaterthanupperinfomessage">The surface water percentage lower bound is greater than the upper bound</string>
+    <string name="search_planetsearch_surfacewaterrange_upperlessthanlowerinfomessage">The surface water percentage upper bound is less than the lower bound</string>
+
+    <string name="search_planetsearch_terrainflagslist_title">Terrain Flags</string>
+    <string name="search_planetsearch_terrainflagslist_description">Planets with a terrain flag in the given list will be returned</string>
+    <string name="search_planetsearch_terrainflagslist_addbuttontext">Add</string>
+    <string name="search_planetsearch_terrainflagslist_pickertitle">Select a Terrain Flag</string>
+    <string name="search_planetsearch_terrainflagslist_pickercancel">Cancel</string>
+    <string name="search_planetsearch_terrainflagslist_toastinvalid">The value %1$d is not a valid terrain flag</string>
+    <string name="search_planetsearch_terrainflagslist_toastalreadyselected">The terrain flag %1$d has already been selected</string>
+
+    <string name="search_planetsearch_terraintypeslist_title">Terrain Types</string>
+    <string name="search_planetsearch_terraintypeslist_description">Planets with a terrain type in the given list will be returned</string>
+    <string name="search_planetsearch_terraintypeslist_addbuttontext">Add</string>
+    <string name="search_planetsearch_terraintypeslist_pickertitle">Select a Terrain Type</string>
+    <string name="search_planetsearch_terraintypeslist_pickercancel">Cancel</string>
+    <string name="search_planetsearch_terraintypeslist_toastinvalid">The value %1$d is not a valid terrain type</string>
+    <string name="search_planetsearch_terraintypeslist_toastalreadyselected">The terrain type %1$d has already been selected</string>
+
+    <string name="search_planetsearchcontainables_descriptions_description">Search text will be checked against planet description</string>
+    <string name="search_planetsearchcontainables_descriptions_name">Search text will be checked against planet name</string>
+
+    <string name="search_planetsearchcontainables_titles_description">Description</string>
+    <string name="search_planetsearchcontainables_titles_name">Name</string>
+
+    <string name="search_speciesearch_title">Species Search</string>
+
+    <string name="search_speciesearch_characterssearchcontainables_title">Specie Characters</string>
+    <string name="search_speciesearch_characterssearchcontainables_description">Specie characters will be used in search</string>
+    <string name="search_speciesearch_homeworldsearchcontainables_title">Specie Homeworld</string>
+    <string name="search_speciesearch_homeworldsearchcontainables_description">Specie homeworld will be used in search</string>
+
+    <string name="search_speciesearch_averageheightslist_title">Average Heights</string>
+    <string name="search_speciesearch_averageheightslist_description">Species with a average heights in the given list will be returned</string>
+    <string name="search_speciesearch_averageheightslist_addbuttontext">Add</string>
+    <string name="search_speciesearch_averageheightslist_entryplaceholder">eg. 125</string>
+    <string name="search_speciesearch_averageheightslist_toastinvalid">The value %1$d is not a valid average height</string>
+    <string name="search_speciesearch_averageheightslist_toastalreadyselected">The average height %1$d has already been selected</string>
+
+    <string name="search_speciesearch_averageheightrange_title">Average Height Range</string>
+    <string name="search_speciesearch_averageheightrange_description">Species with an average height within the given range will be returned</string>
+    <string name="search_speciesearch_averageheightrange_lowertitle">Lower</string>
+    <string name="search_speciesearch_averageheightrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_speciesearch_averageheightrange_lowerplaceholder">eg. 125</string>
+    <string name="search_speciesearch_averageheightrange_uppertitle">Upper</string>
+    <string name="search_speciesearch_averageheightrange_upperdescription">The upper bound of the range</string>
+    <string name="search_speciesearch_averageheightrange_upperplaceholder">eg. 125</string>
+    <string name="search_speciesearch_averageheightrange_lowererrormessageinvalid">The value %1$d is not a valid average height</string>
+    <string name="search_speciesearch_averageheightrange_uppererrormessageinvalid">The value %1$d is not a valid average height</string>
+    <string name="search_speciesearch_averageheightrange_lowergreaterthanupperinfomessage">The average height lower bound is greater than the upper bound</string>
+    <string name="search_speciesearch_averageheightrange_upperlessthanlowerinfomessage">The average height upper bound is less than the lower bound</string>
+
+    <string name="search_speciesearch_averagelifespanslist_title">Average Lifespans</string>
+    <string name="search_speciesearch_averagelifespanslist_description">Species with a average lifespans in the given list will be returned</string>
+    <string name="search_speciesearch_averagelifespanslist_addbuttontext">Add</string>
+    <string name="search_speciesearch_averagelifespanslist_entryplaceholder">eg. 81</string>
+    <string name="search_speciesearch_averagelifespanslist_toastinvalid">The value %1$d is not a valid average lifespan</string>
+    <string name="search_speciesearch_averagelifespanslist_toastalreadyselected">The average lifespan %1$d has already been selected</string>
+
+    <string name="search_speciesearch_averagelifespanrange_title">Average Lifespan Range</string>
+    <string name="search_speciesearch_averagelifespanrange_description">Species with an average lifespan within the given range will be returned</string>
+    <string name="search_speciesearch_averagelifespanrange_lowertitle">Lower</string>
+    <string name="search_speciesearch_averagelifespanrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_speciesearch_averagelifespanrange_lowerplaceholder">eg. 81</string>
+    <string name="search_speciesearch_averagelifespanrange_uppertitle">Upper</string>
+    <string name="search_speciesearch_averagelifespanrange_upperdescription">The upper bound of the range</string>
+    <string name="search_speciesearch_averagelifespanrange_upperplaceholder">eg. 81</string>
+    <string name="search_speciesearch_averagelifespanrange_lowererrormessageinvalid">The value %1$d is not a valid average lifespan</string>
+    <string name="search_speciesearch_averagelifespanrange_uppererrormessageinvalid">The value %1$d is not a valid average lifespan</string>
+    <string name="search_speciesearch_averagelifespanrange_lowergreaterthanupperinfomessage">The average lifespan lower bound is greater than the upper bound</string>
+    <string name="search_speciesearch_averagelifespanrange_upperlessthanlowerinfomessage">The average lifespan upper bound is less than the lower bound</string>
+
+    <string name="search_speciesearch_classificationslist_title">Classifications</string>
+    <string name="search_speciesearch_classificationslist_description">Species with a classification in the given list will be returned</string>
+    <string name="search_speciesearch_classificationslist_addbuttontext">Add</string>
+    <string name="search_speciesearch_classificationslist_pickertitle">Select a Classification</string>
+    <string name="search_speciesearch_classificationslist_pickercancel">Cancel</string>
+    <string name="search_speciesearch_classificationslist_toastinvalid">The value %1$d is not a valid classification</string>
+    <string name="search_speciesearch_classificationslist_toastalreadyselected">The cliassification %1$d has already been selected</string>
+
+    <string name="search_speciesearch_designationslist_title">Designations</string>
+    <string name="search_speciesearch_designationslist_description">Species with a designation in the given list will be returned</string>
+    <string name="search_speciesearch_designationslist_addbuttontext">Add</string>
+    <string name="search_speciesearch_designationslist_pickertitle">Select a Designation</string>
+    <string name="search_speciesearch_designationslist_pickercancel">Cancel</string>
+    <string name="search_speciesearch_designationslist_toastinvalid">The value %1$d is not a valid designation</string>
+    <string name="search_speciesearch_designationslist_toastalreadyselected">The designation %1$d has already been selected</string>
+
+    <string name="search_speciesearch_eyecolorslist_title">Eye Colours</string>
+    <string name="search_speciesearch_eyecolorslist_description">Species with a eye colour in the given list will be returned</string>
+    <string name="search_speciesearch_eyecolorslist_addbuttontext">Add</string>
+    <string name="search_speciesearch_eyecolorslist_pickertitle">Select an Eye Colour</string>
+    <string name="search_speciesearch_eyecolorslist_pickercancel">Cancel</string>
+    <string name="search_speciesearch_eyecolorslist_toastinvalid">The value %1$d is not a valid eye colour</string>
+    <string name="search_speciesearch_eyecolorslist_toastalreadyselected">The eye colour %1$d has already been selected</string>
+
+    <string name="search_speciesearch_haircolorslist_title">Hair Colours</string>
+    <string name="search_speciesearch_haircolorslist_description">Species with a hair colours in the given list will be returned</string>
+    <string name="search_speciesearch_haircolorslist_addbuttontext">Add</string>
+    <string name="search_speciesearch_haircolorslist_pickertitle">Select a Hair Colour</string>
+    <string name="search_speciesearch_haircolorslist_pickercancel">Cancel</string>
+    <string name="search_speciesearch_haircolorslist_toastinvalid">The value %1$d is not a valid hair colour</string>
+    <string name="search_speciesearch_haircolorslist_toastalreadyselected">The hair colour %1$d has already been selected</string>
+
+    <string name="search_speciesearch_languageslist_title">Languages</string>
+    <string name="search_speciesearch_languageslist_description">Species with a language in the given list will be returned</string>
+    <string name="search_speciesearch_languageslist_addbuttontext">Add</string>
+    <string name="search_speciesearch_languageslist_pickertitle">Select a Language</string>
+    <string name="search_speciesearch_languageslist_pickercancel">Cancel</string>
+    <string name="search_speciesearch_languageslist_toastinvalid">The value %1$d is not a valid language</string>
+    <string name="search_speciesearch_languageslist_toastalreadyselected">The language %1$d has already been selected</string>
+
+    <string name="search_speciesearch_skincolorslist_title">Skin Colours</string>
+    <string name="search_speciesearch_skincolorslist_description">Species with a skin colours in the given list will be returned</string>
+    <string name="search_speciesearch_skincolorslist_addbuttontext">Add</string>
+    <string name="search_speciesearch_skincolorslist_pickertitle">Select a Skin Colour</string>
+    <string name="search_speciesearch_skincolorslist_pickercancel">Cancel</string>
+    <string name="search_speciesearch_skincolorslist_toastinvalid">The value %1$d is not a valid skin colour</string>
+    <string name="search_speciesearch_skincolorslist_toastalreadyselected">The skin colour %1$d has already been selected</string>
+
+    <string name="search_speciesearchcontainables_descriptions_description">Search text will be checked against specie description</string>
+    <string name="search_speciesearchcontainables_descriptions_name">Search text will be checked against specie name</string>
+
+    <string name="search_speciesearchcontainables_titles_description">Description</string>
+    <string name="search_speciesearchcontainables_titles_name">Name</string>
+
+    <string name="search_starshipsearch_title">Starships Search</string>
+
+    <string name="search_starshipsearch_manufacturerssearchcontainables_title">Starship Manufacturers</string>
+    <string name="search_starshipsearch_manufacturerssearchcontainables_description">Starship manufacturers will be used in search</string>
+    <string name="search_starshipsearch_pilotssearchcontainables_title">Starship Pilots</string>
+    <string name="search_starshipsearch_pilotssearchcontainables_description">Starship pilots will be used in search</string>
+
+    <string name="search_starshipsearch_cargocapacitieslist_title">Cargo Capacities</string>
+    <string name="search_starshipsearch_cargocapacitieslist_description">Starships with a cargo capacity in the given list will be given list will be returned</string>
+    <string name="search_starshipsearch_cargocapacitieslist_addbuttontext">Add</string>
+    <string name="search_starshipsearch_cargocapacitieslist_entryplaceholder">eg. 1041055</string>
+    <string name="search_starshipsearch_cargocapacitieslist_toastinvalid">The value %1$d is not a valid cargo capacity</string>
+    <string name="search_starshipsearch_cargocapacitieslist_toastalreadyselected">The cargo capacity %1$d has already been selected</string>
+
+    <string name="search_starshipsearch_cargocapacityrange_title">Cargo Capacity Range</string>
+    <string name="search_starshipsearch_cargocapacityrange_description">Starships with a cargo capacity within the given range will be returned</string>
+    <string name="search_starshipsearch_cargocapacityrange_lowertitle">Lower</string>
+    <string name="search_starshipsearch_cargocapacityrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_starshipsearch_cargocapacityrange_lowerplaceholder">eg. 1041055</string>
+    <string name="search_starshipsearch_cargocapacityrange_uppertitle">Upper</string>
+    <string name="search_starshipsearch_cargocapacityrange_upperdescription">The upper bound of the range</string>
+    <string name="search_starshipsearch_cargocapacityrange_upperplaceholder">eg. 1041055</string>
+    <string name="search_starshipsearch_cargocapacityrange_lowererrormessageinvalid">The value %1$d is not a valid cargo capacity</string>
+    <string name="search_starshipsearch_cargocapacityrange_uppererrormessageinvalid">The value %1$d is not a valid cargo capacity</string>
+    <string name="search_starshipsearch_cargocapacityrange_lowergreaterthanupperinfomessage">The cargo capacity lower bound is greater than the upper bound</string>
+    <string name="search_starshipsearch_cargocapacityrange_upperlessthanlowerinfomessage">The cargo capacity upper bound is less than the lower bound</string>
+
+    <string name="search_starshipsearch_consumableslist_title">Consumable</string>
+    <string name="search_starshipsearch_consumableslist_description">Starships with a consumables amount in the given list will be given list will be returned</string>
+    <string name="search_starshipsearch_consumableslist_addbuttontext">Add</string>
+    <string name="search_starshipsearch_consumableslist_entryplaceholder">eg. 1515</string>
+    <string name="search_starshipsearch_consumableslist_toastinvalid">The value %1$d is not a valid consumables amount</string>
+    <string name="search_starshipsearch_consumableslist_toastalreadyselected">The consumables amount %1$d has already been selected</string>
+
+    <string name="search_starshipsearch_consumablerange_title">Consumable Range</string>
+    <string name="search_starshipsearch_consumablerange_description">Starships with a consumables amount within the given range will be returned</string>
+    <string name="search_starshipsearch_consumablerange_lowertitle">Lower</string>
+    <string name="search_starshipsearch_consumablerange_lowerdescription">The lower bound of the range</string>
+    <string name="search_starshipsearch_consumablerange_lowerplaceholder">eg. 151535</string>
+    <string name="search_starshipsearch_consumablerange_uppertitle">Upper</string>
+    <string name="search_starshipsearch_consumablerange_upperdescription">The upper bound of the range</string>
+    <string name="search_starshipsearch_consumablerange_upperplaceholder">eg. 151535</string>
+    <string name="search_starshipsearch_consumablerange_lowererrormessageinvalid">The value %1$d is not a valid consumables amount</string>
+    <string name="search_starshipsearch_consumablerange_uppererrormessageinvalid">The value %1$d is not a valid consumables amount</string>
+    <string name="search_starshipsearch_consumablerange_lowergreaterthanupperinfomessage">The consumables amount lower bound is greater than the upper bound</string>
+    <string name="search_starshipsearch_consumablerange_upperlessthanlowerinfomessage">The consumables amount upper bound is less than the lower bound</string>
+
+    <string name="search_starshipsearch_costincreditslist_title">Cost In Credits</string>
+    <string name="search_starshipsearch_costincreditslist_description">Starships with a cost in credits amount in the given list will be given list will be returned</string>
+    <string name="search_starshipsearch_costincreditslist_addbuttontext">Add</string>
+    <string name="search_starshipsearch_costincreditslist_entryplaceholder">eg. 151535</string>
+    <string name="search_starshipsearch_costincreditslist_toastinvalid">The value %1$d is not a valid cost in credits amount</string>
+    <string name="search_starshipsearch_costincreditslist_toastalreadyselected">The cost in credits amount %1$d has already been selected</string>
+
+    <string name="search_starshipsearch_costincreditrange_title">Cost In Credits Range</string>
+    <string name="search_starshipsearch_costincreditrange_description">Starships with a cost in credits amount within the given range will be returned</string>
+    <string name="search_starshipsearch_costincreditrange_lowertitle">Lower</string>
+    <string name="search_starshipsearch_costincreditrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_starshipsearch_costincreditrange_lowerplaceholder">eg. 151535</string>
+    <string name="search_starshipsearch_costincreditrange_uppertitle">Upper</string>
+    <string name="search_starshipsearch_costincreditrange_upperdescription">The upper bound of the range</string>
+    <string name="search_starshipsearch_costincreditrange_upperplaceholder">eg. 151535</string>
+    <string name="search_starshipsearch_costincreditrange_lowererrormessageinvalid">The value %1$d is not a valid cost in credits amount</string>
+    <string name="search_starshipsearch_costincreditrange_uppererrormessageinvalid">The value %1$d is not a valid cost in credits amount</string>
+    <string name="search_starshipsearch_costincreditrange_lowergreaterthanupperinfomessage">The cost in credits amount lower bound is greater than the upper bound</string>
+    <string name="search_starshipsearch_costincreditrange_upperlessthanlowerinfomessage">The cost in credits amount upper bound is less than the lower bound</string>
+
+    <string name="search_starshipsearch_hyperdriveratingslist_title">Hyperdrive Ratings</string>
+    <string name="search_starshipsearch_hyperdriveratingslist_description">Starships with a hyperdrive rating in the given list will be given list will be returned</string>
+    <string name="search_starshipsearch_hyperdriveratingslist_addbuttontext">Add</string>
+    <string name="search_starshipsearch_hyperdriveratingslist_entryplaceholder">eg. 1.5</string>
+    <string name="search_starshipsearch_hyperdriveratingslist_toastinvalid">The value %1$d is not a valid passenger count</string>
+    <string name="search_starshipsearch_hyperdriveratingslist_toastalreadyselected">The passenger count %1$d has already been selected</string>
+
+    <string name="search_starshipsearch_hyperdriveratingrange_title">Hyperdrive Rating Range</string>
+    <string name="search_starshipsearch_hyperdriveratingrange_description">Starships with a hyperdrive rating within the given range will be returned</string>
+    <string name="search_starshipsearch_hyperdriveratingrange_lowertitle">Lower</string>
+    <string name="search_starshipsearch_hyperdriveratingrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_starshipsearch_hyperdriveratingrange_lowerplaceholder">eg. 1.5</string>
+    <string name="search_starshipsearch_hyperdriveratingrange_uppertitle">Upper</string>
+    <string name="search_starshipsearch_hyperdriveratingrange_upperdescription">The upper bound of the range</string>
+    <string name="search_starshipsearch_hyperdriveratingrange_upperplaceholder">eg. 1.5</string>
+    <string name="search_starshipsearch_hyperdriveratingrange_lowererrormessageinvalid">The value %1$d is not a valid hyperdrive rating</string>
+    <string name="search_starshipsearch_hyperdriveratingrange_uppererrormessageinvalid">The value %1$d is not a valid hyperdrive rating</string>
+    <string name="search_starshipsearch_hyperdriveratingrange_lowergreaterthanupperinfomessage">The hyperdrive rating lower bound is greater than the upper bound</string>
+    <string name="search_starshipsearch_hyperdriveratingrange_upperlessthanlowerinfomessage">The hyperdrive rating upper bound is less than the lower bound</string>
+
+    <string name="search_starshipsearch_lengthslist_title">Lengths</string>
+    <string name="search_starshipsearch_lengthslist_description">Starships with a length in the given list will be given list will be returned</string>
+    <string name="search_starshipsearch_lengthslist_addbuttontext">Add</string>
+    <string name="search_starshipsearch_lengthslist_entryplaceholder">eg. 75.4</string>
+    <string name="search_starshipsearch_lengthslist_toastinvalid">The value %1$d is not a valid length</string>
+    <string name="search_starshipsearch_lengthslist_toastalreadyselected">The length %1$d has already been selected</string>
+
+    <string name="search_starshipsearch_lengthrange_title">Length Range</string>
+    <string name="search_starshipsearch_lengthrange_description">Starships with a length within the given range will be returned</string>
+    <string name="search_starshipsearch_lengthrange_lowertitle">Lower</string>
+    <string name="search_starshipsearch_lengthrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_starshipsearch_lengthrange_lowerplaceholder">eg. 75.4</string>
+    <string name="search_starshipsearch_lengthrange_uppertitle">Upper</string>
+    <string name="search_starshipsearch_lengthrange_upperdescription">The upper bound of the range</string>
+    <string name="search_starshipsearch_lengthrange_upperplaceholder">eg. 75.4</string>
+    <string name="search_starshipsearch_lengthrange_lowererrormessageinvalid">The value %1$d is not a valid length</string>
+    <string name="search_starshipsearch_lengthrange_uppererrormessageinvalid">The value %1$d is not a valid length</string>
+    <string name="search_starshipsearch_lengthrange_lowergreaterthanupperinfomessage">The length lower bound is greater than the upper bound</string>
+    <string name="search_starshipsearch_lengthrange_upperlessthanlowerinfomessage">The length upper bound is less than the lower bound</string>
+
+    <string name="search_starshipsearch_maxatmospheringspeedslist_title">Max Atmosphering Speeds</string>
+    <string name="search_starshipsearch_maxatmospheringspeedslist_description">Starships with a max atmosphering speed in the given list will be given list will be returned</string>
+    <string name="search_starshipsearch_maxatmospheringspeedslist_addbuttontext">Add</string>
+    <string name="search_starshipsearch_maxatmospheringspeedslist_entryplaceholder">eg. 800</string>
+    <string name="search_starshipsearch_maxatmospheringspeedslist_toastinvalid">The value %1$d is not a valid max atmosphering speed</string>
+    <string name="search_starshipsearch_maxatmospheringspeedslist_toastalreadyselected">The max atmosphering speed %1$d has already been selected</string>
+
+    <string name="search_starshipsearch_maxatmospheringspeedrange_title">Max Atmosphering Speed Range</string>
+    <string name="search_starshipsearch_maxatmospheringspeedrange_description">Starships with a max atmoshpering speed within the given range will be returned</string>
+    <string name="search_starshipsearch_maxatmospheringspeedrange_lowertitle">Lower</string>
+    <string name="search_starshipsearch_maxatmospheringspeedrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_starshipsearch_maxatmospheringspeedrange_lowerplaceholder">eg. 800</string>
+    <string name="search_starshipsearch_maxatmospheringspeedrange_uppertitle">Upper</string>
+    <string name="search_starshipsearch_maxatmospheringspeedrange_upperdescription">The upper bound of the range</string>
+    <string name="search_starshipsearch_maxatmospheringspeedrange_upperplaceholder">eg. 800</string>
+    <string name="search_starshipsearch_maxatmospheringspeedrange_lowererrormessageinvalid">The value %1$d is not a valid max atmosphering speed</string>
+    <string name="search_starshipsearch_maxatmospheringspeedrange_uppererrormessageinvalid">The value %1$d is not a valid max atmosphering speed</string>
+    <string name="search_starshipsearch_maxatmospheringspeedrange_lowergreaterthanupperinfomessage">The max atmosphering speed lower bound is greater than the upper bound</string>
+    <string name="search_starshipsearch_maxatmospheringspeedrange_upperlessthanlowerinfomessage">The max atmosphering speed upper bound is less than the lower bound</string>
+
+    <string name="search_starshipsearch_maxcrewslist_title">Max Crews</string>
+    <string name="search_starshipsearch_maxcrewslist_description">Starships with a max crew in the given list will be given list will be returned</string>
+    <string name="search_starshipsearch_maxcrewslist_addbuttontext">Add</string>
+    <string name="search_starshipsearch_maxcrewslist_entryplaceholder">eg. 80</string>
+    <string name="search_starshipsearch_maxcrewslist_toastinvalid">The value %1$d is not a valid max crew amount</string>
+    <string name="search_starshipsearch_maxcrewslist_toastalreadyselected">The max crew amount %1$d has already been selected</string>
+
+    <string name="search_starshipsearch_maxcrewrange_title">Max Crew Range</string>
+    <string name="search_starshipsearch_maxcrewrange_description">Starships with a max crew within the given range will be returned</string>
+    <string name="search_starshipsearch_maxcrewrange_lowertitle">Lower</string>
+    <string name="search_starshipsearch_maxcrewrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_starshipsearch_maxcrewrange_lowerplaceholder">eg. 80</string>
+    <string name="search_starshipsearch_maxcrewrange_uppertitle">Upper</string>
+    <string name="search_starshipsearch_maxcrewrange_upperdescription">The upper bound of the range</string>
+    <string name="search_starshipsearch_maxcrewrange_upperplaceholder">eg. 80</string>
+    <string name="search_starshipsearch_maxcrewrange_lowererrormessageinvalid">The value %1$d is not a valid max crew amount</string>
+    <string name="search_starshipsearch_maxcrewrange_uppererrormessageinvalid">The value %1$d is not a valid max crew amount</string>
+    <string name="search_starshipsearch_maxcrewrange_lowergreaterthanupperinfomessage">The max crew lower bound is greater than the upper bound</string>
+    <string name="search_starshipsearch_maxcrewrange_upperlessthanlowerinfomessage">The max crew amount upper bound is less than the lower bound</string>
+
+    <string name="search_starshipsearch_mincrewslist_title">Min Crews</string>
+    <string name="search_starshipsearch_mincrewslist_description">Starships with a min crew in the given list will be given list will be returned</string>
+    <string name="search_starshipsearch_mincrewslist_addbuttontext">Add</string>
+    <string name="search_starshipsearch_mincrewslist_entryplaceholder">eg. 30</string>
+    <string name="search_starshipsearch_mincrewslist_toastinvalid">The value %1$d is not a valid min crew amount</string>
+    <string name="search_starshipsearch_mincrewslist_toastalreadyselected">The min crew amount %1$d has already been selected</string>
+
+    <string name="search_starshipsearch_mincrewrange_title">Min Crew Range</string>
+    <string name="search_starshipsearch_mincrewrange_description">Starships with a min crew within the given range will be returned</string>
+    <string name="search_starshipsearch_mincrewrange_lowertitle">Lower</string>
+    <string name="search_starshipsearch_mincrewrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_starshipsearch_mincrewrange_lowerplaceholder">eg. 30</string>
+    <string name="search_starshipsearch_mincrewrange_uppertitle">Upper</string>
+    <string name="search_starshipsearch_mincrewrange_upperdescription">The upper bound of the range</string>
+    <string name="search_starshipsearch_mincrewrange_upperplaceholder">eg. 30</string>
+    <string name="search_starshipsearch_mincrewrange_lowererrormessageinvalid">The value %1$d is not a valid min crew amount</string>
+    <string name="search_starshipsearch_mincrewrange_uppererrormessageinvalid">The value %1$d is not a valid min crew amount</string>
+    <string name="search_starshipsearch_mincrewrange_lowergreaterthanupperinfomessage">The min crew amount lower bound is greater than the upper bound</string>
+    <string name="search_starshipsearch_mincrewrange_upperlessthanlowerinfomessage">The min crew amount upper bound is less than the lower bound</string>
+
+    <string name="search_starshipsearch_mgltslist_title">MGLTs</string>
+    <string name="search_starshipsearch_mgltslist_description">Starships with an mglt in the given list will be given list will be returned</string>
+    <string name="search_starshipsearch_mgltslist_addbuttontext">Add</string>
+    <string name="search_starshipsearch_mgltslist_entryplaceholder">eg. 1</string>
+    <string name="search_starshipsearch_mgltslist_toastinvalid">The value %1$d is not a valid mglt</string>
+    <string name="search_starshipsearch_mgltslist_toastalreadyselected">The mglt %1$d has already been selected</string>
+
+    <string name="search_starshipsearch_mgltrange_title">MGLT Range</string>
+    <string name="search_starshipsearch_mgltrange_description">Starships with an mglt within the given range will be returned</string>
+    <string name="search_starshipsearch_mgltrange_lowertitle">Lower</string>
+    <string name="search_starshipsearch_mgltrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_starshipsearch_mgltrange_lowerplaceholder">eg. 1</string>
+    <string name="search_starshipsearch_mgltrange_uppertitle">Upper</string>
+    <string name="search_starshipsearch_mgltrange_upperdescription">The upper bound of the range</string>
+    <string name="search_starshipsearch_mgltrange_upperplaceholder">eg. 1</string>
+    <string name="search_starshipsearch_mgltrange_lowererrormessageinvalid">The value %1$d is not a valid mglt</string>
+    <string name="search_starshipsearch_mgltrange_uppererrormessageinvalid">The value %1$d is not a valid mglt</string>
+    <string name="search_starshipsearch_mgltrange_lowergreaterthanupperinfomessage">The mglt lower bound is greater than the upper bound</string>
+    <string name="search_starshipsearch_mgltrange_upperlessthanlowerinfomessage">The mglt upper bound is less than the lower bound</string>
+
+    <string name="search_starshipsearch_passengerslist_title">Passengers</string>
+    <string name="search_starshipsearch_passengerslist_description">Starships with a passenger capacity in the given list will be given list will be returned</string>
+    <string name="search_starshipsearch_passengerslist_addbuttontext">Add</string>
+    <string name="search_starshipsearch_passengerslist_entryplaceholder">eg. 260</string>
+    <string name="search_starshipsearch_passengerslist_toastinvalid">The value %1$d is not a valid passenger count</string>
+    <string name="search_starshipsearch_passengerslist_toastalreadyselected">The passenger count %1$d has already been selected</string>
+
+    <string name="search_starshipsearch_passengerrange_title">Passenger Range</string>
+    <string name="search_starshipsearch_passengerrange_description">Starships with a passenger capacity within the given range will be returned</string>
+    <string name="search_starshipsearch_passengerrange_lowertitle">Lower</string>
+    <string name="search_starshipsearch_passengerrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_starshipsearch_passengerrange_lowerplaceholder">eg. 260</string>
+    <string name="search_starshipsearch_passengerrange_uppertitle">Upper</string>
+    <string name="search_starshipsearch_passengerrange_upperdescription">The upper bound of the range</string>
+    <string name="search_starshipsearch_passengerrange_upperplaceholder">eg. 260</string>
+    <string name="search_starshipsearch_passengerrange_lowererrormessageinvalid">The value %1$d is not a valid passenger count</string>
+    <string name="search_starshipsearch_passengerrange_uppererrormessageinvalid">The value %1$d is not a valid passenger count</string>
+    <string name="search_starshipsearch_passengerrange_lowergreaterthanupperinfomessage">The passenger amount lower bound is greater than the upper bound</string>
+    <string name="search_starshipsearch_passengerrange_upperlessthanlowerinfomessage">The passenger amount upper bound is less than the lower bound</string>
+
+    <string name="search_starshipsearchcontainables_descriptions_description">Search text will be checked against starship description</string>
+    <string name="search_starshipsearchcontainables_descriptions_model">Search text will be checked against starship model</string>
+    <string name="search_starshipsearchcontainables_descriptions_name">Search text will be checked against starship name</string>
+    <string name="search_starshipsearchcontainables_descriptions_starshipclass">Search text will be checked against starship class</string>
+    <string name="search_starshipsearchcontainables_descriptions_starshipclassflags">Search text will be checked against starship class flags</string>
+
+    <string name="search_starshipsearchcontainables_titles_description">Description</string>
+    <string name="search_starshipsearchcontainables_titles_model">Model</string>
+    <string name="search_starshipsearchcontainables_titles_name">Name</string>
+    <string name="search_starshipsearchcontainables_titles_starshipclass">Starship Class</string>
+    <string name="search_starshipsearchcontainables_titles_starshipclassflags">Starship Class Flags</string>
+
+    <string name="search_vehiclesearch_title">Vehicles Search</string>
+
+    <string name="search_vehiclesearch_manufacturerssearchcontainables_title">Vehicle Manufacturers</string>
+    <string name="search_vehiclesearch_manufacturerssearchcontainables_description">Vehicle manufacturers will be used in search</string>
+    <string name="search_vehiclesearch_pilotssearchcontainables_title">Vehicle Pilots</string>
+    <string name="search_vehiclesearch_pilotssearchcontainables_description">Vehicle pilots will be used in search</string>
+
+    <string name="search_vehiclesearch_cargocapacitieslist_title">Cargo Capacities</string>
+    <string name="search_vehiclesearch_cargocapacitieslist_description">Vehicles with a cargo capacity in the given list will be given list will be returned</string>
+    <string name="search_vehiclesearch_cargocapacitieslist_addbuttontext">Add</string>
+    <string name="search_vehiclesearch_cargocapacitieslist_entryplaceholder">eg. 1041055</string>
+    <string name="search_vehiclesearch_cargocapacitieslist_toastinvalid">The value %1$d is not a valid cargo capacity</string>
+    <string name="search_vehiclesearch_cargocapacitieslist_toastalreadyselected">The cargo capacity %1$d has already been selected</string>
+
+    <string name="search_vehiclesearch_cargocapacityrange_title">Cargo Capacity Range</string>
+    <string name="search_vehiclesearch_cargocapacityrange_description">Vehicles with a cargo capacity within the given range will be returned</string>
+    <string name="search_vehiclesearch_cargocapacityrange_lowertitle">Lower</string>
+    <string name="search_vehiclesearch_cargocapacityrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_vehiclesearch_cargocapacityrange_lowerplaceholder">eg. 1041055</string>
+    <string name="search_vehiclesearch_cargocapacityrange_uppertitle">Upper</string>
+    <string name="search_vehiclesearch_cargocapacityrange_upperdescription">The upper bound of the range</string>
+    <string name="search_vehiclesearch_cargocapacityrange_upperplaceholder">eg. 1041055</string>
+    <string name="search_vehiclesearch_cargocapacityrange_lowererrormessageinvalid">The value %1$d is not a valid cargo capacity</string>
+    <string name="search_vehiclesearch_cargocapacityrange_uppererrormessageinvalid">The value %1$d is not a valid cargo capacity</string>
+    <string name="search_vehiclesearch_cargocapacityrange_lowergreaterthanupperinfomessage">The cargo capacity lower bound is greater than the upper bound</string>
+    <string name="search_vehiclesearch_cargocapacityrange_upperlessthanlowerinfomessage">The cargo capacity upper bound is less than the lower bound</string>
+
+    <string name="search_vehiclesearch_consumableslist_title">Consumable</string>
+    <string name="search_vehiclesearch_consumableslist_description">Vehicles with a consumables amount in the given list will be given list will be returned</string>
+    <string name="search_vehiclesearch_consumableslist_addbuttontext">Add</string>
+    <string name="search_vehiclesearch_consumableslist_entryplaceholder">eg. 151</string>
+    <string name="search_vehiclesearch_consumableslist_toastinvalid">The value %1$d is not a valid consumables amount</string>
+    <string name="search_vehiclesearch_consumableslist_toastalreadyselected">The consumables amount %1$d has already been selected</string>
+
+    <string name="search_vehiclesearch_consumablerange_title">Consumable Range</string>
+    <string name="search_vehiclesearch_consumablerange_description">Vehicles with a consumables amount within the given range will be returned</string>
+    <string name="search_vehiclesearch_consumablerange_lowertitle">Lower</string>
+    <string name="search_vehiclesearch_consumablerange_lowerdescription">The lower bound of the range</string>
+    <string name="search_vehiclesearch_consumablerange_lowerplaceholder">eg. 35</string>
+    <string name="search_vehiclesearch_consumablerange_uppertitle">Upper</string>
+    <string name="search_vehiclesearch_consumablerange_upperdescription">The upper bound of the range</string>
+    <string name="search_vehiclesearch_consumablerange_upperplaceholder">eg. 365</string>
+    <string name="search_vehiclesearch_consumablerange_lowererrormessageinvalid">The value %1$d is not a valid consumables amount</string>
+    <string name="search_vehiclesearch_consumablerange_uppererrormessageinvalid">The value %1$d is not a valid consumables amount</string>
+    <string name="search_vehiclesearch_consumablerange_lowergreaterthanupperinfomessage">The consumables amount lower bound is greater than the upper bound</string>
+    <string name="search_vehiclesearch_consumablerange_upperlessthanlowerinfomessage">The consumables amount upper bound is less than the lower bound</string>
+
+    <string name="search_vehiclesearch_costincreditslist_title">Cost In Credits</string>
+    <string name="search_vehiclesearch_costincreditslist_description">Vehicles with a cost in credits amount in the given list will be given list will be returned</string>
+    <string name="search_vehiclesearch_costincreditslist_addbuttontext">Add</string>
+    <string name="search_vehiclesearch_costincreditslist_entryplaceholder">eg. 151535</string>
+    <string name="search_vehiclesearch_costincreditslist_toastinvalid">The value %1$d is not a valid cost in credits amount</string>
+    <string name="search_vehiclesearch_costincreditslist_toastalreadyselected">The cost in credits amount %1$d has already been selected</string>
+
+    <string name="search_vehiclesearch_costincreditrange_title">Cost In Credits Range</string>
+    <string name="search_vehiclesearch_costincreditrange_description">Vehicles with a cost in credits amount within the given range will be returned</string>
+    <string name="search_vehiclesearch_costincreditrange_lowertitle">Lower</string>
+    <string name="search_vehiclesearch_costincreditrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_vehiclesearch_costincreditrange_lowerplaceholder">eg. 151535</string>
+    <string name="search_vehiclesearch_costincreditrange_uppertitle">Upper</string>
+    <string name="search_vehiclesearch_costincreditrange_upperdescription">The upper bound of the range</string>
+    <string name="search_vehiclesearch_costincreditrange_upperplaceholder">eg. 151535</string>
+    <string name="search_vehiclesearch_costincreditrange_lowererrormessageinvalid">The value %1$d is not a valid cost in credits amount</string>
+    <string name="search_vehiclesearch_costincreditrange_uppererrormessageinvalid">The value %1$d is not a valid cost in credits amount</string>
+    <string name="search_vehiclesearch_costincreditrange_lowergreaterthanupperinfomessage">The cost in credits amount lower bound is greater than the upper bound</string>
+    <string name="search_vehiclesearch_costincreditrange_upperlessthanlowerinfomessage">The cost in credits amount upper bound is less than the lower bound</string>
+
+    <string name="search_vehiclesearch_hyperdriveratingslist_title">Hyperdrive Ratings</string>
+    <string name="search_vehiclesearch_hyperdriveratingslist_description">Vehicles with a hyperdrive rating in the given list will be given list will be returned</string>
+    <string name="search_vehiclesearch_hyperdriveratingslist_addbuttontext">Add</string>
+    <string name="search_vehiclesearch_hyperdriveratingslist_entryplaceholder">eg. 1.5</string>
+    <string name="search_vehiclesearch_hyperdriveratingslist_toastinvalid">The value %1$d is not a valid passenger count</string>
+    <string name="search_vehiclesearch_hyperdriveratingslist_toastalreadyselected">The passenger count %1$d has already been selected</string>
+
+    <string name="search_vehiclesearch_hyperdriveratingrange_title">Hyperdrive Rating Range</string>
+    <string name="search_vehiclesearch_hyperdriveratingrange_description">Vehicles with a hyperdrive rating within the given range will be returned</string>
+    <string name="search_vehiclesearch_hyperdriveratingrange_lowertitle">Lower</string>
+    <string name="search_vehiclesearch_hyperdriveratingrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_vehiclesearch_hyperdriveratingrange_lowerplaceholder">eg. 1.5</string>
+    <string name="search_vehiclesearch_hyperdriveratingrange_uppertitle">Upper</string>
+    <string name="search_vehiclesearch_hyperdriveratingrange_upperdescription">The upper bound of the range</string>
+    <string name="search_vehiclesearch_hyperdriveratingrange_upperplaceholder">eg. 1.5</string>
+    <string name="search_vehiclesearch_hyperdriveratingrange_lowererrormessageinvalid">The value %1$d is not a valid hyperdrive rating</string>
+    <string name="search_vehiclesearch_hyperdriveratingrange_uppererrormessageinvalid">The value %1$d is not a valid hyperdrive rating</string>
+    <string name="search_vehiclesearch_hyperdriveratingrange_lowergreaterthanupperinfomessage">The hyperdrive rating lower bound is greater than the upper bound</string>
+    <string name="search_vehiclesearch_hyperdriveratingrange_upperlessthanlowerinfomessage">The hyperdrive rating upper bound is less than the lower bound</string>
+
+    <string name="search_vehiclesearch_lengthslist_title">Lengths</string>
+    <string name="search_vehiclesearch_lengthslist_description">Vehicles with a length in the given list will be given list will be returned</string>
+    <string name="search_vehiclesearch_lengthslist_addbuttontext">Add</string>
+    <string name="search_vehiclesearch_lengthslist_entryplaceholder">eg. 75.4</string>
+    <string name="search_vehiclesearch_lengthslist_toastinvalid">The value %1$d is not a valid length</string>
+    <string name="search_vehiclesearch_lengthslist_toastalreadyselected">The length %1$d has already been selected</string>
+
+    <string name="search_vehiclesearch_lengthrange_title">Length Range</string>
+    <string name="search_vehiclesearch_lengthrange_description">Vehicles with a length within the given range will be returned</string>
+    <string name="search_vehiclesearch_lengthrange_lowertitle">Lower</string>
+    <string name="search_vehiclesearch_lengthrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_vehiclesearch_lengthrange_lowerplaceholder">eg. 75.4</string>
+    <string name="search_vehiclesearch_lengthrange_uppertitle">Upper</string>
+    <string name="search_vehiclesearch_lengthrange_upperdescription">The upper bound of the range</string>
+    <string name="search_vehiclesearch_lengthrange_upperplaceholder">eg. 75.4</string>
+    <string name="search_vehiclesearch_lengthrange_lowererrormessageinvalid">The value %1$d is not a valid length</string>
+    <string name="search_vehiclesearch_lengthrange_uppererrormessageinvalid">The value %1$d is not a valid length</string>
+    <string name="search_vehiclesearch_lengthrange_lowergreaterthanupperinfomessage">The length lower bound is greater than the upper bound</string>
+    <string name="search_vehiclesearch_lengthrange_upperlessthanlowerinfomessage">The length upper bound is less than the lower bound</string>
+
+    <string name="search_vehiclesearch_maxatmospheringspeedslist_title">Max Atmosphering Speeds</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedslist_description">Vehicles with a max atmosphering speed in the given list will be given list will be returned</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedslist_addbuttontext">Add</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedslist_entryplaceholder">eg. 800</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedslist_toastinvalid">The value %1$d is not a valid max atmosphering speed</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedslist_toastalreadyselected">The max atmosphering speed %1$d has already been selected</string>
+
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_title">Max Atmosphering Speed Range</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_description">Vehicles with a max atmoshpering speed within the given range will be returned</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_lowertitle">Lower</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_lowerplaceholder">eg. 800</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_uppertitle">Upper</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_upperdescription">The upper bound of the range</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_upperplaceholder">eg. 800</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_lowererrormessageinvalid">The value %1$d is not a valid max atmosphering speed</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_uppererrormessageinvalid">The value %1$d is not a valid max atmosphering speed</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_lowergreaterthanupperinfomessage">The max atmosphering speed lower bound is greater than the upper bound</string>
+    <string name="search_vehiclesearch_maxatmospheringspeedrange_upperlessthanlowerinfomessage">The max atmosphering speed upper bound is less than the lower bound</string>
+
+    <string name="search_vehiclesearch_maxcrewslist_title">Max Crews</string>
+    <string name="search_vehiclesearch_maxcrewslist_description">Vehicles with a max crew in the given list will be given list will be returned</string>
+    <string name="search_vehiclesearch_maxcrewslist_addbuttontext">Add</string>
+    <string name="search_vehiclesearch_maxcrewslist_entryplaceholder">eg. 80</string>
+    <string name="search_vehiclesearch_maxcrewslist_toastinvalid">The value %1$d is not a valid max crew amount</string>
+    <string name="search_vehiclesearch_maxcrewslist_toastalreadyselected">The max crew amount %1$d has already been selected</string>
+
+    <string name="search_vehiclesearch_maxcrewrange_title">Max Crew Range</string>
+    <string name="search_vehiclesearch_maxcrewrange_description">Vehicles with a max crew within the given range will be returned</string>
+    <string name="search_vehiclesearch_maxcrewrange_lowertitle">Lower</string>
+    <string name="search_vehiclesearch_maxcrewrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_vehiclesearch_maxcrewrange_lowerplaceholder">eg. 80</string>
+    <string name="search_vehiclesearch_maxcrewrange_uppertitle">Upper</string>
+    <string name="search_vehiclesearch_maxcrewrange_upperdescription">The upper bound of the range</string>
+    <string name="search_vehiclesearch_maxcrewrange_upperplaceholder">eg. 80</string>
+    <string name="search_vehiclesearch_maxcrewrange_lowererrormessageinvalid">The value %1$d is not a valid max crew amount</string>
+    <string name="search_vehiclesearch_maxcrewrange_uppererrormessageinvalid">The value %1$d is not a valid max crew amount</string>
+    <string name="search_vehiclesearch_maxcrewrange_lowergreaterthanupperinfomessage">The max crew lower bound is greater than the upper bound</string>
+    <string name="search_vehiclesearch_maxcrewrange_upperlessthanlowerinfomessage">The max crew amount upper bound is less than the lower bound</string>
+
+    <string name="search_vehiclesearch_mincrewslist_title">Min Crews</string>
+    <string name="search_vehiclesearch_mincrewslist_description">Vehicles with a min crew in the given list will be given list will be returned</string>
+    <string name="search_vehiclesearch_mincrewslist_addbuttontext">Add</string>
+    <string name="search_vehiclesearch_mincrewslist_entryplaceholder">eg. 30</string>
+    <string name="search_vehiclesearch_mincrewslist_toastinvalid">The value %1$d is not a valid min crew amount</string>
+    <string name="search_vehiclesearch_mincrewslist_toastalreadyselected">The min crew amount %1$d has already been selected</string>
+
+    <string name="search_vehiclesearch_mincrewrange_title">Min Crew Range</string>
+    <string name="search_vehiclesearch_mincrewrange_description">Vehicles with a min crew within the given range will be returned</string>
+    <string name="search_vehiclesearch_mincrewrange_lowertitle">Lower</string>
+    <string name="search_vehiclesearch_mincrewrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_vehiclesearch_mincrewrange_lowerplaceholder">eg. 30</string>
+    <string name="search_vehiclesearch_mincrewrange_uppertitle">Upper</string>
+    <string name="search_vehiclesearch_mincrewrange_upperdescription">The upper bound of the range</string>
+    <string name="search_vehiclesearch_mincrewrange_upperplaceholder">eg. 30</string>
+    <string name="search_vehiclesearch_mincrewrange_lowererrormessageinvalid">The value %1$d is not a valid min crew amount</string>
+    <string name="search_vehiclesearch_mincrewrange_uppererrormessageinvalid">The value %1$d is not a valid min crew amount</string>
+    <string name="search_vehiclesearch_mincrewrange_lowergreaterthanupperinfomessage">The min crew amount lower bound is greater than the upper bound</string>
+    <string name="search_vehiclesearch_mincrewrange_upperlessthanlowerinfomessage">The min crew amount upper bound is less than the lower bound</string>
+
+    <string name="search_vehiclesearch_mgltslist_title">MGLTs</string>
+    <string name="search_vehiclesearch_mgltslist_description">Vehicles with an mglt in the given list will be given list will be returned</string>
+    <string name="search_vehiclesearch_mgltslist_addbuttontext">Add</string>
+    <string name="search_vehiclesearch_mgltslist_entryplaceholder">eg. 1</string>
+    <string name="search_vehiclesearch_mgltslist_toastinvalid">The value %1$d is not a valid mglt</string>
+    <string name="search_vehiclesearch_mgltslist_toastalreadyselected">The mglt %1$d has already been selected</string>
+
+    <string name="search_vehiclesearch_mgltrange_title">MGLT Range</string>
+    <string name="search_vehiclesearch_mgltrange_description">Vehicles with an mglt within the given range will be returned</string>
+    <string name="search_vehiclesearch_mgltrange_lowertitle">Lower</string>
+    <string name="search_vehiclesearch_mgltrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_vehiclesearch_mgltrange_lowerplaceholder">eg. 1</string>
+    <string name="search_vehiclesearch_mgltrange_uppertitle">Upper</string>
+    <string name="search_vehiclesearch_mgltrange_upperdescription">The upper bound of the range</string>
+    <string name="search_vehiclesearch_mgltrange_upperplaceholder">eg. 1</string>
+    <string name="search_vehiclesearch_mgltrange_lowererrormessageinvalid">The value %1$d is not a valid mglt</string>
+    <string name="search_vehiclesearch_mgltrange_uppererrormessageinvalid">The value %1$d is not a valid mglt</string>
+    <string name="search_vehiclesearch_mgltrange_lowergreaterthanupperinfomessage">The mglt lower bound is greater than the upper bound</string>
+    <string name="search_vehiclesearch_mgltrange_upperlessthanlowerinfomessage">The mglt upper bound is less than the lower bound</string>
+
+    <string name="search_vehiclesearch_passengerslist_title">Passengers</string>
+    <string name="search_vehiclesearch_passengerslist_description">Vehicles with a passenger capacity in the given list will be given list will be returned</string>
+    <string name="search_vehiclesearch_passengerslist_addbuttontext">Add</string>
+    <string name="search_vehiclesearch_passengerslist_entryplaceholder">eg. 260</string>
+    <string name="search_vehiclesearch_passengerslist_toastinvalid">The value %1$d is not a valid passenger count</string>
+    <string name="search_vehiclesearch_passengerslist_toastalreadyselected">The passenger count %1$d has already been selected</string>
+
+    <string name="search_vehiclesearch_passengerrange_title">Passenger Range</string>
+    <string name="search_vehiclesearch_passengerrange_description">Vehicles with a passenger capacity within the given range will be returned</string>
+    <string name="search_vehiclesearch_passengerrange_lowertitle">Lower</string>
+    <string name="search_vehiclesearch_passengerrange_lowerdescription">The lower bound of the range</string>
+    <string name="search_vehiclesearch_passengerrange_lowerplaceholder">eg. 260</string>
+    <string name="search_vehiclesearch_passengerrange_uppertitle">Upper</string>
+    <string name="search_vehiclesearch_passengerrange_upperdescription">The upper bound of the range</string>
+    <string name="search_vehiclesearch_passengerrange_upperplaceholder">eg. 260</string>
+    <string name="search_vehiclesearch_passengerrange_lowererrormessageinvalid">The value %1$d is not a valid passenger count</string>
+    <string name="search_vehiclesearch_passengerrange_uppererrormessageinvalid">The value %1$d is not a valid passenger count</string>
+    <string name="search_vehiclesearch_passengerrange_lowergreaterthanupperinfomessage">The passenger amount lower bound is greater than the upper bound</string>
+    <string name="search_vehiclesearch_passengerrange_upperlessthanlowerinfomessage">The passenger amount upper bound is less than the lower bound</string>
+
+    <string name="search_vehiclesearchcontainables_titles_description">Description</string>
+    <string name="search_vehiclesearchcontainables_titles_model">Model</string>
+    <string name="search_vehiclesearchcontainables_titles_name">Name</string>
+    <string name="search_vehiclesearchcontainables_titles_vehicleclass">Vehicle Class</string>
+    <string name="search_vehiclesearchcontainables_titles_vehicleclassflags">Vehicle Class Flags</string>
+
+    <string name="search_vehiclesearchcontainables_descriptions_description">Search text will be checked against vehicle description</string>
+    <string name="search_vehiclesearchcontainables_descriptions_model">Search text will be checked against vehicle model</string>
+    <string name="search_vehiclesearchcontainables_descriptions_name">Search text will be checked against vehicle name</string>
+    <string name="search_vehiclesearchcontainables_descriptions_vehicleclass">Search text will be checked against vehicle class</string>
+    <string name="search_vehiclesearchcontainables_descriptions_vehicleclassflags">Search text will be checked against vehicle class flags</string>
+
+    <string name="search_weaponsearch_title">Weapons Search</string>
+    <string name="search_weaponsearch_manufacturerssearchcontainables_title">Weapon Manufacturers</string>
+    <string name="search_weaponsearch_manufacturerssearchcontainables_description">Weapon manufacturers will be used in search</string>
+
+    <string name="search_weaponsearchcontainables_titles_description">Description</string>
+    <string name="search_weaponsearchcontainables_titles_model">Model</string>
+    <string name="search_weaponsearchcontainables_titles_name">Name</string>
+    <string name="search_weaponsearchcontainables_titles_weaponclass">Weapon Class</string>
+    <string name="search_weaponsearchcontainables_titles_weaponclassflags">Weapon Class Flags</string>
+
+    <string name="search_weaponsearchcontainables_descriptions_description">Search text will be checked against weapon description</string>
+    <string name="search_weaponsearchcontainables_descriptions_model">Search text will be checked against weapon model</string>
+    <string name="search_weaponsearchcontainables_descriptions_name">Search text will be checked against weapon name</string>
+    <string name="search_weaponsearchcontainables_descriptions_weaponclass">Search text will be checked against weapon class</string>
+    <string name="search_weaponsearchcontainables_descriptions_weaponclassflags">Search text will be checked against weapon class flags</string>
+
+</resources>

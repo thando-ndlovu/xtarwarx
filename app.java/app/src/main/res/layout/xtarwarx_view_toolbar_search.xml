@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.xyclonedesigns.xtarwarx.views.insets.StatusBarInsetView
+        style="@style/XtarWarx.View.Toolbar.StatusBarInset"
+        android:id="@+id/xtarwarx_view_toolbar_search_statusbarinsetview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/xtarwarx_view_toolbar_search_search_searchview"/>
+
+    <androidx.appcompat.widget.SearchView
+        style="@style/XtarWarx.View.Toolbar.Search"
+        android:id="@+id/xtarwarx_view_toolbar_search_search_searchview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_margin="@dimen/dp16"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_toolbar_search_statusbarinsetview"
+        app:layout_constraintBottom_toTopOf="@id/xtarwarx_view_toolbar_search_options_horizontalrecyclerview"/>
+
+    <com.xyclonedesigns.xtarwarx.widgets.recyclerview.HorizontalRecyclerView
+        style="@style/XtarWarx.View.Toolbar.Search.Options"
+        android:id="@+id/xtarwarx_view_toolbar_search_options_horizontalrecyclerview"
+        android:layout_height="@dimen/dp0"
+        android:layout_width="@dimen/dp0"
+        android:layout_marginBottom="@dimen/dp16"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_toolbar_search_search_searchview"/>
+
+</merge>

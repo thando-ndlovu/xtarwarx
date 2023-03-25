@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_pageitem_weapon_view_weapon"
+        android:icon="@drawable/ic_icon_starwars_weapon"
+        android:title="@string/menu_pageitem_weapon_view_weapon" />
+    <item android:id="@+id/menu_pageitem_weapon_view_manufacturers"
+        android:icon="@drawable/ic_icon_starwars_manufacturer"
+        android:title="@string/menu_pageitem_weapon_view_manufacturers" />
+
+</menu>

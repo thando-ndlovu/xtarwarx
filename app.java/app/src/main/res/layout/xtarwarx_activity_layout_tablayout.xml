@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/xtarwarx_activity_layout_tablayout_viewpager2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <androidx.appcompat.widget.ContentFrameLayout
+            android:id="@+id/xtarwarx_activity_layout_tablayout_contentframelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/ColorBackground"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <com.google.android.material.appbar.AppBarLayout
+            style="@style/XtarWarx.Material.AppBarLayout"
+            android:id="@+id/xtarwarx_activity_layout_tablayout_appbarlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:liftOnScrollTargetViewId="@id/xtarwarx_activity_layout_tablayout_viewpager2">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/xtarwarx_activity_layout_tablayout_linearlayoutcompat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.xyclonedesigns.xtarwarx.views.toolbars.TabLayoutToolbarView
+                    android:id="@+id/xtarwarx_activity_layout_tablayout_toolbartablayoutview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.xyclonedesigns.xtarwarx.views.toolbars.SearchToolbarView
+                    android:id="@+id/xtarwarx_activity_layout_tablayout_searchtoolbarview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <com.xyclonedesigns.xtarwarx.views.pagination.PaginationOptionsView
+                    android:id="@+id/xtarwarx_activity_layout_tablayout_paginationoptionsview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.xyclonedesigns.xtarwarx.views.insets.StatusBarInsetView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

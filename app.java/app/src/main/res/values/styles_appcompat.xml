@@ -1,0 +1,127 @@
+<resources>
+
+    <style name="XtarWarx.AppCompat" parent="XtarWarx">
+        <item name="android:background">@color/ColorSurface</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:textAppearance">@style/XtarWarx.AppCompat.TextAppearance</item>
+    </style>
+    <style name="XtarWarx.AppCompat.ActionMenu" parent="XtarWarx.AppCompat" />
+    <style name="XtarWarx.AppCompat.Button" parent="XtarWarx.AppCompat">
+        <item name="android:clickable">true</item>
+        <item name="android:outlineProvider">none</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/ColorOnSurface</item>
+        <item name="android:colorAccent">@color/ColorOnSurface</item>
+
+        <item name="rippleColor">@color/ColorSurfaceActive</item>
+    </style>
+    <style name="XtarWarx.AppCompat.Card" parent="XtarWarx.AppCompat">
+        <item name="android:background">@color/ColorSurface</item>
+        <item name="cardBackgroundColor">@color/ColorSurface</item>
+        <item name="cardCornerRadius">@dimen/dp32</item>
+        <item name="cardElevation">@dimen/dp16</item>
+        <item name="cardMaxElevation">@dimen/dp16</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="contentPadding">@dimen/dp8</item>
+    </style>
+    <style name="XtarWarx.AppCompat.CheckBox" parent="XtarWarx.AppCompat">
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:buttonTint">@color/ColorPrimary</item>
+        <item name="android:drawableTint">@color/ColorPrimary</item>
+        <item name="android:foregroundTint">@color/ColorSurface</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:padding">@dimen/dp0</item>
+    </style>
+    <style name="XtarWarx.AppCompat.EditDate" parent="XtarWarx.AppCompat.EditText">
+        <item name="android:background">@drawable/appcompat_editdate_background</item>
+        <item name="android:backgroundTint">@color/ColorSurface</item>
+        <item name="android:drawableTop">@drawable/empty_02dp_height</item>
+        <item name="android:drawableEnd">@drawable/empty_16dp_width</item>
+        <item name="android:drawableStart">@drawable/empty_16dp_width</item>
+        <item name="android:drawableBottom">@drawable/empty_02dp_height</item>
+        <item name="android:editable">false</item>
+    </style>
+    <style name="XtarWarx.AppCompat.EditText" parent="XtarWarx.AppCompat.Text">
+        <item name="android:background">@drawable/appcompat_edittext_background</item>
+        <item name="android:backgroundTint">@color/ColorSurface</item>
+        <item name="android:paddingTop">@dimen/dp8</item>
+        <item name="android:paddingEnd">@dimen/dp16</item>
+        <item name="android:paddingStart">@dimen/dp16</item>
+        <item name="android:paddingBottom">@dimen/dp8</item>
+        <item name="android:textCursorDrawable">@drawable/appcompat_edittext_cursor</item>
+        <item name="android:textColor">@color/ColorOnSurface</item>
+    </style>
+    <style name="XtarWarx.AppCompat.Image" parent="XtarWarx.AppCompat" />
+    <style name="XtarWarx.AppCompat.ImageButton" parent="XtarWarx.AppCompat">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="XtarWarx.AppCompat.PopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:clipToPadding">true</item>
+        <item name="android:colorControlHighlight">@android:color/transparent</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundTint">@color/ColorSurface</item>
+        <item name="android:itemBackground">@drawable/popupmenu_item_background</item>
+        <item name="android:itemTextAppearance">@style/XtarWarx.AppCompat.TextAppearance</item>
+        <item name="android:popupBackground">@null</item>
+
+        <item name="popupMenuBackground">@drawable/popupmenu_background</item>
+    </style>
+    <style name="XtarWarx.AppCompat.RecyclerView" parent="XtarWarx.AppCompat" />
+    <style name="XtarWarx.AppCompat.Search" parent="XtarWarx.AppCompat">
+        <item name="android:background">@drawable/shape_cornered_all</item>
+        <item name="android:backgroundTint">@color/ColorSurfaceVariant</item>
+        <item name="android:focusable">true</item>
+        <item name="android:padding">@dimen/dp4</item>
+        <item name="closeIcon">@drawable/ic_icon_general_x</item>
+        <item name="iconifiedByDefault">false</item>
+        <item name="queryHint">...</item>
+        <item name="queryBackground">@android:color/transparent</item>
+        <item name="submitBackground">@android:color/transparent</item>
+        <item name="voiceIcon">@drawable/ic_icon_general_microphone</item>
+    </style>
+    <style name="XtarWarx.AppCompat.Text" parent="XtarWarx.AppCompat">
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColorHighlight">@color/ColorPrimaryActive</item>
+    </style>
+    <style name="XtarWarx.AppCompat.TextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:elegantTextHeight">false</item>
+        <item name="android:fontFamily">@font/zekton</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/ColorOnBackground</item>
+        <item name="android:textColorHighlight">@color/ColorPrimaryActive</item>
+        <item name="android:textColorHint">@color/ColorOnBackground</item>
+        <item name="android:textColorLink">@color/ColorOnBackground</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:shadowColor">@android:color/transparent</item>
+    </style>
+    <style name="XtarWarx.AppCompat.TextAppearance.Titles" parent="XtarWarx.AppCompat.TextAppearance">
+        <item name="android:fontFamily">@font/starwarsjedi</item>
+        <item name="android:textSize">@dimen/sp24</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="XtarWarx.AppCompat.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="actionMenuTextColor">@color/ColorSurface</item>
+        <item name="actionOverflowButtonStyle">@style/XtarWarx.AppCompat.Toolbar.ActionOverFlow</item>
+        <item name="actionOverflowMenuStyle">@style/XtarWarx.AppCompat.Toolbar.ActionOverFlow</item>
+        <item name="android:background">@color/ColorBackground</item>
+        <item name="popupTheme">@style/XtarWarx.AppCompat.PopupMenu</item>
+        <item name="subtitleTextColor">@color/ColorPrimary</item>
+        <item name="subtitleTextAppearance">@style/XtarWarx.AppCompat.Toolbar.SubtitleText</item>
+        <item name="titleTextAppearance">@style/XtarWarx.AppCompat.Toolbar.TitleText</item>
+        <item name="titleTextColor">@color/ColorPrimary</item>
+    </style>
+    <style name="XtarWarx.AppCompat.Toolbar.SubtitleText" parent="XtarWarx.AppCompat.TextAppearance.Titles">
+        <item name="android:textSize">@dimen/sp20</item>
+    </style>
+    <style name="XtarWarx.AppCompat.Toolbar.TitleText" parent="XtarWarx.AppCompat.TextAppearance.Titles" />
+    <style name="XtarWarx.AppCompat.Toolbar.ActionOverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:background">@color/ColorSurface</item>
+        <item name="android:foregroundTint">@color/ColorOnSurface</item>
+    </style>
+
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Header"
+        android:id="@+id/xtarwarx_view_model_faction_name_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginVertical="@dimen/dp16"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Header"
+        android:id="@+id/xtarwarx_view_model_faction_organisationtypes_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_faction_name_appcompattextview"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Header"
+        android:id="@+id/xtarwarx_view_model_faction_description_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_faction_organisationtypes_appcompattextview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ImagesHorizontalPageView
+        style="@style/XtarWarx.View.Model.Images"
+        android:id="@+id/xtarwarx_view_model_faction_externallinks_imageshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:isExternalLinks="true"
+        app:withPagination="false"
+        app:withRefresh="false"
+        app:layout_constraintHeight_max="@dimen/dp64"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_faction_description_appcompattextview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ImagesHorizontalPageView
+        style="@style/XtarWarx.View.Model.Images"
+        android:id="@+id/xtarwarx_view_model_faction_images_imageshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:emptyText="@string/models_faction_emptytext_images"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_faction_externallinks_imageshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_faction_alliedcharacters_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_faction_title_alliedcharacters"
+        app:subtitle="@string/models_faction_description_alliedcharacters"
+        app:emptyText="@string/models_faction_emptytext_alliedcharacters"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_faction_images_imageshorizontalpageview"/>
+      
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_faction_alliedfactions_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_faction_title_alliedfactions"
+        app:subtitle="@string/models_faction_description_alliedfactions"
+        app:emptyText="@string/models_faction_emptytext_alliedfactions"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_faction_alliedcharacters_itemshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_faction_leaders_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_faction_title_leaders"
+        app:subtitle="@string/models_faction_description_leaders"
+        app:emptyText="@string/models_faction_emptytext_leaders"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_faction_alliedfactions_itemshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_faction_membercharacters_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_faction_title_membercharacters"
+        app:subtitle="@string/models_faction_description_membercharacters"
+        app:emptyText="@string/models_faction_emptytext_membercharacters"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_faction_leaders_itemshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_faction_memberfactions_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginVertical="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_faction_title_memberfactions"
+        app:subtitle="@string/models_faction_description_memberfactions"
+        app:emptyText="@string/models_faction_emptytext_memberfactions"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_faction_membercharacters_itemshorizontalpageview"/>
+
+</merge>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="title" format="string" />
+    <attr name="subtitle" format="string" />
+
+    <declare-styleable name="SearchContainablesView">
+        <attr name="title" />
+        <attr name="subtitle" />
+        <attr name="collapsible" format="boolean" />
+        <attr name="collapsed" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ItemsPageView">
+        <attr name="title" />
+        <attr name="subtitle" />
+        <attr name="emptyText" format="string" />
+        <attr name="isExternalLinks" format="boolean" />
+        <attr name="withOption" format="boolean" />
+        <attr name="withRefresh" format="boolean" />
+        <attr name="withPagination" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SearchValuesView">
+        <attr name="title" />
+        <attr name="subtitle" />
+        <attr name="withRange" format="boolean" />
+        <attr name="rangeTitle" format="string" />
+        <attr name="rangeInfo" format="string" />
+        <attr name="withValues" format="boolean" />
+        <attr name="valueTitle" format="string" />
+        <attr name="valueInfo" format="string" />
+    </declare-styleable>
+
+</resources>

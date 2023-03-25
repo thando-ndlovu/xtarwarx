@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_pageitem_faction_view_faction"
+        android:icon="@drawable/ic_icon_starwars_faction"
+        android:title="@string/menu_pageitem_faction_view_faction"/>
+    <item android:id="@+id/menu_pageitem_faction_view_alliedcharacters"
+        android:icon="@drawable/ic_icon_starwars_character"
+        android:title="@string/menu_pageitem_faction_view_alliedcharacters"/>
+    <item android:id="@+id/menu_pageitem_faction_view_alliedfactions"
+        android:icon="@drawable/ic_icon_starwars_faction"
+        android:title="@string/menu_pageitem_faction_view_alliedfactions"/>
+    <item android:id="@+id/menu_pageitem_faction_view_leaders"
+        android:icon="@drawable/ic_icon_starwars_character"
+        android:title="@string/menu_pageitem_faction_view_leaders"/>
+    <item android:id="@+id/menu_pageitem_faction_view_membercharacters"
+        android:icon="@drawable/ic_icon_starwars_character"
+        android:title="@string/menu_pageitem_faction_view_membercharacters"/>
+    <item android:id="@+id/menu_pageitem_faction_view_memberfactions"
+        android:icon="@drawable/ic_icon_starwars_faction"
+        android:title="@string/menu_pageitem_faction_view_memberfactions"/>
+
+</menu>

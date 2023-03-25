@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_pageitem_vehicle_view_vehicle"
+        android:icon="@drawable/ic_icon_starwars_vehicle"
+        android:title="@string/menu_pageitem_vehicle_view_vehicle" />
+    <item android:id="@+id/menu_pageitem_vehicle_view_manufacturers"
+        android:icon="@drawable/ic_icon_starwars_manufacturer"
+        android:title="@string/menu_pageitem_vehicle_view_manufacturers" />
+    <item android:id="@+id/menu_pageitem_vehicle_view_pilots"
+        android:icon="@drawable/ic_icon_starwars_character"
+        android:title="@string/menu_pageitem_vehicle_view_pilots" />
+
+</menu>

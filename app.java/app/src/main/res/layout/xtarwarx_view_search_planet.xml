@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.PlanetSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_planet_containables_planetsearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp0"
+
+        app:collapsible="false"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.CharacterSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_planet_residents_charactersearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_planetsearch_residentssearchcontainables_title"
+        app:subtitle="@string/search_planetsearch_residentssearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_planet_containables_planetsearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_planet_climatetypes_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:withRange="false"
+        app:title="@string/search_planetsearch_climatetypeslist_title"
+        app:subtitle="@string/search_planetsearch_climatetypeslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_planet_residents_charactersearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_planet_climateflags_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:withRange="false"
+        app:title="@string/search_planetsearch_climateflagslist_title"
+        app:subtitle="@string/search_planetsearch_climateflagslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_planet_climatetypes_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_planet_diameters_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_planet_title_diameter"
+        app:subtitle="@string/models_planet_description_diameter"
+        app:rangeTitle="@string/search_planetsearch_diameterrange_title"
+        app:rangeInfo="@string/search_planetsearch_diameterrange_description"
+        app:valueTitle="@string/search_planetsearch_diameterslist_title"
+        app:valueInfo="@string/search_planetsearch_diameterslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_planet_climateflags_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_planet_gravities_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_planet_title_gravity"
+        app:subtitle="@string/models_planet_description_gravity"
+        app:rangeTitle="@string/search_planetsearch_gravityrange_title"
+        app:rangeInfo="@string/search_planetsearch_gravityrange_description"
+        app:valueTitle="@string/search_planetsearch_gravitieslist_title"
+        app:valueInfo="@string/search_planetsearch_gravitieslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_planet_diameters_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_planet_orbitalperiods_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_planet_title_orbitalperiod"
+        app:subtitle="@string/models_planet_description_orbitalperiod"
+        app:rangeTitle="@string/search_planetsearch_orbitalperiodrange_title"
+        app:rangeInfo="@string/search_planetsearch_orbitalperiodrange_description"
+        app:valueTitle="@string/search_planetsearch_orbitalperiodslist_title"
+        app:valueInfo="@string/search_planetsearch_orbitalperiodslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_planet_gravities_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_planet_populations_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_planet_title_population"
+        app:subtitle="@string/models_planet_description_population"
+        app:rangeTitle="@string/search_planetsearch_populationrange_title"
+        app:rangeInfo="@string/search_planetsearch_populationrange_description"
+        app:valueTitle="@string/search_planetsearch_populationslist_title"
+        app:valueInfo="@string/search_planetsearch_populationslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_planet_orbitalperiods_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_planet_rotationalperiods_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_planet_title_rotationalperiod"
+        app:subtitle="@string/models_planet_description_rotationalperiod"
+        app:rangeTitle="@string/search_planetsearch_rotationalperiodrange_title"
+        app:rangeInfo="@string/search_planetsearch_rotationalperiodrange_description"
+        app:valueTitle="@string/search_planetsearch_rotationalperiodslist_title"
+        app:valueInfo="@string/search_planetsearch_rotationalperiodslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_planet_populations_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_planet_surfacewaters_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_planet_title_surfacewater"
+        app:subtitle="@string/models_planet_description_surfacewater"
+        app:rangeTitle="@string/search_planetsearch_surfacewaterrange_title"
+        app:rangeInfo="@string/search_planetsearch_surfacewaterrange_description"
+        app:valueTitle="@string/search_planetsearch_surfacewaterslist_title"
+        app:valueInfo="@string/search_planetsearch_surfacewaterslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_planet_rotationalperiods_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_planet_terraintypes_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:withRange="false"
+        app:title="@string/search_planetsearch_terraintypeslist_title"
+        app:subtitle="@string/search_planetsearch_terraintypeslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_planet_surfacewaters_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_planet_terrainflags_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:withRange="false"
+        app:title="@string/search_planetsearch_terrainflagslist_title"
+        app:subtitle="@string/search_planetsearch_terrainflagslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_planet_terraintypes_searchvaluesview" />
+
+</merge>

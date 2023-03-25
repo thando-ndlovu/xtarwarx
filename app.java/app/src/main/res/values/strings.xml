@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">xtarwarx</string>
+    <string name="images">Images</string>
+    <string name="itemsperpage">Items per page</string>
+    <string name="reverse">Reverse</string>
+    <string name="select_browser">Select browser</string>
+    <string name="sortby">Sort by</string>
+
+    <string name="tablayout_tab_characters">characters</string>
+    <string name="tablayout_tab_factions">factions</string>
+    <string name="tablayout_tab_films">films</string>
+    <string name="tablayout_tab_manufacturers">manufacturers</string>
+    <string name="tablayout_tab_planets">planets</string>
+    <string name="tablayout_tab_species">species</string>
+    <string name="tablayout_tab_starships">starships</string>
+    <string name="tablayout_tab_vehicles">vehicles</string>
+    <string name="tablayout_tab_weapons">weapons</string>
+</resources>

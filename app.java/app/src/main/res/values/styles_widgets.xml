@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="XtarWarx.Widget.RecyclerView" parent="XtarWarx.AppCompat.RecyclerView">
+        <item name="android:background">@color/ColorBackground</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:scrollbarAlwaysDrawHorizontalTrack">false</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">false</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">@android:integer/config_mediumAnimTime</item>
+        <item name="android:scrollbarFadeDuration">@android:integer/config_mediumAnimTime</item>
+        <item name="android:scrollbarSize">@dimen/dp8</item>
+        <item name="android:scrollbarStyle">insideOverlay</item>
+        <item name="android:verticalScrollbarPosition">defaultPosition</item>
+
+        <item name="fastScrollEnabled">true</item>
+        <item name="fastScrollHorizontalThumbDrawable">@drawable/widget_recyclerview_scrollbar_thumb</item>
+        <item name="fastScrollHorizontalTrackDrawable">@drawable/widget_recyclerview_scrollbar_track</item>
+        <item name="fastScrollVerticalThumbDrawable">@drawable/widget_recyclerview_scrollbar_thumb</item>
+        <item name="fastScrollVerticalTrackDrawable">@drawable/widget_recyclerview_scrollbar_track</item>
+    </style>
+    <style name="XtarWarx.Widget.RecyclerView.Horizontal" parent="XtarWarx.Widget.RecyclerView">
+        <item name="android:orientation">horizontal</item>
+
+        <item name="fastScrollEnabled">false</item>
+    </style>
+    <style name="XtarWarx.Widget.RecyclerView.MenuItems" parent="XtarWarx.Widget.RecyclerView.Horizontal" />
+
+    <style name="XtarWarx.Widget.RecyclerView.PageItems" parent="XtarWarx.Widget.RecyclerView" />
+    <style name="XtarWarx.Widget.RecyclerView.PageItems.Horizontal" parent="XtarWarx.Widget.RecyclerView.PageItems">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="XtarWarx.Widget.RecyclerView.PageItems.Vertical" parent="XtarWarx.Widget.RecyclerView.PageItems">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

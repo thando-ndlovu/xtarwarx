@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.CharacterSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_character_containables_charactersearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp0"
+
+        app:collapsible="false"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.PlanetSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_character_homeworld_planetsearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_charactersearch_homeworldsearchcontainables_title"
+        app:subtitle="@string/search_charactersearch_homeworldsearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_character_containables_charactersearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_character_birthyears_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_character_title_birthyear"
+        app:subtitle="@string/models_character_description_birthyear"
+        app:rangeTitle="@string/search_charactersearch_birthyearrange_title"
+        app:rangeInfo="@string/search_charactersearch_birthyearrange_description"
+        app:valueTitle="@string/search_charactersearch_birthyearslist_title"
+        app:valueInfo="@string/search_charactersearch_birthyearslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_character_homeworld_planetsearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_character_eyecolors_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:withRange="false"
+        app:title="@string/models_character_title_eyecolors"
+        app:subtitle="@string/models_character_description_eyecolors"
+        app:valueTitle="@string/search_charactersearch_eyecolorslist_title"
+        app:valueInfo="@string/search_charactersearch_eyecolorslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_character_birthyears_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        android:id="@+id/xtarwarx_view_search_character_haircolors_searchvaluesview"
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:withRange="false"
+        app:title="@string/models_character_title_haircolors"
+        app:subtitle="@string/models_character_description_haircolors"
+        app:valueTitle="@string/search_charactersearch_haircolorslist_title"
+        app:valueInfo="@string/search_charactersearch_haircolorslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_character_eyecolors_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_character_heights_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_character_title_height"
+        app:subtitle="@string/models_character_description_height"
+        app:rangeTitle="@string/search_charactersearch_heightrange_title"
+        app:rangeInfo="@string/search_charactersearch_heightrange_description"
+        app:valueTitle="@string/search_charactersearch_heightslist_title"
+        app:valueInfo="@string/search_charactersearch_heightslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_character_haircolors_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_character_masses_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_character_title_mass"
+        app:subtitle="@string/models_character_description_mass"
+        app:rangeTitle="@string/search_charactersearch_massrange_title"
+        app:rangeInfo="@string/search_charactersearch_massrange_description"
+        app:valueTitle="@string/search_charactersearch_masseslist_title"
+        app:valueInfo="@string/search_charactersearch_masseslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_character_heights_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_character_sexes_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:withRange="false"
+        app:title="@string/models_character_title_sex"
+        app:subtitle="@string/models_character_description_sex"
+        app:valueTitle="@string/search_charactersearch_sexeslist_title"
+        app:valueInfo="@string/search_charactersearch_sexeslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_character_masses_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_character_skincolors_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:withRange="false"
+        app:title="@string/models_character_title_skincolors"
+        app:subtitle="@string/models_character_description_skincolors"
+        app:valueTitle="@string/search_charactersearch_skincolorslist_title"
+        app:valueInfo="@string/search_charactersearch_skincolorslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_character_sexes_searchvaluesview" />
+
+
+</merge>

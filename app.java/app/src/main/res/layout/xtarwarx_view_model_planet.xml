@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Header"
+        android:id="@+id/xtarwarx_view_model_planet_name_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginVertical="@dimen/dp16"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_planet_description_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:textColor="@color/ColorPrimary"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_name_appcompattextview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ImagesHorizontalPageView
+        style="@style/XtarWarx.View.Model.Images"
+        android:id="@+id/xtarwarx_view_model_planet_externallinks_imageshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:isExternalLinks="true"
+        app:withPagination="false"
+        app:withRefresh="false"
+        app:layout_constraintHeight_max="@dimen/dp64"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_description_appcompattextview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ImagesHorizontalPageView
+        style="@style/XtarWarx.View.Model.Images"
+        android:id="@+id/xtarwarx_view_model_planet_images_imageshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginVertical="@dimen/dp32"
+
+        app:emptyText="@string/models_planet_emptytext_images"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_externallinks_imageshorizontalpageview"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_planet_details_barrier_end"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_planet_population_key_appcompattextview,
+            xtarwarx_view_model_planet_diameter_key_appcompattextview,
+            xtarwarx_view_model_planet_gravity_key_appcompattextview,
+            xtarwarx_view_model_planet_surfacewater_key_appcompattextview,
+            xtarwarx_view_model_planet_orbitalperiod_key_appcompattextview,
+            xtarwarx_view_model_planet_rotationalperiod_key_appcompattextview,
+            xtarwarx_view_model_planet_climates_key_appcompattextview,
+            xtarwarx_view_model_planet_terrains_key_appcompattextview,"/>
+
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_planet_population_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_planet_title_population"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_images_imageshorizontalpageview"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_planet_population_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_planet_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_images_imageshorizontalpageview"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_planet_population_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_planet_population_key_appcompattextview,
+            xtarwarx_view_model_planet_population_value_appcompattextview,"/>
+  
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_planet_diameter_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_planet_title_diameter"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_population_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_planet_diameter_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_planet_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_population_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_planet_diameter_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_planet_diameter_key_appcompattextview,
+            xtarwarx_view_model_planet_diameter_value_appcompattextview,"/>
+  
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_planet_gravity_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_planet_title_gravity"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_diameter_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_planet_gravity_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_planet_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_diameter_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_planet_gravity_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_planet_gravity_key_appcompattextview,
+            xtarwarx_view_model_planet_gravity_value_appcompattextview,"/>
+  
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_planet_surfacewater_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_planet_title_surfacewater"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_gravity_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_planet_surfacewater_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_planet_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_gravity_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_planet_surfacewater_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_planet_surfacewater_key_appcompattextview,
+            xtarwarx_view_model_planet_surfacewater_value_appcompattextview,"/>
+  
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_planet_orbitalperiod_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_planet_title_orbitalperiod"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_surfacewater_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_planet_orbitalperiod_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_planet_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_surfacewater_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_planet_orbitalperiod_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_planet_orbitalperiod_key_appcompattextview,
+            xtarwarx_view_model_planet_orbitalperiod_value_appcompattextview,"/>
+  
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_planet_rotationalperiod_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_planet_title_rotationalperiod"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_orbitalperiod_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_planet_rotationalperiod_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_planet_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_orbitalperiod_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_planet_rotationalperiod_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_planet_rotationalperiod_key_appcompattextview,
+            xtarwarx_view_model_planet_rotationalperiod_value_appcompattextview,"/>
+
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_planet_climates_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_planet_title_climates"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_rotationalperiod_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_planet_climates_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_planet_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_rotationalperiod_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_planet_climates_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_planet_climates_key_appcompattextview,
+            xtarwarx_view_model_planet_climates_value_appcompattextview,"/>
+      
+      
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_planet_terrains_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_planet_title_terrains"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_climates_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_planet_terrains_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_planet_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_climates_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_planet_terrains_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_planet_terrains_key_appcompattextview,
+            xtarwarx_view_model_planet_terrains_value_appcompattextview,"/>
+      
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_planet_residents_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginVertical="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_planet_title_residents"
+        app:subtitle="@string/models_planet_description_residents"
+        app:emptyText="@string/models_planet_emptytext_residents"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_planet_terrains_barrier_bottom"/>
+
+</merge>

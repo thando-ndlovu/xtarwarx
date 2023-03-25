@@ -1,0 +1,193 @@
+<resources>
+
+    <string name="models_starwarsmodel_sortkeys_titles_id">Id</string>
+    <string name="models_starwarsmodel_sortkeys_titles_created">Date Created</string>
+    <string name="models_starwarsmodel_sortkeys_titles_lastedited">Last edited</string>
+
+    <string name="models_starwarsmodel_sortkeys_description_id">Sorts by model id</string>
+    <string name="models_starwarsmodel_sortkeys_descriptions_created">Sorts by model creation date</string>
+    <string name="models_starwarsmodel_sortkeys_descriptions_lastedited">Sorts by date model was last edited</string>
+
+    <string name="models_character_sortkeys_titles_birthyear">Birth Year</string>
+    <string name="models_character_sortkeys_titles_eyecolorscount">Eye Colors Count</string>
+    <string name="models_character_sortkeys_titles_haircolorscount">Hair Colors Count</string>
+    <string name="models_character_sortkeys_titles_height">Height</string>
+    <string name="models_character_sortkeys_titles_mass">Mass</string>
+    <string name="models_character_sortkeys_titles_name">Name</string>
+    <string name="models_character_sortkeys_titles_sex">Sex</string>
+    <string name="models_character_sortkeys_titles_skincolorscount">Skin Colors Count</string>
+
+    <string name="models_character_sortkeys_descriptions_birthyear">Sorts by birth year</string>
+    <string name="models_character_sortkeys_descriptions_eyecolorscount">Sorts by the number of different eye colors</string>
+    <string name="models_character_sortkeys_descriptions_haircolorscount">Sorts by the number of different hair colors</string>
+    <string name="models_character_sortkeys_descriptions_height">Sorts by height</string>
+    <string name="models_character_sortkeys_descriptions_mass">Sorts by mass</string>
+    <string name="models_character_sortkeys_descriptions_name">Sorts by name</string>
+    <string name="models_character_sortkeys_descriptions_sex">Sorts by sex</string>
+    <string name="models_character_sortkeys_descriptions_skincolorscount">Sorts by the number of different skin colors</string>
+
+    <string name="models_faction_sortkeys_titles_alliedcharactercount">Allied Character Count</string>
+    <string name="models_faction_sortkeys_titles_alliedfactioncount">Allied Faction Count</string>
+    <string name="models_faction_sortkeys_titles_leadercount">Leader Count</string>
+    <string name="models_faction_sortkeys_titles_membercharactercount">Member Character Count</string>
+    <string name="models_faction_sortkeys_titles_memberfactioncount">Member Faction Count</string>
+    <string name="models_faction_sortkeys_titles_name">Name</string>
+    <string name="models_faction_sortkeys_titles_organizationtypes">OrganizationTypes</string>
+
+    <string name="models_faction_sortkeys_descriptions_alliedcharactercount">Sorts by the number of different allied characters</string>
+    <string name="models_faction_sortkeys_descriptions_alliedfactioncount">Sorts by the number of different allied factions</string>
+    <string name="models_faction_sortkeys_descriptions_leadercount">Sorts by the number of different leaders</string>
+    <string name="models_faction_sortkeys_descriptions_membercharactercount">Sorts by the number of different member characters</string>
+    <string name="models_faction_sortkeys_descriptions_memberfactioncount">Sorts by the number of different member factions</string>
+    <string name="models_faction_sortkeys_descriptions_name">Sorts by name</string>
+    <string name="models_faction_sortkeys_descriptions_organizationtypes">Sorts by organization types</string>
+
+    <string name="models_film_sortkeys_titles_castmemberscount">Cast Members Count</string>
+    <string name="models_film_sortkeys_titles_characterscount">Characters Count</string>
+    <string name="models_film_sortkeys_titles_director">Director</string>
+    <string name="models_film_sortkeys_titles_duration">Duration</string>
+    <string name="models_film_sortkeys_titles_episodeid">Episode Id</string>
+    <string name="models_film_sortkeys_titles_factionscount">Factions Count</string>
+    <string name="models_film_sortkeys_titles_manufacturerscount">Manufacturers Count</string>
+    <string name="models_film_sortkeys_titles_planetscount">Planets Count</string>
+    <string name="models_film_sortkeys_titles_producerscount">Producers Count</string>
+    <string name="models_film_sortkeys_titles_releasedate">Release Date</string>
+    <string name="models_film_sortkeys_titles_speciescount">Species Count</string>
+    <string name="models_film_sortkeys_titles_starshipscount">Starships Count</string>
+    <string name="models_film_sortkeys_titles_title">Title</string>
+    <string name="models_film_sortkeys_titles_vehiclescount">Vehicles Count</string>
+    <string name="models_film_sortkeys_titles_weaponscount">Weapons Count</string>
+
+    <string name="models_film_sortkeys_descriptions_castmemberscount">Sorts by the number of different cast members</string>
+    <string name="models_film_sortkeys_descriptions_characterscount">Sorts by the number of different characters</string>
+    <string name="models_film_sortkeys_descriptions_duration">Sorts by duration</string>
+    <string name="models_film_sortkeys_descriptions_edited">Sorts by date last edited</string>
+    <string name="models_film_sortkeys_descriptions_episodeid">Sorts by episode number</string>
+    <string name="models_film_sortkeys_descriptions_factionscount">Sorts by the number of different factions</string>
+    <string name="models_film_sortkeys_descriptions_manufacturerscount">Sorts by the number of different manufacturers</string>
+    <string name="models_film_sortkeys_descriptions_planetscount">Sorts by the number of different planets</string>
+    <string name="models_film_sortkeys_descriptions_producerscount">Sorts by the number of different producers</string>
+    <string name="models_film_sortkeys_descriptions_releasedate">Sorts by release date</string>
+    <string name="models_film_sortkeys_descriptions_speciescount">Sorts by the number of different species</string>
+    <string name="models_film_sortkeys_descriptions_starshipscount">Sorts by the number of different transporters</string>
+    <string name="models_film_sortkeys_descriptions_title">Sorts by title</string>
+    <string name="models_film_sortkeys_descriptions_vehiclescount">Sorts by the number of different vehicles</string>
+    <string name="models_film_sortkeys_descriptions_weaponscount">Sorts by the number of different weapons</string>
+
+    <string name="models_manufacturer_sortkeys_titles_name">Name</string>
+    <string name="models_manufacturer_sortkeys_titles_starshipscount">Starships Count</string>
+    <string name="models_manufacturer_sortkeys_titles_vehiclescount">Vehicles Count</string>
+    <string name="models_manufacturer_sortkeys_titles_weaponscount">Weapons Count</string>
+
+    <string name="models_manufacturer_sortkeys_descriptions_name">Sorts by name</string>
+    <string name="models_manufacturer_sortkeys_descriptions_starshipscount">Sorts by the number of different starships</string>
+    <string name="models_manufacturer_sortkeys_descriptions_vehiclescount">Sorts by the number of different Vehicles</string>
+    <string name="models_manufacturer_sortkeys_descriptions_weaponscount">Sorts by the number of different weapons</string>
+
+    <string name="models_planet_sortkeys_titles_climatescount">Climates Count</string>
+    <string name="models_planet_sortkeys_titles_diameter">Diameter</string>
+    <string name="models_planet_sortkeys_titles_gravity">Gravity</string>
+    <string name="models_planet_sortkeys_titles_name">Name</string>
+    <string name="models_planet_sortkeys_titles_orbitalperiod">Orbital Period</string>
+    <string name="models_planet_sortkeys_titles_population">Population</string>
+    <string name="models_planet_sortkeys_titles_residentscount">Residents Count</string>
+    <string name="models_planet_sortkeys_titles_rotationalperiod">Rotational Period</string>
+    <string name="models_planet_sortkeys_titles_surfacewater">Surface Water</string>
+    <string name="models_planet_sortkeys_titles_terrainscount">Terrains Count</string>
+
+    <string name="models_planet_sortkeys_descriptions_climatescount">Sorts by the number of different climates</string>
+    <string name="models_planet_sortkeys_descriptions_edited">Sorts by date last edited</string>
+    <string name="models_planet_sortkeys_descriptions_gravity">Sorts by gravity</string>
+    <string name="models_planet_sortkeys_descriptions_name">Sorts by name</string>
+    <string name="models_planet_sortkeys_descriptions_orbitalperiod">Sorts by orbital period</string>
+    <string name="models_planet_sortkeys_descriptions_population">Sorts by population</string>
+    <string name="models_planet_sortkeys_descriptions_residentscount">Sorts by the number of different residents</string>
+    <string name="models_planet_sortkeys_descriptions_rotationalperiod">Sorts by rotational period</string>
+    <string name="models_planet_sortkeys_descriptions_surfacewater">Sorts by surface water percentage</string>
+    <string name="models_planet_sortkeys_descriptions_terrainscount">Sorts by the number of different terrains</string>
+
+    <string name="models_specie_sortkeys_titles_averageheight">Average Height</string>
+    <string name="models_specie_sortkeys_titles_averagelifespan">Average Lifespan</string>
+    <string name="models_specie_sortkeys_titles_charactercount">Character Count</string>
+    <string name="models_specie_sortkeys_titles_classification">Classification</string>
+    <string name="models_specie_sortkeys_titles_designation">Designation</string>
+    <string name="models_specie_sortkeys_titles_eyecolorscount">Eye Colors Count</string>
+    <string name="models_specie_sortkeys_titles_haircolorscount">Hair Colors Count</string>
+    <string name="models_specie_sortkeys_titles_language">Language</string>
+    <string name="models_specie_sortkeys_titles_name">Name</string>
+    <string name="models_specie_sortkeys_titles_skincolorscount">Skin Colors Count</string>
+
+    <string name="models_specie_sortkeys_descriptions_averageheight">Sorts by average height</string>
+    <string name="models_specie_sortkeys_descriptions_averagelifespan">Sorts by average lifespan</string>
+    <string name="models_specie_sortkeys_descriptions_charactercount">Sorts by the number of different characters</string>
+    <string name="models_specie_sortkeys_descriptions_classification">Sorts by classification</string>
+    <string name="models_specie_sortkeys_descriptions_edited">Sorts by date last edited</string>
+    <string name="models_specie_sortkeys_descriptions_eyecolorscount">Sorts by the number of different eye colors</string>
+    <string name="models_specie_sortkeys_descriptions_haircolorscount">Sorts by the number of different hair colors</string>
+    <string name="models_specie_sortkeys_descriptions_language">Sorts by language</string>
+    <string name="models_specie_sortkeys_descriptions_name">Sorts by name</string>
+    <string name="models_specie_sortkeys_descriptions_skincolorscount">Sorts by the number of different skin colors</string>
+
+    <string name="models_transporter_sortkeys_titles_cargocapacity">Cargo Capacity</string>
+    <string name="models_transporter_sortkeys_titles_consumables">Consumables</string>
+    <string name="models_transporter_sortkeys_titles_costincredits">Cost In Credits</string>
+    <string name="models_transporter_sortkeys_titles_hyperdriverating">Hyperdrive Rating</string>
+    <string name="models_transporter_sortkeys_titles_length">Length</string>
+    <string name="models_transporter_sortkeys_titles_manufacturercount">Manufacturer Count</string>
+    <string name="models_transporter_sortkeys_titles_maxatmospheringspeed">Max Atmosphering Speed</string>
+    <string name="models_transporter_sortkeys_titles_maxcrew">Max Crew</string>
+    <string name="models_transporter_sortkeys_titles_mglt">MGLT</string>
+    <string name="models_transporter_sortkeys_titles_mincrew">Min Crew</string>
+    <string name="models_transporter_sortkeys_titles_model">Model</string>
+    <string name="models_transporter_sortkeys_titles_name">Name</string>
+    <string name="models_transporter_sortkeys_titles_passengers">Passengers</string>
+    <string name="models_transporter_sortkeys_titles_pilotcount">Pilot Count</string>
+    <string name="models_transporter_sortkeys_titles_transporterclass">Starship Class</string>
+    <string name="models_transporter_sortkeys_titles_transporterclassflagscount">Starship Class Flags Count</string>
+
+    <string name="models_transporter_sortkeys_descriptions_cargocapacity">Sorts by cargo capacity</string>
+    <string name="models_transporter_sortkeys_descriptions_consumables">Sorts by consumables</string>
+    <string name="models_transporter_sortkeys_descriptions_costincredits">Sorts by cost in credits</string>
+    <string name="models_transporter_sortkeys_descriptions_hyperdriverating">Sorts by hyperdrive rating</string>
+    <string name="models_transporter_sortkeys_descriptions_length">Sorts by length</string>
+    <string name="models_transporter_sortkeys_descriptions_manufacturercount">Sorts by the number of different manufacturers</string>
+    <string name="models_transporter_sortkeys_descriptions_maxatmospheringspeed">Sorts by max atmosphering speed</string>
+    <string name="models_transporter_sortkeys_descriptions_maxcrew">Sorts by max crew</string>
+    <string name="models_transporter_sortkeys_descriptions_mglt">Sorts by MGLT</string>
+    <string name="models_transporter_sortkeys_descriptions_mincrew">Sorts by min crew</string>
+    <string name="models_transporter_sortkeys_descriptions_model">Sorts by model</string>
+    <string name="models_transporter_sortkeys_descriptions_name">Sorts by name</string>
+    <string name="models_transporter_sortkeys_descriptions_passengers">Sorts by passengers</string>
+    <string name="models_transporter_sortkeys_descriptions_pilotcount">Sorts by the number of different pilots</string>
+    <string name="models_transporter_sortkeys_descriptions_transporterclass">Sorts by transporter class</string>
+    <string name="models_transporter_sortkeys_descriptions_transporterclassflagscount">Sorts by the number of different transporter class flags</string>
+
+    <string name="models_starship_sortkeys_titles_hyperdriverating">Hyperdrive Rating</string>
+    <string name="models_starship_sortkeys_titles_mglt">MGLT</string>
+    <string name="models_starship_sortkeys_titles_starshipclass">Starship Class</string>
+    <string name="models_starship_sortkeys_titles_starshipclassflagscount">Starship Class Flags Count</string>
+
+    <string name="models_starship_sortkeys_descriptions_hyperdriverating">Sorts by hyperdrive rating</string>
+    <string name="models_starship_sortkeys_descriptions_mglt">Sorts by MGLT</string>
+    <string name="models_starship_sortkeys_descriptions_vehicleclass">Sorts by vehicle class</string>
+    <string name="models_starship_sortkeys_descriptions_vehicleclassflagscount">Sorts by the number of different vehicle class flags</string>
+
+    <string name="models_vehicle_sortkeys_titles_vehicleclass">Vehicle Class</string>
+    <string name="models_vehicle_sortkeys_titles_vehicleclassflagscount">Vehicle Class Flags Count</string>
+
+    <string name="models_vehicle_sortkeys_descriptions_vehicleclass">Sorts by vehicle class</string>
+    <string name="models_vehicle_sortkeys_descriptions_vehicleclassflagscount">Sorts by the number of different vehicle class flags</string>
+
+    <string name="models_weapon_sortkeys_titles_manufacturercount">Manufacturer Count</string>
+    <string name="models_weapon_sortkeys_titles_model">Model</string>
+    <string name="models_weapon_sortkeys_titles_name">Name</string>
+    <string name="models_weapon_sortkeys_titles_weaponclass">Weapon Class</string>
+    <string name="models_weapon_sortkeys_titles_weaponclassflagscount">Weapon Class Flags Count</string>
+
+    <string name="models_weapon_sortkeys_descriptions_manufacturercount">Sorts by the number of different manufacturer</string>
+    <string name="models_weapon_sortkeys_descriptions_model">Sorts by model</string>
+    <string name="models_weapon_sortkeys_descriptions_name">Sorts by name</string>
+    <string name="models_weapon_sortkeys_descriptions_weaponclass">Sorts by weapon class</string>
+    <string name="models_weapon_sortkeys_descriptions_weaponclassflagscount">Sorts by the number of different weapon class flags</string>
+
+</resources>

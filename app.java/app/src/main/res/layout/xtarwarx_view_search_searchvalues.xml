@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Search.Text.Title"
+        android:id="@+id/xtarwarx_view_search_searchvalues_title_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/xtarwarx_view_search_searchvalues_toggle_appcompatimagebutton"
+        app:layout_constraintEnd_toStartOf="@id/xtarwarx_view_search_searchvalues_toggle_appcompatimagebutton"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Search.Text.Subtitle"
+        android:id="@+id/xtarwarx_view_search_searchvalues_subtitle_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_searchvalues_title_appcompattextview"
+        app:layout_constraintEnd_toStartOf="@id/xtarwarx_view_search_searchvalues_toggle_appcompatimagebutton"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        style="@style/XtarWarx.View.Search.ImageButton"
+        android:id="@+id/xtarwarx_view_search_searchvalues_toggle_appcompatimagebutton"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginStart="@dimen/dp16"
+        android:src="@drawable/ic_icon_general_dots_vertical"
+
+        app:layout_constraintWidth="wrap_content_constrained"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Search.Text"
+        android:id="@+id/xtarwarx_view_search_searchvalues_range_title_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp16"
+        android:layout_marginHorizontal="@dimen/dp16"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_searchvalues_subtitle_appcompattextview"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Search.Text"
+        android:id="@+id/xtarwarx_view_search_searchvalues_range_info_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginHorizontal="@dimen/dp16"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_searchvalues_range_title_appcompattextview"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        style="@style/XtarWarx.View.Search.EditText"
+        android:id="@+id/xtarwarx_view_search_searchvalues_range_lower_appcompatedittext"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_marginEnd="@dimen/dp8"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_searchvalues_range_info_appcompattextview"
+        app:layout_constraintEnd_toStartOf="@id/xtarwarx_view_search_searchvalues_range_text_appcompattextview"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Search.Text"
+        android:id="@+id/xtarwarx_view_search_searchvalues_range_text_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="wrap_content"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/xtarwarx_view_search_searchvalues_range_lower_appcompatedittext"
+        app:layout_constraintBottom_toBottomOf="@id/xtarwarx_view_search_searchvalues_range_lower_appcompatedittext"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        style="@style/XtarWarx.View.Search.EditText"
+        android:id="@+id/xtarwarx_view_search_searchvalues_range_upper_appcompatedittext"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginStart="@dimen/dp8"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_search_searchvalues_range_text_appcompattextview"
+        app:layout_constraintTop_toTopOf="@id/xtarwarx_view_search_searchvalues_range_lower_appcompatedittext"
+        app:layout_constraintBottom_toBottomOf="@id/xtarwarx_view_search_searchvalues_range_lower_appcompatedittext" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Search.Text"
+        android:id="@+id/xtarwarx_view_search_searchvalues_values_title_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp16"
+        android:layout_marginHorizontal="@dimen/dp16"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_searchvalues_range_lower_appcompatedittext"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Search.Text"
+        android:id="@+id/xtarwarx_view_search_searchvalues_values_info_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginHorizontal="@dimen/dp16"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_searchvalues_values_title_appcompattextview"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        style="@style/XtarWarx.View.Search.EditText"
+        android:id="@+id/xtarwarx_view_search_searchvalues_value_appcompatedittext"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp8"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/xtarwarx_view_search_searchvalues_valueadd_appcompatimagebutton"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_searchvalues_values_info_appcompattextview" />
+    <androidx.appcompat.widget.AppCompatImageButton
+        style="@style/XtarWarx.View.Search.ImageButton"
+        android:id="@+id/xtarwarx_view_search_searchvalues_valueadd_appcompatimagebutton"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginStart="@dimen/dp16"
+        android:src="@drawable/ic_icon_general_plus"
+
+        app:layout_constraintWidth="wrap_content_constrained"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/xtarwarx_view_search_searchvalues_value_appcompatedittext"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_search_searchvalues_value_appcompatedittext"
+        app:layout_constraintBottom_toBottomOf="@id/xtarwarx_view_search_searchvalues_value_appcompatedittext"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/xtarwarx_view_search_searchvalues_values_recyclerview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_searchvalues_value_appcompatedittext" />
+
+</merge>

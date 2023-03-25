@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.StarshipSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_starship_containables_starshipsearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp0"
+
+        app:collapsible="false"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.ManufacturerSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_starship_manufacturers_manufacturersearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_starshipsearch_manufacturerssearchcontainables_title"
+        app:subtitle="@string/search_starshipsearch_manufacturerssearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_containables_starshipsearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.CharacterSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_starship_pilots_charactersearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_starshipsearch_pilotssearchcontainables_title"
+        app:subtitle="@string/search_starshipsearch_pilotssearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_manufacturers_manufacturersearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_starship_cargocapacities_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_starship_title_cargocapacity"
+        app:subtitle="@string/models_starship_description_cargocapacity"
+        app:rangeTitle="@string/search_starshipsearch_cargocapacityrange_title"
+        app:rangeInfo="@string/search_starshipsearch_cargocapacityrange_description"
+        app:valueTitle="@string/search_starshipsearch_cargocapacitieslist_title"
+        app:valueInfo="@string/search_starshipsearch_cargocapacitieslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_pilots_charactersearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_starship_consumables_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_starship_title_consumables"
+        app:subtitle="@string/models_starship_description_consumables"
+        app:rangeTitle="@string/search_starshipsearch_consumablerange_title"
+        app:rangeInfo="@string/search_starshipsearch_consumablerange_description"
+        app:valueTitle="@string/search_starshipsearch_consumableslist_title"
+        app:valueInfo="@string/search_starshipsearch_consumableslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_cargocapacities_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_starship_costincredits_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_starship_title_costincredits"
+        app:subtitle="@string/models_starship_description_costincredits"
+        app:rangeTitle="@string/search_starshipsearch_costincreditrange_title"
+        app:rangeInfo="@string/search_starshipsearch_costincreditrange_description"
+        app:valueTitle="@string/search_starshipsearch_costincreditslist_title"
+        app:valueInfo="@string/search_starshipsearch_costincreditslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_consumables_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_starship_hyperdriveratings_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_starship_title_hyperdriverating"
+        app:subtitle="@string/models_starship_description_hyperdriverating"
+        app:rangeTitle="@string/search_starshipsearch_hyperdriveratingrange_title"
+        app:rangeInfo="@string/search_starshipsearch_hyperdriveratingrange_description"
+        app:valueTitle="@string/search_starshipsearch_hyperdriveratingslist_title"
+        app:valueInfo="@string/search_starshipsearch_hyperdriveratingslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_costincredits_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_starship_lengths_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_starship_title_length"
+        app:subtitle="@string/models_starship_description_length"
+        app:rangeTitle="@string/search_starshipsearch_lengthrange_title"
+        app:rangeInfo="@string/search_starshipsearch_lengthrange_description"
+        app:valueTitle="@string/search_starshipsearch_lengthslist_title"
+        app:valueInfo="@string/search_starshipsearch_lengthslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_hyperdriveratings_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_starship_maxatmospheringspeeds_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_starship_title_maxatmospheringspeed"
+        app:subtitle="@string/models_starship_description_maxatmospheringspeed"
+        app:rangeTitle="@string/search_starshipsearch_maxatmospheringspeedrange_title"
+        app:rangeInfo="@string/search_starshipsearch_maxatmospheringspeedrange_description"
+        app:valueTitle="@string/search_starshipsearch_maxatmospheringspeedslist_title"
+        app:valueInfo="@string/search_starshipsearch_maxatmospheringspeedslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_lengths_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_starship_mglts_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_starship_title_mglt"
+        app:subtitle="@string/models_starship_description_mglt"
+        app:rangeTitle="@string/search_starshipsearch_mgltrange_title"
+        app:rangeInfo="@string/search_starshipsearch_mgltrange_description"
+        app:valueTitle="@string/search_starshipsearch_mgltslist_title"
+        app:valueInfo="@string/search_starshipsearch_mgltslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_maxatmospheringspeeds_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_starship_maxcrews_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_starship_title_maxcrew"
+        app:subtitle="@string/models_starship_description_maxcrew"
+        app:rangeTitle="@string/search_starshipsearch_maxcrewrange_title"
+        app:rangeInfo="@string/search_starshipsearch_maxcrewrange_description"
+        app:valueTitle="@string/search_starshipsearch_maxcrewslist_title"
+        app:valueInfo="@string/search_starshipsearch_maxcrewslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_mglts_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_starship_mincrews_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_starship_title_mincrew"
+        app:subtitle="@string/models_starship_description_mincrew"
+        app:rangeTitle="@string/search_starshipsearch_mincrewrange_title"
+        app:rangeInfo="@string/search_starshipsearch_mincrewrange_description"
+        app:valueTitle="@string/search_starshipsearch_mincrewslist_title"
+        app:valueInfo="@string/search_starshipsearch_mincrewslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_maxcrews_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_starship_passengers_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_starship_title_passengers"
+        app:subtitle="@string/models_starship_description_passengers"
+        app:rangeTitle="@string/search_starshipsearch_passengerrange_title"
+        app:rangeInfo="@string/search_starshipsearch_passengerrange_description"
+        app:valueTitle="@string/search_starshipsearch_passengerslist_title"
+        app:valueInfo="@string/search_starshipsearch_passengerslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_starship_mincrews_searchvaluesview" />
+
+</merge>

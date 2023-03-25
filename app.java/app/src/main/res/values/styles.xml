@@ -1,0 +1,11 @@
+<resources>
+    <style name="XtarWarx">
+        <item name="android:background">@color/ColorBackground</item>
+    </style>
+    <style name="XtarWarx.AlertDialog">
+        <item name="android:background">@drawable/shape_cornered_all</item>
+        <item name="android:backgroundTint">@color/ColorBackground</item>
+        <item name="android:textAppearance">@style/XtarWarx.AppCompat.TextAppearance</item>
+    </style>
+
+</resources>

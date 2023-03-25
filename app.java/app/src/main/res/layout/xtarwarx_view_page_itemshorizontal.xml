@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Page.Text.Title"
+        android:id="@+id/xtarwarx_view_page_itemshorizontal_title_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/xtarwarx_view_page_itemshorizontal_subtitle_appcompattextview"
+        app:layout_constraintEnd_toStartOf="@id/xtarwarx_view_page_itemshorizontal_paginationoptions_appcompatimagebutton"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Page.Text.Subtitle"
+        android:id="@+id/xtarwarx_view_page_itemshorizontal_subtitle_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/xtarwarx_view_page_itemshorizontal_title_appcompattextview"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_page_itemshorizontal_title_appcompattextview"
+        app:layout_constraintBottom_toTopOf="@id/xtarwarx_view_page_itemshorizontal_paginationoptions_paginationoptionsview" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        style="@style/XtarWarx.View.Page.ImageButton"
+        android:id="@+id/xtarwarx_view_page_itemshorizontal_paginationoptions_appcompatimagebutton"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:src="@drawable/ic_icon_general_options"
+
+        app:layout_constraintWidth_min="@dimen/dp48"
+        app:layout_constraintWidth_max="@dimen/dp48"
+        app:layout_constraintHeight_min="@dimen/dp48"
+        app:layout_constraintHeight_max="@dimen/dp48"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintHorizontal_weight="0"
+        app:layout_constraintTop_toTopOf="@id/xtarwarx_view_page_itemshorizontal_title_appcompattextview"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_page_itemshorizontal_title_appcompattextview"
+        app:layout_constraintEnd_toStartOf="@id/xtarwarx_view_page_itemshorizontal_refresh_appcompatimagebutton"
+        app:layout_constraintBottom_toBottomOf="@id/xtarwarx_view_page_itemsvertical_subtitle_appcompattextview"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        style="@style/XtarWarx.View.Page.ImageButton"
+        android:id="@+id/xtarwarx_view_page_itemshorizontal_refresh_appcompatimagebutton"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:src="@drawable/ic_icon_general_rescan"
+
+        app:layout_constraintWidth_min="@dimen/dp48"
+        app:layout_constraintWidth_max="@dimen/dp48"
+        app:layout_constraintHeight_min="@dimen/dp48"
+        app:layout_constraintHeight_max="@dimen/dp48"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintHorizontal_weight="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/xtarwarx_view_page_itemshorizontal_title_appcompattextview"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_page_itemshorizontal_paginationoptions_appcompatimagebutton"
+        app:layout_constraintBottom_toBottomOf="@id/xtarwarx_view_page_itemsvertical_subtitle_appcompattextview"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_page_itemshorizontal_header_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_page_itemshorizontal_subtitle_appcompattextview,
+            xtarwarx_view_page_itemshorizontal_paginationoptions_appcompatimagebutton,
+            xtarwarx_view_page_itemshorizontal_refresh_appcompatimagebutton,"/>
+
+    <com.xyclonedesigns.xtarwarx.views.pagination.PaginationOptionsView
+        style="@style/XtarWarx.View.Page.Items.PaginationOptions"
+        android:id="@+id/xtarwarx_view_page_itemshorizontal_paginationoptions_paginationoptionsview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_page_itemshorizontal_header_barrier_bottom"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Page.Text"
+        android:id="@+id/xtarwarx_view_page_itemshorizontal_empty_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_margin="@dimen/dp32"
+        android:textAlignment="center"
+        android:visibility="gone"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_page_itemshorizontal_paginationoptions_paginationoptionsview"/>
+
+    <com.xyclonedesigns.xtarwarx.widgets.recyclerview.PageItemsRecyclerView
+        style="@style/XtarWarx.View.Page.Items.PageItems.Horizontal"
+        android:id="@+id/xtarwarx_view_page_itemshorizontal_items_pageitemsrecyclerview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_page_itemshorizontal_paginationoptions_paginationoptionsview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.pagination.PaginationPagesView
+        style="@style/XtarWarx.View.Page.Items.PaginationPages"
+        android:id="@+id/xtarwarx_view_page_itemshorizontal_paginationpages_paginationpagesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="wrap_content"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_page_itemshorizontal_items_pageitemsrecyclerview"/>
+
+</merge>

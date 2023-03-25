@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Header"
+        android:id="@+id/xtarwarx_view_model_vehicle_name_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginVertical="@dimen/dp16"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_vehicle_model_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:textColor="@color/ColorPrimary"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_name_appcompattextview"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_vehicle_vehicleclass_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_model_appcompattextview"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_vehicle_description_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:textColor="@color/ColorPrimary"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_vehicleclass_appcompattextview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ImagesHorizontalPageView
+        style="@style/XtarWarx.View.Model.Images"
+        android:id="@+id/xtarwarx_view_model_vehicle_externallinks_imageshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:isExternalLinks="true"
+        app:withPagination="false"
+        app:withRefresh="false"
+        app:layout_constraintHeight_max="@dimen/dp64"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_description_appcompattextview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ImagesHorizontalPageView
+        style="@style/XtarWarx.View.Model.Images"
+        android:id="@+id/xtarwarx_view_model_vehicle_images_imageshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:emptyText="@string/models_vehicle_emptytext_images"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_externallinks_imageshorizontalpageview"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_vehicle_details_barrier_end"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_vehicle_maxatmospheringspeed_key_appcompattextview,
+            xtarwarx_view_model_vehicle_costincredits_key_appcompattextview,
+            xtarwarx_view_model_vehicle_length_key_appcompattextview,
+            xtarwarx_view_model_vehicle_mincrew_key_appcompattextview,
+            xtarwarx_view_model_vehicle_maxcrew_key_appcompattextview,
+            xtarwarx_view_model_vehicle_cargocapacity_key_appcompattextview,
+            xtarwarx_view_model_vehicle_passengers_key_appcompattextview,
+            xtarwarx_view_model_vehicle_consumables_key_appcompattextview,"/>
+
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_vehicle_maxatmospheringspeed_key_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp32"
+        android:text="@string/models_vehicle_title_maxatmospheringspeed"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_images_imageshorizontalpageview"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_vehicle_maxatmospheringspeed_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_vehicle_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_images_imageshorizontalpageview"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_vehicle_maxatmospheringspeed_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_vehicle_maxatmospheringspeed_key_appcompattextview,
+            xtarwarx_view_model_vehicle_maxatmospheringspeed_value_appcompattextview,"/>
+  
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_vehicle_costincredits_key_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+        android:text="@string/models_vehicle_title_costincredits"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_maxatmospheringspeed_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_vehicle_costincredits_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_vehicle_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_maxatmospheringspeed_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_vehicle_costincredits_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_vehicle_costincredits_key_appcompattextview,
+            xtarwarx_view_model_vehicle_costincredits_value_appcompattextview,"/>
+  
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_vehicle_length_key_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+        android:text="@string/models_vehicle_title_length"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_costincredits_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_vehicle_length_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_vehicle_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_costincredits_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_vehicle_length_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_vehicle_length_key_appcompattextview,
+            xtarwarx_view_model_vehicle_length_value_appcompattextview,"/>
+  
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_vehicle_mincrew_key_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+        android:text="@string/models_vehicle_title_mincrew"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_length_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_vehicle_mincrew_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_vehicle_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_length_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_vehicle_mincrew_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_vehicle_mincrew_key_appcompattextview,
+            xtarwarx_view_model_vehicle_mincrew_value_appcompattextview,"/>
+  
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_vehicle_maxcrew_key_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+        android:text="@string/models_vehicle_title_maxcrew"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_mincrew_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_vehicle_maxcrew_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_vehicle_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_mincrew_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_vehicle_maxcrew_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_vehicle_maxcrew_key_appcompattextview,
+            xtarwarx_view_model_vehicle_maxcrew_value_appcompattextview,"/>
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_vehicle_cargocapacity_key_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+        android:text="@string/models_vehicle_title_cargocapacity"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_maxcrew_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_vehicle_cargocapacity_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_vehicle_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_maxcrew_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_vehicle_cargocapacity_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_vehicle_cargocapacity_key_appcompattextview,
+            xtarwarx_view_model_vehicle_cargocapacity_value_appcompattextview,"/>
+  
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_vehicle_passengers_key_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+        android:text="@string/models_vehicle_title_passengers"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_cargocapacity_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_vehicle_passengers_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_vehicle_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_cargocapacity_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_vehicle_passengers_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_vehicle_passengers_key_appcompattextview,
+            xtarwarx_view_model_vehicle_passengers_value_appcompattextview,"/>
+  
+  
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_vehicle_consumables_key_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+        android:text="@string/models_vehicle_title_consumables"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_passengers_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_vehicle_consumables_value_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_vehicle_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_passengers_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_vehicle_consumables_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_vehicle_consumables_key_appcompattextview,
+            xtarwarx_view_model_vehicle_consumables_value_appcompattextview,"/>
+
+  
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_vehicle_manufacturers_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_vehicle_title_manufacturers"
+        app:subtitle="@string/models_vehicle_description_manufacturers"
+        app:emptyText="@string/models_vehicle_emptytext_manufacturers"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_consumables_barrier_bottom"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_vehicle_pilots_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginVertical="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_vehicle_title_pilots"
+        app:subtitle="@string/models_vehicle_description_pilots"
+        app:emptyText="@string/models_vehicle_emptytext_pilots"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_vehicle_manufacturers_itemshorizontalpageview"/>
+
+</merge>

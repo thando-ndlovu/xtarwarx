@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ColorBackground">#ffffff</color>
+    <color name="ColorOnBackground">#000000</color>
+
+    <color name="ColorPrimary">#ffea00</color>
+    <color name="ColorPrimaryActive">#988C00</color>
+    <color name="ColorOnPrimary">@color/ColorOnBackground</color>
+
+    <color name="ColorSurface">#ffffff</color>
+    <color name="ColorSurfaceVariant">#DFDFDF</color>
+    <color name="ColorSurfaceActive">#C6C6C6</color>
+    <color name="ColorSurfaceTransparent">#80ffffff</color>
+    <color name="ColorOnSurface">@color/ColorOnBackground</color>
+
+    <color name="Color_NavigationBar">#ffffff</color>
+    <color name="Color_StatusBar">#ffffff</color>
+    <color name="Color_SplashScreenBackground">@color/ColorBackground</color>
+    <color name="Color_SplashScreenIcon">@color/ColorPrimary</color>
+    <color name="Color_SplashScreenIconBackground">@color/ColorOnBackground</color>
+
+</resources>

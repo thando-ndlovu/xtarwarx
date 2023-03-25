@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/xtarwarx_view_pagination_options_linearlayoutcompat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/dp8"
+        android:paddingStart="@dimen/dp8">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            style="@style/XtarWarx.View.Pagination.Options.CheckBox"
+            android:id="@+id/xtarwarx_view_pagination_options_reverse_appcompatcheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp8"
+            android:text="@string/reverse"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/XtarWarx.View.Pagination.Options.Button"
+            android:id="@+id/xtarwarx_view_pagination_options_sortby_appcompatbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp8"
+            android:text="@string/sortby"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/XtarWarx.View.Pagination.Options.Button"
+            android:id="@+id/xtarwarx_view_pagination_options_itemsperpage_appcompatbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp8"
+            android:text="@string/itemsperpage" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</merge>

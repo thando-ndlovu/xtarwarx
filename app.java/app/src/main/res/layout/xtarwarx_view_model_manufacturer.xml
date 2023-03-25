@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Header"
+        android:id="@+id/xtarwarx_view_model_manufacturer_name_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginVertical="@dimen/dp16"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_manufacturer_description_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:textColor="@color/ColorPrimary"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_manufacturer_name_appcompattextview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ImagesHorizontalPageView
+        style="@style/XtarWarx.View.Model.Images"
+        android:id="@+id/xtarwarx_view_model_manufacturer_externallinks_imageshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:isExternalLinks="true"
+        app:withPagination="false"
+        app:withRefresh="false"
+        app:layout_constraintHeight_max="@dimen/dp64"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_manufacturer_description_appcompattextview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ImagesHorizontalPageView
+        style="@style/XtarWarx.View.Model.Images"
+        android:id="@+id/xtarwarx_view_model_manufacturer_images_imageshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:emptyText="@string/models_manufacturer_emptytext_images"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_manufacturer_externallinks_imageshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_manufacturer_headquartersplanet_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="false"
+        app:title="@string/models_manufacturer_title_headquartersplanet"
+        app:subtitle="@string/models_manufacturer_description_headquartersplanet"
+        app:emptyText="@string/models_manufacturer_emptytext_headquartersplanet"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_manufacturer_images_imageshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_manufacturer_starships_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_manufacturer_title_starships"
+        app:subtitle="@string/models_manufacturer_description_starships"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_manufacturer_headquartersplanet_itemshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_manufacturer_vehicles_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_manufacturer_title_vehicles"
+        app:subtitle="@string/models_manufacturer_description_vehicles"
+        app:emptyText="@string/models_manufacturer_emptytext_vehicles"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_manufacturer_starships_itemshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_manufacturer_weapons_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginVertical="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_manufacturer_title_weapons"
+        app:subtitle="@string/models_manufacturer_description_weapons"
+        app:emptyText="@string/models_manufacturer_emptytext_weapons"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_manufacturer_vehicles_itemshorizontalpageview"/>
+
+</merge>

@@ -1,0 +1,191 @@
+<resources>
+
+    <style name="XtarWarx.View" parent="XtarWarx" />
+
+    <!-- XtarWarx.View.Inset -->
+    <style name="XtarWarx.View.Inset" parent="XtarWarx.View" />
+    <style name="XtarWarx.View.Inset.StatusBar" parent="XtarWarx.View.Inset">
+        <item name="android:background">@drawable/background_insetview_fadetopdown</item>
+    </style>
+    <style name="XtarWarx.View.Inset.NavigationBar" parent="XtarWarx.View.Inset">
+        <item name="android:background">@drawable/background_insetview_fadebottomup</item>
+    </style>
+    <!-- XtarWarx.View.Inset -->
+
+    <!-- XtarWarx.View.Model -->
+    <style name="XtarWarx.View.Model" parent="XtarWarx.View" />
+    <style name="XtarWarx.View.Model.Images" parent="XtarWarx.View.Page.Items" />
+    <style name="XtarWarx.View.Model.Images.Image" parent="XtarWarx.AppCompat.Image" />
+    <style name="XtarWarx.View.Model.Items" parent="XtarWarx.View.Page.Items" />
+    <style name="XtarWarx.View.Model.Text" parent="XtarWarx.AppCompat.Text">
+        <item name="android:layout_marginEnd">@dimen/dp16</item>
+        <item name="android:layout_marginStart">@dimen/dp16</item>
+    </style>
+    <style name="XtarWarx.View.Model.Text.Header" parent="XtarWarx.View.Model.Text">
+        <item name="android:textAppearance">@style/XtarWarx.AppCompat.TextAppearance.Titles</item>
+        <item name="android:textColor">@color/ColorPrimary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="XtarWarx.View.Model.Text.Key" parent="XtarWarx.View.Model.Text">
+        <item name="android:layout_marginEnd">@dimen/dp0</item>
+    </style>
+    <style name="XtarWarx.View.Model.Text.Value" parent="XtarWarx.View.Model.Text" />
+    <!-- XtarWarx.View.Model -->
+
+    <!-- XtarWarx.View.Page -->
+    <style name="XtarWarx.View.Page" parent="XtarWarx.View" />
+    <style name="XtarWarx.View.Page.ImageButton" parent="XtarWarx.AppCompat.ImageButton">
+        <item name="android:background">@drawable/background_page_button</item>
+    </style>
+
+    <style name="XtarWarx.View.Page.Item" parent="XtarWarx.Material.Card" />
+    <style name="XtarWarx.View.Page.Item.ImageButton" parent="XtarWarx.View.Page.ImageButton">
+        <item name="android:background">@drawable/background_page_item_button</item>
+        <item name="android:src">@drawable/ic_icon_general_dots_vertical</item>
+    </style>
+    <style name="XtarWarx.View.Page.Item.Image" parent="XtarWarx.AppCompat.Image" />
+    <style name="XtarWarx.View.Page.Item.Menu" parent="XtarWarx.Widget.RecyclerView.MenuItems">
+        <item name="android:background">@color/ColorSurface</item>
+    </style>
+    <style name="XtarWarx.View.Page.Item.Menu.MenuItem" parent="XtarWarx.AppCompat.Button">
+        <item name="android:background">@drawable/background_page_item_menuitem</item>
+        <item name="android:drawablePadding">@dimen/dp4</item>
+        <item name="android:drawableTint">@color/pageitemview_menuitem_icon</item>
+        <item name="android:layout_marginEnd">@dimen/dp8</item>
+        <item name="android:layout_marginStart">@dimen/dp8</item>
+        <item name="android:paddingTop">@dimen/dp4</item>
+        <item name="android:paddingEnd">@dimen/dp8</item>
+        <item name="android:paddingStart">@dimen/dp8</item>
+        <item name="android:paddingBottom">@dimen/dp4</item>
+        <item name="android:textColor">@color/pageitemview_menuitem_text</item>
+
+        <item name="rippleColor">@null</item>
+    </style>
+    <style name="XtarWarx.View.Page.Item.Text" parent="XtarWarx.AppCompat.Text">
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="XtarWarx.View.Page.Item.Text.Title" parent="XtarWarx.View.Page.Item.Text">
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="XtarWarx.View.Page.Item.Text.Subtitle" parent="XtarWarx.View.Page.Item.Text">
+        <item name="android:maxLines">5</item>
+    </style>
+
+    <style name="XtarWarx.View.Page.Items" parent="XtarWarx.View.Page" />
+    <style name="XtarWarx.View.Page.Items.PageItems.Horizontal" parent="XtarWarx.Widget.RecyclerView.PageItems.Horizontal" />
+    <style name="XtarWarx.View.Page.Items.PageItems.Vertical" parent="XtarWarx.Widget.RecyclerView.PageItems.Vertical" />
+    <style name="XtarWarx.View.Page.Items.PaginationOptions" parent="XtarWarx.View.Pagination.Options" />
+    <style name="XtarWarx.View.Page.Items.PaginationPages" parent="XtarWarx.View.Pagination.Pages" />
+
+    <style name="XtarWarx.View.Page.Text" parent="XtarWarx.AppCompat.Text">
+        <item name="android:layout_marginStart">@dimen/dp16</item>
+    </style>
+    <style name="XtarWarx.View.Page.Text.Title" parent="XtarWarx.View.Page.Text">
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="XtarWarx.View.Page.Text.Subtitle" parent="XtarWarx.View.Page.Text">
+        <item name="android:textSize">@dimen/sp16</item>
+    </style>
+    <!-- XtarWarx.View.Page -->
+
+    <!-- XtarWarx.View.Pagination -->
+    <style name="XtarWarx.View.Pagination" parent="XtarWarx.View" />
+    <style name="XtarWarx.View.Pagination.Options" parent="XtarWarx.View.Pagination" />
+    <style name="XtarWarx.View.Pagination.Options.Button" parent="XtarWarx.AppCompat.Button">
+        <item name="android:background">@drawable/background_pagination_button</item>
+        <item name="android:padding">@dimen/dp8</item>
+    </style>
+    <style name="XtarWarx.View.Pagination.Options.CheckBox" parent="XtarWarx.AppCompat.CheckBox" />
+    <style name="XtarWarx.View.Pagination.Pages" parent="XtarWarx.Widget.RecyclerView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingEnd">@dimen/dp16</item>
+        <item name="android:paddingStart">@dimen/dp16</item>
+    </style>
+    <style name="XtarWarx.View.Pagination.Pages.Button" parent="XtarWarx.AppCompat.Button">
+        <item name="android:background">@drawable/background_pagination_button</item>
+        <item name="android:padding">@dimen/dp8</item>
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- XtarWarx.View.Pagination -->
+
+    <!-- XtarWarx.View.Search -->
+    <style name="XtarWarx.View.Search" parent="XtarWarx.View" />
+    <style name="XtarWarx.View.Search.EditText" parent="XtarWarx.AppCompat.EditText" />
+    <style name="XtarWarx.View.Search.ImageButton" parent="XtarWarx.AppCompat.ImageButton">
+        <item name="android:background">@drawable/background_search_option_button</item>
+        <item name="android:padding">@dimen/dp4</item>
+    </style>
+    <style name="XtarWarx.View.Search.SearchOptions" parent="XtarWarx.View.Search">
+        <item name="android:background">@drawable/shape_cornered_all</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:paddingTop">@dimen/dp16</item>
+        <item name="android:paddingEnd">@dimen/dp16</item>
+        <item name="android:paddingStart">@dimen/dp16</item>
+        <item name="android:paddingBottom">@dimen/dp16</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+    <style name="XtarWarx.View.Search.SearchResults" parent="XtarWarx.Widget.RecyclerView.PageItems.Vertical" />
+    <style name="XtarWarx.View.Search.SearchValues" parent="XtarWarx.View">
+        <item name="android:layout_marginTop">@dimen/dp16</item>
+    </style>
+    <style name="XtarWarx.View.Search.Text" parent="XtarWarx.AppCompat.Text" />
+    <style name="XtarWarx.View.Search.Text.Title" parent="XtarWarx.View.Search.Text">
+        <item name="android:textSize">@dimen/sp20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="XtarWarx.View.Search.Text.Subtitle" parent="XtarWarx.View.Search.Text" />
+    <!-- XtarWarx.View.Search -->
+
+    <!-- XtarWarx.View.SearchContainables -->
+    <style name="XtarWarx.View.SearchContainables" parent="XtarWarx.View">
+        <item name="android:layout_marginTop">@dimen/dp16</item>
+    </style>
+    <style name="XtarWarx.View.SearchContainables.CheckBox" parent="XtarWarx.AppCompat.CheckBox" />
+    <style name="XtarWarx.View.SearchContainables.ImageButton" parent="XtarWarx.AppCompat.ImageButton">
+        <item name="android:background">@drawable/background_search_option_button</item>
+        <item name="android:padding">@dimen/dp4</item>
+        <item name="android:src">@drawable/ic_icon_general_dots_vertical</item>
+    </style>
+    <style name="XtarWarx.View.SearchContainables.Text" parent="XtarWarx.AppCompat.Text" />
+    <style name="XtarWarx.View.SearchContainables.Text.Title" parent="XtarWarx.View.SearchContainables.Text">
+        <item name="android:textSize">@dimen/sp20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="XtarWarx.View.SearchContainables.Text.Subtitle" parent="XtarWarx.View.SearchContainables.Text" />
+    <!-- XtarWarx.View.SearchContainables -->
+
+    <!-- XtarWarx.View.Toolbar -->
+    <style name="XtarWarx.View.Toolbar" parent="XtarWarx.View" />
+    <style name="XtarWarx.View.Toolbar.StatusBarInset" parent="XtarWarx.View" />
+    <style name="XtarWarx.View.Toolbar.Search" parent="XtarWarx.AppCompat.Search" />
+    <style name="XtarWarx.View.Toolbar.Search.Options" parent="XtarWarx.Widget.RecyclerView.Horizontal">
+        <item name="android:paddingEnd">@dimen/dp8</item>
+        <item name="android:paddingStart">@dimen/dp8</item>
+    </style>
+    <style name="XtarWarx.View.Toolbar.Search.Option" parent="XtarWarx.View">
+        <item name="android:background">@drawable/background_search_option</item>
+        <item name="android:paddingTop">@dimen/dp4</item>
+        <item name="android:paddingEnd">@dimen/dp8</item>
+        <item name="android:paddingStart">@dimen/dp8</item>
+        <item name="android:paddingBottom">@dimen/dp4</item>
+
+        <item name="rippleColor">@null</item>
+    </style>
+    <style name="XtarWarx.View.Toolbar.Search.Option.CheckBox" parent="XtarWarx.AppCompat.CheckBox">
+        <item name="android:textColor">@color/toolbarsearch_option_text</item>
+    </style>
+    <style name="XtarWarx.View.Toolbar.Search.Option.ImageButton" parent="XtarWarx.AppCompat.ImageButton">
+        <item name="android:background">@drawable/background_search_option_button</item>
+    </style>
+    <style name="XtarWarx.View.Toolbar.TabLayout" parent="XtarWarx.Material.TabLayout" />
+    <style name="XtarWarx.View.Toolbar.TabLayout.Tab" parent="XtarWarx.Material.TabLayout.Tab" />
+    <style name="XtarWarx.View.Toolbar.Toolbar" parent="XtarWarx.AppCompat.Toolbar" />
+    <!-- XtarWarx.View.Toolbar -->
+
+</resources>

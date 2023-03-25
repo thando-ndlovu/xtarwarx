@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.RelativeLayout">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/xtarwarx_view_pagination_pages_recyclerview"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dp16"
+        android:paddingEnd="@dimen/dp32"
+        android:paddingStart="@dimen/dp32"
+        android:paddingBottom="@dimen/dp16" />
+
+</merge>

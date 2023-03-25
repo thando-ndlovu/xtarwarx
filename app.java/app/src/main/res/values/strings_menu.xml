@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="menu_layout_tablayout_search">Search</string>
+    <string name="menu_layout_tablayout_themes">Themes</string>
+
+    <string name="menu_pageitem_character_view_character">View Character</string>
+    <string name="menu_pageitem_character_view_homeworld">View Homeworld</string>
+
+    <string name="menu_pageitem_faction_view_faction">View Faction</string>
+    <string name="menu_pageitem_faction_view_alliedcharacters">View Allied Characters</string>
+    <string name="menu_pageitem_faction_view_alliedfactions">View Allied Factions</string>
+    <string name="menu_pageitem_faction_view_leaders">View Leaders</string>
+    <string name="menu_pageitem_faction_view_membercharacters">View Member Characters</string>
+    <string name="menu_pageitem_faction_view_memberfactions">View Member Factions</string>
+
+    <string name="menu_pageitem_film_view_film">View Film</string>
+    <string name="menu_pageitem_film_view_characters">View Characters</string>
+    <string name="menu_pageitem_film_view_factions">View Factions</string>
+    <string name="menu_pageitem_film_view_manufacturers">View Manufacturers</string>
+    <string name="menu_pageitem_film_view_planets">View Planets</string>
+    <string name="menu_pageitem_film_view_species">View Species</string>
+    <string name="menu_pageitem_film_view_starships">View Starships</string>
+    <string name="menu_pageitem_film_view_vehicles">View Vehicles</string>
+    <string name="menu_pageitem_film_view_weapons">View Weapons</string>
+
+    <string name="menu_pageitem_manufacturer_view_manufacturer">View Manufacturer</string>
+    <string name="menu_pageitem_manufacturer_view_headquartersplanet">View Headquarters Planet</string>
+    <string name="menu_pageitem_manufacturer_view_starships">View Starships</string>
+    <string name="menu_pageitem_manufacturer_view_vehicles">View Vehicles</string>
+    <string name="menu_pageitem_manufacturer_view_weapons">View Weapons</string>
+
+    <string name="menu_pageitem_planet_view_planet">View Planet</string>
+    <string name="menu_pageitem_planet_view_residents">View Residents</string>
+
+    <string name="menu_pageitem_specie_view_specie">View Specie</string>
+    <string name="menu_pageitem_specie_view_characters">View Characters</string>
+    <string name="menu_pageitem_specie_view_homeworld">View Homeworld</string>
+
+    <string name="menu_pageitem_starship_view_starship">View Starship</string>
+    <string name="menu_pageitem_starship_view_manufacturers">View Manufacturers</string>
+    <string name="menu_pageitem_starship_view_pilots">View Pilots</string>
+
+    <string name="menu_pageitem_vehicle_view_vehicle">View Vehicle</string>
+    <string name="menu_pageitem_vehicle_view_manufacturers">View Manufacturers</string>
+    <string name="menu_pageitem_vehicle_view_pilots">View Pilots</string>
+
+    <string name="menu_pageitem_weapon_view_weapon">View Weapon</string>
+    <string name="menu_pageitem_weapon_view_manufacturers">View Manufacturers</string>
+
+</resources>

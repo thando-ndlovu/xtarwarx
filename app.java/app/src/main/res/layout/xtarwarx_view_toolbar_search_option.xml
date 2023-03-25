@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/XtarWarx.View.Toolbar.Search.Option"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        style="@style/XtarWarx.View.Toolbar.Search.Option.CheckBox"
+        android:id="@+id/xtarwarx_view_toolbar_search_option_select_appcompatcheckbox"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="wrap_content"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/xtarwarx_view_toolbar_search_option_options_appcompatimagebutton"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        style="@style/XtarWarx.View.Toolbar.Search.Option.ImageButton"
+        android:id="@+id/xtarwarx_view_toolbar_search_option_options_appcompatimagebutton"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:padding="@dimen/dp8"
+        android:layout_marginStart="@dimen/dp8"
+        android:src="@drawable/ic_icon_general_dots_vertical"
+
+        app:layout_constraintWidth="wrap_content"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_toolbar_search_option_select_appcompatcheckbox"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

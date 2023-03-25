@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        style="@style/XtarWarx.View.Search.SearchOptions"
+        android:id="@+id/xtarwarx_view_search_searchresults_searchoptions_scrollview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintHeight_max="@dimen/dp360"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/xtarwarx_view_search_searchresults_searchresults_itemsverticalpageview"/>
+
+    <View
+        android:id="@+id/xtarwarx_view_search_searchresults_searchoptions_scrollview_topfade"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:background="@drawable/background_insetview_fadetopdown"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="@dimen/dp32"
+        app:layout_constraintTop_toTopOf="@id/xtarwarx_view_search_searchresults_searchoptions_scrollview"
+        app:layout_constraintEnd_toEndOf="@id/xtarwarx_view_search_searchresults_searchoptions_scrollview"
+        app:layout_constraintStart_toStartOf="@id/xtarwarx_view_search_searchresults_searchoptions_scrollview"/>
+    <View
+        android:id="@+id/xtarwarx_view_search_searchresults_searchoptions_scrollview_bottomfade"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:background="@drawable/background_insetview_fadebottomup"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="@dimen/dp32"
+        app:layout_constraintEnd_toEndOf="@id/xtarwarx_view_search_searchresults_searchoptions_scrollview"
+        app:layout_constraintStart_toStartOf="@id/xtarwarx_view_search_searchresults_searchoptions_scrollview"
+        app:layout_constraintBottom_toBottomOf="@id/xtarwarx_view_search_searchresults_searchoptions_scrollview" />
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsVerticalPageView
+        style="@style/XtarWarx.View.Search.SearchResults"
+        android:id="@+id/xtarwarx_view_search_searchresults_searchresults_itemsverticalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="match_constraint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_searchresults_searchoptions_scrollview"/>
+
+</merge>

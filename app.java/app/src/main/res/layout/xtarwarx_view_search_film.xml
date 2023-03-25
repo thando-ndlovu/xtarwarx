@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.FilmSearchContainablesView
+        android:id="@+id/xtarwarx_view_search_film_containables_filmsearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp0"
+
+        app:collapsible="false"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.CharacterSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_film_characters_charactersearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_filmsearch_characterssearchcontainables_title"
+        app:subtitle="@string/search_filmsearch_characterssearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_film_containables_filmsearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.FactionSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_film_factions_factionsearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_filmsearch_factionssearchcontainables_title"
+        app:subtitle="@string/search_filmsearch_factionssearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_film_characters_charactersearchcontainablesview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.ManufacturerSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_film_manufacturers_manufacturersearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_filmsearch_manufacturerssearchcontainables_title"
+        app:subtitle="@string/search_filmsearch_manufacturerssearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_film_factions_factionsearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.PlanetSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_film_planets_planetsearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_filmsearch_planetssearchcontainables_title"
+        app:subtitle="@string/search_filmsearch_planetssearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_film_manufacturers_manufacturersearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.SpecieSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_film_species_speciesearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_filmsearch_speciessearchcontainables_title"
+        app:subtitle="@string/search_filmsearch_speciessearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_film_planets_planetsearchcontainablesview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.StarshipSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_film_starships_starshipsearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_filmsearch_starshipssearchcontainables_title"
+        app:subtitle="@string/search_filmsearch_starshipssearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_film_species_speciesearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.VehicleSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_film_vehicles_vehiclesearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_filmsearch_vehiclessearchcontainables_title"
+        app:subtitle="@string/search_filmsearch_vehiclessearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_film_starships_starshipsearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.searchcontainables.WeaponSearchContainablesView
+        style="@style/XtarWarx.View.SearchContainables"
+        android:id="@+id/xtarwarx_view_search_film_weapons_weaponsearchcontainablesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/search_filmsearch_weaponssearchcontainables_title"
+        app:subtitle="@string/search_filmsearch_weaponssearchcontainables_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_film_vehicles_vehiclesearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_film_durations_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_film_title_duration"
+        app:subtitle="@string/models_film_description_duration"
+        app:rangeTitle="@string/search_filmsearch_durationrange_title"
+        app:rangeInfo="@string/search_filmsearch_durationrange_description"
+        app:valueTitle="@string/search_filmsearch_durationslist_title"
+        app:valueInfo="@string/search_filmsearch_durationslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_film_weapons_weaponsearchcontainablesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_film_episodeids_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_film_title_episodeid"
+        app:subtitle="@string/models_film_description_episodeid"
+        app:rangeTitle="@string/search_filmsearch_episodeidrange_title"
+        app:rangeInfo="@string/search_filmsearch_episodeidrange_description"
+        app:valueTitle="@string/search_filmsearch_episodeidslist_title"
+        app:valueInfo="@string/search_filmsearch_episodeidslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_film_durations_searchvaluesview" />
+
+    <com.xyclonedesigns.xtarwarx.views.search.SearchValuesView
+        style="@style/XtarWarx.View.Search.SearchValues"
+        android:id="@+id/xtarwarx_view_search_film_releasedates_searchvaluesview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:title="@string/models_film_title_releasedate"
+        app:subtitle="@string/models_film_description_releasedate"
+        app:rangeTitle="@string/search_filmsearch_releasedaterange_title"
+        app:rangeInfo="@string/search_filmsearch_releasedaterange_description"
+        app:valueTitle="@string/search_filmsearch_releasedateslist_title"
+        app:valueInfo="@string/search_filmsearch_releasedateslist_description"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_search_film_episodeids_searchvaluesview" />
+
+</merge>

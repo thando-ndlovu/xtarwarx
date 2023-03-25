@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/xtarwarx_view_model_film_header_view"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="match_constraint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/xtarwarx_view_model_film_title_appcompattextview"
+        app:layout_constraintBottom_toBottomOf="@id/xtarwarx_view_model_film_description_appcompattextview"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Header"
+        android:id="@+id/xtarwarx_view_model_film_title_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+        android:textAlignment="center"
+
+        app:layout_constraintWidth="wrap_content_constrained"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Header"
+        android:id="@+id/xtarwarx_view_model_film_episodeid_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+        android:textAlignment="center"
+
+        app:layout_constraintWidth="wrap_content_constrained"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_title_appcompattextview"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        style="@style/XtarWarx.View.Model.Images.Image"
+        android:id="@+id/xtarwarx_view_model_film_poster_appcompatimageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:layout_constraintWidth="wrap_content_constrained"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_episodeid_appcompattextview"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Header"
+        android:id="@+id/xtarwarx_view_model_film_openingcrawl_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp48"
+        android:textAlignment="center"
+        android:textSize="@dimen/sp16"
+
+        app:layout_constraintWidth="wrap_content_constrained"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_poster_appcompatimageview"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_film_description_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+        android:textColor="@color/ColorPrimary"
+        android:textAlignment="center"
+
+        app:layout_constraintWidth="wrap_content_constrained"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_openingcrawl_appcompattextview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ImagesHorizontalPageView
+        style="@style/XtarWarx.View.Model.Images"
+        android:id="@+id/xtarwarx_view_model_film_externallinks_imageshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:isExternalLinks="true"
+        app:withPagination="false"
+        app:withRefresh="false"
+        app:layout_constraintHeight_max="@dimen/dp64"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content_constrained"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_description_appcompattextview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ImagesHorizontalPageView
+        style="@style/XtarWarx.View.Model.Images"
+        android:id="@+id/xtarwarx_view_model_film_images_imageshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginVertical="@dimen/dp32"
+
+        app:emptyText="@string/models_film_emptytext_images"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_externallinks_imageshorizontalpageview"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_film_details_barrier_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_film_releasedate_key_appcompattextview,
+            xtarwarx_view_model_film_director_key_appcompattextview,
+            xtarwarx_view_model_film_duration_key_appcompattextview,
+            xtarwarx_view_model_film_castmembers_key_appcompattextview,
+            xtarwarx_view_model_film_producers_key_appcompattextview"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_film_releasedate_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_film_title_releasedate"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_images_imageshorizontalpageview"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_film_releasedate_value_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_film_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_images_imageshorizontalpageview"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_film_releasedate_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_film_releasedate_key_appcompattextview,
+            xtarwarx_view_model_film_releasedate_value_appcompattextview,"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_film_director_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_film_title_director"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_releasedate_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_film_director_value_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_film_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_releasedate_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_film_director_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_film_director_key_appcompattextview,
+            xtarwarx_view_model_film_director_value_appcompattextview,"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_film_duration_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_film_title_duration"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_director_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_film_duration_value_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_film_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_director_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_film_duration_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_film_duration_key_appcompattextview,
+            xtarwarx_view_model_film_duration_value_appcompattextview,"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_film_castmembers_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_film_title_castmembers"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_duration_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_film_castmembers_value_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_film_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_duration_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_film_castmembers_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_film_castmembers_key_appcompattextview,
+            xtarwarx_view_model_film_castmembers_value_appcompattextview,"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Key"
+        android:id="@+id/xtarwarx_view_model_film_producers_key_appcompattextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/models_film_title_producers"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_castmembers_barrier_bottom"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/XtarWarx.View.Model.Text.Value"
+        android:id="@+id/xtarwarx_view_model_film_producers_value_appcompattextview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/xtarwarx_view_model_film_details_barrier_end"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_castmembers_barrier_bottom"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/xtarwarx_view_model_film_producers_barrier_bottom"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="
+            xtarwarx_view_model_film_producers_key_appcompattextview,
+            xtarwarx_view_model_film_producers_value_appcompattextview,"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_film_characters_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_film_title_characters"
+        app:subtitle="@string/models_film_description_characters"
+        app:emptyText="@string/models_film_emptytext_characters"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_producers_barrier_bottom"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_film_factions_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_film_title_factions"
+        app:subtitle="@string/models_film_description_factions"
+        app:emptyText="@string/models_film_emptytext_factions"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_characters_itemshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_film_manufacturers_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_film_title_manufacturers"
+        app:subtitle="@string/models_film_description_manufacturers"
+        app:emptyText="@string/models_film_emptytext_manufacturers"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_factions_itemshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_film_planets_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_film_title_planets"
+        app:subtitle="@string/models_film_description_planets"
+        app:emptyText="@string/models_film_emptytext_manufacturers"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_manufacturers_itemshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_film_species_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_film_title_species"
+        app:subtitle="@string/models_film_description_species"
+        app:emptyText="@string/models_film_emptytext_planets"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_planets_itemshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_film_starships_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_film_title_starships"
+        app:subtitle="@string/models_film_description_starships"
+        app:emptyText="@string/models_film_emptytext_starships"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_species_itemshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_film_vehicles_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginTop="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_film_title_vehicles"
+        app:subtitle="@string/models_film_description_vehicles"
+        app:emptyText="@string/models_film_emptytext_vehicles"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_starships_itemshorizontalpageview"/>
+
+    <com.xyclonedesigns.xtarwarx.views.page.ItemsHorizontalPageView
+        style="@style/XtarWarx.View.Model.Items"
+        android:id="@+id/xtarwarx_view_model_film_weapons_itemshorizontalpageview"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="@dimen/dp0"
+        android:layout_marginVertical="@dimen/dp32"
+
+        app:withPagination="true"
+        app:title="@string/models_film_title_weapons"
+        app:subtitle="@string/models_film_description_weapons"
+        app:emptyText="@string/models_film_emptytext_weapons"
+        app:layout_constraintWidth="match_constraint"
+        app:layout_constraintHeight="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xtarwarx_view_model_film_vehicles_itemshorizontalpageview"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
