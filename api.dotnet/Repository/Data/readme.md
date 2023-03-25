@@ -1,4 +1,4 @@
-﻿# Data Repo
+﻿# Data Repository
 
 Data for the initial load of whichever database is to be used.
 Data is in json files for various star wars data types. Schema and example included for website query IDE use.
@@ -12,12 +12,8 @@ Data was based on [swapi](https://www.swapi.dev) data and expanded using the fol
 
 
 ## Notes
-
-****
-
-## Data is very incomplete
-
-## null vs empty value
+* ## Data is very incomplete
+* ## null vs empty value
 
 The following json denotes
 * A model whose description has never been checked/recorded
