@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+  <data name="GeneralWords_General" xml:space="preserve">  
+		<value>General</value>
+		<comment></comment>
+	</data>						
+  <data name="GeneralWords_Language" xml:space="preserve">  
+		<value>Language</value>
+		<comment></comment>
+	</data>						
+  <data name="GeneralWords_Mode" xml:space="preserve">  
+		<value>Mode</value>
+		<comment></comment>
+	</data>						
+  <data name="GeneralWords_Select" xml:space="preserve">  
+		<value>Select</value>
+		<comment></comment>
+	</data>						
+  <data name="GeneralWords_Theme" xml:space="preserve">  
+		<value>Theme</value>
+		<comment></comment>
+	</data>						
+  <data name="GeneralWords_About" xml:space="preserve">  
+		<value>About</value>
+		<comment></comment>
+	</data>
+  <data name="GeneralWords_Account" xml:space="preserve">  
+		<value>Account</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Add" xml:space="preserve">  
+		<value>Add</value>
+		<comment></comment>
+	</data>			 
+	<data name="GeneralWords_Api" xml:space="preserve">  
+		<value>Api</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Authorize" xml:space="preserve">  
+		<value>Authorize</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Authorizing" xml:space="preserve">  
+		<value>Authorizing</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Cancel" xml:space="preserve">  
+		<value>Cancel</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Confirm" xml:space="preserve">  
+		<value>Confirm</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Create" xml:space="preserve">  
+		<value>Create</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Database" xml:space="preserve">  
+		<value>Database</value>
+		<comment></comment>
+	</data>	 							
+	<data name="GeneralWords_Delete" xml:space="preserve">  
+		<value>Delete</value>
+		<comment></comment>
+	</data>	 
+	<data name="GeneralWords_Denied" xml:space="preserve">  
+		<value>Denied</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Edit" xml:space="preserve">  
+		<value>Edit</value>
+		<comment></comment>
+	</data>										 
+	<data name="GeneralWords_Error" xml:space="preserve">  
+		<value>Error</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_False" xml:space="preserve">  
+		<value>False</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Info" xml:space="preserve">  
+		<value>Info</value>
+		<comment></comment>
+	</data>
+  <data name="GeneralWords_Invalid" xml:space="preserve">  
+		<value>Invalid</value>
+		<comment></comment>
+	</data>
+  <data name="GeneralWords_Loading" xml:space="preserve">  
+		<value>Loading</value>
+		<comment></comment>
+	</data>											 
+	<data name="GeneralWords_Login" xml:space="preserve">  
+		<value>Login</value>
+		<comment></comment>
+	</data>											 
+	<data name="GeneralWords_Logout" xml:space="preserve">  
+		<value>Logout</value>
+		<comment></comment>
+	</data>											 							 
+	<data name="GeneralWords_No" xml:space="preserve">  
+		<value>No</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Ok" xml:space="preserve">  
+		<value>Ok</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Options" xml:space="preserve">  
+		<value>Options</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Read" xml:space="preserve">  
+		<value>Read</value>
+		<comment></comment>
+	</data>										
+	<data name="GeneralWords_Reverse" xml:space="preserve">  
+		<value>Reverse</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Remove" xml:space="preserve">  
+		<value>Remove</value>
+		<comment></comment>
+	</data>																									
+	<data name="GeneralWords_Reset" xml:space="preserve">  
+		<value>Reset</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Search" xml:space="preserve">  
+		<value>Search</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Settings" xml:space="preserve">  
+		<value>Settings</value>
+		<comment></comment>
+	</data>													
+	<data name="GeneralWords_StarWarX" xml:space="preserve">  
+		<value>Star WarX</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Submit" xml:space="preserve">  
+		<value>Submit</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Success" xml:space="preserve">  
+		<value>Success</value>
+		<comment></comment>
+	</data>																								 
+	<data name="GeneralWords_True" xml:space="preserve">  
+		<value>True</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Update" xml:space="preserve">  
+		<value>Update</value>
+		<comment></comment>
+	</data>						 		
+	<data name="GeneralWords_Unavailable" xml:space="preserve">  
+		<value>Unavailable</value>
+		<comment></comment>
+	</data>						 
+	<data name="GeneralWords_Valid" xml:space="preserve">  
+		<value>Valid</value>
+		<comment></comment>
+	</data>						 			
+	<data name="GeneralWords_View" xml:space="preserve">  
+		<value>View</value>
+		<comment></comment>
+	</data>						 
+	<data name="GeneralWords_Warning" xml:space="preserve">  
+		<value>Warning</value>
+		<comment></comment>
+	</data>
+	<data name="GeneralWords_Yes" xml:space="preserve">  
+		<value>Yes</value>
+		<comment></comment>
+	</data>
+
+</root>

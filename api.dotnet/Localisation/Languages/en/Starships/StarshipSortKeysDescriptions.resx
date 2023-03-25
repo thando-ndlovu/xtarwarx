@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+  
+  <data name="StarshipSortKeysDescriptions_CargoCapacity" xml:space="preserve">  
+    <value>Sorts by cargo capacity</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_Consumables" xml:space="preserve">  
+    <value>Sorts by consumables</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_CostInCredits" xml:space="preserve">  
+    <value>Sorts by cost in credits</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_Created" xml:space="preserve">  
+    <value>Sorts by date created</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_Edited" xml:space="preserve">  
+    <value>Sorts by date last edited</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_Id" xml:space="preserve">  
+    <value>Sorts by Id</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_HyperdriveRating" xml:space="preserve">  
+    <value>Sorts by hyperdrive rating</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_Length" xml:space="preserve">  
+    <value>Sorts by length</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_ManufacturerCount" xml:space="preserve">  
+    <value>Sorts by the number of different manufacturers</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_MaxAtmospheringSpeed" xml:space="preserve">  
+    <value>Sorts by max atmosphering speed</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_MaxCrew" xml:space="preserve">  
+    <value>Sorts by max crew</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_MGLT" xml:space="preserve">  
+    <value>Sorts by MGLT</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_MinCrew" xml:space="preserve">  
+    <value>Sorts by min crew</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_Model" xml:space="preserve">  
+    <value>Sorts by model</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_Name" xml:space="preserve">  
+    <value>Sorts by name</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_Passengers" xml:space="preserve">  
+    <value>Sorts by passengers</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_PilotCount" xml:space="preserve">  
+    <value>Sorts by the number of different pilots</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_StarshipClass" xml:space="preserve">  
+    <value>Sorts by starship class</value>
+		<comment></comment>
+	</data>
+  <data name="StarshipSortKeysDescriptions_StarshipClassFlagsCount" xml:space="preserve">  
+    <value>Sorts by the number of different starship class flags</value>
+		<comment></comment>
+	</data>
+
+</root>

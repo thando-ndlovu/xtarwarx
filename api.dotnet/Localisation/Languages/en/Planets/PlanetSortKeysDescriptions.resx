@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+																															s
+  <data name="PlanetSortKeysDescriptions_ClimatesCount" xml:space="preserve">  
+    <value>Sorts by the number of different climates</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_Created" xml:space="preserve">  
+    <value>Sorts by date created</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_Diameter" xml:space="preserve">  
+    <value>Sorts by diameter</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_Edited" xml:space="preserve">  
+    <value>Sorts by date last edited</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_Gravity" xml:space="preserve">  
+    <value>Sorts by gravity</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_Id" xml:space="preserve">  
+    <value>Sorts by Id</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_Name" xml:space="preserve">  
+    <value>Sorts by name</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_OrbitalPeriod" xml:space="preserve">  
+    <value>Sorts by orbital period</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_Population" xml:space="preserve">  
+    <value>Sorts by population</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_ResidentsCount" xml:space="preserve">  
+    <value>Sorts by the number of different residents</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_RotationalPeriod" xml:space="preserve">  
+    <value>Sorts by rotational period</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_SurfaceWater" xml:space="preserve">  
+    <value>Sorts by surface water</value>
+		<comment></comment>
+	</data>
+  <data name="PlanetSortKeysDescriptions_TerrainsCount" xml:space="preserve">  
+    <value>Sorts by the number of different terrains</value>
+		<comment></comment>
+	</data>
+
+</root>

@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Localisation\\Localisation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Thando Ndlovu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Thando Ndlovu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+          "C:\\Users\\Thando Ndlovu\\.nuget\\packages": {},
+          "C:\\Users\\Thando Ndlovu\\Programming\\Packages\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Localisation\\Localisation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Localisation\\Localisation.csproj",
+        "projectName": "Localisation",
+        "projectPath": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Localisation\\Localisation.csproj",
+        "packagesPath": "C:\\Users\\Thando Ndlovu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Localisation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Thando Ndlovu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+          "C:\\Users\\Thando Ndlovu\\.nuget\\packages": {},
+          "C:\\Users\\Thando Ndlovu\\Programming\\Packages\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

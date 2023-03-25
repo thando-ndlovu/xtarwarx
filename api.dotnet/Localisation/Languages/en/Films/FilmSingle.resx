@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+  <data name="FilmSingle_CharactersEmptyText" xml:space="preserve">  
+    <value>No film characters to display</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_CharactersTitle" xml:space="preserve">  
+    <value>Film Characters</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_FactionsEmptyText" xml:space="preserve">  
+    <value>No film factions to display</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_FactionsTitle" xml:space="preserve">  
+    <value>Film Factions</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_ImagesEmptyText" xml:space="preserve">  
+    <value>No film images to display</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_ImagesTitle" xml:space="preserve">  
+    <value>Film Images</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_ManufacturersEmptyText" xml:space="preserve">  
+    <value>No film manufacturers to display</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_ManufacturersTitle" xml:space="preserve">  
+    <value>Film Manufacturers</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_PlanetsEmptyText" xml:space="preserve">  
+    <value>No film planets to display</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_PlanetsTitle" xml:space="preserve">  
+    <value>Film Planets</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_SpeciesEmptyText" xml:space="preserve">  
+    <value>No film species to display</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_SpeciesTitle" xml:space="preserve">  
+    <value>Film Species</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_StarshipsEmptyText" xml:space="preserve">  
+    <value>No film starships to display</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_StarshipsTitle" xml:space="preserve">  
+    <value>Film Starships</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_VehiclesEmptyText" xml:space="preserve">  
+    <value>No film vehicles to display</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_VehiclesTitle" xml:space="preserve">  
+    <value>Film Vehicles</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_WeaponsEmptyText" xml:space="preserve">  
+    <value>No film weapons to display</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSingle_WeaponsTitle" xml:space="preserve">  
+    <value>Film Weapons</value>
+		<comment></comment>
+	</data>
+
+</root>

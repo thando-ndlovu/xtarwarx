@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+  <data name="VehicleSearch_Title" xml:space="preserve">  
+    <value>Vehicles Search</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_ManufacturersSearchContainables_Title" xml:space="preserve">  
+    <value>Vehicle Manufacturers</value>
+		<comment></comment>
+	</data>																			
+  <data name="VehicleSearch_ManufacturersSearchContainables_Description" xml:space="preserve">  
+    <value>Vehicle manufacturers will be used in search</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PilotsSearchContainables_Title" xml:space="preserve">  
+    <value>Vehicle Pilots</value>
+		<comment></comment>
+	</data>																								
+  <data name="VehicleSearch_PilotsSearchContainables_Description" xml:space="preserve">  
+    <value>Vehicle pilots will be used in search</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_CargoCapacitiesList_Title" xml:space="preserve">  
+    <value>Cargo Capacities</value>
+		<comment></comment>
+	</data>																						
+  <data name="VehicleSearch_CargoCapacitiesList_Description" xml:space="preserve">  
+    <value>Vehicles with a cargo capacity in the given list will be given list will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacitiesList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacitiesList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 1041055</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacitiesList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid cargo capacity</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacitiesList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The cargo capacity '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_CargoCapacityRange_Title" xml:space="preserve">  
+    <value>Cargo Capacity Range</value>
+		<comment></comment>
+	</data>																				
+  <data name="VehicleSearch_CargoCapacityRange_Description" xml:space="preserve">  
+    <value>Vehicles with a cargo capacity within the given range will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacityRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacityRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacityRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 1041055</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacityRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																						
+  <data name="VehicleSearch_CargoCapacityRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacityRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 1041055</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacityRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid cargo capacity</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacityRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid cargo capacity</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacityRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The cargo capacity lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CargoCapacityRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The cargo capacity upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_ConsumablesList_Title" xml:space="preserve">  
+    <value>Consumable</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumablesList_Description" xml:space="preserve">  
+    <value>Vehicles with a consumables amount in the given list will be given list will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumablesList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumablesList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 151</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumablesList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid consumables amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumablesList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The consumables amount '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_ConsumableRange_Title" xml:space="preserve">  
+    <value>Consumable Range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumableRange_Description" xml:space="preserve">  
+    <value>Vehicles with a consumables amount within the given range will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumableRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>																					
+  <data name="VehicleSearch_ConsumableRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumableRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 35</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumableRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																					
+  <data name="VehicleSearch_ConsumableRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumableRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 365</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumableRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid consumables amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumableRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid consumables amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumableRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The consumables amount lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_ConsumableRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The consumables amount upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_CostInCreditsList_Title" xml:space="preserve">  
+    <value>Cost In Credits</value>
+		<comment></comment>
+	</data>																			
+  <data name="VehicleSearch_CostInCreditsList_Description" xml:space="preserve">  
+    <value>Vehicles with a cost in credits amount in the given list will be given list will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditsList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 151535</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid cost in credits amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The cost in credits amount '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_CostInCreditRange_Title" xml:space="preserve">  
+    <value>Cost In Credits Range</value>
+		<comment></comment>
+	</data>																		 
+  <data name="VehicleSearch_CostInCreditRange_Description" xml:space="preserve">  
+    <value>Vehicles with a cost in credits amount within the given range will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>																							
+  <data name="VehicleSearch_CostInCreditRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 151535</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																						
+  <data name="VehicleSearch_CostInCreditRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 151535</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid cost in credits amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid cost in credits amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The cost in credits amount lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_CostInCreditRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The cost in credits amount upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_HyperdriveRatingsList_Title" xml:space="preserve">  
+    <value>Hyperdrive Ratings</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingsList_Description" xml:space="preserve">  
+    <value>Vehicles with a hyperdrive rating in the given list will be given list will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingsList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 1.5</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid passenger count</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The passenger count '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_HyperdriveRatingRange_Title" xml:space="preserve">  
+    <value>Hyperdrive Rating Range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingRange_Description" xml:space="preserve">  
+    <value>Vehicles with a hyperdrive rating within the given range will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>																			 
+  <data name="VehicleSearch_HyperdriveRatingRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 1.5</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																						 
+  <data name="VehicleSearch_HyperdriveRatingRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 1.5</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid hyperdrive rating</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid hyperdrive rating</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The hyperdrive rating lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_HyperdriveRatingRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The hyperdrive rating upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_LengthsList_Title" xml:space="preserve">  
+    <value>Lengths</value>
+		<comment></comment>
+	</data>																 
+  <data name="VehicleSearch_LengthsList_Description" xml:space="preserve">  
+    <value>Vehicles with a length in the given list will be given list will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthsList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 75.4</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid length</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The length '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_LengthRange_Title" xml:space="preserve">  
+    <value>Length Range</value>
+		<comment></comment>
+	</data>																
+  <data name="VehicleSearch_LengthRange_Description" xml:space="preserve">  
+    <value>Vehicles with a length within the given range will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>																	 
+  <data name="VehicleSearch_LengthRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 75.4</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																			
+  <data name="VehicleSearch_LengthRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 75.4</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid length</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid length</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The length lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_LengthRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The length upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_MaxAtmospheringSpeedsList_Title" xml:space="preserve">  
+    <value>Max Atmosphering Speeds</value>
+		<comment></comment>
+	</data>																					
+  <data name="VehicleSearch_MaxAtmospheringSpeedsList_Description" xml:space="preserve">  
+    <value>Vehicles with a max atmosphering speed in the given list will be given list will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedsList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 800</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid max atmosphering speed</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The max atmosphering speed '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_Title" xml:space="preserve">  
+    <value>Max Atmosphering Speed Range</value>
+		<comment></comment>
+	</data>																						 
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_Description" xml:space="preserve">  
+    <value>Vehicles with a max atmoshpering speed within the given range will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>												
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 800</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>															 
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 800</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid max atmosphering speed</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid max atmosphering speed</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The max atmosphering speed lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxAtmospheringSpeedRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The max atmosphering speed upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_MaxCrewsList_Title" xml:space="preserve">  
+    <value>Max Crews</value>
+		<comment></comment>
+	</data>																							
+  <data name="VehicleSearch_MaxCrewsList_Description" xml:space="preserve">  
+    <value>Vehicles with a max crew in the given list will be given list will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewsList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 80</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid max crew amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The max crew amount '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_MaxCrewRange_Title" xml:space="preserve">  
+    <value>Max Crew Range</value>
+		<comment></comment>
+	</data>																 
+  <data name="VehicleSearch_MaxCrewRange_Description" xml:space="preserve">  
+    <value>Vehicles with a max crew within the given range will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>																		
+  <data name="VehicleSearch_MaxCrewRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 80</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>															 
+  <data name="VehicleSearch_MaxCrewRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 80</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid max crew amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid max crew amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The max crew lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MaxCrewRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The max crew amount upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_MinCrewsList_Title" xml:space="preserve">  
+    <value>Min Crews</value>
+		<comment></comment>
+	</data>															 
+  <data name="VehicleSearch_MinCrewsList_Description" xml:space="preserve">  
+    <value>Vehicles with a min crew in the given list will be given list will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewsList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 30</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid min crew amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The min crew amount '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_MinCrewRange_Title" xml:space="preserve">  
+    <value>Min Crew Range</value>
+		<comment></comment>
+	</data>																 
+  <data name="VehicleSearch_MinCrewRange_Description" xml:space="preserve">  
+    <value>Vehicles with a min crew within the given range will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>																		
+  <data name="VehicleSearch_MinCrewRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 30</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																		
+  <data name="VehicleSearch_MinCrewRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 30</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid min crew amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid min crew amount</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The min crew amount lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MinCrewRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The min crew amount upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_MGLTsList_Title" xml:space="preserve">  
+    <value>MGLTs</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTsList_Description" xml:space="preserve">  
+    <value>Vehicles with an mglt in the given list will be given list will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTsList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 1</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid mglt</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The mglt '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_MGLTRange_Title" xml:space="preserve">  
+    <value>MGLT Range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTRange_Description" xml:space="preserve">  
+    <value>Vehicles with an mglt within the given range will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>															
+  <data name="VehicleSearch_MGLTRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 1</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																
+  <data name="VehicleSearch_MGLTRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 1</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid mglt</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid mglt</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The mglt lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_MGLTRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The mglt upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_PassengersList_Title" xml:space="preserve">  
+    <value>Passengers</value>
+		<comment></comment>
+	</data>																
+  <data name="VehicleSearch_PassengersList_Description" xml:space="preserve">  
+    <value>Vehicles with a passenger capacity in the given list will be given list will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengersList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengersList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 260</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengersList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid passenger count</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengersList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The passenger count '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="VehicleSearch_PassengerRange_Title" xml:space="preserve">  
+    <value>Passenger Range</value>
+		<comment></comment>
+	</data>																
+  <data name="VehicleSearch_PassengerRange_Description" xml:space="preserve">  
+    <value>Vehicles with a passenger capacity within the given range will be returned</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengerRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>										 
+  <data name="VehicleSearch_PassengerRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengerRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 260</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengerRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																			 
+  <data name="VehicleSearch_PassengerRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengerRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 260</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengerRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid passenger count</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengerRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid passenger count</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengerRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The passenger amount lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleSearch_PassengerRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The passenger amount upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+</root>

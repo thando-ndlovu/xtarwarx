@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+  <data name="CharacterSearch_Title" xml:space="preserve">  
+    <value>Characters Search</value>
+		<comment></comment>
+	</data>
+
+  <data name="CharacterSearch_HomeworldSearchContainables_Title" xml:space="preserve">  
+    <value>Character Homeworld</value>
+		<comment></comment>
+	</data>			 
+  <data name="CharacterSearch_HomeworldSearchContainables_Description" xml:space="preserve">  
+		<value>Character homeworld will be used in search</value>  
+		<comment></comment>
+	</data>
+
+  <data name="CharacterSearch_BirthYearRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid birth year</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The birth year lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 33.8</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>																				
+  <data name="CharacterSearch_BirthYearRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearRange_Title" xml:space="preserve">  
+    <value>Birth Year Range</value>
+		<comment></comment>
+	</data>									 
+  <data name="CharacterSearch_BirthYearRange_Description" xml:space="preserve">  
+		<value>Characters with a birth year is within the given range will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid birth year</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The birth year upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 33.8</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>											
+  <data name="CharacterSearch_BirthYearRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  
+  <data name="CharacterSearch_BirthYearsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearsList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 33.8</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearsList_Title" xml:space="preserve">  
+    <value>Birth Years</value>
+		<comment></comment>
+	</data>										 
+  <data name="CharacterSearch_BirthYearsList_Description" xml:space="preserve">  
+		<value>Characters with a birth year in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The birth year '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_BirthYearsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid birth year</value>
+		<comment></comment>
+	</data>
+  
+  <data name="CharacterSearch_EyeColorsList_PickerCancel" xml:space="preserve">  
+    <value>Cancel</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_EyeColorsList_PickerTitle" xml:space="preserve">  
+    <value>Select an Eye Colour</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_EyeColorsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_EyeColorsList_Title" xml:space="preserve">  
+    <value>Eye Colours</value>
+		<comment></comment>
+	</data>										 
+  <data name="CharacterSearch_EyeColorsList_Description" xml:space="preserve">  
+		<value>Characters with an eye colour in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_EyeColorsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The eye colour '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_EyeColorsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid eye colour</value>
+		<comment></comment>
+	</data>
+  
+  <data name="CharacterSearch_HairColorsList_PickerCancel" xml:space="preserve">  
+    <value>Cancel</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HairColorsList_PickerTitle" xml:space="preserve">  
+    <value>Select a Hair Colour</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HairColorsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HairColorsList_Title" xml:space="preserve">  
+    <value>Hair Colors</value>
+		<comment></comment>
+	</data>														 
+  <data name="CharacterSearch_HairColorsList_Description" xml:space="preserve">  
+		<value>Characters with a hair colour in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HairColorsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The hair colour '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HairColorsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid hair colour</value>
+		<comment></comment>
+	</data>
+  
+  <data name="CharacterSearch_HeightRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid height</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The height lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 132</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>						 
+  <data name="CharacterSearch_HeightRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightRange_Title" xml:space="preserve">  
+    <value>Height Range</value>
+		<comment></comment>
+	</data>															
+  <data name="CharacterSearch_HeightRange_Description" xml:space="preserve">  
+		<value>Characters with a height within the given range will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid height</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The height upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 132</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																			 
+  <data name="CharacterSearch_HeightRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  
+  <data name="CharacterSearch_HeightsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightsList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 132</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightsList_Title" xml:space="preserve">  
+    <value>Heights</value>
+		<comment></comment>
+	</data>														
+  <data name="CharacterSearch_HeightsList_Description" xml:space="preserve">  
+		<value>Characters with a height in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The height '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_HeightsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid height</value>
+		<comment></comment>
+	</data>
+  
+  <data name="CharacterSearch_MassesList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassesList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 13.2</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassesList_Title" xml:space="preserve">  
+    <value>Masses</value>
+		<comment></comment>
+	</data>													 
+  <data name="CharacterSearch_MassesList_Description" xml:space="preserve">  
+		<value>Characters with a mass in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassesList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The mass '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassesList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid mass</value>
+		<comment></comment>
+	</data>
+  
+  <data name="CharacterSearch_MassRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid mass</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The mass lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 13.2</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>																		 
+  <data name="CharacterSearch_MassRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassRange_Title" xml:space="preserve">  
+    <value>Mass Range</value>
+		<comment></comment>
+	</data>													 
+  <data name="CharacterSearch_MassRange_Description" xml:space="preserve">  
+		<value>Characters with a mass is within the given range will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid mass</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The mass upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 13.2</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_MassRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																			
+  <data name="CharacterSearch_MassRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  
+  <data name="CharacterSearch_SexesList_PickerCancel" xml:space="preserve">  
+    <value>Cancel</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_SexesList_PickerTitle" xml:space="preserve">  
+    <value>Select a Sex</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_SexesList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_SexesList_Title" xml:space="preserve">  
+    <value>Sexes</value>
+		<comment></comment>
+	</data>														
+  <data name="CharacterSearch_SexesList_Description" xml:space="preserve">  
+		<value>Characters with a sex in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_SexesList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The sex '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_SexesList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid sex</value>
+		<comment></comment>
+	</data>
+  
+  <data name="CharacterSearch_SkinColorsList_PickerCancel" xml:space="preserve">  
+    <value>Cancel</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_SkinColorsList_PickerTitle" xml:space="preserve">  
+    <value>Select a Skin Colour</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_SkinColorsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_SkinColorsList_Title" xml:space="preserve">  
+    <value>Skin Colour</value>
+		<comment></comment>
+	</data>													
+  <data name="CharacterSearch_SkinColorsList_Description" xml:space="preserve">  
+		<value>Characters with a skin colour in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_SkinColorsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The skin colour '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+  <data name="CharacterSearch_SkinColorsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid skin colour</value>
+		<comment></comment>
+	</data>
+
+</root>

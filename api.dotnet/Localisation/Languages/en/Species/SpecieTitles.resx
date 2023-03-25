@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+  <data name="SpecieTitles_AverageHeight" xml:space="preserve">  
+    <value>Average Height</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_AverageLifespan" xml:space="preserve">  
+    <value>Average Lifespan</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_CharacterIds" xml:space="preserve">  
+    <value>Character Ids</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_Classification" xml:space="preserve">  
+    <value>Classification</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_Description" xml:space="preserve">  
+    <value>Description</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_Designation" xml:space="preserve">  
+    <value>Designation</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_EyeColors" xml:space="preserve">  
+    <value>Eye Colours</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_HairColors" xml:space="preserve">  
+    <value>Hair Colours</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_HomeworldId" xml:space="preserve">  
+    <value>Homeworld Id</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_Id" xml:space="preserve">  
+    <value>Id</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_Language" xml:space="preserve">  
+    <value>Language</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_Name" xml:space="preserve">  
+    <value>Name</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_SkinColors" xml:space="preserve">  
+    <value>Skin Colours</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_Uris" xml:space="preserve">  
+    <value>Uris</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_Created" xml:space="preserve">  
+    <value>Created</value>
+		<comment></comment>
+	</data>
+  <data name="SpecieTitles_Edited" xml:space="preserve">  
+    <value>Edited</value>
+		<comment></comment>
+	</data>
+
+</root>

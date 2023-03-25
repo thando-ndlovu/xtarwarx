@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+  <data name="SwaggerEndpoints_Characters_Description" xml:space="preserve">  
+    <value>Endpoint for all the characters of the Star Wars universe</value>
+		<comment></comment>
+	</data>			 
+  <data name="SwaggerEndpoints_Characters_OperationId" xml:space="preserve">  
+    <value>Get Characters</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Characters_Summary" xml:space="preserve">  
+    <value></value>
+		<comment></comment>
+	</data>
+  
+  <data name="SwaggerEndpoints_Factions_Description" xml:space="preserve">  
+    <value>Endpoint for all the factions of the Star Wars universe</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Factions_OperationId" xml:space="preserve">  
+    <value>Get Factions</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Factions_Summary" xml:space="preserve">  
+    <value></value>
+		<comment></comment>
+	</data>
+  
+  <data name="SwaggerEndpoints_Films_Description" xml:space="preserve">  
+    <value>Endpoint for all the films of the Star Wars universe</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Films_OperationId" xml:space="preserve">  
+    <value>Get Films</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Films_Summary" xml:space="preserve">  
+    <value></value>
+		<comment></comment>
+	</data>
+  
+  <data name="SwaggerEndpoints_Manufacturers_Description" xml:space="preserve">  
+    <value>Endpoint for all the manufacturers of the Star Wars universe</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Manufacturers_OperationId" xml:space="preserve">  
+    <value>Get Manufacturers</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Manufacturers_Summary" xml:space="preserve">  
+    <value></value>
+		<comment></comment>
+	</data>
+  
+  <data name="SwaggerEndpoints_Planets_Description" xml:space="preserve">  
+    <value>Endpoint for all the planets of the Star Wars universe</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Planets_OperationId" xml:space="preserve">  
+    <value>Get Planets</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Planets_Summary" xml:space="preserve">  
+    <value></value>
+		<comment></comment>
+	</data>
+  
+  <data name="SwaggerEndpoints_Search_Description" xml:space="preserve">  
+    <value>Endpoint for a search of all the entities of the Star Wars universe</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Search_OperationId" xml:space="preserve">  
+    <value>Search</value>
+		<comment></comment>
+	</data>						 
+  <data name="SwaggerEndpoints_Search_Summary" xml:space="preserve">  
+    <value></value>
+		<comment></comment>
+	</data>						 
+  
+  <data name="SwaggerEndpoints_Species_Description" xml:space="preserve">  
+    <value>Endpoint for all the species of the Star Wars universe</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Species_OperationId" xml:space="preserve">  
+    <value>Get Species</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Species_Summary" xml:space="preserve">  
+    <value></value>
+		<comment></comment>
+	</data>
+  
+  <data name="SwaggerEndpoints_Starships_Description" xml:space="preserve">  
+    <value>Endpoint for all the starships of the Star Wars universe</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Starships_OperationId" xml:space="preserve">  
+    <value>Get Starships</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Starships_Summary" xml:space="preserve">  
+    <value></value>
+		<comment></comment>
+	</data>
+  
+  <data name="SwaggerEndpoints_Vehicles_Description" xml:space="preserve">  
+    <value>Endpoint for all the vehicles of the Star Wars universe</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Vehicles_OperationId" xml:space="preserve">  
+    <value>Get Vehicles</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Vehicles_Summary" xml:space="preserve">  
+    <value></value>
+		<comment></comment>
+	</data>
+  
+  <data name="SwaggerEndpoints_Weapons_Description" xml:space="preserve">  
+    <value>Endpoint for all the weapons of the Star Wars universe</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Weapons_OperationId" xml:space="preserve">  
+    <value>Get Weapons</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Weapons_Summary" xml:space="preserve">  
+    <value></value>
+		<comment></comment>
+	</data>					
+  
+  <data name="SwaggerEndpoints_Meta_Description" xml:space="preserve">  
+    <value>Endpoint for api meta values</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Meta_OperationId" xml:space="preserve">  
+    <value>Meta</value>
+		<comment></comment>
+	</data>
+  <data name="SwaggerEndpoints_Meta_Summary" xml:space="preserve">  
+    <value></value>
+		<comment></comment>
+	</data>
+
+</root>

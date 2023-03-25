@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+  <data name="FactionDescriptions_AlliedCharacterIds" xml:space="preserve">  
+    <value>The ids of all the characters who are an ally to the faction</value>
+		<comment></comment>
+	</data>
+  <data name="FactionDescriptions_AlliedFactionIds" xml:space="preserve">  
+    <value>The ids of all the factions which are an ally to the faction</value>
+		<comment></comment>
+	</data>
+  <data name="FactionDescriptions_Id" xml:space="preserve">  
+    <value>The id of the faction</value>
+		<comment></comment>
+	</data>
+  <data name="FactionDescriptions_LeaderIds" xml:space="preserve">  
+    <value>Leader Ids</value>
+		<comment></comment>
+	</data>
+  <data name="FactionDescriptions_MemberCharacterIds" xml:space="preserve">  
+    <value>The ids of all the character who are a member of the faction</value>
+		<comment></comment>
+	</data>
+  <data name="FactionDescriptions_MemberFactionIds" xml:space="preserve">  
+    <value>The ids of all the faction which are a member of the faction</value>
+		<comment></comment>
+	</data>
+  <data name="FactionDescriptions_OrganizationTypes" xml:space="preserve">  
+    <value>The organization types of the faction</value>
+		<comment></comment>
+	</data>
+
+  <data name="FactionDescriptions_Description" xml:space="preserve">  
+    <value>The faction's description</value>
+		<comment></comment>
+	</data>
+  <data name="FactionDescriptions_Name" xml:space="preserve">  
+    <value>The name of the faction</value>
+		<comment></comment>
+	</data>
+  <data name="FactionDescriptions_Uris" xml:space="preserve">  
+    <value>The faction's uris</value>
+		<comment></comment>
+	</data>
+  <data name="FactionDescriptions_Created" xml:space="preserve">  
+    <value>The date on which the faction was created</value>
+		<comment></comment>
+	</data>
+  <data name="FactionDescriptions_Edited" xml:space="preserve">  
+    <value>The date on which the faction was last edited</value>
+		<comment></comment>
+	</data>
+
+</root>

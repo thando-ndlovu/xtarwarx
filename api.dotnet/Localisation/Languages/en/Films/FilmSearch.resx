@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+  <data name="FilmSearch_Title" xml:space="preserve">  
+    <value>Films Search</value>
+		<comment></comment>
+	</data>
+
+  <data name="FilmSearch_CharactersSearchContainables_Title" xml:space="preserve">  
+    <value>Film Characters</value>
+		<comment></comment>
+	</data>																									
+  <data name="FilmSearch_CharactersSearchContainables_Description" xml:space="preserve">  
+		<value>Films with characters in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_FactionsSearchContainables_Title" xml:space="preserve">  
+    <value>Film Factions</value>
+		<comment></comment>
+	</data>																			 
+  <data name="FilmSearch_FactionsSearchContainables_Description" xml:space="preserve">  
+		<value>Films with factions in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_ManufacturersSearchContainables_Title" xml:space="preserve">  
+    <value>Film Manufacturers</value>
+		<comment></comment>
+	</data>																								 
+  <data name="FilmSearch_ManufacturersSearchContainables_Description" xml:space="preserve">  
+		<value>Films with manufacturers in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_PlanetsSearchContainables_Title" xml:space="preserve">  
+    <value>Film Planets</value>
+		<comment></comment>
+	</data>																						
+  <data name="FilmSearch_PlanetsSearchContainables_Description" xml:space="preserve">  
+		<value>Films with planets in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_SpeciesSearchContainables_Title" xml:space="preserve">  
+    <value>Film Species</value>
+		<comment></comment>
+	</data>																				
+  <data name="FilmSearch_SpeciesSearchContainables_Description" xml:space="preserve">  
+		<value>Films with species in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_StarshipsSearchContainables_Title" xml:space="preserve">  
+    <value>Film Starships</value>
+		<comment></comment>
+	</data>																						
+  <data name="FilmSearch_StarshipsSearchContainables_Description" xml:space="preserve">  
+		<value>Films with starships in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_VehiclesSearchContainables_Title" xml:space="preserve">  
+    <value>Film Vehicles</value>
+		<comment></comment>
+	</data>																							
+  <data name="FilmSearch_VehiclesSearchContainables_Description" xml:space="preserve">  
+		<value>Films with vehicles in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_WeaponsSearchContainables_Title" xml:space="preserve">  
+    <value>Film Weapons</value>
+		<comment></comment>
+	</data>																					
+  <data name="FilmSearch_WeaponsSearchContainables_Description" xml:space="preserve">  
+		<value>Films with weapons in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+
+  <data name="FilmSearch_DurationsList_Title" xml:space="preserve">  
+    <value>Durations</value>
+		<comment></comment>
+	</data>																
+  <data name="FilmSearch_DurationsList_Description" xml:space="preserve">  
+		<value>Films with durations in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationsList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 122</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid duration</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The duration '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="FilmSearch_DurationRange_Title" xml:space="preserve">  
+    <value>Duration Range</value>
+		<comment></comment>
+	</data>																		
+  <data name="FilmSearch_DurationRange_Description" xml:space="preserve">  
+		<value>Films whose duration is in the given range will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>																	
+  <data name="FilmSearch_DurationRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 122</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																			
+  <data name="FilmSearch_DurationRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 122</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid duration</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid duration</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The duration lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_DurationRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The duration upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+  <data name="FilmSearch_EpisodeIdsList_Title" xml:space="preserve">  
+    <value>Episode Ids</value>
+		<comment></comment>
+	</data>															 
+  <data name="FilmSearch_EpisodeIdsList_Description" xml:space="preserve">  
+		<value>Films with episode ids in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdsList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdsList_EntryPlaceholder" xml:space="preserve">  
+    <value>eg. 1</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdsList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid episode id</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdsList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The episode id '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="FilmSearch_EpisodeIdRange_Title" xml:space="preserve">  
+    <value>Episode Id Range</value>
+		<comment></comment>
+	</data>																	
+  <data name="FilmSearch_EpisodeIdRange_Description" xml:space="preserve">  
+		<value>Films whose episode id is in the given range will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>																		
+  <data name="FilmSearch_EpisodeIdRange_LowerDescription" xml:space="preserve">  
+    <value>The lower bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdRange_LowerPlaceholder" xml:space="preserve">  
+    <value>eg. 1</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																	 
+  <data name="FilmSearch_EpisodeIdRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdRange_UpperPlaceholder" xml:space="preserve">  
+    <value>eg. 1</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdRange_LowerErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid episode id</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdRange_UpperErrorMessageInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid episode id</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The episode id lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_EpisodeIdRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The episode id upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+  <data name="FilmSearch_ReleaseDatesList_Title" xml:space="preserve">  
+    <value>Release Dates</value>
+		<comment></comment>
+	</data>																	 
+  <data name="FilmSearch_ReleaseDatesList_Description" xml:space="preserve">  
+		<value>Films with release dates in the given list will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_ReleaseDatesList_AddButtonText" xml:space="preserve">  
+    <value>Add</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_ReleaseDatesList_PromptTitle" xml:space="preserve">  
+    <value>Select a Release Date</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_ReleaseDatesList_PromptOk" xml:space="preserve">  
+    <value>OK</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_ReleaseDatesList_PromptCancel" xml:space="preserve">  
+    <value>Cancel</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_ReleaseDatesList_ToastInvalid" xml:space="preserve">  
+    <value>The value '{0}' is not a valid release date</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_ReleaseDatesList_ToastAlreadySelected" xml:space="preserve">  
+    <value>The release date '{0}' has already been selected</value>
+		<comment></comment>
+	</data>
+
+  <data name="FilmSearch_ReleaseDateRange_Title" xml:space="preserve">  
+    <value>Release Date Range</value>
+		<comment></comment>
+	</data>																		 
+  <data name="FilmSearch_ReleaseDateRange_Description" xml:space="preserve">  
+		<value>Films whose release date is in the given range will be returned</value>  
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_ReleaseDateRange_LowerTitle" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>																				
+  <data name="FilmSearch_ReleaseDateRange_LowerDescription" xml:space="preserve">  
+    <value>Lower</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_ReleaseDateRange_UpperTitle" xml:space="preserve">  
+    <value>Upper</value>
+		<comment></comment>
+	</data>																						 
+  <data name="FilmSearch_ReleaseDateRange_UpperDescription" xml:space="preserve">  
+    <value>The upper bound of the range</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_ReleaseDateRange_LowerGreaterThanUpperInfoMessage" xml:space="preserve">  
+    <value>The release date lower bound is greater than the upper bound</value>
+		<comment></comment>
+	</data>
+  <data name="FilmSearch_ReleaseDateRange_UpperLessThanLowerInfoMessage" xml:space="preserve">  
+    <value>The release date upper bound is less than the lower bound</value>
+		<comment></comment>
+	</data>
+
+</root>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+  <data name="VehicleTitles_CargoCapacity" xml:space="preserve">  
+    <value>Cargo Capacity</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_Consumables" xml:space="preserve">  
+    <value>Consumables</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_CostInCredits" xml:space="preserve">  
+    <value>Cost In Credits</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_Description" xml:space="preserve">  
+    <value>Description</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_Id" xml:space="preserve">  
+    <value>Id</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_Length" xml:space="preserve">  
+    <value>Length</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_ManufacturerIds" xml:space="preserve">  
+    <value>Manufacturer Ids</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_MaxAtmospheringSpeed" xml:space="preserve">  
+    <value>Max Atmosphering Speed</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_MaxCrew" xml:space="preserve">  
+    <value>Max Crew</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_MinCrew" xml:space="preserve">  
+    <value>Min Crew</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_Model" xml:space="preserve">  
+    <value>Model</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_Name" xml:space="preserve">  
+    <value>Name</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_Passengers" xml:space="preserve">  
+    <value>Passengers</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_PilotIds" xml:space="preserve">  
+    <value>Pilot Ids</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_VehicleClass" xml:space="preserve">  
+    <value>Vehicle Class</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_Uris" xml:space="preserve">  
+    <value>Uris</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_Created" xml:space="preserve">  
+    <value>Created</value>
+		<comment></comment>
+	</data>
+  <data name="VehicleTitles_Edited" xml:space="preserve">  
+    <value>Edited</value>
+		<comment></comment>
+	</data>
+
+</root>
