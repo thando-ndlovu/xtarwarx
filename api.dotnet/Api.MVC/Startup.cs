@@ -5,7 +5,6 @@ using GraphQL.Server;
 using GraphQL.Server.Ui.Altair;
 using GraphQL.Server.Ui.GraphiQL;
 using GraphQL.Server.Ui.Playground;
-using GraphQL.Server.Ui.Voyager;
 
 using Localisation;
 
@@ -159,10 +158,6 @@ namespace Api.MVC
 					GraphQLEndPoint = Routes.Api_GraphQL,
 				});
 				endpointroutebuilder.MapGraphQLPlayground(pattern: Routes.GraphQL_Playground, options: new PlaygroundOptions
-				{
-					GraphQLEndPoint = Routes.Api_GraphQL,
-				});
-				endpointroutebuilder.MapGraphQLVoyager(pattern: Routes.GraphQL_Voyager, options: new VoyagerOptions
 				{
 					GraphQLEndPoint = Routes.Api_GraphQL,
 				});

@@ -64,16 +64,6 @@
 		ImgSrc = "/images/icon_graphql_playground.png",
 		External = new Uri("https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/")
 	};
-	RoutePartial VoyagerRoutePartial = new RoutePartial
-	{
-		Title = "Voyager",
-		Description = _ServiceProvider.GetService<ILocalisation>()?.GetString(
-			resourcename: Localisation.Utils.General.GeneralPhrases.ResourceName,
-			key: Localisation.Utils.General.GeneralPhrases.Keys.GraphQlVoyagerDesription),
-		Href = Routes.GraphQL_Voyager,
-		ImgSrc = "/images/icon_graphql_voyager.png",
-		External = new Uri("https://apis.guru/graphql-voyager/")
-	};
 }
 <div class="rounded shadow m-4 p-2 bg-warning">
 	<div class="rounded p-4 bg-black">
@@ -107,9 +97,6 @@
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-3 pb-3 pl-4 pr-4">
 				<partial name=@nameof(RoutePartial) model=PlaygroundRoutePartial />
-			</div>
-			<div class="col-sm-12 col-md-6 col-lg-3 pb-3 pl-4 pr-4">
-				<partial name=@nameof(RoutePartial) model=VoyagerRoutePartial />
 			</div>
 
 		</div>

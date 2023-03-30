@@ -167,3 +167,8 @@ C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.MVC\bin\Debug\n
 C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.MVC\bin\Debug\net6.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
 C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.MVC\bin\Debug\net6.0\GraphQL.NewtonsoftJson.dll
 C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.MVC\bin\Debug\net6.0\GraphQL.SystemTextJson.dll
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.MVC\obj\Debug\net6.0\staticwebassets\msbuild.Api.MVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.MVC\obj\Debug\net6.0\staticwebassets\msbuild.build.Api.MVC.props
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.MVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Api.MVC.props
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.MVC\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Api.MVC.props
+C:\Users\Thando Ndlovu\Xyclone\Internals\xtarwarx\api.dotnet\Api.MVC\obj\Debug\net6.0\staticwebassets.pack.json

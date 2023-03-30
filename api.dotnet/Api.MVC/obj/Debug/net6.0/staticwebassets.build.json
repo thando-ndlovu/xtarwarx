@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+iwHi4D0/hapjyRzgV2Yqx6X5MySCEdpUPLao+Ii38g=",
+  "Hash": "pEAVwfh7cO5kMZjzvIe1KneaQS9FafnC9WgNMriYKOY=",
   "Source": "Api.MVC",
   "BasePath": "_content/Api.MVC",
   "Mode": "Default",
@@ -119,23 +119,6 @@
       "OriginalItemSpec": "wwwroot\\css\\swagger.theme.light.css"
     },
     {
-      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\images\\icon_graphql.png",
-      "SourceId": "Api.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\",
-      "BasePath": "_content/Api.MVC",
-      "RelativePath": "images/icon_graphql.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\icon_graphql.png"
-    },
-    {
       "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\images\\icon_graphql_altair.png",
       "SourceId": "Api.MVC",
       "SourceType": "Discovered",
@@ -204,12 +187,12 @@
       "OriginalItemSpec": "wwwroot\\images\\icon_graphql_voyager.png"
     },
     {
-      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\images\\icon_rest.png",
+      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\images\\icon_graphql.png",
       "SourceId": "Api.MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\",
       "BasePath": "_content/Api.MVC",
-      "RelativePath": "images/icon_rest.png",
+      "RelativePath": "images/icon_graphql.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,7 +201,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\icon_rest.png"
+      "OriginalItemSpec": "wwwroot\\images\\icon_graphql.png"
     },
     {
       "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\images\\icon_rest_swagger.png",
@@ -238,12 +221,12 @@
       "OriginalItemSpec": "wwwroot\\images\\icon_rest_swagger.png"
     },
     {
-      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\images\\icon_rest.png",
       "SourceId": "Api.MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\",
       "BasePath": "_content/Api.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "RelativePath": "images/icon_rest.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,24 +235,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "Api.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\",
-      "BasePath": "_content/Api.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\images\\icon_rest.png"
     },
     {
       "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -340,12 +306,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Api.MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\",
       "BasePath": "_content/Api.MVC",
-      "RelativePath": "lib/jquery/LICENSE.txt",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,7 +320,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Api.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\",
+      "BasePath": "_content/Api.MVC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
       "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
@@ -374,12 +357,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\swaggerdocs\\3.0.3\\docs.en.json",
+      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Api.MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\",
       "BasePath": "_content/Api.MVC",
-      "RelativePath": "swaggerdocs/3.0.3/docs.en.json",
+      "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,7 +371,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\swaggerdocs\\3.0.3\\docs.en.json"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
       "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\swaggerdocs\\3.0.3\\docs.en-ZA.json",
@@ -406,6 +389,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\swaggerdocs\\3.0.3\\docs.en-ZA.json"
+    },
+    {
+      "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\swaggerdocs\\3.0.3\\docs.en.json",
+      "SourceId": "Api.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\",
+      "BasePath": "_content/Api.MVC",
+      "RelativePath": "swaggerdocs/3.0.3/docs.en.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swaggerdocs\\3.0.3\\docs.en.json"
     },
     {
       "Identity": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\wwwroot\\swaggerdocs\\3.0.3\\docs.json",

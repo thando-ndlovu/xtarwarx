@@ -30,7 +30,6 @@ namespace Api
 		public const string GraphQL_Altair = GraphQL + "/Altair";
 		public const string GraphQL_GraphiQL = GraphQL + "/GraphiQL";
 		public const string GraphQL_Playground = GraphQL + "/Playground";
-		public const string GraphQL_Voyager = GraphQL + "/Voyager";
 
 		public const string Path_Characters = "/Characters";
 		public const string Path_Factions = "/Factions";

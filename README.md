@@ -6,7 +6,7 @@ A C# Dotnet REST & GrapqhQL API with a Java Android mobile data viewer applicati
 # API
 
 ### [Swagger](https://swagger.io/)
-A swagger implementation for REST query troubleshooting, schema viewing and debbugging
+A Swagger implementation for REST query troubleshooting, schema viewing and debbugging
 <p float="left">
     <br/>
     <img src="assets/Screenshot (11).png" width="360" />
@@ -14,11 +14,38 @@ A swagger implementation for REST query troubleshooting, schema viewing and debb
 
 #
 
+### [GraphQL Playground](https://github.com/graphql/graphql-playground/)
+A GraphQL Playground implementation for GraphQL query troubleshooting, schema viewing and debbugging
+<p float="left">
+    <br/>
+    <img src="assets/Screenshot (16).png" width="360" />
+    <img src="assets/Screenshot (18).png" width="360" />
+    <img src="assets/Screenshot (19).png" width="360" />
+</p>
+
+### [GraphiQL](https://github.com/graphql/graphiql/)
+A GraphiQL implementation for GraphQL query troubleshooting, schema viewing and debbugging 
+<br /> <br />
 TODO
-- [Altair](https://altairgraphql.dev//) IDE Implementation
-- [GraphiQL](https://github.com/graphql/graphiql/) IDE Implementation
-- [GraphQL Playground](https://github.com/graphql/graphql-playground/) IDE Implementation
-- [Voyager](https://github.com/IvanGoncharov/graphql-voyager/) IDE Implementation
+- Schema is not being read
+- Json prettification
+<p float="left">
+    <br/>
+    <img src="assets/Screenshot (21).png" width="360" />
+    <img src="assets/Screenshot (23).png" width="360" />
+</p>
+
+### [Altair](https://altairgraphql.dev/)
+An Altair implementation for GraphQL query troubleshooting, schema viewing and debbugging
+ <br /> <br />
+TODO
+- Schema is not being read
+- Json prettification
+<p float="left">
+    <br/>
+    <img src="assets/Screenshot (22).png" width="360" />
+    <img src="assets/Screenshot (24).png" width="360" />
+</p>
 
 #
 ## Data Repository

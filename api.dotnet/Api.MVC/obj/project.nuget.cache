@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GHWxTOBbCv0XWg2T3APMn/lGwf6C++Zodp5ytedeUa2DIkCZ0xDr96vb+/mhz+e/8W+TsYTqOgYea6evqngYyA==",
+  "dgSpecHash": "ye6mBmaKFTzcXi96I0K6ZdQMp+odXYvp5bkS/if3qyI1FIVDCQsiXWdKP+Mra27wJQJUmGSCQqIs8hCPYyPhHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Thando Ndlovu\\Xyclone\\Internals\\xtarwarx\\api.dotnet\\Api.MVC\\Api.MVC.csproj",
   "expectedPackageFiles": [
@@ -254,7 +254,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Build 17.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Build 17.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Build",
       "targetGraphs": [
         "net6.0"
@@ -264,7 +264,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.IO.Redist 6.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.IO.Redist 6.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.IO.Redist",
       "targetGraphs": [
         "net6.0"
