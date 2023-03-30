@@ -125,7 +125,7 @@ namespace Api.Controllers
 		[HttpGet(Routes.Api_Rest_Characters)]
 		public async Task<IQuery.IResult<object>> Characters([FromQuery] IQuery.Default query, CancellationToken cancellationToken = default)
 		{
-			IQuery.IResult<object> result = query.ProcessCharacters(
+			IQuery.IResult<object> result = query.ProcessCharactersAsObject(
 				 characters: ServiceProvider
 					.GetRequiredService<IRepository>()
 					.Characters
@@ -137,7 +137,7 @@ namespace Api.Controllers
 		[HttpGet(Routes.Api_Rest_Factions)]
 		public async Task<IQuery.IResult<object>> Factions([FromQuery] IQuery.Default query, CancellationToken cancellationToken = default)
 		{
-			IQuery.IResult<object> result = query.ProcessFactions(
+			IQuery.IResult<object> result = query.ProcessFactionsAsObject(
 				 factions: ServiceProvider
 					.GetRequiredService<IRepository>()
 					.Factions
@@ -149,7 +149,7 @@ namespace Api.Controllers
 		[HttpGet(Routes.Api_Rest_Films)]
 		public async Task<IQuery.IResult<object>> Films([FromQuery] IQuery.Default query, CancellationToken cancellationToken = default)
 		{
-			IQuery.IResult<object> result = query.ProcessFilms(
+			IQuery.IResult<object> result = query.ProcessFilmsAsObject(
 				 films: ServiceProvider
 					.GetRequiredService<IRepository>()
 					.Films
@@ -161,7 +161,7 @@ namespace Api.Controllers
 		[HttpGet(Routes.Api_Rest_Manufacturers)]
 		public async Task<IQuery.IResult<object>> Manufacturers([FromQuery] IQuery.Default query, CancellationToken cancellationToken = default)
 		{
-			IQuery.IResult<object> result = query.ProcessManufacturers(
+			IQuery.IResult<object> result = query.ProcessManufacturersAsObject(
 				 manufacturers: ServiceProvider
 					.GetRequiredService<IRepository>()
 					.Manufacturers
@@ -173,7 +173,7 @@ namespace Api.Controllers
 		[HttpGet(Routes.Api_Rest_Planets)]
 		public async Task<IQuery.IResult<object>> Planets([FromQuery] IQuery.Default query, CancellationToken cancellationToken = default)
 		{
-			IQuery.IResult<object> result = query.ProcessPlanets(
+			IQuery.IResult<object> result = query.ProcessPlanetsAsObject(
 				 planets: ServiceProvider
 					.GetRequiredService<IRepository>()
 					.Planets
@@ -185,7 +185,7 @@ namespace Api.Controllers
 		[HttpGet(Routes.Api_Rest_Species)]
 		public async Task<IQuery.IResult<object>> Species([FromQuery] IQuery.Default query, CancellationToken cancellationToken = default)
 		{
-			IQuery.IResult<object> result = query.ProcessSpecies(
+			IQuery.IResult<object> result = query.ProcessSpeciesAsObject(
 				 species: ServiceProvider
 					.GetRequiredService<IRepository>()
 					.Species
@@ -197,7 +197,7 @@ namespace Api.Controllers
 		[HttpGet(Routes.Api_Rest_Starships)]
 		public async Task<IQuery.IResult<object>> Starships([FromQuery] IQuery.Default query, CancellationToken cancellationToken = default)
 		{
-			IQuery.IResult<object> result = query.ProcessStarships(
+			IQuery.IResult<object> result = query.ProcessStarshipsAsObject(
 				 starships: ServiceProvider
 					.GetRequiredService<IRepository>()
 					.Starships
@@ -209,7 +209,7 @@ namespace Api.Controllers
 		[HttpGet(Routes.Api_Rest_Vehicles)]
 		public async Task<IQuery.IResult<object>> Vehicles([FromQuery] IQuery.Default query, CancellationToken cancellationToken = default)
 		{
-			IQuery.IResult<object> result = query.ProcessVehicles(
+			IQuery.IResult<object> result = query.ProcessVehiclesAsObject(
 				 vehicles: ServiceProvider
 					.GetRequiredService<IRepository>()
 					.Vehicles
@@ -221,7 +221,7 @@ namespace Api.Controllers
 		[HttpGet(Routes.Api_Rest_Weapons)]
 		public async Task<IQuery.IResult<object>> Weapons([FromQuery] IQuery.Default query, CancellationToken cancellationToken = default)
 		{
-			IQuery.IResult<object> result = query.ProcessWeapons(
+			IQuery.IResult<object> result = query.ProcessWeaponsAsObject(
 				 weapons: ServiceProvider
 					.GetRequiredService<IRepository>()
 					.Weapons

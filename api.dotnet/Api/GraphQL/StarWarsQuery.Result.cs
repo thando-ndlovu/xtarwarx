@@ -7,37 +7,23 @@ namespace Api.GraphQL
 {
 	public partial class StarWarsQuery 
 	{
-		public class Result<T> : ObjectGraphType<IQuery.IResult<T>> where T : IGraphType
+		public class Result<TGraphType> : ObjectGraphType<IQuery.IResult<TGraphType>> where TGraphType : IGraphType
 		{
 			public class FieldNames
 			{
-				public const string Items = nameof(IQuery.IResult<T>.Items);
-				public const string Page = nameof(IQuery.IResult<T>.Page);
-				public const string Pages = nameof(IQuery.IResult<T>.Pages);
+				public const string Items = nameof(IQuery.IResult<TGraphType>.Items);
+				public const string Page = nameof(IQuery.IResult<TGraphType>.Page);
+				public const string Pages = nameof(IQuery.IResult<TGraphType>.Pages);
 			}
 
 			public Result()
 			{
-				AddField(new FieldType
-				{
-					Name = FieldNames.Items,
-					Type = typeof(ListGraphType<T>),
-					Resolver = new FuncFieldResolver<object?>(resolvefieldcontext => (resolvefieldcontext.Source as IQuery.IResult<T>)?.Items),
-				});
-
-				AddField(new FieldType
-				{
-					Name = FieldNames.Page,
-					Type = typeof(IntGraphType),
-					Resolver = new FuncFieldResolver<object?>(resolvefieldcontext => (resolvefieldcontext.Source as IQuery.IResult<T>)?.Page),
-				});
-
-				AddField(new FieldType
-				{
-					Name = FieldNames.Pages,
-					Type = typeof(IntGraphType),
-					Resolver = new FuncFieldResolver<object?>(resolvefieldcontext => (resolvefieldcontext.Source as IQuery.IResult<T>)?.Pages),
-				});
+				Field<IntGraphType>(FieldNames.Page)
+					.Resolve(new FuncFieldResolver<IQuery.IResult<TGraphType>, int?>(resolvefieldcontext => resolvefieldcontext.Source.Page));
+				Field<IntGraphType>(FieldNames.Pages)
+					.Resolve(new FuncFieldResolver<IQuery.IResult<TGraphType>, int?>(resolvefieldcontext => resolvefieldcontext.Source.Pages));
+				Field<ListGraphType<TGraphType>>(FieldNames.Items)
+					.Resolve(new FuncFieldResolver<IQuery.IResult<TGraphType>, object?>(resolvefieldcontext => resolvefieldcontext.Source.Items));
 			}
 		}
 	}

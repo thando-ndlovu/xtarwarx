@@ -1,14 +1,14 @@
 ﻿using Api.GraphQL.Types;
 
-using System;
+using Domain.Models;
 
 namespace Api.GraphQL.Queries
 {
 	public partial class FactionsQuery
 	{
-		public class Result : StarWarsModelQuery.Result<IFactionGraphType>
+		public class Result : StarWarsModelQuery.Result<IFactionGraphType, IFaction>
 		{
-			public Result(IServiceProvider serviceprovider) : base(serviceprovider)
+			public Result() : base()
 			{
 				Name = "FactionsQueryResult";
 			}

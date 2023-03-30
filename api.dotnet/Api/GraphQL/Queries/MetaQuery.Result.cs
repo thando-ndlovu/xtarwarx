@@ -6,9 +6,9 @@ namespace Api.GraphQL.Queries
 {
 	public partial class MetaQuery
 	{
-		public class Result : BaseQuery.Result<IQueryMetaResultGraphType>
+		public class Result : IQueryMetaResultGraphType
 		{
-			public Result(IServiceProvider serviceprovider) : base(serviceprovider) 
+			public Result() : base()
 			{
 				Name = "QueryMetaResult";
 			}

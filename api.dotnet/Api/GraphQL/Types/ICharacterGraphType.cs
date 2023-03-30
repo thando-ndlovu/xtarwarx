@@ -35,7 +35,7 @@ namespace Api.GraphQL.Types
 			public const string Homeworld = "Homeworld";
 		}
 
-		public ICharacterGraphType(IServiceProvider serviceprovider) : base(serviceprovider)
+		public ICharacterGraphType() : base()
 		{
 			Field<DoubleGraphType>(FieldNames.BirthYear).Resolve(resolvefieldcontext => resolvefieldcontext.Source.BirthYear);
 			Field<StringGraphType>(FieldNames.Description).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Description);
@@ -52,9 +52,9 @@ namespace Api.GraphQL.Types
 			{
 				if (resolvefieldcontext.Source.HomeworldId.HasValue)
 				{
-					IRepository? repository = serviceprovider.GetService<IRepository>();
-
-					return repository?.Planets
+					return resolvefieldcontext.RequestServices?
+						.GetService<IRepository>()?
+						.Planets
 						.AsQueryable()
 						.FirstOrDefault(planet => planet.Id == resolvefieldcontext.Source.HomeworldId.Value);
 				}

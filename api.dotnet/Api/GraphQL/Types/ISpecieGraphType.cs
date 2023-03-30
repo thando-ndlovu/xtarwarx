@@ -39,7 +39,7 @@ namespace Api.GraphQL.Types
 			public const string Homeworld = "Homeworld";
 		}
 
-		public ISpecieGraphType(IServiceProvider serviceprovider) : base(serviceprovider)
+		public ISpecieGraphType() : base()
 		{
 			Field<IntGraphType>(FieldNames.AverageHeight).Resolve(resolvefieldcontext => resolvefieldcontext.Source.AverageHeight);
 			Field<IntGraphType>(FieldNames.AverageLifespan).Resolve(resolvefieldcontext => resolvefieldcontext.Source.AverageLifespan);
@@ -60,7 +60,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = CharactersQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = CharactersQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery charactersquery = CharactersQuery.Arguments.DefaultQuery;
 
@@ -77,9 +77,8 @@ namespace Api.GraphQL.Types
 			{
 				if (resolvefieldcontext.Source.HomeworldId.HasValue)
 				{
-					IRepository? repository = serviceprovider.GetService<IRepository>();
-
-					return repository?.Planets
+					return resolvefieldcontext.RequestServices?.GetService<IRepository>()?
+						.Planets
 						.AsQueryable()
 						.FirstOrDefault(planet => planet.Id == resolvefieldcontext.Source.HomeworldId.Value);
 				}

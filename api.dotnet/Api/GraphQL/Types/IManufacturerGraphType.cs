@@ -34,7 +34,7 @@ namespace Api.GraphQL.Types
 			public const string Weapons = "Weapons";
 		}
 
-		public IManufacturerGraphType(IServiceProvider serviceprovider) : base(serviceprovider)
+		public IManufacturerGraphType() : base()
 		{
 			Field<StringGraphType>(FieldNames.Description).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Description);
 			Field<IntGraphType>(FieldNames.HeadquatersPlanetId).Resolve(resolvefieldcontext => resolvefieldcontext.Source.HeadquatersPlanetId);
@@ -47,9 +47,8 @@ namespace Api.GraphQL.Types
 			{
 				if (resolvefieldcontext.Source.HeadquatersPlanetId.HasValue)
 				{
-					IRepository? repository = serviceprovider.GetService<IRepository>();
-
-					return repository?.Planets
+					return resolvefieldcontext.RequestServices.GetService<IRepository>()?
+						.Planets
 						.AsQueryable()
 						.FirstOrDefault(planet => planet.Id == resolvefieldcontext.Source.HeadquatersPlanetId.Value);
 				}
@@ -62,7 +61,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = StarshipsQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = StarshipsQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = StarshipsQuery.Arguments.DefaultQuery;
 
@@ -81,7 +80,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = VehiclesQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = VehiclesQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = VehiclesQuery.Arguments.DefaultQuery;
 
@@ -100,7 +99,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = WeaponsQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = WeaponsQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = WeaponsQuery.Arguments.DefaultQuery;
 

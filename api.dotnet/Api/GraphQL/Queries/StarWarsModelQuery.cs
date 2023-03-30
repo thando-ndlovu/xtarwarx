@@ -6,9 +6,6 @@ using GraphQL;
 using GraphQL.Types;
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
 using System.Text;
 
 namespace Api.GraphQL.Queries
@@ -21,11 +18,11 @@ namespace Api.GraphQL.Queries
 			{
 				public static readonly IQuery<string> Query = new IQuery.Default<string>(string.Empty)
 				{
-					Ids = nameof(IQuery.Ids),
-					IdsToSkip = nameof(IQuery.IdsToSkip),
-					ItemsPerPage = nameof(IQuery.ItemsPerPage),
-					OrderBy = nameof(IQuery.OrderBy),
-					Page = nameof(IQuery.Page),
+					Ids = nameof(IQuery.Ids).ToCamelCase(),
+					IdsToSkip = nameof(IQuery.IdsToSkip).ToCamelCase(),
+					ItemsPerPage = nameof(IQuery.ItemsPerPage).ToCamelCase(),
+					OrderBy = nameof(IQuery.OrderBy).ToCamelCase(),
+					Page = nameof(IQuery.Page).ToCamelCase(),
 				};
 			}
 
@@ -79,22 +76,31 @@ namespace Api.GraphQL.Queries
 			{
 				IQuery query = new IQuery.Default
 				{
-					Ids = resolvefieldcontext.Arguments?.ContainsKey(ArgumentNames.Query.Ids) ?? false
-						? resolvefieldcontext.Arguments[ArgumentNames.Query.Ids].Value as int[]
-						: defaultquery?.Ids,
-					IdsToSkip = resolvefieldcontext.Arguments?.ContainsKey(ArgumentNames.Query.IdsToSkip) ?? false
-						? resolvefieldcontext.Arguments[ArgumentNames.Query.IdsToSkip].Value as int[]
-						: defaultquery?.IdsToSkip,
-					ItemsPerPage = resolvefieldcontext.Arguments?.ContainsKey(ArgumentNames.Query.ItemsPerPage) ?? false
-						? resolvefieldcontext.Arguments[ArgumentNames.Query.ItemsPerPage].Value as int?  
-						: defaultquery?.ItemsPerPage,
-					OrderBy = resolvefieldcontext.Arguments?.ContainsKey(ArgumentNames.Query.OrderBy) ?? false
-						? resolvefieldcontext.Arguments[ArgumentNames.Query.OrderBy].Value as string
-						: defaultquery?.OrderBy,
-					Page = resolvefieldcontext.Arguments?.ContainsKey(ArgumentNames.Query.Page) ?? false
-						? resolvefieldcontext.Arguments[ArgumentNames.Query.Page].Value as int?
-						: defaultquery?.Page,
+					Ids = resolvefieldcontext.Variables.ValueFor(ArgumentNames.Query.Ids, null) as int[],
+					IdsToSkip = resolvefieldcontext.Variables.ValueFor(ArgumentNames.Query.IdsToSkip, null) as int[],
+					ItemsPerPage = resolvefieldcontext.Variables.ValueFor(ArgumentNames.Query.ItemsPerPage, null) as int?,  
+					OrderBy = resolvefieldcontext.Variables.ValueFor(ArgumentNames.Query.OrderBy, null) as string,
+					Page = resolvefieldcontext.Variables.ValueFor(ArgumentNames.Query.Page, null) as int?,
 				};
+
+				if (resolvefieldcontext.Arguments != null) 
+				{
+					query.Ids ??= resolvefieldcontext.Arguments.ContainsKey(ArgumentNames.Query.Ids)
+						? resolvefieldcontext.Arguments[ArgumentNames.Query.Ids].Value as int[]
+						: defaultquery?.Ids;
+					query.IdsToSkip ??= resolvefieldcontext.Arguments.ContainsKey(ArgumentNames.Query.IdsToSkip) 
+						? resolvefieldcontext.Arguments[ArgumentNames.Query.IdsToSkip].Value as int[]
+						: defaultquery?.IdsToSkip;
+					query.ItemsPerPage ??= resolvefieldcontext.Arguments.ContainsKey(ArgumentNames.Query.ItemsPerPage)
+						? resolvefieldcontext.Arguments[ArgumentNames.Query.ItemsPerPage].Value as int?
+						: defaultquery?.ItemsPerPage;
+					query.OrderBy ??= resolvefieldcontext.Arguments.ContainsKey(ArgumentNames.Query.OrderBy) 
+						? resolvefieldcontext.Arguments[ArgumentNames.Query.OrderBy].Value as string
+						: defaultquery?.OrderBy;
+					query.Page ??= resolvefieldcontext.Arguments.ContainsKey(ArgumentNames.Query.Page) 
+						? resolvefieldcontext.Arguments[ArgumentNames.Query.Page].Value as int?
+						: defaultquery?.Page;
+				}
 
 				return query;
 			}

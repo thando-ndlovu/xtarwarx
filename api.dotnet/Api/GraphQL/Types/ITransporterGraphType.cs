@@ -35,45 +35,10 @@ namespace Api.GraphQL.Types
 			public const string Pilots = "Pilots";
 		}
 
-		public class IConsumableGraphType : ObjectGraphType<ITransporter.IConsumable>
-		{
-			public static void AsQueryString(StringBuilder stringbuilder, ITransporter.IConsumable<bool> retriever)
-			{
-				bool hasprevious = false;
-
-				if (retriever.TimeUnit)
-				{
-					stringbuilder
-						.AppendFormat("{0}{1}", hasprevious ? "," : string.Empty, FieldNames.TimeUnit);
-
-					hasprevious = true;
-				}
-				if (retriever.Value)
-				{
-					stringbuilder
-						.AppendFormat("{0}{1}", hasprevious ? "," : string.Empty, FieldNames.Value);
-
-					hasprevious = true;
-				}
-			}
-
-			public class FieldNames
-			{
-				public const string TimeUnit = nameof(ITransporter.IConsumable.TimeUnit);
-				public const string Value = nameof(ITransporter.IConsumable.Value);
-			}
-
-			public IConsumableGraphType()
-			{
-				Field<StringGraphType>(FieldNames.TimeUnit).Resolve(resolvefieldcontext => resolvefieldcontext.Source.TimeUnit);
-				Field<IntGraphType>(FieldNames.Value).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Value);
-			}
-		}
-
-		public ITransporterGraphType(IServiceProvider serviceprovider) : base(serviceprovider)
+		public ITransporterGraphType() : base()
 		{
 			Field<LongGraphType>(FieldNames.CargoCapacity).Resolve(resolvefieldcontext => resolvefieldcontext.Source.CargoCapacity);
-			Field<IConsumableGraphType>(FieldNames.Consumables).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Consumables);
+			Field<ITransporterConsumableGraphType>(FieldNames.Consumables).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Consumables);
 			Field<LongGraphType>(FieldNames.CostInCredits).Resolve(resolvefieldcontext => resolvefieldcontext.Source.CostInCredits);
 			Field<StringGraphType>(FieldNames.Description).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Description);
 			Field<DoubleGraphType>(FieldNames.Length).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Length);
@@ -92,7 +57,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = ManufacturersQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = ManufacturersQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = ManufacturersQuery.Arguments.DefaultQuery;
 
@@ -111,7 +76,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = CharactersQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = CharactersQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery charactersquery = CharactersQuery.Arguments.DefaultQuery;
 
@@ -145,7 +110,7 @@ namespace Api.GraphQL.Types
 					.AppendFormat("{0}{1}", hasprevious ? "," : string.Empty, FieldNames.Consumables);
 
 				stringbuilder.Append('{');
-				IConsumableGraphType.AsQueryString(stringbuilder, retriever.Consumables);
+				ITransporterConsumableGraphType.AsQueryString(stringbuilder, retriever.Consumables);
 				stringbuilder.Append('}');
 
 				hasprevious = true;
@@ -251,6 +216,40 @@ namespace Api.GraphQL.Types
 			}
 
 			containsprevious = hasprevious;
+		}
+	}
+	public class ITransporterConsumableGraphType : ObjectGraphType<ITransporter.IConsumable>
+	{
+		public static void AsQueryString(StringBuilder stringbuilder, ITransporter.IConsumable<bool> retriever)
+		{
+			bool hasprevious = false;
+
+			if (retriever.TimeUnit)
+			{
+				stringbuilder
+					.AppendFormat("{0}{1}", hasprevious ? "," : string.Empty, FieldNames.TimeUnit);
+
+				hasprevious = true;
+			}
+			if (retriever.Value)
+			{
+				stringbuilder
+					.AppendFormat("{0}{1}", hasprevious ? "," : string.Empty, FieldNames.Value);
+
+				hasprevious = true;
+			}
+		}
+
+		public class FieldNames
+		{
+			public const string TimeUnit = nameof(ITransporter.IConsumable.TimeUnit);
+			public const string Value = nameof(ITransporter.IConsumable.Value);
+		}
+
+		public ITransporterConsumableGraphType()
+		{
+			Field<StringGraphType>(FieldNames.TimeUnit).Resolve(resolvefieldcontext => resolvefieldcontext.Source.TimeUnit);
+			Field<IntGraphType>(FieldNames.Value).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Value);
 		}
 	}
 }

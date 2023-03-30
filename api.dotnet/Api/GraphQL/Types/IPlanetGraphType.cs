@@ -101,7 +101,7 @@ namespace Api.GraphQL.Types
 			}
 		}
 
-		public IPlanetGraphType(IServiceProvider serviceprovider) : base(serviceprovider)
+		public IPlanetGraphType() : base()
 		{
 			Field<ListGraphType<IClimateGraphType>>(FieldNames.Climates).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Climates);
 			Field<StringGraphType>(FieldNames.Description).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Description);
@@ -121,7 +121,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = CharactersQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = CharactersQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery charactersquery = CharactersQuery.Arguments.DefaultQuery;
 

@@ -19,7 +19,7 @@ namespace Api.GraphQL.Types
 			public const string StarWarsType = nameof(IQuerySearchResult.StarWarsType);
 		}
 
-		public IQuerySearchResultGraphType(IServiceProvider serviceprovider)
+		public IQuerySearchResultGraphType()
 		{
 			Field<IntGraphType>(FieldNames.Id).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Id);
 			Field<IntGraphType>(FieldNames.MatchCount).Resolve(resolvefieldcontext => resolvefieldcontext.Source.MatchCount);

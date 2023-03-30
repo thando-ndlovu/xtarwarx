@@ -40,7 +40,7 @@ namespace Api.GraphQL.Queries
 			{
 				IRepository repository = serviceprovider.GetRequiredService<IRepository>();
 				IQuery query = Arguments.GenerateQuery(resolvefieldcontext, defaultquery);
-				IQuery.IResult<object> result = query.ProcessWeapons(repository.Weapons.AsQueryable());
+				IQuery.IResult<IWeapon> result = query.ProcessWeapons(repository.Weapons.AsQueryable());
 
 				return result;
 			};
@@ -51,7 +51,7 @@ namespace Api.GraphQL.Queries
 			{
 				IRepository repository = serviceprovider.GetRequiredService<IRepository>();
 				IQuery query = Arguments.GenerateQuery(resolvefieldcontext, defaultquery?.Invoke(resolvefieldcontext));
-				IQuery.IResult<object> result = query.ProcessWeapons(repository.Weapons.AsQueryable());
+				IQuery.IResult<IWeapon> result = query.ProcessWeapons(repository.Weapons.AsQueryable());
 
 				return result;
 			};

@@ -72,7 +72,7 @@ namespace Api.GraphQL.Types
 			}
 		}
 
-		public IVehicleGraphType(IServiceProvider serviceprovider) : base(serviceprovider)
+		public IVehicleGraphType() : base()
 		{
 			Field<IVehicleClassGraphType>(FieldNames.VehicleClass).Resolve(resolvefieldcontext => resolvefieldcontext.Source.VehicleClass);
 		}

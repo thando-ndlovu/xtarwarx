@@ -206,7 +206,18 @@ namespace Api.Queries
 			};
 		}
 
-		public static IQuery.IResult<object> ProcessCharacters(this IQuery query, IQueryable<ICharacter> characters)
+		public static IQuery.IResult<ICharacter> ProcessCharacters(this IQuery query, IQueryable<ICharacter> characters)
+		{
+			characters = query.ProcessCharacters(characters, out int? page, out int? pages);
+
+			return new IQuery.IResult.Default<ICharacter>
+			{
+				Page = page,
+				Pages = pages,
+				Items = characters,
+			};
+		}
+		public static IQuery.IResult<object> ProcessCharactersAsObject(this IQuery query, IQueryable<ICharacter> characters)
 		{
 			characters = query.ProcessCharacters(characters, out int? page, out int? pages);
 
@@ -241,7 +252,18 @@ namespace Api.Queries
 			return characters;
 		}
 
-		public static IQuery.IResult<object> ProcessFactions(this IQuery query, IQueryable<IFaction> factions)
+		public static IQuery.IResult<IFaction> ProcessFactions(this IQuery query, IQueryable<IFaction> factions)
+		{
+			factions = query.ProcessFactions(factions, out int? page, out int? pages);
+
+			return new IQuery.IResult.Default<IFaction>
+			{
+				Page = page,
+				Pages = pages,
+				Items = factions,
+			};
+		}
+		public static IQuery.IResult<object> ProcessFactionsAsObject(this IQuery query, IQueryable<IFaction> factions)
 		{
 			factions = query.ProcessFactions(factions, out int? page, out int? pages);
 
@@ -276,7 +298,18 @@ namespace Api.Queries
 			return factions;
 		}
 
-		public static IQuery.IResult<object> ProcessFilms(this IQuery query, IQueryable<IFilm> films)
+		public static IQuery.IResult<IFilm> ProcessFilms(this IQuery query, IQueryable<IFilm> films)
+		{
+			films = query.ProcessFilms(films, out int? page, out int? pages);
+
+			return new IQuery.IResult.Default<IFilm>
+			{
+				Page = page,
+				Pages = pages,
+				Items = films,
+			};
+		}
+		public static IQuery.IResult<object> ProcessFilmsAsObject(this IQuery query, IQueryable<IFilm> films)
 		{
 			films = query.ProcessFilms(films, out int? page, out int? pages);
 
@@ -311,7 +344,18 @@ namespace Api.Queries
 			return films;
 		}
 
-		public static IQuery.IResult<object> ProcessManufacturers(this IQuery query, IQueryable<IManufacturer> manufacturers)
+		public static IQuery.IResult<IManufacturer> ProcessManufacturers(this IQuery query, IQueryable<IManufacturer> manufacturers)
+		{
+			manufacturers = query.ProcessManufacturers(manufacturers, out int? page, out int? pages);
+
+			return new IQuery.IResult.Default<IManufacturer>
+			{
+				Page = page,
+				Pages = pages,
+				Items = manufacturers,
+			};
+		}
+		public static IQuery.IResult<object> ProcessManufacturersAsObject(this IQuery query, IQueryable<IManufacturer> manufacturers)
 		{
 			manufacturers = query.ProcessManufacturers(manufacturers, out int? page, out int? pages);
 
@@ -346,7 +390,12 @@ namespace Api.Queries
 			return manufacturers;
 		}
 
-		public static IQuery.IResult<object> ProcessPlanets(this IQuery query, IQueryable<IPlanet> planets)
+		public static IQuery.IResult<IPlanet> ProcessPlanets(this IQuery query, IQueryable<IPlanet> planets)
+		{
+			planets = query.ProcessPlanets(planets, out int? page, out int? pages);
+			return new IQuery.IResult.Default<IPlanet> { Page = page, Pages = pages, Items = planets };
+		}
+		public static IQuery.IResult<object> ProcessPlanetsAsObject(this IQuery query, IQueryable<IPlanet> planets)
 		{
 			planets = query.ProcessPlanets(planets, out int? page, out int? pages);
 
@@ -381,7 +430,12 @@ namespace Api.Queries
 			return planets;
 		}
 
-		public static IQuery.IResult<object> ProcessSpecies(this IQuery query, IQueryable<ISpecie> species)
+		public static IQuery.IResult<ISpecie> ProcessSpecies(this IQuery query, IQueryable<ISpecie> species)
+		{
+			species = query.ProcessSpecies(species, out int? page, out int? pages);
+			return new IQuery.IResult.Default<ISpecie> { Page = page, Pages = pages, Items = species };
+		}
+		public static IQuery.IResult<object> ProcessSpeciesAsObject(this IQuery query, IQueryable<ISpecie> species)
 		{
 			species = query.ProcessSpecies(species, out int? page, out int? pages);
 
@@ -416,7 +470,12 @@ namespace Api.Queries
 			return species;
 		}
 
-		public static IQuery.IResult<object> ProcessStarships(this IQuery query, IQueryable<IStarship> starships)
+		public static IQuery.IResult<IStarship> ProcessStarships(this IQuery query, IQueryable<IStarship> starships)
+		{
+			starships = query.ProcessStarships(starships, out int? page, out int? pages);
+			return new IQuery.IResult.Default<IStarship> { Page = page, Pages = pages, Items = starships };
+		}
+		public static IQuery.IResult<object> ProcessStarshipsAsObject(this IQuery query, IQueryable<IStarship> starships)
 		{
 			starships = query.ProcessStarships(starships, out int? page, out int? pages);
 
@@ -451,7 +510,12 @@ namespace Api.Queries
 			return starships;
 		}
 
-		public static IQuery.IResult<object> ProcessVehicles(this IQuery query, IQueryable<IVehicle> vehicles)
+		public static IQuery.IResult<IVehicle> ProcessVehicles(this IQuery query, IQueryable<IVehicle> vehicles)
+		{
+			vehicles = query.ProcessVehicles(vehicles, out int? page, out int? pages);
+			return new IQuery.IResult.Default<IVehicle> { Page = page, Pages = pages, Items = vehicles };
+		}
+		public static IQuery.IResult<object> ProcessVehiclesAsObject(this IQuery query, IQueryable<IVehicle> vehicles)
 		{
 			vehicles = query.ProcessVehicles(vehicles, out int? page, out int? pages);
 
@@ -486,7 +550,12 @@ namespace Api.Queries
 			return vehicles;
 		}
 
-		public static IQuery.IResult<object> ProcessWeapons(this IQuery query, IQueryable<IWeapon> weapons)
+		public static IQuery.IResult<IWeapon> ProcessWeapons(this IQuery query, IQueryable<IWeapon> weapons)
+		{
+			weapons = query.ProcessWeapons(weapons, out int? page, out int? pages);
+			return new IQuery.IResult.Default<IWeapon> { Page = page, Pages = pages, Items = weapons };
+		}
+		public static IQuery.IResult<object> ProcessWeaponsAsObject(this IQuery query, IQueryable<IWeapon> weapons)
 		{
 			weapons = query.ProcessWeapons(weapons, out int? page, out int? pages);
 

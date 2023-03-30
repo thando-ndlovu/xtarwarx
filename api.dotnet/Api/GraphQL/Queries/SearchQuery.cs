@@ -50,7 +50,7 @@ namespace Api.GraphQL.Queries
 
 				IQuerySearch.IResult result = querysearch.ProcessQuerySearch(searchresults);
 
-				return new IQuerySearch.IResult.Default<object>
+				return new IQuerySearch.IResult.Default<IQuerySearchResult>
 				{
 					Page = result.Page,
 					Pages = result.Pages,

@@ -33,7 +33,7 @@ namespace Api.GraphQL.Types
 			public const string MemberFactions = "MemberFactions";
 		}
 
-		public IFactionGraphType(IServiceProvider serviceprovider) : base(serviceprovider)
+		public IFactionGraphType() : base()
 		{
 			Field<ListGraphType<IntGraphType>>(FieldNames.AlliedCharacterIds).Resolve(resolvefieldcontext => resolvefieldcontext.Source.AlliedCharacterIds);
 			Field<ListGraphType<IntGraphType>>(FieldNames.AlliedFactionIds).Resolve(resolvefieldcontext => resolvefieldcontext.Source.AlliedFactionIds);
@@ -50,7 +50,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = CharactersQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = CharactersQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery charactersquery = CharactersQuery.Arguments.DefaultQuery;
 
@@ -69,7 +69,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = FactionsQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = FactionsQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = FactionsQuery.Arguments.DefaultQuery;
 
@@ -88,7 +88,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = CharactersQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = CharactersQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery charactersquery = CharactersQuery.Arguments.DefaultQuery;
 
@@ -107,7 +107,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = CharactersQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = CharactersQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery charactersquery = CharactersQuery.Arguments.DefaultQuery;
 
@@ -126,7 +126,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = FactionsQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = FactionsQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = FactionsQuery.Arguments.DefaultQuery;
 

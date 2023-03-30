@@ -38,7 +38,7 @@ namespace Api.GraphQL.Queries
 			{
 				IRepository repository = serviceprovider.GetRequiredService<IRepository>();
 				IQuery query = Arguments.GenerateQuery(resolvefieldcontext, defaultquery);
-				IQuery.IResult<object> result = query.ProcessStarships(repository.Starships.AsQueryable());
+				IQuery.IResult<IStarship> result = query.ProcessStarships(repository.Starships.AsQueryable());
 
 				return result;
 			};
@@ -49,7 +49,7 @@ namespace Api.GraphQL.Queries
 			{
 				IRepository repository = serviceprovider.GetRequiredService<IRepository>();
 				IQuery query = Arguments.GenerateQuery(resolvefieldcontext, defaultquery?.Invoke(resolvefieldcontext));
-				IQuery.IResult<object> result = query.ProcessStarships(repository.Starships.AsQueryable());
+				IQuery.IResult<IStarship> result = query.ProcessStarships(repository.Starships.AsQueryable());
 
 				return result;
 			};

@@ -53,7 +53,8 @@ namespace Microsoft.Extensions.DependencyInjection
 			services.AddSingleton<IPlanetGraphType.ITerrainGraphType>();
 			services.AddSingleton<ISpecieGraphType>();
 			services.AddSingleton<IStarWarsModelGraphType<IStarWarsModel>>();
-			services.AddSingleton<IStarWarsModelGraphType<IStarWarsModel>.IURIGraphType>();
+			services.AddSingleton<IStarWarsModelURIGraphType>();
+			services.AddSingleton<ITransporterConsumableGraphType>();
 			services.AddSingleton<IStarshipGraphType>();
 			services.AddSingleton<IStarshipGraphType.IStarshipClassGraphType>();
 			services.AddSingleton<IVehicleGraphType>();
@@ -98,8 +99,6 @@ namespace Microsoft.Extensions.DependencyInjection
 
 			services.AddSingleton<EnumerationGraphType<KnownColor>>();
 			services.AddSingleton<EnumerationGraphType<StarWarsTypes>>();
-
-			services.AddSingleton<ISchema, StarWarsSchema>();
 
 			return services;
 		}

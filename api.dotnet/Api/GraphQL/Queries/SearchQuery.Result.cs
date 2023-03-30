@@ -1,14 +1,13 @@
 ﻿using Api.GraphQL.Types;
-
-using System;
+using Api.Queries;
 
 namespace Api.GraphQL.Queries
 {
 	public partial class SearchQuery
 	{
-		public class Result : StarWarsModelQuery.Result<IQuerySearchResultGraphType>
+		public class Result : StarWarsModelQuery.Result<IQuerySearchResultGraphType, IQuerySearchResult>
 		{
-			public Result(IServiceProvider serviceprovider) : base(serviceprovider) 
+			public Result() : base()
 			{
 				Name = "SearchQueryResult";
 			}

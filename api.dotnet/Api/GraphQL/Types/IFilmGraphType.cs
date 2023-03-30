@@ -261,7 +261,7 @@ namespace Api.GraphQL.Types
 			public const string Weapons = "Weapons";
 		}
 
-		public IFilmGraphType(IServiceProvider serviceprovider) : base(serviceprovider)
+		public IFilmGraphType() : base()
 		{
 			Field<ListGraphType<StringGraphType>>(FieldNames.CastMembers).Resolve(resolvefieldcontext => resolvefieldcontext.Source.CastMembers);
 			Field<ListGraphType<IntGraphType>>(FieldNames.CharacterIds).Resolve(resolvefieldcontext => resolvefieldcontext.Source.CharacterIds);
@@ -287,7 +287,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = CharactersQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = CharactersQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery charactersquery = CharactersQuery.Arguments.DefaultQuery;
 
@@ -306,7 +306,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = FactionsQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = FactionsQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = FactionsQuery.Arguments.DefaultQuery;
 
@@ -325,7 +325,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = ManufacturersQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = ManufacturersQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = ManufacturersQuery.Arguments.DefaultQuery;
 
@@ -344,7 +344,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = PlanetsQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = PlanetsQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = PlanetsQuery.Arguments.DefaultQuery;
 
@@ -363,7 +363,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = SpeciesQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = SpeciesQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = SpeciesQuery.Arguments.DefaultQuery;
 
@@ -382,7 +382,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = StarshipsQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = StarshipsQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = StarshipsQuery.Arguments.DefaultQuery;
 
@@ -401,7 +401,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = VehiclesQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = VehiclesQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = VehiclesQuery.Arguments.DefaultQuery;
 
@@ -420,7 +420,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = WeaponsQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = WeaponsQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = WeaponsQuery.Arguments.DefaultQuery;
 

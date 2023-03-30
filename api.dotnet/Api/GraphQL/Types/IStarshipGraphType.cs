@@ -89,7 +89,7 @@ namespace Api.GraphQL.Types
 			}
 		}
 
-		public IStarshipGraphType(IServiceProvider serviceprovider) : base(serviceprovider)
+		public IStarshipGraphType() : base()
 		{
 			Field<DoubleGraphType>(FieldNames.HyperdriveRating).Resolve(resolvefieldcontext => resolvefieldcontext.Source.HyperdriveRating);
 			Field<IntGraphType>(FieldNames.MGLT).Resolve(resolvefieldcontext => resolvefieldcontext.Source.MGLT);

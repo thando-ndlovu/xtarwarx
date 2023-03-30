@@ -11,9 +11,9 @@ namespace Api.GraphQL.Queries
 	{
 		public new class Arguments : BaseQuery<ObjectGraphType>.Arguments 
 		{
-			public static QueryArguments? QueryArguments()
+			public static QueryArguments QueryArguments()
 			{
-				return null;
+				return new QueryArguments { };
 			}
 		}
 

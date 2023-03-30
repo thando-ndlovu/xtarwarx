@@ -1,14 +1,14 @@
 ﻿using Api.GraphQL.Types;
 
-using System;
+using Domain.Models;
 
 namespace Api.GraphQL.Queries
 {
 	public partial class WeaponsQuery
 	{
-		public class Result : StarWarsModelQuery.Result<IWeaponGraphType>
+		public class Result : StarWarsModelQuery.Result<IWeaponGraphType, IWeapon>
 		{
-			public Result(IServiceProvider serviceprovider) : base(serviceprovider)
+			public Result() : base()
 			{
 				Name = "WeaponsQueryResult";
 			}

@@ -1,14 +1,13 @@
 ﻿using Api.Queries;
 
+using GraphQL.Resolvers;
 using GraphQL.Types;
-
-using System;
 
 namespace Api.GraphQL.Queries
 {
 	public partial class StarWarsModelQuery : BaseQuery
 	{
-		public new class Result<TGraphType> : BaseQuery.Result<IQuery.IResult<object>> where TGraphType : IGraphType
+		public class Result<TGraphType, IModelType> : BaseQuery.Result<IQuery.IResult<IModelType>> where TGraphType : IGraphType 
 		{
 			public new class FieldNames : BaseQuery.Result<TGraphType>.FieldNames
 			{
@@ -17,11 +16,14 @@ namespace Api.GraphQL.Queries
 				public const string Pages = nameof(IQuery.IResult<TGraphType>.Pages);
 			}
 
-			public Result(IServiceProvider serviceprovider) : base(serviceprovider)
+			public Result() : base()
 			{
-				//Field<ListGraphType<TGraphType>>(FieldNames.Items).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Items);
-				//Field<IntGraphType>(FieldNames.Page).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Page);
-				//Field<IntGraphType>(FieldNames.Pages).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Pages);
+				Field<IntGraphType>(FieldNames.Page)
+					.Resolve(new FuncFieldResolver<IQuery.IResult<IModelType>, int?>(resolvefieldcontext => resolvefieldcontext.Source.Page));
+				Field<IntGraphType>(FieldNames.Pages)
+					.Resolve(new FuncFieldResolver<IQuery.IResult<IModelType>, int?>(resolvefieldcontext => resolvefieldcontext.Source.Pages));
+				Field<ListGraphType<TGraphType>>(FieldNames.Items)
+					.Resolve(new FuncFieldResolver<IQuery.IResult<IModelType>, object?>(resolvefieldcontext => resolvefieldcontext.Source.Items));
 			}
 		}
 	}

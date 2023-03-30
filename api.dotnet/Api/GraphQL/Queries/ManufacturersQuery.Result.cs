@@ -1,14 +1,14 @@
 ﻿using Api.GraphQL.Types;
 
-using System;
+using Domain.Models;
 
 namespace Api.GraphQL.Queries
 {
 	public partial class ManufacturersQuery
 	{
-		public class Result : StarWarsModelQuery.Result<IManufacturerGraphType>
+		public class Result : StarWarsModelQuery.Result<IManufacturerGraphType, IManufacturer>
 		{
-			public Result(IServiceProvider serviceprovider) : base(serviceprovider)
+			public Result() : base()
 			{
 				Name = "ManufacturersQueryResult";
 			}

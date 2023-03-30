@@ -8,9 +8,9 @@ namespace Api.GraphQL.Queries
 {
 	public partial class IntrospectionQuery
 	{
-		public class Result : BaseQuery.Result<ObjectGraphType>
+		public class Result : BaseQuery.Result<ISchema>
 		{
-			public Result(IServiceProvider serviceprovider) : base(serviceprovider) 
+			public Result() : base()
 			{
 				Name = "IntrospectionQueryResult";
 			}

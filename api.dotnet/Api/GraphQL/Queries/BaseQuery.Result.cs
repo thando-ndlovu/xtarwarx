@@ -9,8 +9,6 @@ namespace Api.GraphQL.Queries
 		public class Result<TObject> : ObjectGraphType 
 		{
 			public class FieldNames { }
-
-			public Result(IServiceProvider serviceprovider) { }
 		}
 	}
 }

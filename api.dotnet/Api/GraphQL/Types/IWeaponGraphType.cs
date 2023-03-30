@@ -108,7 +108,7 @@ namespace Api.GraphQL.Types
 			}
 		}
 
-		public IWeaponGraphType(IServiceProvider serviceprovider) : base(serviceprovider)
+		public IWeaponGraphType() : base()
 		{
 			Field<StringGraphType>(FieldNames.Description).Resolve(resolvefieldcontext => resolvefieldcontext.Source.Description);
 			Field<ListGraphType<IntGraphType>>(FieldNames.ManufacturerIds).Resolve(resolvefieldcontext => resolvefieldcontext.Source.ManufacturerIds);
@@ -122,7 +122,7 @@ namespace Api.GraphQL.Types
 				{
 					ResolveAsyncFunc = resolvefieldcontext =>
 					{
-						object? result = ManufacturersQuery.Resolve(serviceprovider, resolvefieldcontext =>
+						object? result = ManufacturersQuery.Resolve(resolvefieldcontext.RequestServices, resolvefieldcontext =>
 						{
 							IQuery factionsquery = ManufacturersQuery.Arguments.DefaultQuery;
 
